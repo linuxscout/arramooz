@@ -1,0 +1,2 @@
+pyarabic>=0.2
+libqutrub>=0.2

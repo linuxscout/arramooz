@@ -1,0 +1,32287 @@
+﻿TriVerbTable={
+u'غضي':{
+	u'غَضِيَ':{
+		{'root':u'غضي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دعت':{
+	u'دَعَتَ':{
+		{'root':u'دعت','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'عوج':{
+	u'عَوِجَ':{
+		{'root':u'عوج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نحض':{
+	u'نَحَضَ':{
+		{'root':u'نحض','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'نحض','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'نَحُضَ':{
+		{'root':u'نحض','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'نحط':{
+	u'نَحَطَ':{
+		{'root':u'نحط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'غضف':{
+	u'غَضِفَ':{
+		{'root':u'غضف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'غَضَفَ':{
+		{'root':u'غضف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'بلّ':{
+	u'بَلَّ':{
+		{'root':u'بلل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'بلل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'بلل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نحز':{
+	u'نَحِزَ':{
+		{'root':u'نحز','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَحُزَ':{
+		{'root':u'نحز','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'نَحَزَ':{
+		{'root':u'نحز','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'غضن':{
+	u'غَضِنَ':{
+		{'root':u'غضن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'غَضَنَ':{
+		{'root':u'غضن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'غضن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'زبط':{
+	u'زَبَطَ':{
+		{'root':u'زبط','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'نحر':{
+	u'نَحَرَ':{
+		{'root':u'نحر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'زلح':{
+	u'زَلَحَ':{
+		{'root':u'زلح','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'نحت':{
+	u'نَحِتَ':{
+		{'root':u'نحت','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'نَحَتَ':{
+		{'root':u'نحت','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نحت','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'نحت','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ضخز':{
+	u'ضَخَزَ':{
+		{'root':u'ضخز','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'نحب':{
+	u'نَحَبَ':{
+		{'root':u'نحب','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'نحب','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'نحب','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عوز':{
+	u'عَوِزَ':{
+		{'root':u'عوز','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عوس':{
+	u'عَوِسَ':{
+		{'root':u'عوس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'تلع':{
+	u'تَلُعَ':{
+		{'root':u'تلع','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'تَلَعَ':{
+		{'root':u'تلع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'تَلِعَ':{
+		{'root':u'تلع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عور':{
+	u'عَوِرَ':{
+		{'root':u'عور','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'زنى':{
+	u'زَنَى':{
+		{'root':u'زني','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'رعج':{
+	u'رَعَجَ':{
+		{'root':u'رعج','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'رَعِجَ':{
+		{'root':u'رعج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عوص':{
+	u'عَوِصَ':{
+		{'root':u'عوص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شذا':{
+	u'شَذَا':{
+		{'root':u'شذو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'أثا':{
+	u'أَثَا':{
+		{'root':u'ءثو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'زلخ':{
+	u'زَلَخَ':{
+		{'root':u'زلخ','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'زَلِخَ':{
+		{'root':u'زلخ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قنا':{
+	u'قَنَا':{
+		{'root':u'قنو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'جعّ':{
+	u'جَعَّ':{
+		{'root':u'جعع','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'أثأ':{
+	u'أَثَأَ':{
+		{'root':u'ءثء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'سحب':{
+	u'سَحَبَ':{
+		{'root':u'سحب','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'قنت':{
+	u'قَنَتَ':{
+		{'root':u'قنت','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'قَنُتَ':{
+		{'root':u'قنت','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'قنب':{
+	u'قَنَبَ':{
+		{'root':u'قنب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قند':{
+	u'قَنَدَ':{
+		{'root':u'قند','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'سجر':{
+	u'سَجِرَ':{
+		{'root':u'سجر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'سَجَرَ':{
+		{'root':u'سجر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'قنح':{
+	u'قَنَحَ':{
+		{'root':u'قنح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'شذب':{
+	u'شَذَبَ':{
+		{'root':u'شذب','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'شذب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'جعل':{
+	u'جَعِلَ':{
+		{'root':u'جعل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'جَعَلَ':{
+		{'root':u'جعل','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'جعم':{
+	u'جَعَمَ':{
+		{'root':u'جعم','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'جَعِمَ':{
+		{'root':u'جعم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سجد':{
+	u'سَجَدَ':{
+		{'root':u'سجد','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'سَجِدَ':{
+		{'root':u'سجد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أثر':{
+	u'أَثِرَ':{
+		{'root':u'ءثر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'أَثَرَ':{
+		{'root':u'ءثر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'ءثر','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'جعف':{
+	u'جَعَفَ':{
+		{'root':u'جعف','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'قنص':{
+	u'قَنَصَ':{
+		{'root':u'قنص','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'سرق':{
+	u'سَرِقَ':{
+		{'root':u'سرق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'سَرَقَ':{
+		{'root':u'سرق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'مهر':{
+	u'مَهَرَ':{
+		{'root':u'مهر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'مهر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'قنع':{
+	u'قَنِعَ':{
+		{'root':u'قنع','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'قَنَعَ':{
+		{'root':u'قنع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'سجا':{
+	u'سَجَا':{
+		{'root':u'سجو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'مهّ':{
+	u'مَهَّ':{
+		{'root':u'مهه','bab':4,'transitive':u'ك','haraka':u'َ'},
+		{'root':u'مهه','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'دعب':{
+	u'دَعِبَ':{
+		{'root':u'دعب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'دَعَبَ':{
+		{'root':u'دعب','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'أثم':{
+	u'أَثِمَ':{
+		{'root':u'ءثم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'أَثَمَ':{
+		{'root':u'ءثم','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'ءثم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'أثل':{
+	u'أَثَلَ':{
+		{'root':u'ءثل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'أَثُلَ':{
+		{'root':u'ءثل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'قنف':{
+	u'قَنِفَ':{
+		{'root':u'قنف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نحص':{
+	u'نَحَصَ':{
+		{'root':u'نحص','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أثف':{
+	u'أَثَفَ':{
+		{'root':u'ءثف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'جعر':{
+	u'جَعَرَ':{
+		{'root':u'جعر','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قنم':{
+	u'قَنِمَ':{
+		{'root':u'قنم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جعس':{
+	u'جَعَسَ':{
+		{'root':u'جعس','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قني':{
+	u'قَنِيَ':{
+		{'root':u'قنو','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'قنى':{
+	u'قَنَى':{
+		{'root':u'قني','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'أثى':{
+	u'أَثَى':{
+		{'root':u'ءثي','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'سجّ':{
+	u'سَجَّ':{
+		{'root':u'سجج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ضاف':{
+	u'ضَافَ':{
+		{'root':u'ضيف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'تفن':{
+	u'تَفَنَ':{
+		{'root':u'تفن','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ضكز':{
+	u'ضَكَزَ':{
+		{'root':u'ضكز','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'جعا':{
+	u'جَعَا':{
+		{'root':u'جعو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'أثّ':{
+	u'أَثَّ':{
+		{'root':u'ءثث','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'ءثث','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'ءثث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حسّ':{
+	u'حَسَّ':{
+		{'root':u'حسس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حسس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'حسس','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'شذّ':{
+	u'شَذَّ':{
+		{'root':u'شذذ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'شذذ','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'عضر':{
+	u'عَضَرَ':{
+		{'root':u'عضر','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'سجل':{
+	u'سَجَلَ':{
+		{'root':u'سجل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'سجم':{
+	u'سَجَمَ':{
+		{'root':u'سجم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'سجم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'سجن':{
+	u'سَجَنَ':{
+		{'root':u'سجن','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'جعد':{
+	u'جَعُدَ':{
+		{'root':u'جعد','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'جعب':{
+	u'جَعَبَ':{
+		{'root':u'جعب','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'سجف':{
+	u'سَجِفَ':{
+		{'root':u'سجف','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	u'سَجَفَ':{
+		{'root':u'سجف','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'سخّ':{
+	u'سَخَّ':{
+		{'root':u'سخخ','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'زلز':{
+	u'زَلِزَ':{
+		{'root':u'زلز','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضخم':{
+	u'ضَخُمَ':{
+		{'root':u'ضخم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'عوى':{
+	u'عَوَى':{
+		{'root':u'عوي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'فضع':{
+	u'فَضَعَ':{
+		{'root':u'فضع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فضغ':{
+	u'فَضَغَ':{
+		{'root':u'فضغ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'زبّ':{
+	u'زَبَّ':{
+		{'root':u'زبب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'زبب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ناه':{
+	u'نَاهَ':{
+		{'root':u'نوه','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'مسن':{
+	u'مَسَنَ':{
+		{'root':u'مسن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'غضا':{
+	u'غَضَا':{
+		{'root':u'غضو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'زنج':{
+	u'زَنِجَ':{
+		{'root':u'زنج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نحّ':{
+	u'نَحَّ':{
+		{'root':u'نحح','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'نحح','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'زبى':{
+	u'زَبَى':{
+		{'root':u'زبي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'فضح':{
+	u'فَضِحَ':{
+		{'root':u'فضح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'فَضَحَ':{
+		{'root':u'فضح','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'فضخ':{
+	u'فَضَخَ':{
+		{'root':u'فضخ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ضخّ':{
+	u'ضَخَّ':{
+		{'root':u'ضخخ','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'ضخخ','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نحى':{
+	u'نَحَى':{
+		{'root':u'نحي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'نحي','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'غضر':{
+	u'غَضُرَ':{
+		{'root':u'غضر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'غَضِرَ':{
+		{'root':u'غضر','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'غَضَرَ':{
+		{'root':u'غضر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'غضر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'فضا':{
+	u'فَضَا':{
+		{'root':u'فضو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'هبذ':{
+	u'هَبَذَ':{
+		{'root':u'هبذ','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'رجب':{
+	u'رَجِبَ':{
+		{'root':u'رجب','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'رَجَبَ':{
+		{'root':u'رجب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'حسي':{
+	u'حَسِيَ':{
+		{'root':u'حسي','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'نزب':{
+	u'نَزَبَ':{
+		{'root':u'نزب','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'طعس':{
+	u'طَعَسَ':{
+		{'root':u'طعس','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'درع':{
+	u'دَرَعَ':{
+		{'root':u'درع','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	u'دَرِعَ':{
+		{'root':u'درع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زبد':{
+	u'زَبَدَ':{
+		{'root':u'زبد','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'زبد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'جثى':{
+	u'جَثَى':{
+		{'root':u'جثي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نخج':{
+	u'نَخَجَ':{
+		{'root':u'نخج','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'جثل':{
+	u'جَثِلَ':{
+		{'root':u'جثل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'جَثُلَ':{
+		{'root':u'جثل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'جَثَلَ':{
+		{'root':u'جثل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'جثم':{
+	u'جَثَمَ':{
+		{'root':u'جثم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'جثم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'فضل':{
+	u'فَضُلَ':{
+		{'root':u'فضل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'فَضَلَ':{
+		{'root':u'فضل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'فَضِلَ':{
+		{'root':u'فضل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مهق':{
+	u'مَهِقَ':{
+		{'root':u'مهق','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'هبر':{
+	u'هَبِرَ':{
+		{'root':u'هبر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'هَبَرَ':{
+		{'root':u'هبر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'يلّ':{
+	u'يَلَّ':{
+		{'root':u'يلل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'يلل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غضّ':{
+	u'غَضَّ':{
+		{'root':u'غضض','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'غضض','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'غضض','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جثّ':{
+	u'جَثَّ':{
+		{'root':u'جثث','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نأر':{
+	u'نَأَرَ':{
+		{'root':u'نءر','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زئر':{
+	u'زَئِرَ':{
+		{'root':u'زءر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حتا':{
+	u'حَتَا':{
+		{'root':u'حتو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نأش':{
+	u'نَأَشَ':{
+		{'root':u'نءش','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'حتأ':{
+	u'حَتَأَ':{
+		{'root':u'حتء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لجب':{
+	u'لَجُبَ':{
+		{'root':u'لجب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'لَجِبَ':{
+		{'root':u'لجب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'صقّ':{
+	u'صَقَّ':{
+		{'root':u'صقق','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'حتد':{
+	u'حَتَدَ':{
+		{'root':u'حتد','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'حَتِدَ':{
+		{'root':u'حتد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زهك':{
+	u'زَهَكَ':{
+		{'root':u'زهك','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ثعم':{
+	u'ثَعَمَ':{
+		{'root':u'ثعم','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ثعل':{
+	u'ثَعِلَ':{
+		{'root':u'ثعل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حتش':{
+	u'حَتَشَ':{
+		{'root':u'حتش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'طمّ':{
+	u'طَمَّ':{
+		{'root':u'طمم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'طمم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حتر':{
+	u'حَتَرَ':{
+		{'root':u'حتر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حتر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ثعّ':{
+	u'ثَعَّ':{
+		{'root':u'ثعع','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'نأث':{
+	u'نَأَثَ':{
+		{'root':u'نءث','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نأج':{
+	u'نَأَجَ':{
+		{'root':u'نءج','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'هقّ':{
+	u'هَقَّ':{
+		{'root':u'هقق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نأد':{
+	u'نَأَدَ':{
+		{'root':u'نءد','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'حتل':{
+	u'حَتَلَ':{
+		{'root':u'حتل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'حَتِلَ':{
+		{'root':u'حتل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حتم':{
+	u'حَتَمَ':{
+		{'root':u'حتم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حتن':{
+	u'حَتِنَ':{
+		{'root':u'حتن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ثعب':{
+	u'ثَعَبَ':{
+		{'root':u'ثعب','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'طما':{
+	u'طَمَا':{
+		{'root':u'طمو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'حتف':{
+	u'حَتَفَ':{
+		{'root':u'حتف','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'حتك':{
+	u'حَتَكَ':{
+		{'root':u'حتك','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'طمث':{
+	u'طَمِثَ':{
+		{'root':u'طمث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'طَمَثَ':{
+		{'root':u'طمث','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'طمث','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'سهك':{
+	u'سَهَكَ':{
+		{'root':u'سهك','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'سَهِكَ':{
+		{'root':u'سهك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حتى':{
+	u'حَتَى':{
+		{'root':u'حتي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'طمح':{
+	u'طَمَحَ':{
+		{'root':u'طمح','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قثى':{
+	u'قَثَى':{
+		{'root':u'قثي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'طمس':{
+	u'طَمَسَ':{
+		{'root':u'طمس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'طمس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نأف':{
+	u'نَأَفَ':{
+		{'root':u'نءف','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طمر':{
+	u'طَمَرَ':{
+		{'root':u'طمر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'طمر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'طَمِرَ':{
+		{'root':u'طمر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نأل':{
+	u'نَأَلَ':{
+		{'root':u'نءل','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'حتّ':{
+	u'حَتَّ':{
+		{'root':u'حتت','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'زئم':{
+	u'زَئِمَ':{
+		{'root':u'زءم','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'طمغ':{
+	u'طَمِغَ':{
+		{'root':u'طمغ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ثعر':{
+	u'ثَعِرَ':{
+		{'root':u'ثعر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أود':{
+	u'أَوِدَ':{
+		{'root':u'ءود','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ثعط':{
+	u'ثَعِطَ':{
+		{'root':u'ثعط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قنئ':{
+	u'قَنِئَ':{
+		{'root':u'قنء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وزن':{
+	u'وَزُنَ':{
+		{'root':u'وزن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'وَزَنَ':{
+		{'root':u'وزن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'دأث':{
+	u'دَأَثَ':{
+		{'root':u'دءث','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'سحّ':{
+	u'سَحَّ':{
+		{'root':u'سحح','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'سحح','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'سأف':{
+	u'سَأَفَ':{
+		{'root':u'سءف','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جثا':{
+	u'جَثَا':{
+		{'root':u'جثو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نتك':{
+	u'نَتَكَ':{
+		{'root':u'نتك','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'دهق':{
+	u'دَهَقَ':{
+		{'root':u'دهق','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'نتق':{
+	u'نَتَقَ':{
+		{'root':u'نتق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نتق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'جثط':{
+	u'جَثَطَ':{
+		{'root':u'جثط','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ملأ':{
+	u'مَلَأَ':{
+		{'root':u'ملء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نتف':{
+	u'نَتَفَ':{
+		{'root':u'نتف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قثّ':{
+	u'قَثَّ':{
+		{'root':u'قثث','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'ربز':{
+	u'رَبُزَ':{
+		{'root':u'ربز','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'متح':{
+	u'مَتَحَ':{
+		{'root':u'متح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'متخ':{
+	u'مَتَخَ':{
+		{'root':u'متخ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'متخ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'متد':{
+	u'مَتَدَ':{
+		{'root':u'متد','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ربض':{
+	u'رَبَضَ':{
+		{'root':u'ربض','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'ربض','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'دبغ':{
+	u'دَبَغَ':{
+		{'root':u'دبغ','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'دبغ','bab':2,'transitive':u'م','haraka':u'ِ'},
+		{'root':u'دبغ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ربش':{
+	u'رَبِشَ':{
+		{'root':u'ربش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طال':{
+	u'طَالَ':{
+		{'root':u'طول','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ربغ':{
+	u'رَبَغَ':{
+		{'root':u'ربغ','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'رَبُغَ':{
+		{'root':u'ربغ','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'رَبِغَ':{
+		{'root':u'ربغ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غرز':{
+	u'غَرِزَ':{
+		{'root':u'غرز','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'غَرَزَ':{
+		{'root':u'غرز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'متا':{
+	u'مَتَا':{
+		{'root':u'متو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'قهم':{
+	u'قَهِمَ':{
+		{'root':u'قهم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سفى':{
+	u'سَفَى':{
+		{'root':u'سفي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نتن':{
+	u'نَتِنَ':{
+		{'root':u'نتن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَتُنَ':{
+		{'root':u'نتن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'نَتَنَ':{
+		{'root':u'نتن','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'دبش':{
+	u'دَبَشَ':{
+		{'root':u'دبش','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'أبك':{
+	u'أَبِكَ':{
+		{'root':u'ءبك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هسع':{
+	u'هَسَعَ':{
+		{'root':u'هسع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'متع':{
+	u'مَتَعَ':{
+		{'root':u'متع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'مَتُعَ':{
+		{'root':u'متع','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'نشط':{
+	u'نَشِطَ':{
+		{'root':u'نشط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَشَطَ':{
+		{'root':u'نشط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نشط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'متش':{
+	u'مَتَشَ':{
+		{'root':u'متش','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'مَتِشَ':{
+		{'root':u'متش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شطن':{
+	u'شَطَنَ':{
+		{'root':u'شطن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'سجس':{
+	u'سَجِسَ':{
+		{'root':u'سجس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خنط':{
+	u'خَنَطَ':{
+		{'root':u'خنط','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'متر':{
+	u'مَتَرَ':{
+		{'root':u'متر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ربج':{
+	u'رَبُجَ':{
+		{'root':u'ربج','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ثنى':{
+	u'ثَنَى':{
+		{'root':u'ثني','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'دكم':{
+	u'دَكَمَ':{
+		{'root':u'دكم','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'عطش':{
+	u'عَطِشَ':{
+		{'root':u'عطش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عطس':{
+	u'عَطَسَ':{
+		{'root':u'عطس','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'عطس','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ربل':{
+	u'رَبَلَ':{
+		{'root':u'ربل','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'ربل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'عطر':{
+	u'عَطِرَ':{
+		{'root':u'عطر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضكّ':{
+	u'ضَكَّ':{
+		{'root':u'ضكك','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'لعص':{
+	u'لَعِصَ':{
+		{'root':u'لعص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لعض':{
+	u'لَعَضَ':{
+		{'root':u'لعض','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'أبه':{
+	u'أَبَهَ':{
+		{'root':u'ءبه','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'أَبِهَ':{
+		{'root':u'ءبه','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لعز':{
+	u'لَعَزَ':{
+		{'root':u'لعز','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'لعس':{
+	u'لَعِسَ':{
+		{'root':u'لعس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'لَعَسَ':{
+		{'root':u'لعس','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'عطا':{
+	u'عَطَا':{
+		{'root':u'عطو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'سفك':{
+	u'سَفَكَ':{
+		{'root':u'سفك','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'سفك','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'لثم':{
+	u'لَثِمَ':{
+		{'root':u'لثم','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'لَثَمَ':{
+		{'root':u'لثم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'لثق':{
+	u'لَثِقَ':{
+		{'root':u'لثق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لعث':{
+	u'لَعِثَ':{
+		{'root':u'لعث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قنط':{
+	u'قَنُطَ':{
+		{'root':u'قنط','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'قَنَطَ':{
+		{'root':u'قنط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'قنط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'قَنِطَ':{
+		{'root':u'قنط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'قنط','bab':6,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'زحل':{
+	u'زَحَلَ':{
+		{'root':u'زحل','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لثي':{
+	u'لَثِيَ':{
+		{'root':u'لثي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عطب':{
+	u'عَطِبَ':{
+		{'root':u'عطب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَطَبَ':{
+		{'root':u'عطب','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'سمط':{
+	u'سَمَطَ':{
+		{'root':u'سمط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'سمط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نهي':{
+	u'نَهِيَ':{
+		{'root':u'نهي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عطّ':{
+	u'عَطَّ':{
+		{'root':u'عطط','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'نتر':{
+	u'نَتِرَ':{
+		{'root':u'نتر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَتَرَ':{
+		{'root':u'نتر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'لثغ':{
+	u'لَثَغَ':{
+		{'root':u'لثغ','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'لَثِغَ':{
+		{'root':u'لثغ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طبن':{
+	u'طَبَنَ':{
+		{'root':u'طبن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'طَبِنَ':{
+		{'root':u'طبن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سفن':{
+	u'سَفَنَ':{
+		{'root':u'سفن','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'سفن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'سَفِنَ':{
+		{'root':u'سفن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دفئ':{
+	u'دَفِئَ':{
+		{'root':u'دفء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عطن':{
+	u'عَطِنَ':{
+		{'root':u'عطن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَطَنَ':{
+		{'root':u'عطن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عطن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عطل':{
+	u'عَطِلَ':{
+		{'root':u'عطل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لثأ':{
+	u'لَثَأَ':{
+		{'root':u'لثء','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عطف':{
+	u'عَطَفَ':{
+		{'root':u'عطف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نهم':{
+	u'نَهَمَ':{
+		{'root':u'نهم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'نهم','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'نَهِمَ':{
+		{'root':u'نهم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لثد':{
+	u'لَثَدَ':{
+		{'root':u'لثد','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'لعن':{
+	u'لَعَنَ':{
+		{'root':u'لعن','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'سفل':{
+	u'سَفِلَ':{
+		{'root':u'سفل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'سَفَلَ':{
+		{'root':u'سفل','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'سَفُلَ':{
+		{'root':u'سفل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'لعق':{
+	u'لَعِقَ':{
+		{'root':u'لعق','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'يرّ':{
+	u'يَرَّ':{
+		{'root':u'يرر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ثنط':{
+	u'ثَنَطَ':{
+		{'root':u'ثنط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'دان':{
+	u'دَانَ':{
+		{'root':u'دون','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'دين','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ذمأ':{
+	u'ذَمَأَ':{
+		{'root':u'ذمء','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طبق':{
+	u'طَبِقَ':{
+		{'root':u'طبق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'متل':{
+	u'مَتَلَ':{
+		{'root':u'متل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'متن':{
+	u'مَتَنَ':{
+		{'root':u'متن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'مَتُنَ':{
+		{'root':u'متن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'مته':{
+	u'مَتَهَ':{
+		{'root':u'مته','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'مَتِهَ':{
+		{'root':u'مته','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خزع':{
+	u'خَزَعَ':{
+		{'root':u'خزع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'متك':{
+	u'مَتَكَ':{
+		{'root':u'متك','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'ربق':{
+	u'رَبَقَ':{
+		{'root':u'ربق','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'ربق','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'عنج':{
+	u'عَنَجَ':{
+		{'root':u'عنج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عنج','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نحم':{
+	u'نَحَمَ':{
+		{'root':u'نحم','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'نحم','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مضى':{
+	u'مَضَى':{
+		{'root':u'مضي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نخّ':{
+	u'نَخَّ':{
+		{'root':u'نخخ','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'نخخ','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ربي':{
+	u'رَبِيَ':{
+		{'root':u'ربو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نهك':{
+	u'نَهِكَ':{
+		{'root':u'نهك','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	u'نَهَكَ':{
+		{'root':u'نهك','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'نَهُكَ':{
+		{'root':u'نهك','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ثنت':{
+	u'ثَنِتَ':{
+		{'root':u'ثنت','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بذر':{
+	u'بَذَرَ':{
+		{'root':u'بذر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'بَذُرَ':{
+		{'root':u'بذر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'دأى':{
+	u'دَأَى':{
+		{'root':u'دءي','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'صئب':{
+	u'صَئِبَ':{
+		{'root':u'صءب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وشم':{
+	u'وَشَمَ':{
+		{'root':u'وشم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'وشل':{
+	u'وَشَلَ':{
+		{'root':u'وشل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'قشّ':{
+	u'قَشَّ':{
+		{'root':u'قشش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'قشش','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عثن':{
+	u'عَثَنَ':{
+		{'root':u'عثن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'عَثِنَ':{
+		{'root':u'عثن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عثم':{
+	u'عَثَمَ':{
+		{'root':u'عثم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عثم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'عَثِمَ':{
+		{'root':u'عثم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عثل':{
+	u'عَثِلَ':{
+		{'root':u'عثل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَثَلَ':{
+		{'root':u'عثل','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'عثي':{
+	u'عَثِيَ':{
+		{'root':u'عثو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خقّ':{
+	u'خَقَّ':{
+		{'root':u'خقق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'هاد':{
+	u'هَادَ':{
+		{'root':u'هود','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'هيد','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'دفؤ':{
+	u'دَفُؤَ':{
+		{'root':u'دفء','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'وزف':{
+	u'وَزَفَ':{
+		{'root':u'وزف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'علا':{
+	u'عَلَا':{
+		{'root':u'علو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'قشم':{
+	u'قَشَمَ':{
+		{'root':u'قشم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عثّ':{
+	u'عَثَّ':{
+		{'root':u'عثث','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'قشف':{
+	u'قَشُفَ':{
+		{'root':u'قشف','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'قَشِفَ':{
+		{'root':u'قشف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قمؤ':{
+	u'قَمُؤَ':{
+		{'root':u'قمء','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'سحن':{
+	u'سَحَنَ':{
+		{'root':u'سحن','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'سحم':{
+	u'سَحِمَ':{
+		{'root':u'سحم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لود':{
+	u'لَوِدَ':{
+		{'root':u'لود','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عنش':{
+	u'عَنَشَ':{
+		{'root':u'عنش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عنش','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قهي':{
+	u'قَهِيَ':{
+		{'root':u'قهي','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'وتغ':{
+	u'وَتِغَ':{
+		{'root':u'وتغ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لوث':{
+	u'لَوِثَ':{
+		{'root':u'لوث','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'رذّ':{
+	u'رَذَّ':{
+		{'root':u'رذذ','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'خضن':{
+	u'خَضَنَ':{
+		{'root':u'خضن','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'نشغ':{
+	u'نَشَغَ':{
+		{'root':u'نشغ','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بجّ':{
+	u'بَجَّ':{
+		{'root':u'بجج','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'بجج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شاق':{
+	u'شَاقَ':{
+		{'root':u'شوق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'شيق','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'شاك':{
+	u'شَاكَ':{
+		{'root':u'شوك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'شاف':{
+	u'شَافَ':{
+		{'root':u'شوف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'شان':{
+	u'شَانَ':{
+		{'root':u'شون','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'شين','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'شاه':{
+	u'شَاهَ':{
+		{'root':u'شوه','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'شيه','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'شال':{
+	u'شَالَ':{
+		{'root':u'شول','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'شيل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'شام':{
+	u'شَامَ':{
+		{'root':u'شيم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'بجم':{
+	u'بَجَمَ':{
+		{'root':u'بجم','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'بجل':{
+	u'بَجَلَ':{
+		{'root':u'بجل','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'بَجُلَ':{
+		{'root':u'بجل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'بَجِلَ':{
+		{'root':u'بجل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طبّ':{
+	u'طَبَّ':{
+		{'root':u'طبب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'طبب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'شاس':{
+	u'شَاسَ':{
+		{'root':u'شوس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'شار':{
+	u'شَارَ':{
+		{'root':u'شور','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'تجر':{
+	u'تَجَرَ':{
+		{'root':u'تجر','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'شاط':{
+	u'شَاطَ':{
+		{'root':u'شوط','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'شيط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'بجع':{
+	u'بَجَعَ':{
+		{'root':u'بجع','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'شاص':{
+	u'شَاصَ':{
+		{'root':u'شوص','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'جعظ':{
+	u'جَعَظَ':{
+		{'root':u'جعظ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'جَعِظَ':{
+		{'root':u'جعظ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شاظ':{
+	u'شَاظَ':{
+		{'root':u'شوظ','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'شيظ','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'شاع':{
+	u'شَاعَ':{
+		{'root':u'شوع','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'شيع','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'بجس':{
+	u'بَجَسَ':{
+		{'root':u'بجس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'بجس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'لوق':{
+	u'لَوِقَ':{
+		{'root':u'لوق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بجر':{
+	u'بَجِرَ':{
+		{'root':u'بجر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'بَجَرَ':{
+		{'root':u'بجر','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'أضّ':{
+	u'أَضَّ':{
+		{'root':u'ءضض','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'ءضض','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'بجد':{
+	u'بَجَدَ':{
+		{'root':u'بجد','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بذأ':{
+	u'بَذَأَ':{
+		{'root':u'بذء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'بجح':{
+	u'بَجِحَ':{
+		{'root':u'بجح','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'بَجَحَ':{
+		{'root':u'بجح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'شاء':{
+	u'شَاءََ':{
+		{'root':u'شيء','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'شَاءَ':{
+		{'root':u'شوء','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'قمس':{
+	u'قَمَسَ':{
+		{'root':u'قمس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'قمس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'زهم':{
+	u'زَهَمَ':{
+		{'root':u'زهم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'زَهِمَ':{
+		{'root':u'زهم','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'شاب':{
+	u'شَابَ':{
+		{'root':u'شوب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'شيب','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'أضم':{
+	u'أَضِمَ':{
+		{'root':u'ءضم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شاخ':{
+	u'شَاخَ':{
+		{'root':u'شيخ','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'شاد':{
+	u'شَادَ':{
+		{'root':u'شيد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'شاح':{
+	u'شَاحَ':{
+		{'root':u'شيح','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'قشط':{
+	u'قَشَطَ':{
+		{'root':u'قشط','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'رقن':{
+	u'رَقَنَ':{
+		{'root':u'رقن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'عثا':{
+	u'عَثَا':{
+		{'root':u'عثو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'عثو','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'شخس':{
+	u'شَخَسَ':{
+		{'root':u'شخس','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'صئك':{
+	u'صَئِكَ':{
+		{'root':u'صءك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قشع':{
+	u'قَشَعَ':{
+		{'root':u'قشع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'قَشِعَ':{
+		{'root':u'قشع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'صئم':{
+	u'صَئِمَ':{
+		{'root':u'صءم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أفن':{
+	u'أَفَنَ':{
+		{'root':u'ءفن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'أَفِنَ':{
+		{'root':u'ءفن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عثر':{
+	u'عَثُرَ':{
+		{'root':u'عثر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'عَثَرَ':{
+		{'root':u'عثر','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'عثر','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'عَثِرَ':{
+		{'root':u'عثر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وشر':{
+	u'وَشَرَ':{
+		{'root':u'وشر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ربخ':{
+	u'رَبِخَ':{
+		{'root':u'ربخ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'رَبَخَ':{
+		{'root':u'ربخ','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نهب':{
+	u'نَهِبَ':{
+		{'root':u'نهب','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'نَهَبَ':{
+		{'root':u'نهب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نهب','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'قشد':{
+	u'قَشَدَ':{
+		{'root':u'قشد','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'أفل':{
+	u'أَفِلَ':{
+		{'root':u'ءفل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'أَفَلَ':{
+		{'root':u'ءفل','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'ءفل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ركع':{
+	u'رَكَعَ':{
+		{'root':u'ركع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قشب':{
+	u'قَشَبَ':{
+		{'root':u'قشب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'قَشُبَ':{
+		{'root':u'قشب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'قَشِبَ':{
+		{'root':u'قشب','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'مرس':{
+	u'مَرَسَ':{
+		{'root':u'مرس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'مَرِسَ':{
+		{'root':u'مرس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وشظ':{
+	u'وَشَظَ':{
+		{'root':u'وشظ','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'طول':{
+	u'طَوْلَ':{
+		{'root':u'طول','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'طَوِلَ':{
+		{'root':u'طول','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حثم':{
+	u'حَثَمَ':{
+		{'root':u'حثم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حثل':{
+	u'حَثِلَ':{
+		{'root':u'حثل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فزّ':{
+	u'فَزَّ':{
+		{'root':u'فزز','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'فزز','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'عان':{
+	u'عَانَ':{
+		{'root':u'عون','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'عين','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'زعل':{
+	u'زَعِلَ':{
+		{'root':u'زعل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زعم':{
+	u'زَعُمَ':{
+		{'root':u'زعم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'زَعِمَ':{
+		{'root':u'زعم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'زَعَمَ':{
+		{'root':u'زعم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'زعم','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'زعق':{
+	u'زَعِقَ':{
+		{'root':u'زعق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'زَعُقَ':{
+		{'root':u'زعق','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'زَعَقَ':{
+		{'root':u'زعق','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'حطّ':{
+	u'حَطَّ':{
+		{'root':u'حطط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'حثى':{
+	u'حَثَى':{
+		{'root':u'حثي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'وحل':{
+	u'وَحِلَ':{
+		{'root':u'وحل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'وَحَلَ':{
+		{'root':u'وحل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'معس':{
+	u'مَعَسَ':{
+		{'root':u'معس','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نسي':{
+	u'نَسِيَ':{
+		{'root':u'نسي','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'محل':{
+	u'مَحَلَ':{
+		{'root':u'محل','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'مَحُلَ':{
+		{'root':u'محل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'مَحِلَ':{
+		{'root':u'محل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حثّ':{
+	u'حَثَّ':{
+		{'root':u'حثث','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'غاف':{
+	u'غَافَ':{
+		{'root':u'غيف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ستر':{
+	u'سَتَرَ':{
+		{'root':u'ستر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'ستر','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'غال':{
+	u'غَالَ':{
+		{'root':u'غول','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'غيل','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'غام':{
+	u'غَامَ':{
+		{'root':u'غيم','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'غان':{
+	u'غَانَ':{
+		{'root':u'غين','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ملا':{
+	u'مَلَا':{
+		{'root':u'ملو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بقث':{
+	u'بَقَثَ':{
+		{'root':u'بقث','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'سند':{
+	u'سَنَدَ':{
+		{'root':u'سند','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'وعف':{
+	u'وَعَفَ':{
+		{'root':u'وعف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'لوي':{
+	u'لَوِيَ':{
+		{'root':u'لوي','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ضنب':{
+	u'ضَنَبَ':{
+		{'root':u'ضنب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'تيس':{
+	u'تَيِسَ':{
+		{'root':u'تيس','bab':6,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'سوق':{
+	u'سَوِقَ':{
+		{'root':u'سوق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فطر':{
+	u'فَطَرَ':{
+		{'root':u'فطر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'فطر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نتض':{
+	u'نَتَضَ':{
+		{'root':u'نتض','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ضنا':{
+	u'ضَنَا':{
+		{'root':u'ضنو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'عشن':{
+	u'عَشَنَ':{
+		{'root':u'عشن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'وهى':{
+	u'وَهَى':{
+		{'root':u'وهي','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ضأى':{
+	u'ضَأَى':{
+		{'root':u'ضءي','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فطا':{
+	u'فَطَا':{
+		{'root':u'فطو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'فطئ':{
+	u'فَطِئَ':{
+		{'root':u'فطء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نتش':{
+	u'نَتَشَ':{
+		{'root':u'نتش','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'فطأ':{
+	u'فَطَأَ':{
+		{'root':u'فطء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'بقا':{
+	u'بَقَا':{
+		{'root':u'بقو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'أقط':{
+	u'أَقَطَ':{
+		{'root':u'ءقط','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ظجّ':{
+	u'ظَجَّ':{
+		{'root':u'ظجج','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ذكر':{
+	u'ذَكِرَ':{
+		{'root':u'ذكر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'ذَكَرَ':{
+		{'root':u'ذكر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'زمك':{
+	u'زَمَكَ':{
+		{'root':u'زمك','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'زَمِكَ':{
+		{'root':u'زمك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ذها':{
+	u'ذَهَا':{
+		{'root':u'ذهو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'نيه':{
+	u'نَيِهَ':{
+		{'root':u'نيه','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قهد':{
+	u'قَهَدَ':{
+		{'root':u'قهد','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ذمى':{
+	u'ذَمَى':{
+		{'root':u'ذمي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'رنع':{
+	u'رَنَعَ':{
+		{'root':u'رنع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رصع':{
+	u'رَصِعَ':{
+		{'root':u'رصع','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'رَصَعَ':{
+		{'root':u'رصع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'غضب':{
+	u'غَضِبَ':{
+		{'root':u'غضب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فطه':{
+	u'فَطِهَ':{
+		{'root':u'فطه','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فطن':{
+	u'فَطُنَ':{
+		{'root':u'فطن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'فَطِنَ':{
+		{'root':u'فطن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'فَطَنَ':{
+		{'root':u'فطن','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'فطم':{
+	u'فَطَمَ':{
+		{'root':u'فطم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'نيل':{
+	u'نَيِلَ':{
+		{'root':u'نيل','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'فقأ':{
+	u'فَقَأَ':{
+		{'root':u'فقء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'حثا':{
+	u'حَثَا':{
+		{'root':u'حثو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'زعج':{
+	u'زَعَجَ':{
+		{'root':u'زعج','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	u'زَعِجَ':{
+		{'root':u'زعج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ذوي':{
+	u'ذَوِيَ':{
+		{'root':u'ذوي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جظّ':{
+	u'جَظَّ':{
+		{'root':u'جظظ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'زعا':{
+	u'زَعَا':{
+		{'root':u'زعو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'غار':{
+	u'غَارَ':{
+		{'root':u'غور','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'غير','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'غاز':{
+	u'غَازَ':{
+		{'root':u'غوز','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'رتّ':{
+	u'رَتَّ':{
+		{'root':u'رتت','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زكر':{
+	u'زَكَرَ':{
+		{'root':u'زكر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'غاص':{
+	u'غَاصَ':{
+		{'root':u'غوص','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'غاض':{
+	u'غَاضَ':{
+		{'root':u'غيض','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'غاط':{
+	u'غَاطَ':{
+		{'root':u'غوط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'غيط','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'غاب':{
+	u'غَابَ':{
+		{'root':u'غيب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'شعل':{
+	u'شَعِلَ':{
+		{'root':u'شعل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'شَعَلَ':{
+		{'root':u'شعل','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'غاث':{
+	u'غَاثَ':{
+		{'root':u'غوث','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'غيث','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'غاج':{
+	u'غَاجَ':{
+		{'root':u'غوج','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'حثر':{
+	u'حَثِرَ':{
+		{'root':u'حثر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مخط':{
+	u'مَخَطَ':{
+		{'root':u'مخط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'مخط','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'زعط':{
+	u'زَعَطَ':{
+		{'root':u'زعط','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'تطا':{
+	u'تَطَا':{
+		{'root':u'تطو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ندا':{
+	u'نَدَا':{
+		{'root':u'ندو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'طوع':{
+	u'طَوِعَ':{
+		{'root':u'طوع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نشأ':{
+	u'نَشَأَ':{
+		{'root':u'نشء','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ملط':{
+	u'مَلِطَ':{
+		{'root':u'ملط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'مَلَطَ':{
+		{'root':u'ملط','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'مَلُطَ':{
+		{'root':u'ملط','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'هقم':{
+	u'هَقِمَ':{
+		{'root':u'هقم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بذّ':{
+	u'بَذَّ':{
+		{'root':u'بذذ','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'بذذ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هقف':{
+	u'هَقِفَ':{
+		{'root':u'هقف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رمث':{
+	u'رَمَثَ':{
+		{'root':u'رمث','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'رَمِثَ':{
+		{'root':u'رمث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ملص':{
+	u'مَلَصَ':{
+		{'root':u'ملص','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'مَلِصَ':{
+		{'root':u'ملص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لظّ':{
+	u'لَظَّ':{
+		{'root':u'لظظ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ضاء':{
+	u'ضَاءَ':{
+		{'root':u'ضوء','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'عذق':{
+	u'عَذَقَ':{
+		{'root':u'عذق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عذق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عذف':{
+	u'عَذَفَ':{
+		{'root':u'عذف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نذر':{
+	u'نَذَرَ':{
+		{'root':u'نذر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'نذر','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'نَذِرَ':{
+		{'root':u'نذر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لظي':{
+	u'لَظِيَ':{
+		{'root':u'لظي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عذل':{
+	u'عَذَلَ':{
+		{'root':u'عذل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'عذل','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'عذم':{
+	u'عَذَمَ':{
+		{'root':u'عذم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'عَذِمَ':{
+		{'root':u'عذم','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'عذي':{
+	u'عَذِيَ':{
+		{'root':u'عذو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضمز':{
+	u'ضَمَزَ':{
+		{'root':u'ضمز','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ضمز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عذو':{
+	u'عَذُوَ':{
+		{'root':u'عذو','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ذأف':{
+	u'ذَأَفَ':{
+		{'root':u'ذءف','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نذع':{
+	u'نَذَعَ':{
+		{'root':u'نذع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ذأل':{
+	u'ذَأَلَ':{
+		{'root':u'ذءل','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ذأم':{
+	u'ذَأَمَ':{
+		{'root':u'ذءم','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'حسد':{
+	u'حَسَدَ':{
+		{'root':u'حسد','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'حسد','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ملع':{
+	u'مَلَعَ':{
+		{'root':u'ملع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ثبّ':{
+	u'ثَبَّ':{
+		{'root':u'ثبب','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'مثل':{
+	u'مَثَلَ':{
+		{'root':u'مثل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'مثل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'مَثُلَ':{
+		{'root':u'مثل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'مكن':{
+	u'مَكُنَ':{
+		{'root':u'مكن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'مَكِنَ':{
+		{'root':u'مكن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ثبى':{
+	u'ثَبَى':{
+		{'root':u'ثبي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ثبق':{
+	u'ثَبَقَ':{
+		{'root':u'ثبق','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ثبن':{
+	u'ثَبَنَ':{
+		{'root':u'ثبن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'مثد':{
+	u'مَثَدَ':{
+		{'root':u'مثد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'دفن':{
+	u'دَفَنَ':{
+		{'root':u'دفن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'فظع':{
+	u'فَظِعَ':{
+		{'root':u'فظع','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'فَظُعَ':{
+		{'root':u'فظع','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'سبر':{
+	u'سَبَرَ':{
+		{'root':u'سبر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'سبر','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ثبر':{
+	u'ثَبِرَ':{
+		{'root':u'ثبر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'ثَبَرَ':{
+		{'root':u'ثبر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'مهج':{
+	u'مَهَجَ':{
+		{'root':u'مهج','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'يهم':{
+	u'يَهِمَ':{
+		{'root':u'يهم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ثبط':{
+	u'ثَبَطَ':{
+		{'root':u'ثبط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'ثَبِطَ':{
+		{'root':u'ثبط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وقر':{
+	u'وَقَرَ':{
+		{'root':u'وقر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'وَقِرَ':{
+		{'root':u'وقر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'وَقُرَ':{
+		{'root':u'وقر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ثبت':{
+	u'ثَبَتَ':{
+		{'root':u'ثبت','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'ثَبُتَ':{
+		{'root':u'ثبت','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ثبج':{
+	u'ثَبِجَ':{
+		{'root':u'ثبج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'ثَبَجَ':{
+		{'root':u'ثبج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ثبج','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'مثع':{
+	u'مَثَعَ':{
+		{'root':u'مثع','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'مثع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'مَثِعَ':{
+		{'root':u'مثع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جتّ':{
+	u'جَتَّ':{
+		{'root':u'جتت','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'زفد':{
+	u'زَفَدَ':{
+		{'root':u'زفد','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'ضنئ':{
+	u'ضَنِئَ':{
+		{'root':u'ضنء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نحل':{
+	u'نَحُلَ':{
+		{'root':u'نحل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'نَحَلَ':{
+		{'root':u'نحل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نحل','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'نَحِلَ':{
+		{'root':u'نحل','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ختن':{
+	u'خَتَنَ':{
+		{'root':u'ختن','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'ختن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نذل':{
+	u'نَذُلَ':{
+		{'root':u'نذل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ضاط':{
+	u'ضَاطَ':{
+		{'root':u'ضيط','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'نجب':{
+	u'نَجَبَ':{
+		{'root':u'نجب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نجب','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'نَجُبَ':{
+		{'root':u'نجب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'مكل':{
+	u'مَكَلَ':{
+		{'root':u'مكل','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ذأر':{
+	u'ذَأَرَ':{
+		{'root':u'ذءر','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'نهأ':{
+	u'نَهَأَ':{
+		{'root':u'نهء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ردج':{
+	u'رَدَجَ':{
+		{'root':u'ردج','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ضار':{
+	u'ضَارَ':{
+		{'root':u'ضور','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ضير','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ذأت':{
+	u'ذَأَتَ':{
+		{'root':u'ذءت','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ذأب':{
+	u'ذَأَبَ':{
+		{'root':u'ذءب','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ندأ':{
+	u'نَدَأَ':{
+		{'root':u'ندء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'عذا':{
+	u'عَذَا':{
+		{'root':u'عذو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ذأج':{
+	u'ذَأَجَ':{
+		{'root':u'ذءج','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ذأح':{
+	u'ذَأَحَ':{
+		{'root':u'ذءح','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'سني':{
+	u'سَنِيَ':{
+		{'root':u'سنو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عذب':{
+	u'عَذُبَ':{
+		{'root':u'عذب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'عَذَبَ':{
+		{'root':u'عذب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نحف':{
+	u'نَحِفَ':{
+		{'root':u'نحف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَحُفَ':{
+		{'root':u'نحف','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'سبغ':{
+	u'سَبَغَ':{
+		{'root':u'سبغ','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'هقع':{
+	u'هَقَعَ':{
+		{'root':u'هقع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'هَقِعَ':{
+		{'root':u'هقع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مصح':{
+	u'مَصَحَ':{
+		{'root':u'مصح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لتز':{
+	u'لَتَزَ':{
+		{'root':u'لتز','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'لتز','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'مئق':{
+	u'مَئِقَ':{
+		{'root':u'مءق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أطّ':{
+	u'أَطَّ':{
+		{'root':u'ءطط','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'قعط':{
+	u'قَعَطَ':{
+		{'root':u'قعط','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'قَعِطَ':{
+		{'root':u'قعط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قعش':{
+	u'قَعَشَ':{
+		{'root':u'قعش','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'قعص':{
+	u'قَعِصَ':{
+		{'root':u'قعص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'قَعَصَ':{
+		{'root':u'قعص','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'قعز':{
+	u'قَعَزَ':{
+		{'root':u'قعز','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'حلو':{
+	u'حَلُوَ':{
+		{'root':u'حلو','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'قعر':{
+	u'قَعَرَ':{
+		{'root':u'قعر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'قَعُرَ':{
+		{'root':u'قعر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ولي':{
+	u'وَلِيَ':{
+		{'root':u'ولي','bab':6,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'قعد':{
+	u'قَعَدَ':{
+		{'root':u'قعد','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'قَعِدَ':{
+		{'root':u'قعد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لتأ':{
+	u'لَتَأَ':{
+		{'root':u'لتء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لبي':{
+	u'لَبِيَ':{
+		{'root':u'لبي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قعث':{
+	u'قَعَثَ':{
+		{'root':u'قعث','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'سنه':{
+	u'سَنِهَ':{
+		{'root':u'سنه','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ناص':{
+	u'نَاصَ':{
+		{'root':u'نوص','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نيص','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'قعا':{
+	u'قَعَا':{
+		{'root':u'قعو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'سغم':{
+	u'سَغَمَ':{
+		{'root':u'سغم','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'أطم':{
+	u'أَطِمَ':{
+		{'root':u'ءطم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'أَطَمَ':{
+		{'root':u'ءطم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'لتد':{
+	u'لَتَدَ':{
+		{'root':u'لتد','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'همز':{
+	u'هَمَزَ':{
+		{'root':u'همز','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'صاك':{
+	u'صَاكَ':{
+		{'root':u'صوك','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'صيك','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'صاق':{
+	u'صَاقَ':{
+		{'root':u'صوق','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'صيق','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'صاف':{
+	u'صَافَ':{
+		{'root':u'صوف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'صيف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'مصت':{
+	u'مَصَتَ':{
+		{'root':u'مصت','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'صان':{
+	u'صَانَ':{
+		{'root':u'صون','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'صام':{
+	u'صَامَ':{
+		{'root':u'صوم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'صال':{
+	u'صَالَ':{
+		{'root':u'صول','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'صيل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'زكّ':{
+	u'زَكَّ':{
+		{'root':u'زكك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'زكك','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نجا':{
+	u'نَجَا':{
+		{'root':u'نجو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ثها':{
+	u'ثَهَا':{
+		{'root':u'ثهو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'قضى':{
+	u'قَضَى':{
+		{'root':u'قضي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ثهت':{
+	u'ثَهِتَ':{
+		{'root':u'ثهت','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دسم':{
+	u'دَسِمَ':{
+		{'root':u'دسم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'دَسَمَ':{
+		{'root':u'دسم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'دسم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'دسع':{
+	u'دَسَعَ':{
+		{'root':u'دسع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'صات':{
+	u'صَاتَ':{
+		{'root':u'صوت','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'صاب':{
+	u'صَابَ':{
+		{'root':u'صوب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'صيب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'شيم':{
+	u'شَيِمَ':{
+		{'root':u'شيم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'صاخ':{
+	u'صَاخَ':{
+		{'root':u'صوخ','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'صاح':{
+	u'صَاحَ':{
+		{'root':u'صوح','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'صيح','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'خزي':{
+	u'خَزِيَ':{
+		{'root':u'خزي','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'دسر':{
+	u'دَسَرَ':{
+		{'root':u'دسر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'نظر':{
+	u'نَظَرَ':{
+		{'root':u'نظر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'صاء':{
+	u'صَاءَ':{
+		{'root':u'صيء','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'صاغ':{
+	u'صَاغَ':{
+		{'root':u'صوغ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'صاع':{
+	u'صَاعَ':{
+		{'root':u'صوع','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'صيع','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'صيد':{
+	u'صَيِدَ':{
+		{'root':u'صيد','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'غفق':{
+	u'غَفَقَ':{
+		{'root':u'غفق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'سفد':{
+	u'سَفِدَ':{
+		{'root':u'سفد','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'سَفَدَ':{
+		{'root':u'سفد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'صار':{
+	u'صَارَ':{
+		{'root':u'صور','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'صير','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نكي':{
+	u'نَكِيَ':{
+		{'root':u'نكي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'صاص':{
+	u'صَاصَ':{
+		{'root':u'صيص','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'لتّ':{
+	u'لَتَّ':{
+		{'root':u'لتت','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'سفح':{
+	u'سَفَحَ':{
+		{'root':u'سفح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'مرد':{
+	u'مَرُدَ':{
+		{'root':u'مرد','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'مَرَدَ':{
+		{'root':u'مرد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'مَرِدَ':{
+		{'root':u'مرد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أطر':{
+	u'أَطَرَ':{
+		{'root':u'ءطر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ءطر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قعّ':{
+	u'قَعَّ':{
+		{'root':u'قعع','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'سحط':{
+	u'سَحَطَ':{
+		{'root':u'سحط','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'قعي':{
+	u'قَعِيَ':{
+		{'root':u'قعو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خزق':{
+	u'خَزَقَ':{
+		{'root':u'خزق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قعن':{
+	u'قَعِنَ':{
+		{'root':u'قعن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رفد':{
+	u'رَفَدَ':{
+		{'root':u'رفد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'زكت':{
+	u'زَكَتَ':{
+		{'root':u'زكت','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'قعم':{
+	u'قَعِمَ':{
+		{'root':u'قعم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'قَعَمَ':{
+		{'root':u'قعم','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أبت':{
+	u'أَبَتَ':{
+		{'root':u'ءبت','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'ءبت','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'أَبِتَ':{
+		{'root':u'ءبت','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قعف':{
+	u'قَعِفَ':{
+		{'root':u'قعف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'قَعَفَ':{
+		{'root':u'قعف','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'وعل':{
+	u'وَعَلَ':{
+		{'root':u'وعل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'بثع':{
+	u'بَثِعَ':{
+		{'root':u'بثع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قود':{
+	u'قَوِدَ':{
+		{'root':u'قود','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هزّ':{
+	u'هَزَّ':{
+		{'root':u'هزز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'بثر':{
+	u'بَثِرَ':{
+		{'root':u'بثر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'بَثَرَ':{
+		{'root':u'بثر','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'بَثُرَ':{
+		{'root':u'بثر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'درج':{
+	u'دَرَجَ':{
+		{'root':u'درج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'دَرِجَ':{
+		{'root':u'درج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بثط':{
+	u'بَثِطَ':{
+		{'root':u'بثط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هذف':{
+	u'هَذَفَ':{
+		{'root':u'هذف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'فغا':{
+	u'فَغَا':{
+		{'root':u'فغو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نكس':{
+	u'نَكَسَ':{
+		{'root':u'نكس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'سحر':{
+	u'سَحَرَ':{
+		{'root':u'سحر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'سَحِرَ':{
+		{'root':u'سحر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قور':{
+	u'قَوِرَ':{
+		{'root':u'قور','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نكش':{
+	u'نَكَشَ':{
+		{'root':u'نكش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نكش','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قوس':{
+	u'قَوِسَ':{
+		{'root':u'قوس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أبد':{
+	u'أَبَدَ':{
+		{'root':u'ءبد','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'ءبد','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'أَبِدَ':{
+		{'root':u'ءبد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سغب':{
+	u'سَغَبَ':{
+		{'root':u'سغب','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'سَغِبَ':{
+		{'root':u'سغب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بثا':{
+	u'بَثَا':{
+		{'root':u'بثو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'شئس':{
+	u'شَئِسَ':{
+		{'root':u'شءس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شئز':{
+	u'شَئِزَ':{
+		{'root':u'شءز','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قطر':{
+	u'قَطَرَ':{
+		{'root':u'قطر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'سطا':{
+	u'سَطَا':{
+		{'root':u'سطو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'أبر':{
+	u'أَبِرَ':{
+		{'root':u'ءبر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'أَبَرَ':{
+		{'root':u'ءبر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ءبر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قطع':{
+	u'قَطَعَ':{
+		{'root':u'قطع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'قَطِعَ':{
+		{'root':u'قطع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'قَطُعَ':{
+		{'root':u'قطع','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'خسق':{
+	u'خَسَقَ':{
+		{'root':u'خسق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'خسل':{
+	u'خَسَلَ':{
+		{'root':u'خسل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'سفع':{
+	u'سَفَعَ':{
+		{'root':u'سفع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'سَفِعَ':{
+		{'root':u'سفع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وسج':{
+	u'وَسَجَ':{
+		{'root':u'وسج','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'زجل':{
+	u'زَجِلَ':{
+		{'root':u'زجل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'زَجَلَ':{
+		{'root':u'زجل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'أبس':{
+	u'أَبَسَ':{
+		{'root':u'ءبس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'راه':{
+	u'رَاهَ':{
+		{'root':u'روه','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'ريه','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'وسط':{
+	u'وَسَطَ':{
+		{'root':u'وسط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'وَسُطَ':{
+		{'root':u'وسط','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'خفّ':{
+	u'خَفَّ':{
+		{'root':u'خفف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'قطا':{
+	u'قَطَا':{
+		{'root':u'قطو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'قطب':{
+	u'قَطَبَ':{
+		{'root':u'قطب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'خسّ':{
+	u'خَسَّ':{
+		{'root':u'خسس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'خسس','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'خسس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وسع':{
+	u'وَسِعَ':{
+		{'root':u'وسع','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'وَسَعَ':{
+		{'root':u'وسع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'وَسُعَ':{
+		{'root':u'وسع','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'سحت':{
+	u'سَحَتَ':{
+		{'root':u'سحت','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'وسق':{
+	u'وَسَقَ':{
+		{'root':u'وسق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قطّ':{
+	u'قَطَّ':{
+		{'root':u'قطط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'قطط','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'قطط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'قطط','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'وسن':{
+	u'وَسِنَ':{
+		{'root':u'وسن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فقد':{
+	u'فَقَدَ':{
+		{'root':u'فقد','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'وسل':{
+	u'وَسَلَ':{
+		{'root':u'وسل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'كمن':{
+	u'كَمِنَ':{
+		{'root':u'كمن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'كَمَنَ':{
+		{'root':u'كمن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'علز':{
+	u'عَلِزَ':{
+		{'root':u'علز','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خسأ':{
+	u'خَسَأَ':{
+		{'root':u'خسء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'مشغ':{
+	u'مَشَغَ':{
+		{'root':u'مشغ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'خسئ':{
+	u'خَسِئَ':{
+		{'root':u'خسء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قطف':{
+	u'قَطَفَ':{
+		{'root':u'قطف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'قطف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'قَطُفَ':{
+		{'root':u'قطف','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'قطل':{
+	u'قَطَلَ':{
+		{'root':u'قطل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'قطل','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'قطم':{
+	u'قَطَمَ':{
+		{'root':u'قطم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'قَطِمَ':{
+		{'root':u'قطم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قطن':{
+	u'قَطِنَ':{
+		{'root':u'قطن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'قَطَنَ':{
+		{'root':u'قطن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'خسر':{
+	u'خَسَرَ':{
+		{'root':u'خسر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'خَسِرَ':{
+		{'root':u'خسر','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'سآ':{
+	u'سَآ':{
+		{'root':u'سءو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'قسا':{
+	u'قَسَا':{
+		{'root':u'قسو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'هجو':{
+	u'هَجُوَ':{
+		{'root':u'هجو','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'قوي':{
+	u'قَوِيَ':{
+		{'root':u'قوي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لذّ':{
+	u'لَذَّ':{
+		{'root':u'لذذ','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'عقل':{
+	u'عَقِلَ':{
+		{'root':u'عقل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَقَلَ':{
+		{'root':u'عقل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عقل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'زاء':{
+	u'زَاءَ':{
+		{'root':u'زوء','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بثّ':{
+	u'بَثَّ':{
+		{'root':u'بثث','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'بثث','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'شئف':{
+	u'شَئِفَ':{
+		{'root':u'شءف','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'هذّ':{
+	u'هَذَّ':{
+		{'root':u'هذذ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'زام':{
+	u'زَامَ':{
+		{'root':u'زوم','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'زيم','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'نكأ':{
+	u'نَكَأَ':{
+		{'root':u'نكء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'بثق':{
+	u'بَثَقَ':{
+		{'root':u'بثق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'طمى':{
+	u'طَمَى':{
+		{'root':u'طمي','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ذرأ':{
+	u'ذَرَأَ':{
+		{'root':u'ذرء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لصب':{
+	u'لَصِبَ':{
+		{'root':u'لصب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زور':{
+	u'زَوِرَ':{
+		{'root':u'زور','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فئد':{
+	u'فَئِدَ':{
+		{'root':u'فءد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سجع':{
+	u'سَجَعَ':{
+		{'root':u'سجع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ذمل':{
+	u'ذَمَلَ':{
+		{'root':u'ذمل','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'ذمل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'سأت':{
+	u'سَأَتَ':{
+		{'root':u'سءت','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ثدي':{
+	u'ثَدِيَ':{
+		{'root':u'ثدي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كمى':{
+	u'كَمَى':{
+		{'root':u'كمي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'سبى':{
+	u'سَبَى':{
+		{'root':u'سبي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'سيف':{
+	u'سَيِفَ':{
+		{'root':u'سيف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نكت':{
+	u'نَكَتَ':{
+		{'root':u'نكت','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'رقع':{
+	u'رَقُعَ':{
+		{'root':u'رقع','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'رَقَعَ':{
+		{'root':u'رقع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'حجأ':{
+	u'حَجَأَ':{
+		{'root':u'حجء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نسق':{
+	u'نَسَقَ':{
+		{'root':u'نسق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نسك':{
+	u'نَسَكَ':{
+		{'root':u'نسك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'نَسُكَ':{
+		{'root':u'نسك','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'حجئ':{
+	u'حَجِئَ':{
+		{'root':u'حجء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حجا':{
+	u'حَجَا':{
+		{'root':u'حجو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'غمت':{
+	u'غَمَتَ':{
+		{'root':u'غمت','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'غَمِتَ':{
+		{'root':u'غمت','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نسى':{
+	u'نَسَى':{
+		{'root':u'نسي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'حجب':{
+	u'حَجَبَ':{
+		{'root':u'حجب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ثطي':{
+	u'ثَطِيَ':{
+		{'root':u'ثطو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غمد':{
+	u'غَمَدَ':{
+		{'root':u'غمد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'غمد','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'غَمِدَ':{
+		{'root':u'غمد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غمج':{
+	u'غَمِجَ':{
+		{'root':u'غمج','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	u'غَمَجَ':{
+		{'root':u'غمج','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'حجز':{
+	u'حَجَزَ':{
+		{'root':u'حجز','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حجز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'حَجِزَ':{
+		{'root':u'حجز','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غمس':{
+	u'غَمَسَ':{
+		{'root':u'غمس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حجر':{
+	u'حَجَرَ':{
+		{'root':u'حجر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'غمض':{
+	u'غَمُضَ':{
+		{'root':u'غمض','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'غَمَضَ':{
+		{'root':u'غمض','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'غمض','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'غمط':{
+	u'غَمَطَ':{
+		{'root':u'غمط','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'غَمِطَ':{
+		{'root':u'غمط','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'غمش':{
+	u'غَمِشَ':{
+		{'root':u'غمش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غمص':{
+	u'غَمِصَ':{
+		{'root':u'غمص','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	u'غَمَصَ':{
+		{'root':u'غمص','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'مرؤ':{
+	u'مَرُؤَ':{
+		{'root':u'مرء','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'نكد':{
+	u'نَكِدَ':{
+		{'root':u'نكد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَكَدَ':{
+		{'root':u'نكد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'غمق':{
+	u'غَمَقَ':{
+		{'root':u'غمق','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'غَمِقَ':{
+		{'root':u'غمق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'غَمُقَ':{
+		{'root':u'غمق','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ثطأ':{
+	u'ثَطَأَ':{
+		{'root':u'ثطء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'مئس':{
+	u'مَئِسَ':{
+		{'root':u'مءس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حجن':{
+	u'حَجِنَ':{
+		{'root':u'حجن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'حَجَنَ':{
+		{'root':u'حجن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حجل':{
+	u'حَجِلَ':{
+		{'root':u'حجل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'حَجَلَ':{
+		{'root':u'حجل','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'حجل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'حجم':{
+	u'حَجَمَ':{
+		{'root':u'حجم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حجم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'حجي':{
+	u'حَجِيَ':{
+		{'root':u'حجو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غمى':{
+	u'غَمَى':{
+		{'root':u'غمي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'نسج':{
+	u'نَسَجَ':{
+		{'root':u'نسج','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'نسج','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نسح':{
+	u'نَسَحَ':{
+		{'root':u'نسح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'نَسِحَ':{
+		{'root':u'نسح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نسخ':{
+	u'نَسَخَ':{
+		{'root':u'نسخ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'نسر':{
+	u'نَسَرَ':{
+		{'root':u'نسر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'نسر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حجّ':{
+	u'حَجَّ':{
+		{'root':u'حجج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'سهل':{
+	u'سَهُلَ':{
+		{'root':u'سهل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ثطع':{
+	u'ثَطَعَ':{
+		{'root':u'ثطع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جلا':{
+	u'جَلَا':{
+		{'root':u'جلو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نسغ':{
+	u'نَسَغَ':{
+		{'root':u'نسغ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لصا':{
+	u'لَصَا':{
+		{'root':u'لصو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نأت':{
+	u'نَأَتَ':{
+		{'root':u'نءت','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ضني':{
+	u'ضَنِيَ':{
+		{'root':u'ضنو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وصئ':{
+	u'وَصِئَ':{
+		{'root':u'وصء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لجن':{
+	u'لَجَنَ':{
+		{'root':u'لجن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'لَجِنَ':{
+		{'root':u'لجن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ولب':{
+	u'وَلَبَ':{
+		{'root':u'ولب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'فئق':{
+	u'فَئِقَ':{
+		{'root':u'فءق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لذي':{
+	u'لَذِيَ':{
+		{'root':u'لذي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زجم':{
+	u'زَجَمَ':{
+		{'root':u'زجم','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ينع':{
+	u'يَنَعَ':{
+		{'root':u'ينع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جلت':{
+	u'جَلَتَ':{
+		{'root':u'جلت','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'هان':{
+	u'هَانَ':{
+		{'root':u'هون','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'هين','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'رتب':{
+	u'رَتَبَ':{
+		{'root':u'رتب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ذؤب':{
+	u'ذَؤُبَ':{
+		{'root':u'ذءب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'رمك':{
+	u'رَمَكَ':{
+		{'root':u'رمك','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'رمق':{
+	u'رَمَقَ':{
+		{'root':u'رمق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'رتج':{
+	u'رَتِجَ':{
+		{'root':u'رتج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'رَتَجَ':{
+		{'root':u'رتج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'مجد':{
+	u'مَجَدَ':{
+		{'root':u'مجد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'مَجُدَ':{
+		{'root':u'مجد','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'رتخ':{
+	u'رَتَخَ':{
+		{'root':u'رتخ','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مجح':{
+	u'مَجَحَ':{
+		{'root':u'مجح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'مَجِحَ':{
+		{'root':u'مجح','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'رمى':{
+	u'رَمَى':{
+		{'root':u'رمي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ثلم':{
+	u'ثَلِمَ':{
+		{'root':u'ثلم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'ثَلَمَ':{
+		{'root':u'ثلم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'رتأ':{
+	u'رَتَأَ':{
+		{'root':u'رتء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'رتا':{
+	u'رَتَا':{
+		{'root':u'رتو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'رمّ':{
+	u'رَمَّ':{
+		{'root':u'رمم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'رمم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ظنّ':{
+	u'ظَنَّ':{
+		{'root':u'ظنن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'مجع':{
+	u'مَجَعَ':{
+		{'root':u'مجع','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'مجع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'مَجِعَ':{
+		{'root':u'مجع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'مَجُعَ':{
+		{'root':u'مجع','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'جلح':{
+	u'جَلِحَ':{
+		{'root':u'جلح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'جَلَحَ':{
+		{'root':u'جلح','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'نزغ':{
+	u'نَزَغَ':{
+		{'root':u'نزغ','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'نزغ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'هاف':{
+	u'هَافَ':{
+		{'root':u'هيف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'مجر':{
+	u'مَجِرَ':{
+		{'root':u'مجر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ثلّ':{
+	u'ثَلَّ':{
+		{'root':u'ثلل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ثلل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'باك':{
+	u'بَاكَ':{
+		{'root':u'بوك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'حطأ':{
+	u'حَطَأَ':{
+		{'root':u'حطء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'عرد':{
+	u'عَرَدَ':{
+		{'root':u'عرد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'عَرِدَ':{
+		{'root':u'عرد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عال':{
+	u'عَالَ':{
+		{'root':u'عول','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عيل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عاك':{
+	u'عَاكَ':{
+		{'root':u'عوك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عيك','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'عرب':{
+	u'عَرِبَ':{
+		{'root':u'عرب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَرَبَ':{
+		{'root':u'عرب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'عَرُبَ':{
+		{'root':u'عرب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'عاف':{
+	u'عَافَ':{
+		{'root':u'عوف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عيف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عرت':{
+	u'عَرَتَ':{
+		{'root':u'عرت','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عرت','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'عَرِتَ':{
+		{'root':u'عرت','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هكب':{
+	u'هَكَبَ':{
+		{'root':u'هكب','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'عرا':{
+	u'عَرَا':{
+		{'root':u'عرو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ذكو':{
+	u'ذَكُوَ':{
+		{'root':u'ذكو','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'هكر':{
+	u'هَكِرَ':{
+		{'root':u'هكر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'هَكَرَ':{
+		{'root':u'هكر','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'زرج':{
+	u'زَرَجَ':{
+		{'root':u'زرج','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'مسى':{
+	u'مَسَى':{
+		{'root':u'مسي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عرص':{
+	u'عَرِصَ':{
+		{'root':u'عرص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَرَصَ':{
+		{'root':u'عرص','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'حطا':{
+	u'حَطَا':{
+		{'root':u'حطو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'عرط':{
+	u'عَرَطَ':{
+		{'root':u'عرط','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'عرض':{
+	u'عَرِضَ':{
+		{'root':u'عرض','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَرُضَ':{
+		{'root':u'عرض','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'عَرَضَ':{
+		{'root':u'عرض','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عرض','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'كمح':{
+	u'كَمَحَ':{
+		{'root':u'كمح','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'عرس':{
+	u'عَرَسَ':{
+		{'root':u'عرس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عرس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'عَرِسَ':{
+		{'root':u'عرس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عرز':{
+	u'عَرَزَ':{
+		{'root':u'عرز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'عَرِزَ':{
+		{'root':u'عرز','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نصف':{
+	u'نَصَفَ':{
+		{'root':u'نصف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'عري':{
+	u'عَرِيَ':{
+		{'root':u'عري','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'عرم':{
+	u'عَرِمَ':{
+		{'root':u'عرم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَرَمَ':{
+		{'root':u'عرم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عرم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'عَرُمَ':{
+		{'root':u'عرم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'فحم':{
+	u'فَحُمَ':{
+		{'root':u'فحم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'فَحِمَ':{
+		{'root':u'فحم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'فَحَمَ':{
+		{'root':u'فحم','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'فحم','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عرن':{
+	u'عَرِنَ':{
+		{'root':u'عرن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَرُنَ':{
+		{'root':u'عرن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'عَرَنَ':{
+		{'root':u'عرن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عرن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عرف':{
+	u'عَرُفَ':{
+		{'root':u'عرف','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'عَرِفَ':{
+		{'root':u'عرف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَرَفَ':{
+		{'root':u'عرف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عرف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'خوث':{
+	u'خَوِثَ':{
+		{'root':u'خوث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عرك':{
+	u'عَرَكَ':{
+		{'root':u'عرك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'عَرِكَ':{
+		{'root':u'عرك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عرق':{
+	u'عَرَقَ':{
+		{'root':u'عرق','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'عرق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'عَرِقَ':{
+		{'root':u'عرق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عاط':{
+	u'عَاطَ':{
+		{'root':u'عوط','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'عيط','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'عاض':{
+	u'عَاضَ':{
+		{'root':u'عوض','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'عاش':{
+	u'عَاشَ':{
+		{'root':u'عيش','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'عاس':{
+	u'عَاسَ':{
+		{'root':u'عوس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عيس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عاز':{
+	u'عَازَ':{
+		{'root':u'عوز','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'عار':{
+	u'عَارَ':{
+		{'root':u'عور','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عير','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عاذ':{
+	u'عَاذَ':{
+		{'root':u'عوذ','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'لكي':{
+	u'لَكِيَ':{
+		{'root':u'لكي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عرّ':{
+	u'عَرَّ':{
+		{'root':u'عرر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عرر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'عرر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جلع':{
+	u'جَلِعَ':{
+		{'root':u'جلع','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'جَلَعَ':{
+		{'root':u'جلع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ثلج':{
+	u'ثَلَجَ':{
+		{'root':u'ثلج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ثلج','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'ثَلِجَ':{
+		{'root':u'ثلج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ثلخ':{
+	u'ثَلَخَ':{
+		{'root':u'ثلخ','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'ثَلِخَ':{
+		{'root':u'ثلخ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ثلد':{
+	u'ثَلَدَ':{
+		{'root':u'ثلد','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ثلب':{
+	u'ثَلِبَ':{
+		{'root':u'ثلب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'ثَلَبَ':{
+		{'root':u'ثلب','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'زقح':{
+	u'زَقَحَ':{
+		{'root':u'زقح','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ثلث':{
+	u'ثَلَثَ':{
+		{'root':u'ثلث','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'ثلث','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'زحّ':{
+	u'زَحَّ':{
+		{'root':u'زحح','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'رتق':{
+	u'رَتَقَ':{
+		{'root':u'رتق','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'رتق','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'رَتِقَ':{
+		{'root':u'رتق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رتك':{
+	u'رَتَكَ':{
+		{'root':u'رتك','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'رتك','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'مجن':{
+	u'مَجَنَ':{
+		{'root':u'مجن','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'يبس':{
+	u'يَبِسَ':{
+		{'root':u'يبس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'يبس','bab':6,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'مجل':{
+	u'مَجِلَ':{
+		{'root':u'مجل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'مَجَلَ':{
+		{'root':u'مجل','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'لقز':{
+	u'لَقَزَ':{
+		{'root':u'لقز','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'رمس':{
+	u'رَمَسَ':{
+		{'root':u'رمس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'رمس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'رمز':{
+	u'رَمُزَ':{
+		{'root':u'رمز','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'رَمَزَ':{
+		{'root':u'رمز','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'رمز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'رمص':{
+	u'رَمِصَ':{
+		{'root':u'رمص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'رَمَصَ':{
+		{'root':u'رمص','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ثلع':{
+	u'ثَلَعَ':{
+		{'root':u'ثلع','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ثلغ':{
+	u'ثَلَغَ':{
+		{'root':u'ثلغ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'رمض':{
+	u'رَمَضَ':{
+		{'root':u'رمض','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'رمض','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'رَمِضَ':{
+		{'root':u'رمض','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رمع':{
+	u'رَمِعَ':{
+		{'root':u'رمع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'رَمَعَ':{
+		{'root':u'رمع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'كمس':{
+	u'كَمَسَ':{
+		{'root':u'كمس','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ثلط':{
+	u'ثَلَطَ':{
+		{'root':u'ثلط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'كمز':{
+	u'كَمَزَ':{
+		{'root':u'كمز','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'صبا':{
+	u'صَبَا':{
+		{'root':u'صبو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'صبؤ':{
+	u'صَبُؤَ':{
+		{'root':u'صبء','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'لكم':{
+	u'لَكَمَ':{
+		{'root':u'لكم','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'وزع':{
+	u'وَزَعَ':{
+		{'root':u'وزع','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'وزع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'صبأ':{
+	u'صَبَأَ':{
+		{'root':u'صبء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لطى':{
+	u'لَطَى':{
+		{'root':u'لطي','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'صبح':{
+	u'صَبَحَ':{
+		{'root':u'صبح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'صَبِحَ':{
+		{'root':u'صبح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'صَبُحَ':{
+		{'root':u'صبح','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'وزر':{
+	u'وَزَرَ':{
+		{'root':u'وزر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'وَزِرَ':{
+		{'root':u'وزر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هدأ':{
+	u'هَدَأَ':{
+		{'root':u'هدء','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رنّ':{
+	u'رَنَّ':{
+		{'root':u'رنن','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'قضف':{
+	u'قَضُفَ':{
+		{'root':u'قضف','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'نشز':{
+	u'نَشَزَ':{
+		{'root':u'نشز','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نشز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'وزب':{
+	u'وَزَبَ':{
+		{'root':u'وزب','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'قضم':{
+	u'قَضِمَ':{
+		{'root':u'قضم','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'قَضَمَ':{
+		{'root':u'قضم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'صبر':{
+	u'صَبَرَ':{
+		{'root':u'صبر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'صبر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نشص':{
+	u'نَشَصَ':{
+		{'root':u'نشص','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نشص','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'خذأ':{
+	u'خَذَأَ':{
+		{'root':u'خذء','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'صبغ':{
+	u'صَبَغَ':{
+		{'root':u'صبغ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'صبغ','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'صبغ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'طمع':{
+	u'طَمُعَ':{
+		{'root':u'طمع','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'طَمِعَ':{
+		{'root':u'طمع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وزأ':{
+	u'وَزَأَ':{
+		{'root':u'وزء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'صبع':{
+	u'صَبَعَ':{
+		{'root':u'صبع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'تخّ':{
+	u'تَخَّ':{
+		{'root':u'تخخ','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'خطئ':{
+	u'خَطِئَ':{
+		{'root':u'خطء','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'بتّ':{
+	u'بَتَّ':{
+		{'root':u'بتت','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'بتت','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'أشر':{
+	u'أَشِرَ':{
+		{'root':u'ءشر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'أَشَرَ':{
+		{'root':u'ءشر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'ءشر','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'دقم':{
+	u'دَقَمَ':{
+		{'root':u'دقم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'دقم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'دَقِمَ':{
+		{'root':u'دقم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هوي':{
+	u'هَوِيَ':{
+		{'root':u'هوي','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'لسع':{
+	u'لَسَعَ':{
+		{'root':u'لسع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'وشع':{
+	u'وَشَعَ':{
+		{'root':u'وشع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'بتل':{
+	u'بَتَلَ':{
+		{'root':u'بتل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'بتل','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'بَتِلَ':{
+		{'root':u'بتل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بتك':{
+	u'بَتَكَ':{
+		{'root':u'بتك','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'بتك','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'أشح':{
+	u'أَشِحَ':{
+		{'root':u'ءشح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وشج':{
+	u'وَشَجَ':{
+		{'root':u'وشج','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'أشب':{
+	u'أَشِبَ':{
+		{'root':u'ءشب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'أَشَبَ':{
+		{'root':u'ءشب','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'ءشب','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'حلت':{
+	u'حَلَتَ':{
+		{'root':u'حلت','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'تخذ':{
+	u'تَخِذَ':{
+		{'root':u'تخذ','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'بتر':{
+	u'بَتَرَ':{
+		{'root':u'بتر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'بَتِرَ':{
+		{'root':u'بتر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أشّ':{
+	u'أَشَّ':{
+		{'root':u'ءشش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'هزم':{
+	u'هَزَمَ':{
+		{'root':u'هزم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'رقأ':{
+	u'رَقَأَ':{
+		{'root':u'رقء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'بتع':{
+	u'بَتَعَ':{
+		{'root':u'بتع','bab':2,'transitive':u'م','haraka':u'ِ'},
+		{'root':u'بتع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'بَتِعَ':{
+		{'root':u'بتع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سعف':{
+	u'سَعَفَ':{
+		{'root':u'سعف','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'سَعِفَ':{
+		{'root':u'سعف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بتا':{
+	u'بَتَا':{
+		{'root':u'بتو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'وثغ':{
+	u'وَثَغَ':{
+		{'root':u'وثغ','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'بتأ':{
+	u'بَتَأَ':{
+		{'root':u'بتء','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زاف':{
+	u'زَافَ':{
+		{'root':u'زوف','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'زيف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'هيغ':{
+	u'هَيِغَ':{
+		{'root':u'هيغ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أشى':{
+	u'أَشَى':{
+		{'root':u'ءشي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'أشي':{
+	u'أَشِيَ':{
+		{'root':u'ءشي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سلج':{
+	u'سَلَجَ':{
+		{'root':u'سلج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'سَلِجَ':{
+		{'root':u'سلج','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'صبن':{
+	u'صَبَنَ':{
+		{'root':u'صبن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'هدى':{
+	u'هَدَى':{
+		{'root':u'هدي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'سرك':{
+	u'سَرِكَ':{
+		{'root':u'سرك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كخّ':{
+	u'كَخَّ':{
+		{'root':u'كخخ','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'هدم':{
+	u'هَدِمَ':{
+		{'root':u'هدم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'هَدَمَ':{
+		{'root':u'هدم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ثئي':{
+	u'ثَئِيَ':{
+		{'root':u'ثءي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قضع':{
+	u'قَضَعَ':{
+		{'root':u'قضع','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'هدن':{
+	u'هَدَنَ':{
+		{'root':u'هدن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'صبي':{
+	u'صَبِيَ':{
+		{'root':u'صبو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لات':{
+	u'لَاتَ':{
+		{'root':u'لوت','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ليت','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'هدك':{
+	u'هَدَكَ':{
+		{'root':u'هدك','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'زها':{
+	u'زَهَا':{
+		{'root':u'زهو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'زهو','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'كخم':{
+	u'كَخَمَ':{
+		{'root':u'كخم','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'وزى':{
+	u'وَزَى':{
+		{'root':u'وزي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قضئ':{
+	u'قَضِئَ':{
+		{'root':u'قضء','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'صبّ':{
+	u'صَبَّ':{
+		{'root':u'صبب','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'صبب','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'صبب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وزم':{
+	u'وَزَمَ':{
+		{'root':u'وزم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'معص':{
+	u'مَعِصَ':{
+		{'root':u'معص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نسا':{
+	u'نَسَا':{
+		{'root':u'نسو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'قضب':{
+	u'قَضَبَ':{
+		{'root':u'قضب','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'هدّ':{
+	u'هَدَّ':{
+		{'root':u'هدد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'هدد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'هدد','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'سلح':{
+	u'سَلَحَ':{
+		{'root':u'سلح','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نشؤ':{
+	u'نَشُؤَ':{
+		{'root':u'نشء','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'دفا':{
+	u'دَفَا':{
+		{'root':u'دفو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'خرّ':{
+	u'خَرَّ':{
+		{'root':u'خرر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'خرر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'أبق':{
+	u'أَبَقَ':{
+		{'root':u'ءبق','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'ءبق','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'أَبِقَ':{
+		{'root':u'ءبق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شطف':{
+	u'شَطَفَ':{
+		{'root':u'شطف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'أبل':{
+	u'أَبِلَ':{
+		{'root':u'ءبل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'أَبُلَ':{
+		{'root':u'ءبل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'أَبَلَ':{
+		{'root':u'ءبل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ءبل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'لسب':{
+	u'لَسَبَ':{
+		{'root':u'لسب','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'لَسِبَ':{
+		{'root':u'لسب','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'أبن':{
+	u'أَبَنَ':{
+		{'root':u'ءبن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ءبن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'شطم':{
+	u'شَطَمَ':{
+		{'root':u'شطم','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'شطي':{
+	u'شَطِيَ':{
+		{'root':u'شطي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أبى':{
+	u'أَبَى':{
+		{'root':u'ءبي','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'أبي':{
+	u'أَبِيَ':{
+		{'root':u'ءبي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فضّ':{
+	u'فَضَّ':{
+		{'root':u'فضض','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'مشع':{
+	u'مَشَعَ':{
+		{'root':u'مشع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'أبّ':{
+	u'أَبَّ':{
+		{'root':u'ءبب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ءبب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'كفت':{
+	u'كَفَتَ':{
+		{'root':u'كفت','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'شطّ':{
+	u'شَطَّ':{
+		{'root':u'شطط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'شطط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'دفر':{
+	u'دَفَرَ':{
+		{'root':u'دفر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'دَفِرَ':{
+		{'root':u'دفر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'همّ':{
+	u'هَمَّ':{
+		{'root':u'همم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'همم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'همم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'زأت':{
+	u'زَأَتَ':{
+		{'root':u'زءت','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'خزر':{
+	u'خَزِرَ':{
+		{'root':u'خزر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'خَزَرَ':{
+		{'root':u'خزر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'سحل':{
+	u'سَحَلَ':{
+		{'root':u'سحل','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'دجر':{
+	u'دَجِرَ':{
+		{'root':u'دجر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سحق':{
+	u'سَحَقَ':{
+		{'root':u'سحق','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'سَحُقَ':{
+		{'root':u'سحق','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'سَحِقَ':{
+		{'root':u'سحق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دفع':{
+	u'دَفَعَ':{
+		{'root':u'دفع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لكث':{
+	u'لَكَثَ':{
+		{'root':u'لكث','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'لَكِثَ':{
+		{'root':u'لكث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عشم':{
+	u'عَشِمَ':{
+		{'root':u'عشم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دجل':{
+	u'دَجَلَ':{
+		{'root':u'دجل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'دجم':{
+	u'دَجِمَ':{
+		{'root':u'دجم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'دَجَمَ':{
+		{'root':u'دجم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'دجن':{
+	u'دَجَنَ':{
+		{'root':u'دجن','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'سنع':{
+	u'سَنُعَ':{
+		{'root':u'سنع','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'سَنَعَ':{
+		{'root':u'سنع','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'سنع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نجّ':{
+	u'نَجَّ':{
+		{'root':u'نجج','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نشح':{
+	u'نَشَحَ':{
+		{'root':u'نشح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'فنك':{
+	u'فَنَكَ':{
+		{'root':u'فنك','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'فَنِكَ':{
+		{'root':u'فنك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نشج':{
+	u'نَشَجَ':{
+		{'root':u'نشج','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'سنخ':{
+	u'سَنَخَ':{
+		{'root':u'سنخ','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'سنخ','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'سَنِخَ':{
+		{'root':u'سنخ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دجّ':{
+	u'دَجَّ':{
+		{'root':u'دجج','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'سنج':{
+	u'سَنَجَ':{
+		{'root':u'سنج','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'سنح':{
+	u'سَنَحَ':{
+		{'root':u'سنح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'سول':{
+	u'سَوِلَ':{
+		{'root':u'سول','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نجف':{
+	u'نَجَفَ':{
+		{'root':u'نجف','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'سنا':{
+	u'سَنَا':{
+		{'root':u'سنو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'سوي':{
+	u'سَوِيَ':{
+		{'root':u'سوو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نجم':{
+	u'نَجَمَ':{
+		{'root':u'نجم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نجل':{
+	u'نَجَلَ':{
+		{'root':u'نجل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'نَجِلَ':{
+		{'root':u'نجل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نجه':{
+	u'نَجَهَ':{
+		{'root':u'نجه','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نجع':{
+	u'نَجَعَ':{
+		{'root':u'نجع','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'نجع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'نَجِعَ':{
+		{'root':u'نجع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غبر':{
+	u'غَبَرَ':{
+		{'root':u'غبر','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'غَبِرَ':{
+		{'root':u'غبر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سوس':{
+	u'سَوِسَ':{
+		{'root':u'سوس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'سوس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قنأ':{
+	u'قَنَأَ':{
+		{'root':u'قنء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نجر':{
+	u'نَجَرَ':{
+		{'root':u'نجر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'نَجِرَ':{
+		{'root':u'نجر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نجذ':{
+	u'نَجَذَ':{
+		{'root':u'نجذ','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'نجس':{
+	u'نَجِسَ':{
+		{'root':u'نجس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَجُسَ':{
+		{'root':u'نجس','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'نجز':{
+	u'نَجَزَ':{
+		{'root':u'نجز','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'نَجِزَ':{
+		{'root':u'نجز','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غبس':{
+	u'غَبِسَ':{
+		{'root':u'غبس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'غَبَسَ':{
+		{'root':u'غبس','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'سنّ':{
+	u'سَنَّ':{
+		{'root':u'سنن','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'غوى':{
+	u'غَوَى':{
+		{'root':u'غوي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نجث':{
+	u'نَجَثَ':{
+		{'root':u'نجث','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نجح':{
+	u'نَجَحَ':{
+		{'root':u'نجح','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سحج':{
+	u'سَحَجَ':{
+		{'root':u'سحج','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نجد':{
+	u'نَجِدَ':{
+		{'root':u'نجد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَجُدَ':{
+		{'root':u'نجد','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'نَجَدَ':{
+		{'root':u'نجد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نجد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نجخ':{
+	u'نَجَخَ':{
+		{'root':u'نجخ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'غسق':{
+	u'غَسِقَ':{
+		{'root':u'غسق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'غَسَقَ':{
+		{'root':u'غسق','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'غبص':{
+	u'غَبِصَ':{
+		{'root':u'غبص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نجأ':{
+	u'نَجَأَ':{
+		{'root':u'نجء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'سنم':{
+	u'سَنِمَ':{
+		{'root':u'سنم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سنق':{
+	u'سَنِقَ':{
+		{'root':u'سنق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طجن':{
+	u'طَجَنَ':{
+		{'root':u'طجن','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'غبش':{
+	u'غَبَشَ':{
+		{'root':u'غبش','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'غَبِشَ':{
+		{'root':u'غبش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شطأ':{
+	u'شَطَأَ':{
+		{'root':u'شطء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'أبأ':{
+	u'أَبَأَ':{
+		{'root':u'ءبء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'دفق':{
+	u'دَفَقَ':{
+		{'root':u'دفق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'دفق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'دَفِقَ':{
+		{'root':u'دفق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أبا':{
+	u'أَبَا':{
+		{'root':u'ءبو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'زرّ':{
+	u'زَرَّ':{
+		{'root':u'زرر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'زرر','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'زرر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عجس':{
+	u'عَجَسَ':{
+		{'root':u'عجس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'شطب':{
+	u'شَطَبَ':{
+		{'root':u'شطب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'أبث':{
+	u'أَبَثَ':{
+		{'root':u'ءبث','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'أَبِثَ':{
+		{'root':u'ءبث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خزن':{
+	u'خَزِنَ':{
+		{'root':u'خزن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'خَزُنَ':{
+		{'root':u'خزن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'خَزَنَ':{
+		{'root':u'خزن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'خزم':{
+	u'خَزَمَ':{
+		{'root':u'خزم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'شطح':{
+	u'شَطَحَ':{
+		{'root':u'شطح','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شطس':{
+	u'شَطَسَ':{
+		{'root':u'شطس','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'أبز':{
+	u'أَبَزَ':{
+		{'root':u'ءبز','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'شطر':{
+	u'شَطَرَ':{
+		{'root':u'شطر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'شطر','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'أبش':{
+	u'أَبَشَ':{
+		{'root':u'ءبش','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'أبص':{
+	u'أَبِصَ':{
+		{'root':u'ءبص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'أَبَصَ':{
+		{'root':u'ءبص','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'أبض':{
+	u'أَبِضَ':{
+		{'root':u'ءبض','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'أَبَضَ':{
+		{'root':u'ءبض','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'ءبض','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'أبط':{
+	u'أَبَطَ':{
+		{'root':u'ءبط','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'سحا':{
+	u'سَحَا':{
+		{'root':u'سحو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'سحو','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'خزّ':{
+	u'خَزَّ':{
+		{'root':u'خزز','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'خزز','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شطع':{
+	u'شَطِعَ':{
+		{'root':u'شطع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نزأ':{
+	u'نَزَأَ':{
+		{'root':u'نزء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'عزى':{
+	u'عَزَى':{
+		{'root':u'عزي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عزي':{
+	u'عَزِيَ':{
+		{'root':u'عزي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نزا':{
+	u'نَزَا':{
+		{'root':u'نزو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'قلز':{
+	u'قَلَزَ':{
+		{'root':u'قلز','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'قلز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ربس':{
+	u'رَبَسَ':{
+		{'root':u'ربس','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'عزف':{
+	u'عَزَفَ':{
+		{'root':u'عزف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عزف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عزق':{
+	u'عَزَقَ':{
+		{'root':u'عزق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عزق','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'عَزِقَ':{
+		{'root':u'عزق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'محز':{
+	u'مَحَزَ':{
+		{'root':u'محز','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'عزل':{
+	u'عَزَلَ':{
+		{'root':u'عزل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عزم':{
+	u'عَزَمَ':{
+		{'root':u'عزم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نزح':{
+	u'نَزَحَ':{
+		{'root':u'نزح','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'نزح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نزج':{
+	u'نَزَجَ':{
+		{'root':u'نزج','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'نزر':{
+	u'نَزُرَ':{
+		{'root':u'نزر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'نَزَرَ':{
+		{'root':u'نزر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'سلت':{
+	u'سَلَتَ':{
+		{'root':u'سلت','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'سلت','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'غبن':{
+	u'غَبِنَ':{
+		{'root':u'غبن','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'غَبَنَ':{
+		{'root':u'غبن','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'غبن','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'عزّ':{
+	u'عَزَّ':{
+		{'root':u'عزز','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عزز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'عزز','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'نزع':{
+	u'نَزِعَ':{
+		{'root':u'نزع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَزَعَ':{
+		{'root':u'نزع','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نهس':{
+	u'نَهِسَ':{
+		{'root':u'نهس','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	u'نَهَسَ':{
+		{'root':u'نهس','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'كزب':{
+	u'كَزِبَ':{
+		{'root':u'كزب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ربط':{
+	u'رَبَطَ':{
+		{'root':u'ربط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ربط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'جبا':{
+	u'جَبَا':{
+		{'root':u'جبو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'جبئ':{
+	u'جَبِئَ':{
+		{'root':u'جبء','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'رثى':{
+	u'رَثَى':{
+		{'root':u'رثي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'محن':{
+	u'مَحَنَ':{
+		{'root':u'محن','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'جبأ':{
+	u'جَبَأَ':{
+		{'root':u'جبء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'محك':{
+	u'مَحَكَ':{
+		{'root':u'محك','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'مَحِكَ':{
+		{'root':u'محك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'محق':{
+	u'مَحَقَ':{
+		{'root':u'محق','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'لكن':{
+	u'لَكِنَ':{
+		{'root':u'لكن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جبخ':{
+	u'جَبَخَ':{
+		{'root':u'جبخ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'جبح':{
+	u'جَبَحَ':{
+		{'root':u'جبح','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جبج':{
+	u'جَبَجَ':{
+		{'root':u'جبج','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'محى':{
+	u'مَحَى':{
+		{'root':u'محي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'محي','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'غبأ':{
+	u'غَبَأَ':{
+		{'root':u'غبء','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رثم':{
+	u'رَثَمَ':{
+		{'root':u'رثم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'رَثِمَ':{
+		{'root':u'رثم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رير':{
+	u'رَيِرَ':{
+		{'root':u'رير','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جبش':{
+	u'جَبَشَ':{
+		{'root':u'جبش','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'محّ':{
+	u'مَحَّ':{
+		{'root':u'محح','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'محح','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'محح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جبز':{
+	u'جَبَزَ':{
+		{'root':u'جبز','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'جَبُزَ':{
+		{'root':u'جبز','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'جبر':{
+	u'جَبَرَ':{
+		{'root':u'جبر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'جبذ':{
+	u'جَبَذَ':{
+		{'root':u'جبذ','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'شوه':{
+	u'شَوِهَ':{
+		{'root':u'شوه','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رنم':{
+	u'رَنِمَ':{
+		{'root':u'رنم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رثّ':{
+	u'رَثَّ':{
+		{'root':u'رثث','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'رثث','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'شوك':{
+	u'شَوِكَ':{
+		{'root':u'شوك','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'رنق':{
+	u'رَنِقَ':{
+		{'root':u'رنق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'رَنَقَ':{
+		{'root':u'رنق','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'لكّ':{
+	u'لَكَّ':{
+		{'root':u'لكك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'جبه':{
+	u'جَبَهَ':{
+		{'root':u'جبه','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	u'جَبِهَ':{
+		{'root':u'جبه','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جبن':{
+	u'جَبُنَ':{
+		{'root':u'جبن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'جَبَنَ':{
+		{'root':u'جبن','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'محا':{
+	u'مَحَا':{
+		{'root':u'محو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'جبل':{
+	u'جَبَلَ':{
+		{'root':u'جبل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'جبل','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'جَبِلَ':{
+		{'root':u'جبل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رثد':{
+	u'رَثِدَ':{
+		{'root':u'رثد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'رَثَدَ':{
+		{'root':u'رثد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ظعن':{
+	u'ظَعَنَ':{
+		{'root':u'ظعن','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شوع':{
+	u'شَوِعَ':{
+		{'root':u'شوع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لكئ':{
+	u'لَكِئَ':{
+		{'root':u'لكء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'محج':{
+	u'مَحَجَ':{
+		{'root':u'محج','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'شوص':{
+	u'شَوِصَ':{
+		{'root':u'شوص','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'خضل':{
+	u'خَضِلَ':{
+		{'root':u'خضل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شوس':{
+	u'شَوِسَ':{
+		{'root':u'شوس','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لكأ':{
+	u'لَكَأَ':{
+		{'root':u'لكء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'جبى':{
+	u'جَبَى':{
+		{'root':u'جبي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'محت':{
+	u'مَحَتَ':{
+		{'root':u'محت','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	u'مَحُتَ':{
+		{'root':u'محت','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'محص':{
+	u'مَحَصَ':{
+		{'root':u'محص','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'محش':{
+	u'مَحَشَ':{
+		{'root':u'محش','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'محط':{
+	u'مَحَطَ':{
+		{'root':u'محط','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'محض':{
+	u'مَحِضَ':{
+		{'root':u'محض','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'مَحُضَ':{
+		{'root':u'محض','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'مَحَضَ':{
+		{'root':u'محض','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'جبّ':{
+	u'جَبَّ':{
+		{'root':u'جبب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'لكع':{
+	u'لَكُعَ':{
+		{'root':u'لكع','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'لَكِعَ':{
+		{'root':u'لكع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'لَكَعَ':{
+		{'root':u'لكع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ثئد':{
+	u'ثَئِدَ':{
+		{'root':u'ثءد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لكش':{
+	u'لَكَشَ':{
+		{'root':u'لكش','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'رنا':{
+	u'رَنَا':{
+		{'root':u'رنو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'لكز':{
+	u'لَكَزَ':{
+		{'root':u'لكز','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'نحا':{
+	u'نَحَا':{
+		{'root':u'نحو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نحو','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ثئب':{
+	u'ثَئِبَ':{
+		{'root':u'ثءب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رنأ':{
+	u'رَنَأَ':{
+		{'root':u'رنء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'عزب':{
+	u'عَزَبَ':{
+		{'root':u'عزب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عزب','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'نزق':{
+	u'نَزَقَ':{
+		{'root':u'نزق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نزق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'نَزِقَ':{
+		{'root':u'نزق','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نزف':{
+	u'نَزِفَ':{
+		{'root':u'نزف','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'نَزَفَ':{
+		{'root':u'نزف','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'نزف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عزج':{
+	u'عَزَجَ':{
+		{'root':u'عزج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'عزد':{
+	u'عَزَدَ':{
+		{'root':u'عزد','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ماه':{
+	u'مَاهَ':{
+		{'root':u'موه','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ميه','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نزل':{
+	u'نَزَلَ':{
+		{'root':u'نزل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'نَزِلَ':{
+		{'root':u'نزل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عزا':{
+	u'عَزَا':{
+		{'root':u'عزو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نزّ':{
+	u'نَزَّ':{
+		{'root':u'نزز','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'وني':{
+	u'وَنِيَ':{
+		{'root':u'وني','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رقح':{
+	u'رَقَحَ':{
+		{'root':u'رقح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'عزر':{
+	u'عَزَرَ':{
+		{'root':u'عزر','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'مال':{
+	u'مَالَ':{
+		{'root':u'مول','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ميل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ربا':{
+	u'رَبَا':{
+		{'root':u'ربو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'لبد':{
+	u'لَبَدَ':{
+		{'root':u'لبد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'لبد','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'لَبِدَ':{
+		{'root':u'لبد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غبّ':{
+	u'غَبَّ':{
+		{'root':u'غبب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'غبب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'لبح':{
+	u'لَبَحَ':{
+		{'root':u'لبح','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لبج':{
+	u'لَبَجَ':{
+		{'root':u'لبج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'لبث':{
+	u'لَبِثَ':{
+		{'root':u'لبث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لبت':{
+	u'لَبَتَ':{
+		{'root':u'لبت','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'أصّ':{
+	u'أَصَّ':{
+		{'root':u'ءصص','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ءصص','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ماغ':{
+	u'مَاغَ':{
+		{'root':u'موغ','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'رعص':{
+	u'رَعَصَ':{
+		{'root':u'رعص','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'رعش':{
+	u'رَعَشَ':{
+		{'root':u'رعش','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'رَعِشَ':{
+		{'root':u'رعش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ودج':{
+	u'وَدَجَ':{
+		{'root':u'ودج','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'رعض':{
+	u'رَعَضَ':{
+		{'root':u'رعض','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لبأ':{
+	u'لَبَأَ':{
+		{'root':u'لبء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'رعس':{
+	u'رَعَسَ':{
+		{'root':u'رعس','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رعز':{
+	u'رَعَزَ':{
+		{'root':u'رعز','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ربت':{
+	u'رَبَتَ':{
+		{'root':u'ربت','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'رَبِتَ':{
+		{'root':u'ربت','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رعد':{
+	u'رَعَدَ':{
+		{'root':u'رعد','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'رعد','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أصل':{
+	u'أَصَلَ':{
+		{'root':u'ءصل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'أَصُلَ':{
+		{'root':u'ءصل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'أَصِلَ':{
+		{'root':u'ءصل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ودس':{
+	u'وَدَسَ':{
+		{'root':u'ودس','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'رعث':{
+	u'رَعَثَ':{
+		{'root':u'رعث','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'رَعِثَ':{
+		{'root':u'رعث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ودر':{
+	u'وَدَرَ':{
+		{'root':u'ودر','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'بان':{
+	u'بَانَ':{
+		{'root':u'بون','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'بين','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'باه':{
+	u'بَاهَ':{
+		{'root':u'بوه','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'بيه','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'بال':{
+	u'بَالَ':{
+		{'root':u'بول','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'رجّ':{
+	u'رَجَّ':{
+		{'root':u'رجج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'رجج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'باق':{
+	u'بَاقَ':{
+		{'root':u'بوق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'تأى':{
+	u'تَأَى':{
+		{'root':u'تءي','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ودع':{
+	u'وَدُعَ':{
+		{'root':u'ودع','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'وَدَعَ':{
+		{'root':u'ودع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ثمد':{
+	u'ثَمِدَ':{
+		{'root':u'ثمد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'ثَمَدَ':{
+		{'root':u'ثمد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ثمد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'هجي':{
+	u'هَجِيَ':{
+		{'root':u'هجي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ثمج':{
+	u'ثَمَجَ':{
+		{'root':u'ثمج','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'درّ':{
+	u'دَرَّ':{
+		{'root':u'درر','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'درر','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'درر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سنط':{
+	u'سَنِطَ':{
+		{'root':u'سنط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'سَنُطَ':{
+		{'root':u'سنط','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'هجف':{
+	u'هَجِفَ':{
+		{'root':u'هجف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'هَجَفَ':{
+		{'root':u'هجف','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'هجف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ثمأ':{
+	u'ثَمَأَ':{
+		{'root':u'ثمء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'هجم':{
+	u'هَجَمَ':{
+		{'root':u'هجم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'هجم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'هجن':{
+	u'هَجُنَ':{
+		{'root':u'هجن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'هَجَنَ':{
+		{'root':u'هجن','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'هجن','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'مآ':{
+	u'مَآ':{
+		{'root':u'مءو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'دره':{
+	u'دَرَهَ':{
+		{'root':u'دره','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ورى':{
+	u'وَرَى':{
+		{'root':u'وري','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'وري':{
+	u'وَرِيَ':{
+		{'root':u'وري','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'وري','bab':6,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'كدم':{
+	u'كَدَمَ':{
+		{'root':u'كدم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'كدم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ثمغ':{
+	u'ثَمَغَ':{
+		{'root':u'ثمغ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'كده':{
+	u'كَدَهَ':{
+		{'root':u'كده','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'كدن':{
+	u'كَدَنَ':{
+		{'root':u'كدن','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'كَدِنَ':{
+		{'root':u'كدن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كدى':{
+	u'كَدَى':{
+		{'root':u'كدي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'هجّ':{
+	u'هَجَّ':{
+		{'root':u'هجج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'هجج','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ورق':{
+	u'وَرَقَ':{
+		{'root':u'ورق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'كدي':{
+	u'كَدِيَ':{
+		{'root':u'كدو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وعب':{
+	u'وَعَبَ':{
+		{'root':u'وعب','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ورم':{
+	u'وَرِمَ':{
+		{'root':u'ورم','bab':6,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ثمر':{
+	u'ثَمَرَ':{
+		{'root':u'ثمر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'وره':{
+	u'وَرِهَ':{
+		{'root':u'وره','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'وره','bab':6,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'كدر':{
+	u'كَدِرَ':{
+		{'root':u'كدر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'كَدَرَ':{
+		{'root':u'كدر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'كَدُرَ':{
+		{'root':u'كدر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'لهق':{
+	u'لَهِقَ':{
+		{'root':u'لهق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'لَهَقَ':{
+		{'root':u'لهق','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كدس':{
+	u'كَدَسَ':{
+		{'root':u'كدس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'درس':{
+	u'دَرُسَ':{
+		{'root':u'درس','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'دَرَسَ':{
+		{'root':u'درس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'درس','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'كدش':{
+	u'كَدَشَ':{
+		{'root':u'كدش','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'هجد':{
+	u'هَجَدَ':{
+		{'root':u'هجد','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'كدع':{
+	u'كَدَعَ':{
+		{'root':u'كدع','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ثمن':{
+	u'ثَمُنَ':{
+		{'root':u'ثمن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'ثَمَنَ':{
+		{'root':u'ثمن','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'ثمن','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ثمل':{
+	u'ثَمَلَ':{
+		{'root':u'ثمل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ثمل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'ثَمِلَ':{
+		{'root':u'ثمل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مثّ':{
+	u'مَثَّ':{
+		{'root':u'مثث','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ورص':{
+	u'وَرَصَ':{
+		{'root':u'ورص','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'هجئ':{
+	u'هَجِئَ':{
+		{'root':u'هجء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هجا':{
+	u'هَجَا':{
+		{'root':u'هجو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'ورب':{
+	u'وَرِبَ':{
+		{'root':u'ورب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هجع':{
+	u'هَجَعَ':{
+		{'root':u'هجع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'كدأ':{
+	u'كَدَأَ':{
+		{'root':u'كدء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ورث':{
+	u'وَرِثَ':{
+		{'root':u'ورث','bab':6,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'درأ':{
+	u'دَرَأَ':{
+		{'root':u'درء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ذاب':{
+	u'ذَابَ':{
+		{'root':u'ذوب','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'كدا':{
+	u'كَدَا':{
+		{'root':u'كدو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'كدئ':{
+	u'كَدِئَ':{
+		{'root':u'كدء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نتس':{
+	u'نَتَسَ':{
+		{'root':u'نتس','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'هجر':{
+	u'هَجَرَ':{
+		{'root':u'هجر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'درح':{
+	u'دَرَحَ':{
+		{'root':u'درح','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	u'دَرِحَ':{
+		{'root':u'درح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هجس':{
+	u'هَجَسَ':{
+		{'root':u'هجس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'كدح':{
+	u'كَدَحَ':{
+		{'root':u'كدح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'كدج':{
+	u'كَدَجَ':{
+		{'root':u'كدج','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ثمّ':{
+	u'ثَمَّ':{
+		{'root':u'ثمم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'درب':{
+	u'دَرِبَ':{
+		{'root':u'درب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ودن':{
+	u'وَدِنَ':{
+		{'root':u'ودن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'وَدَنَ':{
+		{'root':u'ودن','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'وده':{
+	u'وَدِهَ':{
+		{'root':u'وده','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ودل':{
+	u'وَدَلَ':{
+		{'root':u'ودل','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'رجم':{
+	u'رَجَمَ':{
+		{'root':u'رجم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'باغ':{
+	u'بَاغَ':{
+		{'root':u'بيغ','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'تأر':{
+	u'تَأَرَ':{
+		{'root':u'تءر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'باظ':{
+	u'بَاظَ':{
+		{'root':u'بوظ','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'بيظ','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'باع':{
+	u'بَاعَ':{
+		{'root':u'بوع','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'بيع','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'باض':{
+	u'بَاضَ':{
+		{'root':u'بوض','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'بيض','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'باط':{
+	u'بَاطَ':{
+		{'root':u'بوط','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'باش':{
+	u'بَاشَ':{
+		{'root':u'بوش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'باص':{
+	u'بَاصَ':{
+		{'root':u'بوص','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'باز':{
+	u'بَازَ':{
+		{'root':u'بوز','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'بيز','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'باس':{
+	u'بَاسَ':{
+		{'root':u'بوس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'بيس','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'باذ':{
+	u'بَاذَ':{
+		{'root':u'بوذ','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بار':{
+	u'بَارَ':{
+		{'root':u'بور','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'باخ':{
+	u'بَاخَ':{
+		{'root':u'بوخ','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'باد':{
+	u'بَادَ':{
+		{'root':u'بيد','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'باج':{
+	u'بَاجَ':{
+		{'root':u'بوج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'باح':{
+	u'بَاحَ':{
+		{'root':u'بوح','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'بات':{
+	u'بَاتَ':{
+		{'root':u'بيت','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'باث':{
+	u'بَاثَ':{
+		{'root':u'بوث','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'بيث','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'باب':{
+	u'بَابَ':{
+		{'root':u'بوب','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'بيب','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'لزم':{
+	u'لَزِمَ':{
+		{'root':u'لزم','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'أصد':{
+	u'أَصَدَ':{
+		{'root':u'ءصد','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'رعل':{
+	u'رَعَلَ':{
+		{'root':u'رعل','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	u'رَعِلَ':{
+		{'root':u'رعل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رعن':{
+	u'رَعِنَ':{
+		{'root':u'رعن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'رَعُنَ':{
+		{'root':u'رعن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'رَعَنَ':{
+		{'root':u'رعن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'رعف':{
+	u'رَعُفَ':{
+		{'root':u'رعف','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'رَعِفَ':{
+		{'root':u'رعف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'رَعَفَ':{
+		{'root':u'رعف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'رعف','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'أصت':{
+	u'أَصَتَ':{
+		{'root':u'ءصت','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'لبّ':{
+	u'لَبَّ':{
+		{'root':u'لبب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'لبب','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'لبب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'لبب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'لبب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'لبب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'باء':{
+	u'بَاءَ':{
+		{'root':u'بوء','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ترخ':{
+	u'تَرَخَ':{
+		{'root':u'ترخ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ودئ':{
+	u'وَدِئَ':{
+		{'root':u'ودء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ترج':{
+	u'تَرَجَ':{
+		{'root':u'ترج','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'تَرِجَ':{
+		{'root':u'ترج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ترح':{
+	u'تَرِحَ':{
+		{'root':u'ترح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'علي':{
+	u'عَلِيَ':{
+		{'root':u'علو','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ذرق':{
+	u'ذَرِقَ':{
+		{'root':u'ذرق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'ذَرَقَ':{
+		{'root':u'ذرق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ذرق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ترب':{
+	u'تَرِبَ':{
+		{'root':u'ترب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'تَرَبَ':{
+		{'root':u'ترب','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'على':{
+	u'عَلَى':{
+		{'root':u'علي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'علن':{
+	u'عَلَنَ':{
+		{'root':u'علن','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'علن','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'عَلِنَ':{
+		{'root':u'علن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عله':{
+	u'عَلِهَ':{
+		{'root':u'عله','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طحّ':{
+	u'طَحَّ':{
+		{'root':u'طحح','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'علم':{
+	u'عَلَمَ':{
+		{'root':u'علم','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'علم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'عَلِمَ':{
+		{'root':u'علم','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'علق':{
+	u'عَلِقَ':{
+		{'root':u'علق','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'عَلَقَ':{
+		{'root':u'علق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ضغن':{
+	u'ضَغِنَ':{
+		{'root':u'ضغن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضغم':{
+	u'ضَغَمَ':{
+		{'root':u'ضغم','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ضغل':{
+	u'ضَغَلَ':{
+		{'root':u'ضغل','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سهو':{
+	u'سَهُوَ':{
+		{'root':u'سهو','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'طحى':{
+	u'طَحَى':{
+		{'root':u'طحي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'طحي','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'عاث':{
+	u'عَاثَ':{
+		{'root':u'عوث','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'عيث','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ترع':{
+	u'تَرِعَ':{
+		{'root':u'ترع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'تَرَعَ':{
+		{'root':u'ترع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'سهف':{
+	u'سَهِفَ':{
+		{'root':u'سهف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'سَهَفَ':{
+		{'root':u'سهف','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ترش':{
+	u'تَرِشَ':{
+		{'root':u'ترش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ترص':{
+	u'تَرُصَ':{
+		{'root':u'ترص','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ترز':{
+	u'تَرِزَ':{
+		{'root':u'ترز','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'تَرَزَ':{
+		{'root':u'ترز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ترس':{
+	u'تَرَسَ':{
+		{'root':u'ترس','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'طحل':{
+	u'طَحِلَ':{
+		{'root':u'طحل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'طَحَلَ':{
+		{'root':u'طحل','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'وعم':{
+	u'وَعَمَ':{
+		{'root':u'وعم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قاف':{
+	u'قَافَ':{
+		{'root':u'قوف','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'طسأ':{
+	u'طَسَأَ':{
+		{'root':u'طسء','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غبي':{
+	u'غَبِيَ':{
+		{'root':u'غبو','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'قال':{
+	u'قَالَ':{
+		{'root':u'قول','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'قيل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قام':{
+	u'قَامَ':{
+		{'root':u'قوم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'طسا':{
+	u'طَسَا':{
+		{'root':u'طسو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'طسئ':{
+	u'طَسِئَ':{
+		{'root':u'طسء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دني':{
+	u'دَنِيَ':{
+		{'root':u'دنو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أيك':{
+	u'أَيِكَ':{
+		{'root':u'ءيك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دنو':{
+	u'دَنُوَ':{
+		{'root':u'دنو','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'عضه':{
+	u'عَضَهَ':{
+		{'root':u'عضه','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'عَضِهَ':{
+		{'root':u'عضه','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رجل':{
+	u'رَجَلَ':{
+		{'root':u'رجل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'رَجِلَ':{
+		{'root':u'رجل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مأش':{
+	u'مَأَشَ':{
+		{'root':u'مءش','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'عدن':{
+	u'عَدَنَ':{
+		{'root':u'عدن','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'عدن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'طسع':{
+	u'طَسِعَ':{
+		{'root':u'طسع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'طَسَعَ':{
+		{'root':u'طسع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لعب':{
+	u'لَعَبَ':{
+		{'root':u'لعب','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'لَعِبَ':{
+		{'root':u'لعب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نجش':{
+	u'نَجَشَ':{
+		{'root':u'نجش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'همك':{
+	u'هَمَكَ':{
+		{'root':u'همك','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'رقم':{
+	u'رَقِمَ':{
+		{'root':u'رقم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'رَقَمَ':{
+		{'root':u'رقم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'قاء':{
+	u'قَاءَ':{
+		{'root':u'قيء','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'طسم':{
+	u'طَسِمَ':{
+		{'root':u'طسم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'طَسَمَ':{
+		{'root':u'طسم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'طسل':{
+	u'طَسَلَ':{
+		{'root':u'طسل','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'دنؤ':{
+	u'دَنُؤَ':{
+		{'root':u'دنء','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'طسى':{
+	u'طَسَى':{
+		{'root':u'طسي','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'قات':{
+	u'قَاتَ':{
+		{'root':u'قوت','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'طسي':{
+	u'طَسِيَ':{
+		{'root':u'طسي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دنخ':{
+	u'دَنَخَ':{
+		{'root':u'دنخ','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قاح':{
+	u'قَاحَ':{
+		{'root':u'قوح','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'قيح','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'قاخ':{
+	u'قَاخَ':{
+		{'root':u'قوخ','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'قاد':{
+	u'قَادَ':{
+		{'root':u'قود','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'قيد','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'طسّ':{
+	u'طَسَّ':{
+		{'root':u'طسس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'قار':{
+	u'قَارَ':{
+		{'root':u'قور','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'قاس':{
+	u'قَاسَ':{
+		{'root':u'قوس','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'قيس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قاص':{
+	u'قَاصَ':{
+		{'root':u'قيص','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'قاض':{
+	u'قَاضَ':{
+		{'root':u'قوض','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'قيض','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قاظ':{
+	u'قَاظَ':{
+		{'root':u'قيظ','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'أيس':{
+	u'أَيِسَ':{
+		{'root':u'ءيس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دنع':{
+	u'دَنَعَ':{
+		{'root':u'دنع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'دَنِعَ':{
+		{'root':u'دنع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رقي':{
+	u'رَقِيَ':{
+		{'root':u'رقي','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ضغث':{
+	u'ضَغَثَ':{
+		{'root':u'ضغث','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'علد':{
+	u'عَلِدَ':{
+		{'root':u'علد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'علج':{
+	u'عَلَجَ':{
+		{'root':u'علج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'عَلِجَ':{
+		{'root':u'علج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضغب':{
+	u'ضَغَبَ':{
+		{'root':u'ضغب','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'علث':{
+	u'عَلِثَ':{
+		{'root':u'علث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَلَثَ':{
+		{'root':u'علث','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'علب':{
+	u'عَلِبَ':{
+		{'root':u'علب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَلَبَ':{
+		{'root':u'علب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'علب','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ترى':{
+	u'تَرَى':{
+		{'root':u'تري','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'طحس':{
+	u'طَحَسَ':{
+		{'root':u'طحس','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'تره':{
+	u'تَرِهَ':{
+		{'root':u'تره','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طحر':{
+	u'طَحَرَ':{
+		{'root':u'طحر','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'طحر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ضغا':{
+	u'ضَغَا':{
+		{'root':u'ضغو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ترك':{
+	u'تَرَكَ':{
+		{'root':u'ترك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'تَرِكَ':{
+		{'root':u'ترك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شؤم':{
+	u'شَؤُمَ':{
+		{'root':u'شءم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ترف':{
+	u'تَرِفَ':{
+		{'root':u'ترف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طحث':{
+	u'طَحَثَ':{
+		{'root':u'طحث','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'دأظ':{
+	u'دَأَظَ':{
+		{'root':u'دءظ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'سهج':{
+	u'سَهَجَ':{
+		{'root':u'سهج','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'سهد':{
+	u'سَهِدَ':{
+		{'root':u'سهد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'علض':{
+	u'عَلَضَ':{
+		{'root':u'علض','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'علط':{
+	u'عَلَطَ':{
+		{'root':u'علط','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'علط','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ضغط':{
+	u'ضَغَطَ':{
+		{'root':u'ضغط','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'علس':{
+	u'عَلَسَ':{
+		{'root':u'علس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'سها':{
+	u'سَهَا':{
+		{'root':u'سهو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ترّ':{
+	u'تَرَّ':{
+		{'root':u'ترر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ترر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'ترر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ندش':{
+	u'نَدَشَ':{
+		{'root':u'ندش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ندص':{
+	u'نَدَصَ':{
+		{'root':u'ندص','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'نَدِصَ':{
+		{'root':u'ندص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مقا':{
+	u'مَقَا':{
+		{'root':u'مقو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'نوى':{
+	u'نَوَى':{
+		{'root':u'نوي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ندر':{
+	u'نَدُرَ':{
+		{'root':u'ندر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'نَدَرَ':{
+		{'root':u'ندر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'مسا':{
+	u'مَسَا':{
+		{'root':u'مسو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ندس':{
+	u'نَدِسَ':{
+		{'root':u'ندس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَدَسَ':{
+		{'root':u'ندس','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'نوم':{
+	u'نَوِمَ':{
+		{'root':u'نوم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نول':{
+	u'نَوِلَ':{
+		{'root':u'نول','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نوه':{
+	u'نَوِهَ':{
+		{'root':u'نوه','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فذّ':{
+	u'فَذَّ':{
+		{'root':u'فذذ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'فذذ','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'وصع':{
+	u'وَصَعَ':{
+		{'root':u'وصع','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'مقت':{
+	u'مَقُتَ':{
+		{'root':u'مقت','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'مَقَتَ':{
+		{'root':u'مقت','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نوق':{
+	u'نَوِقَ':{
+		{'root':u'نوق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دحس':{
+	u'دَحَسَ':{
+		{'root':u'دحس','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لبط':{
+	u'لَبَطَ':{
+		{'root':u'لبط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'دحر':{
+	u'دَحَرَ':{
+		{'root':u'دحر','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'مقط':{
+	u'مَقَطَ':{
+		{'root':u'مقط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'مقط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'مقر':{
+	u'مَقِرَ':{
+		{'root':u'مقر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'مَقَرَ':{
+		{'root':u'مقر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'دحص':{
+	u'دَحَصَ':{
+		{'root':u'دحص','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'عيط':{
+	u'عَيِطَ':{
+		{'root':u'عيط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ندح':{
+	u'نَدَحَ':{
+		{'root':u'ندح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ندخ':{
+	u'نَدَخَ':{
+		{'root':u'ندخ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'عشر':{
+	u'عَشَرَ':{
+		{'root':u'عشر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عشر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ندب':{
+	u'نَدِبَ':{
+		{'root':u'ندب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَدُبَ':{
+		{'root':u'ندب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'نَدَبَ':{
+		{'root':u'ندب','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'مقع':{
+	u'مَقَعَ':{
+		{'root':u'مقع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'رقص':{
+	u'رَقَصَ':{
+		{'root':u'رقص','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'نشف':{
+	u'نَشَفَ':{
+		{'root':u'نشف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نشف','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'نَشِفَ':{
+		{'root':u'نشف','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'بكل':{
+	u'بَكَلَ':{
+		{'root':u'بكل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ضبع':{
+	u'ضَبَعَ':{
+		{'root':u'ضبع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'ضَبِعَ':{
+		{'root':u'ضبع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فقا':{
+	u'فَقَا':{
+		{'root':u'فقو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'لبس':{
+	u'لَبَسَ':{
+		{'root':u'لبس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'لَبِسَ':{
+		{'root':u'لبس','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ضبط':{
+	u'ضَبِطَ':{
+		{'root':u'ضبط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'ضَبَطَ':{
+		{'root':u'ضبط','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'ضبط','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'رقط':{
+	u'رَقَطَ':{
+		{'root':u'رقط','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'رَقِطَ':{
+		{'root':u'رقط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضبر':{
+	u'ضَبَرَ':{
+		{'root':u'ضبر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'فقح':{
+	u'فَقَحَ':{
+		{'root':u'فقح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ضبس':{
+	u'ضَبِسَ':{
+		{'root':u'ضبس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'ضَبَسَ':{
+		{'root':u'ضبس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'أصي':{
+	u'أَصِيَ':{
+		{'root':u'ءصي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضبح':{
+	u'ضَبَحَ':{
+		{'root':u'ضبح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ضبج':{
+	u'ضَبَجَ':{
+		{'root':u'ضبج','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ضبد':{
+	u'ضَبَدَ':{
+		{'root':u'ضبد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'فقس':{
+	u'فَقَسَ':{
+		{'root':u'فقس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'فقش':{
+	u'فَقَشَ':{
+		{'root':u'فقش','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'فقص':{
+	u'فَقَصَ':{
+		{'root':u'فقص','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ضبث':{
+	u'ضَبَثَ':{
+		{'root':u'ضبث','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'مذى':{
+	u'مَذَى':{
+		{'root':u'مذي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'فقع':{
+	u'فَقِعَ':{
+		{'root':u'فقع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'فَقَعَ':{
+		{'root':u'فقع','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'فقع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ضبا':{
+	u'ضَبَا':{
+		{'root':u'ضبو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'مذق':{
+	u'مَذَقَ':{
+		{'root':u'مذق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ضبأ':{
+	u'ضَبَأَ':{
+		{'root':u'ضبء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نشل':{
+	u'نَشَلَ':{
+		{'root':u'نشل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نشل','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'رمل':{
+	u'رَمَلَ':{
+		{'root':u'رمل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'كدّ':{
+	u'كَدَّ':{
+		{'root':u'كدد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'فقم':{
+	u'فَقِمَ':{
+		{'root':u'فقم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'فَقَمَ':{
+		{'root':u'فقم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'فَقُمَ':{
+		{'root':u'فقم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'فقه':{
+	u'فَقُهَ':{
+		{'root':u'فقه','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'فَقِهَ':{
+		{'root':u'فقه','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ضبّ':{
+	u'ضَبَّ':{
+		{'root':u'ضبب','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'ضبب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'ضبب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'ضبب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'ضبب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'ضبب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'مذر':{
+	u'مَذِرَ':{
+		{'root':u'مذر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فقّ':{
+	u'فَقَّ':{
+		{'root':u'فقق','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'فقق','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'نصا':{
+	u'نَصَا':{
+		{'root':u'نصو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'مذح':{
+	u'مَذِحَ':{
+		{'root':u'مذح','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ضبى':{
+	u'ضَبَى':{
+		{'root':u'ضبي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'مأى':{
+	u'مَأَى':{
+		{'root':u'مءي','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لكد':{
+	u'لَكَدَ':{
+		{'root':u'لكد','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'لَكِدَ':{
+		{'root':u'لكد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خرم':{
+	u'خَرِمَ':{
+		{'root':u'خرم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'خَرَمَ':{
+		{'root':u'خرم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'خَرُمَ':{
+		{'root':u'خرم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ضبن':{
+	u'ضَبَنَ':{
+		{'root':u'ضبن','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'ضَبِنَ':{
+		{'root':u'ضبن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سته':{
+	u'سَتِهَ':{
+		{'root':u'سته','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'سَتَهَ':{
+		{'root':u'سته','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'رمه':{
+	u'رَمِهَ':{
+		{'root':u'رمه','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خنق':{
+	u'خَنَقَ':{
+		{'root':u'خنق','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'مقل':{
+	u'مَقَلَ':{
+		{'root':u'مقل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'عيف':{
+	u'عَيِفَ':{
+		{'root':u'عيف','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'لسم':{
+	u'لَسِمَ':{
+		{'root':u'لسم','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'لَسَمَ':{
+		{'root':u'لسم','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'عيم':{
+	u'عَيِمَ':{
+		{'root':u'عيم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عين':{
+	u'عَيِنَ':{
+		{'root':u'عين','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دحل':{
+	u'دَحِلَ':{
+		{'root':u'دحل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'دَحَلَ':{
+		{'root':u'دحل','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'وعز':{
+	u'وَعَزَ':{
+		{'root':u'وعز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'وعس':{
+	u'وَعَسَ':{
+		{'root':u'وعس','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'دحى':{
+	u'دَحَى':{
+		{'root':u'دحي','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'مقى':{
+	u'مَقَى':{
+		{'root':u'مقي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ندل':{
+	u'نَدَلَ':{
+		{'root':u'ندل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'نَدِلَ':{
+		{'root':u'ندل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عيّ':{
+	u'عَيَّ':{
+		{'root':u'عيي','bab':4,'transitive':u'ك','haraka':u'َ'},
+		{'root':u'عيي','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'دحّ':{
+	u'دَحَّ':{
+		{'root':u'دحح','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نده':{
+	u'نَدَهَ':{
+		{'root':u'نده','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'مقّ':{
+	u'مَقَّ':{
+		{'root':u'مقق','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'مقق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زاك':{
+	u'زَاكَ':{
+		{'root':u'زوك','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'زيك','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'دعج':{
+	u'دَعِجَ':{
+		{'root':u'دعج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وكظ':{
+	u'وَكَظَ':{
+		{'root':u'وكظ','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ندي':{
+	u'نَدِيَ':{
+		{'root':u'ندو','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'كسح':{
+	u'كَسِحَ':{
+		{'root':u'كسح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'كَسَحَ':{
+		{'root':u'كسح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'كسد':{
+	u'كَسُدَ':{
+		{'root':u'كسد','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'كَسَدَ':{
+		{'root':u'كسد','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'وكع':{
+	u'وَكِعَ':{
+		{'root':u'وكع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'وَكَعَ':{
+		{'root':u'وكع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'وَكُعَ':{
+		{'root':u'وكع','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'وقى':{
+	u'وَقَى':{
+		{'root':u'وقي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'كسب':{
+	u'كَسَبَ':{
+		{'root':u'كسب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'وصم':{
+	u'وَصَمَ':{
+		{'root':u'وصم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'خول':{
+	u'خَوِلَ':{
+		{'root':u'خول','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وقم':{
+	u'وَقَمَ':{
+		{'root':u'وقم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'هجل':{
+	u'هَجَلَ':{
+		{'root':u'هجل','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'كسا':{
+	u'كَسَا':{
+		{'root':u'كسو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'رقا':{
+	u'رَقَا':{
+		{'root':u'رقو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'وقف':{
+	u'وَقَفَ':{
+		{'root':u'وقف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'كتب':{
+	u'كَتَبَ':{
+		{'root':u'كتب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'كتب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'كسأ':{
+	u'كَسَأَ':{
+		{'root':u'كسء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ذعط':{
+	u'ذَعَطَ':{
+		{'root':u'ذعط','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'لكح':{
+	u'لَكَحَ':{
+		{'root':u'لكح','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'كسع':{
+	u'كَسَعَ':{
+		{'root':u'كسع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لاج':{
+	u'لَاجَ':{
+		{'root':u'لوج','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'رأم':{
+	u'رَأَمَ':{
+		{'root':u'رءم','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'رسا':{
+	u'رَسَا':{
+		{'root':u'رسو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'رأى':{
+	u'رَأَى':{
+		{'root':u'رءي','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'رذم':{
+	u'رَذَمَ':{
+		{'root':u'رذم','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'رذم','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'رَذِمَ':{
+		{'root':u'رذم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كسر':{
+	u'كَسَرَ':{
+		{'root':u'كسر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'درى':{
+	u'دَرَى':{
+		{'root':u'دري','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'شنج':{
+	u'شَنِجَ':{
+		{'root':u'شنج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ظمئ':{
+	u'ظَمِئَ':{
+		{'root':u'ظمء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ثجا':{
+	u'ثَجَا':{
+		{'root':u'ثجو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'شنب':{
+	u'شَنِبَ':{
+		{'root':u'شنب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شنث':{
+	u'شَنِثَ':{
+		{'root':u'شنث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'درن':{
+	u'دَرِنَ':{
+		{'root':u'درن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شنئ':{
+	u'شَنِئَ':{
+		{'root':u'شنء','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'درم':{
+	u'دَرَمَ':{
+		{'root':u'درم','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'دَرِمَ':{
+		{'root':u'درم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شنأ':{
+	u'شَنَأَ':{
+		{'root':u'شنء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'هتّ':{
+	u'هَتَّ':{
+		{'root':u'هتت','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'هتت','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'صأم':{
+	u'صَأَمَ':{
+		{'root':u'صءم','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'شنع':{
+	u'شَنَعَ':{
+		{'root':u'شنع','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	u'شَنِعَ':{
+		{'root':u'شنع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'شَنُعَ':{
+		{'root':u'شنع','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ثجر':{
+	u'ثَجِرَ':{
+		{'root':u'ثجر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'ثَجَرَ':{
+		{'root':u'ثجر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'ذرف':{
+	u'ذَرَفَ':{
+		{'root':u'ذرف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'ذَرِفَ':{
+		{'root':u'ذرف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شنص':{
+	u'شَنَصَ':{
+		{'root':u'شنص','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'شَنِصَ':{
+		{'root':u'شنص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بكى':{
+	u'بَكَى':{
+		{'root':u'بكي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'هتل':{
+	u'هَتَلَ':{
+		{'root':u'هتل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'هتم':{
+	u'هَتَمَ':{
+		{'root':u'هتم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'هَتِمَ':{
+		{'root':u'هتم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هتك':{
+	u'هَتَكَ':{
+		{'root':u'هتك','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'صأى':{
+	u'صَأَى':{
+		{'root':u'صءي','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هتف':{
+	u'هَتَفَ':{
+		{'root':u'هتف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ثجل':{
+	u'ثَجِلَ':{
+		{'root':u'ثجل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ثجم':{
+	u'ثَجِمَ':{
+		{'root':u'ثجم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'ثَجَمَ':{
+		{'root':u'ثجم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'هتع':{
+	u'هَتَعَ':{
+		{'root':u'هتع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شنم':{
+	u'شَنَمَ':{
+		{'root':u'شنم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'خشم':{
+	u'خَشَمَ':{
+		{'root':u'خشم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'خَشِمَ':{
+		{'root':u'خشم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هتش':{
+	u'هَتَشَ':{
+		{'root':u'هتش','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'لاص':{
+	u'لَاصَ':{
+		{'root':u'لوص','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ليص','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'شنف':{
+	u'شَنَفَ':{
+		{'root':u'شنف','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'شنف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'شَنِفَ':{
+		{'root':u'شنف','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ظمي':{
+	u'ظَمِيَ':{
+		{'root':u'ظمي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شنق':{
+	u'شَنَقَ':{
+		{'root':u'شنق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'شنق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'شَنِقَ':{
+		{'root':u'شنق','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'روق':{
+	u'رَوِقَ':{
+		{'root':u'روق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طبخ':{
+	u'طَبَخَ':{
+		{'root':u'طبخ','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'طبخ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ربّ':{
+	u'رَبَّ':{
+		{'root':u'ربب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ثجّ':{
+	u'ثَجَّ':{
+		{'root':u'ثجج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ثجج','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'سود':{
+	u'سَوِدَ':{
+		{'root':u'سود','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ورف':{
+	u'وَرَفَ':{
+		{'root':u'ورف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'هتئ':{
+	u'هَتِئَ':{
+		{'root':u'هتء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هتا':{
+	u'هَتَا':{
+		{'root':u'هتو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'دشا':{
+	u'دَشَا':{
+		{'root':u'دشو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'شنّ':{
+	u'شَنَّ':{
+		{'root':u'شنن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'شنن','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'هتأ':{
+	u'هَتَأَ':{
+		{'root':u'هتء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'متى':{
+	u'مَتَى':{
+		{'root':u'متي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'وقح':{
+	u'وَقُحَ':{
+		{'root':u'وقح','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'وَقَحَ':{
+		{'root':u'وقح','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'وَقِحَ':{
+		{'root':u'وقح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وقد':{
+	u'وَقَدَ':{
+		{'root':u'وقد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'لاع':{
+	u'لَاعَ':{
+		{'root':u'لوع','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ليع','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'وقب':{
+	u'وَقَبَ':{
+		{'root':u'وقب','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'كسي':{
+	u'كَسِيَ':{
+		{'root':u'كسو','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'كسم':{
+	u'كَسَمَ':{
+		{'root':u'كسم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'كسل':{
+	u'كَسِلَ':{
+		{'root':u'كسل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كسف':{
+	u'كَسَفَ':{
+		{'root':u'كسف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'رئم':{
+	u'رَئِمَ':{
+		{'root':u'رءم','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'وقع':{
+	u'وَقَعَ':{
+		{'root':u'وقع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'وَقِعَ':{
+		{'root':u'وقع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وقظ':{
+	u'وَقَظَ':{
+		{'root':u'وقظ','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'راض':{
+	u'رَاضَ':{
+		{'root':u'روض','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'كظم':{
+	u'كَظَمَ':{
+		{'root':u'كظم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'كَظُمَ':{
+		{'root':u'كظم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'وقش':{
+	u'وَقَشَ':{
+		{'root':u'وقش','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'وقط':{
+	u'وَقَطَ':{
+		{'root':u'وقط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'رأب':{
+	u'رَأَبَ':{
+		{'root':u'رءب','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'كسّ':{
+	u'كَسَّ':{
+		{'root':u'كسس','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'كسس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وقذ':{
+	u'وَقَذَ':{
+		{'root':u'وقذ','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'وصف':{
+	u'وَصَفَ':{
+		{'root':u'وصف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'وَصُفَ':{
+		{'root':u'وصف','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بدن':{
+	u'بَدُنَ':{
+		{'root':u'بدن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'بَدَنَ':{
+		{'root':u'بدن','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بده':{
+	u'بَدَهَ':{
+		{'root':u'بده','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'بدل':{
+	u'بَدِلَ':{
+		{'root':u'بدل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'بَدَلَ':{
+		{'root':u'بدل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'صري':{
+	u'صَرِيَ':{
+		{'root':u'صري','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خرك':{
+	u'خَرِكَ':{
+		{'root':u'خرك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ورع':{
+	u'وَرُعَ':{
+		{'root':u'ورع','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'وَرَعَ':{
+		{'root':u'ورع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'وَرِعَ':{
+		{'root':u'ورع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'ورع','bab':6,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'صرف':{
+	u'صَرَفَ':{
+		{'root':u'صرف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'راس':{
+	u'رَاسَ':{
+		{'root':u'روس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ريس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'بدي':{
+	u'بَدِيَ':{
+		{'root':u'بدي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خفد':{
+	u'خَفَدَ':{
+		{'root':u'خفد','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'خَفِدَ':{
+		{'root':u'خفد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خفج':{
+	u'خَفِجَ':{
+		{'root':u'خفج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'خَفَجَ':{
+		{'root':u'خفج','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'خفس':{
+	u'خَفَسَ':{
+		{'root':u'خفس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قمط':{
+	u'قَمَطَ':{
+		{'root':u'قمط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'قمط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'خفر':{
+	u'خَفِرَ':{
+		{'root':u'خفر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'خَفَرَ':{
+		{'root':u'خفر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'خفر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'خفض':{
+	u'خَفُضَ':{
+		{'root':u'خفض','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'خَفَضَ':{
+		{'root':u'خفض','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'خفش':{
+	u'خَفِشَ':{
+		{'root':u'خفش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'خَفَشَ':{
+		{'root':u'خفش','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بدّ':{
+	u'بَدَّ':{
+		{'root':u'بدد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'بدد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'صرّ':{
+	u'صَرَّ':{
+		{'root':u'صرر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'صرر','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'خنأ':{
+	u'خَنَأَ':{
+		{'root':u'خنء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'دعم':{
+	u'دَعَمَ':{
+		{'root':u'دعم','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'خفع':{
+	u'خَفَعَ':{
+		{'root':u'خفع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'وعظ':{
+	u'وَعَظَ':{
+		{'root':u'وعظ','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'دعق':{
+	u'دَعَقَ':{
+		{'root':u'دعق','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'درز':{
+	u'دَرَزَ':{
+		{'root':u'درز','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'دَرِزَ':{
+		{'root':u'درز','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عبت':{
+	u'عَبَتَ':{
+		{'root':u'عبت','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'عبث':{
+	u'عَبِثَ':{
+		{'root':u'عبث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَبَثَ':{
+		{'root':u'عبث','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'وعق':{
+	u'وَعِقَ':{
+		{'root':u'وعق','bab':6,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'وَعَقَ':{
+		{'root':u'وعق','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'وطح':{
+	u'وَطَحَ':{
+		{'root':u'وطح','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'صنج':{
+	u'صَنَجَ':{
+		{'root':u'صنج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'طعز':{
+	u'طَعَزَ':{
+		{'root':u'طعز','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'صنخ':{
+	u'صَنِخَ':{
+		{'root':u'صنخ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ربك':{
+	u'رَبِكَ':{
+		{'root':u'ربك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'رَبَكَ':{
+		{'root':u'ربك','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'وطئ':{
+	u'وَطِئَ':{
+		{'root':u'وطء','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'عبأ':{
+	u'عَبَأَ':{
+		{'root':u'عبء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'وطؤ':{
+	u'وَطُؤَ':{
+		{'root':u'وطء','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'قسط':{
+	u'قَسِطَ':{
+		{'root':u'قسط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'قَسَطَ':{
+		{'root':u'قسط','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'عبا':{
+	u'عَبَا':{
+		{'root':u'عبو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'خطل':{
+	u'خَطِلَ':{
+		{'root':u'خطل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'صنع':{
+	u'صَنِعَ':{
+		{'root':u'صنع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'صَنَعَ':{
+		{'root':u'صنع','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'زنف':{
+	u'زَنِفَ':{
+		{'root':u'زنف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'راج':{
+	u'رَاجَ':{
+		{'root':u'روج','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'قسب':{
+	u'قَسُبَ':{
+		{'root':u'قسب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'قَسَبَ':{
+		{'root':u'قسب','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'مقه':{
+	u'مَقِهَ':{
+		{'root':u'مقه','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زنم':{
+	u'زَنِمَ':{
+		{'root':u'زنم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'زَنَمَ':{
+		{'root':u'زنم','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'طثّ':{
+	u'طَثَّ':{
+		{'root':u'طثث','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'عبس':{
+	u'عَبِسَ':{
+		{'root':u'عبس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَبَسَ':{
+		{'root':u'عبس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عته':{
+	u'عَتِهَ':{
+		{'root':u'عته','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طعج':{
+	u'طَعَجَ':{
+		{'root':u'طعج','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'رطئ':{
+	u'رَطِئَ':{
+		{'root':u'رطء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عبط':{
+	u'عَبَطَ':{
+		{'root':u'عبط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عبش':{
+	u'عَبَشَ':{
+		{'root':u'عبش','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'زنر':{
+	u'زَنَرَ':{
+		{'root':u'زنر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'عبى':{
+	u'عَبَى':{
+		{'root':u'عبي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'خطر':{
+	u'خَطُرَ':{
+		{'root':u'خطر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'خَطَرَ':{
+		{'root':u'خطر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'خطر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'طعّ':{
+	u'طَعَّ':{
+		{'root':u'طعع','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'عبق':{
+	u'عَبِقَ':{
+		{'root':u'عبق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عبك':{
+	u'عَبَكَ':{
+		{'root':u'عبك','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'صنق':{
+	u'صَنِقَ':{
+		{'root':u'صنق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وطم':{
+	u'وَطِمَ':{
+		{'root':u'وطم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'وَطَمَ':{
+		{'root':u'وطم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'صنم':{
+	u'صَنِمَ':{
+		{'root':u'صنم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طثا':{
+	u'طَثَا':{
+		{'root':u'طثو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'عبم':{
+	u'عَبُمَ':{
+		{'root':u'عبم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'زنأ':{
+	u'زَنَأَ':{
+		{'root':u'زنء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'طعن':{
+	u'طَعَنَ':{
+		{'root':u'طعن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'طعن','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'طعم':{
+	u'طَعِمَ':{
+		{'root':u'طعم','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'طعل':{
+	u'طَعَلَ':{
+		{'root':u'طعل','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ورض':{
+	u'وَرَضَ':{
+		{'root':u'ورض','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'خطأ':{
+	u'خَطَأَ':{
+		{'root':u'خطء','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طثر':{
+	u'طَثَرَ':{
+		{'root':u'طثر','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'أذج':{
+	u'أَذَجَ':{
+		{'root':u'ءذج','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'خنث':{
+	u'خَنَثَ':{
+		{'root':u'خنث','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'خَنِثَ':{
+		{'root':u'خنث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عبّ':{
+	u'عَبَّ':{
+		{'root':u'عبب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'خطب':{
+	u'خَطِبَ':{
+		{'root':u'خطب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'خَطُبَ':{
+		{'root':u'خطب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'خَطَبَ':{
+		{'root':u'خطب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'زنخ':{
+	u'زَنِخَ':{
+		{'root':u'زنخ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'زَنَخَ':{
+		{'root':u'زنخ','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'زنخ','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'زنح':{
+	u'زَنَحَ':{
+		{'root':u'زنح','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'وطّ':{
+	u'وَطَّ':{
+		{'root':u'وطط','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'خفق':{
+	u'خَفَقَ':{
+		{'root':u'خفق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'خفق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'بدا':{
+	u'بَدَا':{
+		{'root':u'بدو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'وشك':{
+	u'وَشُكَ':{
+		{'root':u'وشك','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'صرح':{
+	u'صَرُحَ':{
+		{'root':u'صرح','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'صَرَحَ':{
+		{'root':u'صرح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'بدأ':{
+	u'بَدَأَ':{
+		{'root':u'بدء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'صرد':{
+	u'صَرَدَ':{
+		{'root':u'صرد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'صَرِدَ':{
+		{'root':u'صرد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'صرخ':{
+	u'صَرَخَ':{
+		{'root':u'صرخ','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بدخ':{
+	u'بَدَخَ':{
+		{'root':u'بدخ','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دعص':{
+	u'دَعَصَ':{
+		{'root':u'دعص','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'بدح':{
+	u'بَدَحَ':{
+		{'root':u'بدح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'دعس':{
+	u'دَعَسَ':{
+		{'root':u'دعس','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'دعز':{
+	u'دَعَزَ':{
+		{'root':u'دعز','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'صرا':{
+	u'صَرَا':{
+		{'root':u'صرو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'متّ':{
+	u'مَتَّ':{
+		{'root':u'متت','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'صرع':{
+	u'صَرَعَ':{
+		{'root':u'صرع','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'دقن':{
+	u'دَقَنَ':{
+		{'root':u'دقن','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'وكف':{
+	u'وَكِفَ':{
+		{'root':u'وكف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'وَكَفَ':{
+		{'root':u'وكف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ناد':{
+	u'نَادَ':{
+		{'root':u'نود','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بدس':{
+	u'بَدَسَ':{
+		{'root':u'بدس','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'بدر':{
+	u'بَدَرَ':{
+		{'root':u'بدر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'دعا':{
+	u'دَعَا':{
+		{'root':u'دعو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'خنس':{
+	u'خَنَسَ':{
+		{'root':u'خنس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'خنس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'خَنِسَ':{
+		{'root':u'خنس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بدغ':{
+	u'بَدِغَ':{
+		{'root':u'بدغ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'بَدُغَ':{
+		{'root':u'بدغ','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'رقّ':{
+	u'رَقَّ':{
+		{'root':u'رقق','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'رقق','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'بدع':{
+	u'بَدُعَ':{
+		{'root':u'بدع','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'بَدِعَ':{
+		{'root':u'بدع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'بَدَعَ':{
+		{'root':u'بدع','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'دثر':{
+	u'دَثَرَ':{
+		{'root':u'دثر','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'هضب':{
+	u'هَضَبَ':{
+		{'root':u'هضب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'وصد':{
+	u'وَصَدَ':{
+		{'root':u'وصد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ورخ':{
+	u'وَرِخَ':{
+		{'root':u'ورخ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غزّ':{
+	u'غَزَّ':{
+		{'root':u'غزز','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'خمد':{
+	u'خَمَدَ':{
+		{'root':u'خمد','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'خَمِدَ':{
+		{'root':u'خمد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دثع':{
+	u'دَثَعَ':{
+		{'root':u'دثع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ورد':{
+	u'وَرَدَ':{
+		{'root':u'ورد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'وَرُدَ':{
+		{'root':u'ورد','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ربأ':{
+	u'رَبَأَ':{
+		{'root':u'ربء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'خمج':{
+	u'خَمِجَ':{
+		{'root':u'خمج','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'حظر':{
+	u'حَظَرَ':{
+		{'root':u'حظر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'درد':{
+	u'دَرِدَ':{
+		{'root':u'درد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غزل':{
+	u'غَزِلَ':{
+		{'root':u'غزل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'غَزَلَ':{
+		{'root':u'غزل','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'حظب':{
+	u'حَظِبَ':{
+		{'root':u'حظب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'حَظَبَ':{
+		{'root':u'حظب','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'حظب','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'مرز':{
+	u'مَرَزَ':{
+		{'root':u'مرز','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'حظا':{
+	u'حَظَا':{
+		{'root':u'حظو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'رمد':{
+	u'رَمَدَ':{
+		{'root':u'رمد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'رمد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'رَمِدَ':{
+		{'root':u'رمد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وشق':{
+	u'وَشَقَ':{
+		{'root':u'وشق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'وَشِقَ':{
+		{'root':u'وشق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أدر':{
+	u'أَدِرَ':{
+		{'root':u'ءدر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'برع':{
+	u'بَرُعَ':{
+		{'root':u'برع','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'بَرَعَ':{
+		{'root':u'برع','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'بَرِعَ':{
+		{'root':u'برع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'برغ':{
+	u'بَرِغَ':{
+		{'root':u'برغ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بكّ':{
+	u'بَكَّ':{
+		{'root':u'بكك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'تعس':{
+	u'تَعَسَ':{
+		{'root':u'تعس','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'تَعِسَ':{
+		{'root':u'تعس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضهي':{
+	u'ضَهِيَ':{
+		{'root':u'ضهي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'تعر':{
+	u'تَعَرَ':{
+		{'root':u'تعر','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضهل':{
+	u'ضَهَلَ':{
+		{'root':u'ضهل','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'هجش':{
+	u'هَجَشَ':{
+		{'root':u'هجش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'برز':{
+	u'بَرُزَ':{
+		{'root':u'برز','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'بَرِزَ':{
+		{'root':u'برز','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'بَرَزَ':{
+		{'root':u'برز','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'برس':{
+	u'بَرِسَ':{
+		{'root':u'برس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'برش':{
+	u'بَرِشَ':{
+		{'root':u'برش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'برص':{
+	u'بَرِصَ':{
+		{'root':u'برص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'برض':{
+	u'بَرَضَ':{
+		{'root':u'برض','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'برض','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'فلع':{
+	u'فَلَعَ':{
+		{'root':u'فلع','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'فلا':{
+	u'فَلَا':{
+		{'root':u'فلو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'برت':{
+	u'بَرِتَ':{
+		{'root':u'برت','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'برث':{
+	u'بَرِثَ':{
+		{'root':u'برث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'برج':{
+	u'بَرَجَ':{
+		{'root':u'برج','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'بَرِجَ':{
+		{'root':u'برج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'برح':{
+	u'بَرَحَ':{
+		{'root':u'برح','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'بَرِحَ':{
+		{'root':u'برح','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'أدا':{
+	u'أَدَا':{
+		{'root':u'ءدو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'برد':{
+	u'بَرَدَ':{
+		{'root':u'برد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'بَرُدَ':{
+		{'root':u'برد','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'فلخ':{
+	u'فَلَخَ':{
+		{'root':u'فلخ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'أدب':{
+	u'أَدَبَ':{
+		{'root':u'ءدب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'أَدُبَ':{
+		{'root':u'ءدب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'فلج':{
+	u'فَلَجَ':{
+		{'root':u'فلج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'فلج','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'فَلِجَ':{
+		{'root':u'فلج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'برأ':{
+	u'بَرَأَ':{
+		{'root':u'برء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'برؤ':{
+	u'بَرُؤَ':{
+		{'root':u'برء','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ذلق':{
+	u'ذَلَقَ':{
+		{'root':u'ذلق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'ذَلِقَ':{
+		{'root':u'ذلق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'ذَلُقَ':{
+		{'root':u'ذلق','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'برئ':{
+	u'بَرِئَ':{
+		{'root':u'برء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'برا':{
+	u'بَرَا':{
+		{'root':u'برو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'أدّ':{
+	u'أَدَّ':{
+		{'root':u'ءدد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ءدد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'بكس':{
+	u'بَكَسَ':{
+		{'root':u'بكس','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'شجّ':{
+	u'شَجَّ':{
+		{'root':u'شجج','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'شجج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بكر':{
+	u'بَكِرَ':{
+		{'root':u'بكر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'بَكَرَ':{
+		{'root':u'بكر','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ضهب':{
+	u'ضَهَبَ':{
+		{'root':u'ضهب','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ذلغ':{
+	u'ذَلَغَ':{
+		{'root':u'ذلغ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'ذَلِغَ':{
+		{'root':u'ذلغ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بكش':{
+	u'بَكَشَ':{
+		{'root':u'بكش','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'تعّ':{
+	u'تَعَّ':{
+		{'root':u'تعع','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'تعع','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'برّ':{
+	u'بَرَّ':{
+		{'root':u'برر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'برر','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'بكع':{
+	u'بَكَعَ':{
+		{'root':u'بكع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'وبر':{
+	u'وَبِرَ':{
+		{'root':u'وبر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'وَبَرَ':{
+		{'root':u'وبر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'تها':{
+	u'تَهَا':{
+		{'root':u'تهو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'برى':{
+	u'بَرَى':{
+		{'root':u'بري','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'تعل':{
+	u'تَعِلَ':{
+		{'root':u'تعل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ذلج':{
+	u'ذَلَجَ':{
+		{'root':u'ذلج','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'أدم':{
+	u'أَدُمَ':{
+		{'root':u'ءدم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'أَدِمَ':{
+		{'root':u'ءدم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'أَدَمَ':{
+		{'root':u'ءدم','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'ءدم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'أدل':{
+	u'أَدَلَ':{
+		{'root':u'ءدل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'بكؤ':{
+	u'بَكُؤَ':{
+		{'root':u'بكء','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بكت':{
+	u'بَكَتَ':{
+		{'root':u'بكت','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'شجي':{
+	u'شَجِيَ':{
+		{'root':u'شجو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'برق':{
+	u'بَرِقَ':{
+		{'root':u'برق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'بَرَقَ':{
+		{'root':u'برق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'برك':{
+	u'بَرَكَ':{
+		{'root':u'برك','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'فلي':{
+	u'فَلِيَ':{
+		{'root':u'فلي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'برم':{
+	u'بَرَمَ':{
+		{'root':u'برم','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'بَرِمَ':{
+		{'root':u'برم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضهز':{
+	u'ضَهَزَ':{
+		{'root':u'ضهز','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'تعى':{
+	u'تَعَى':{
+		{'root':u'تعي','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دثّ':{
+	u'دَثَّ':{
+		{'root':u'دثث','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'دثث','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ضزّ':{
+	u'ضَزَّ':{
+		{'root':u'ضزز','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'تأز':{
+	u'تَأَزَ':{
+		{'root':u'تءز','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غزر':{
+	u'غَزُرَ':{
+		{'root':u'غزر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'خمّ':{
+	u'خَمَّ':{
+		{'root':u'خمم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'خمم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'سام':{
+	u'سَامَ':{
+		{'root':u'سوم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'وبش':{
+	u'وَبِشَ':{
+		{'root':u'وبش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لزب':{
+	u'لَزَبَ':{
+		{'root':u'لزب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'لزب','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'لَزُبَ':{
+		{'root':u'لزب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'لَزِبَ':{
+		{'root':u'لزب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حظّ':{
+	u'حَظَّ':{
+		{'root':u'حظظ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غزا':{
+	u'غَزَا':{
+		{'root':u'غزو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'رهز':{
+	u'رَهَزَ':{
+		{'root':u'رهز','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لجذ':{
+	u'لَجَذَ':{
+		{'root':u'لجذ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'لَجِذَ':{
+		{'root':u'لجذ','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'حظي':{
+	u'حَظِيَ':{
+		{'root':u'حظو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضزن':{
+	u'ضَزَنَ':{
+		{'root':u'ضزن','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'ضزن','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'همذ':{
+	u'هَمَذَ':{
+		{'root':u'همذ','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'لبن':{
+	u'لَبِنَ':{
+		{'root':u'لبن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'لَبَنَ':{
+		{'root':u'لبن','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'لبن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'وعى':{
+	u'وَعَى':{
+		{'root':u'وعي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حظل':{
+	u'حَظَلَ':{
+		{'root':u'حظل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حظل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'حَظِلَ':{
+		{'root':u'حظل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هضّ':{
+	u'هَضَّ':{
+		{'root':u'هضض','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'سرط':{
+	u'سَرِطَ':{
+		{'root':u'سرط','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	u'سَرَطَ':{
+		{'root':u'سرط','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'وصل':{
+	u'وَصَلَ':{
+		{'root':u'وصل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'سطر':{
+	u'سَطَرَ':{
+		{'root':u'سطر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'رصا':{
+	u'رَصَا':{
+		{'root':u'رصو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'دغن':{
+	u'دَغَنَ':{
+		{'root':u'دغن','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خرس':{
+	u'خَرَسَ':{
+		{'root':u'خرس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'خَرِسَ':{
+		{'root':u'خرس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لبك':{
+	u'لَبَكَ':{
+		{'root':u'لبك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'لَبِكَ':{
+		{'root':u'لبك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خمع':{
+	u'خَمَعَ':{
+		{'root':u'خمع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نمه':{
+	u'نَمِهَ':{
+		{'root':u'نمه','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لبق':{
+	u'لَبَقَ':{
+		{'root':u'لبق','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'لَبِقَ':{
+		{'root':u'لبق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'لَبُقَ':{
+		{'root':u'لبق','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'رام':{
+	u'رَامَ':{
+		{'root':u'روم','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'ريم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'خثر':{
+	u'خَثَرَ':{
+		{'root':u'خثر','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'خَثِرَ':{
+		{'root':u'خثر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'خَثُرَ':{
+		{'root':u'خثر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ماج':{
+	u'مَاجَ':{
+		{'root':u'موج','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'ميج','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'قأب':{
+	u'قَأَبَ':{
+		{'root':u'قءب','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ودى':{
+	u'وَدَى':{
+		{'root':u'ودي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ومض':{
+	u'وَمَضَ':{
+		{'root':u'ومض','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'خمش':{
+	u'خَمَشَ':{
+		{'root':u'خمش','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'خمش','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'خرط':{
+	u'خَرَطَ':{
+		{'root':u'خرط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'خرط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'خَرِطَ':{
+		{'root':u'خرط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أصا':{
+	u'أَصَا':{
+		{'root':u'ءصو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'خمص':{
+	u'خَمُصَ':{
+		{'root':u'خمص','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'خَمِصَ':{
+		{'root':u'خمص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'خَمَصَ':{
+		{'root':u'خمص','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'جآ':{
+	u'جَآ':{
+		{'root':u'جءو','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'خرش':{
+	u'خَرَشَ':{
+		{'root':u'خرش','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'جمئ':{
+	u'جَمِئَ':{
+		{'root':u'جمء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نصّ':{
+	u'نَصَّ':{
+		{'root':u'نصص','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نصص','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ناش':{
+	u'نَاشَ':{
+		{'root':u'نوش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'طفن':{
+	u'طَفَنَ':{
+		{'root':u'طفن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ناض':{
+	u'نَاضَ':{
+		{'root':u'نوض','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نيض','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'طفل':{
+	u'طَفَلَ':{
+		{'root':u'طفل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'طَفُلَ':{
+		{'root':u'طفل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'طَفِلَ':{
+		{'root':u'طفل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رعى':{
+	u'رَعَى':{
+		{'root':u'رعي','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'جمح':{
+	u'جَمَحَ':{
+		{'root':u'جمح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'جمخ':{
+	u'جَمَخَ':{
+		{'root':u'جمخ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'جمد':{
+	u'جَمَدَ':{
+		{'root':u'جمد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'جَمُدَ':{
+		{'root':u'جمد','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ناج':{
+	u'نَاجَ':{
+		{'root':u'نوج','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'جمر':{
+	u'جَمَرَ':{
+		{'root':u'جمر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'جمر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'جمز':{
+	u'جَمَزَ':{
+		{'root':u'جمز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'جمس':{
+	u'جَمَسَ':{
+		{'root':u'جمس','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'جَمُسَ':{
+		{'root':u'جمس','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'جمش':{
+	u'جَمَشَ':{
+		{'root':u'جمش','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'جمش','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'نات':{
+	u'نَاتَ':{
+		{'root':u'نوت','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'نيت','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'حضا':{
+	u'حَضَا':{
+		{'root':u'حضو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'حضب':{
+	u'حَضَبَ':{
+		{'root':u'حضب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'حَضِبَ':{
+		{'root':u'حضب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جمع':{
+	u'جَمَعَ':{
+		{'root':u'جمع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'خرص':{
+	u'خَرِصَ':{
+		{'root':u'خرص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'خَرَصَ':{
+		{'root':u'خرص','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'خرص','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'خمر':{
+	u'خَمِرَ':{
+		{'root':u'خمر','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'خَمَرَ':{
+		{'root':u'خمر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'خمر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حضج':{
+	u'حَضَجَ':{
+		{'root':u'حضج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ناء':{
+	u'نَاءَ':{
+		{'root':u'نوء','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نيء','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'طفّ':{
+	u'طَفَّ':{
+		{'root':u'طفف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'طفف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'وبئ':{
+	u'وَبِئَ':{
+		{'root':u'وبء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حضّ':{
+	u'حَضَّ':{
+		{'root':u'حضض','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'طفح':{
+	u'طَفَحَ':{
+		{'root':u'طفح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'صغا':{
+	u'صَغَا':{
+		{'root':u'صغو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'صغو','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'جمل':{
+	u'جَمُلَ':{
+		{'root':u'جمل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'جَمَلَ':{
+		{'root':u'جمل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'غمز':{
+	u'غَمَزَ':{
+		{'root':u'غمز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'طفا':{
+	u'طَفَا':{
+		{'root':u'طفو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'جمى':{
+	u'جَمَى':{
+		{'root':u'جمي','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ودّ':{
+	u'وَدَّ':{
+		{'root':u'ودد','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'فظّ':{
+	u'فَظَّ':{
+		{'root':u'فظظ','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'فظظ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نصع':{
+	u'نَصَعَ':{
+		{'root':u'نصع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جمّ':{
+	u'جَمَّ':{
+		{'root':u'جمم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'جمم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'جمم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سرد':{
+	u'سَرِدَ':{
+		{'root':u'سرد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'سَرَدَ':{
+		{'root':u'سرد','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'حضل':{
+	u'حَضِلَ':{
+		{'root':u'حضل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ساط':{
+	u'سَاطَ':{
+		{'root':u'سوط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'حضن':{
+	u'حَضُنَ':{
+		{'root':u'حضن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'حَضَنَ':{
+		{'root':u'حضن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نال':{
+	u'نَالَ':{
+		{'root':u'نول','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نيل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عجز':{
+	u'عَجُزَ':{
+		{'root':u'عجز','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'عَجِزَ':{
+		{'root':u'عجز','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَجَزَ':{
+		{'root':u'عجز','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عجز','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'طفش':{
+	u'طَفَشَ':{
+		{'root':u'طفش','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'طفس':{
+	u'طَفِسَ':{
+		{'root':u'طفس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'طَفَسَ':{
+		{'root':u'طفس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ناف':{
+	u'نَافَ':{
+		{'root':u'نوف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'طفر':{
+	u'طَفَرَ':{
+		{'root':u'طفر','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'طفر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'طفذ':{
+	u'طَفَذَ':{
+		{'root':u'طفذ','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'كبّ':{
+	u'كَبَّ':{
+		{'root':u'كبب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'دلخ':{
+	u'دَلِخَ':{
+		{'root':u'دلخ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خثم':{
+	u'خَثِمَ':{
+		{'root':u'خثم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عجّ':{
+	u'عَجَّ':{
+		{'root':u'عجج','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'عجج','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ساب':{
+	u'سَابَ':{
+		{'root':u'سيب','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'دلّ':{
+	u'دَلَّ':{
+		{'root':u'دلل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'دلل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'دلل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عدس':{
+	u'عَدَسَ':{
+		{'root':u'عدس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ولع':{
+	u'وَلِعَ':{
+		{'root':u'ولع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'وَلَعَ':{
+		{'root':u'ولع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'يعر':{
+	u'يَعَرَ':{
+		{'root':u'يعر','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'يعر','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زلغ':{
+	u'زَلَغَ':{
+		{'root':u'زلغ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ذكي':{
+	u'ذَكِيَ':{
+		{'root':u'ذكو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لعط':{
+	u'لَعَطَ':{
+		{'root':u'لعط','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'دصق':{
+	u'دَصَقَ':{
+		{'root':u'دصق','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'رعق':{
+	u'رَعَقَ':{
+		{'root':u'رعق','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ربث':{
+	u'رَبَثَ':{
+		{'root':u'ربث','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'وصّ':{
+	u'وَصَّ':{
+		{'root':u'وصص','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'صهي':{
+	u'صَهِيَ':{
+		{'root':u'صهو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'صهى':{
+	u'صَهَى':{
+		{'root':u'صهي','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ساد':{
+	u'سَادَ':{
+		{'root':u'سود','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'زهر':{
+	u'زَهَرَ':{
+		{'root':u'زهر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'زَهِرَ':{
+		{'root':u'زهر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'زَهُرَ':{
+		{'root':u'زهر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'وضف':{
+	u'وَضَفَ':{
+		{'root':u'وضف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'سدن':{
+	u'سَدَنَ':{
+		{'root':u'سدن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'سدن','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ساخ':{
+	u'سَاخَ':{
+		{'root':u'سوخ','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'سيخ','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'وضم':{
+	u'وَضَمَ':{
+		{'root':u'وضم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قزّ':{
+	u'قَزَّ':{
+		{'root':u'قزز','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'قزز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'صهل':{
+	u'صَهَلَ':{
+		{'root':u'صهل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'صهل','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وضح':{
+	u'وَضَحَ':{
+		{'root':u'وضح','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'وَضِحَ':{
+		{'root':u'وضح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رضي':{
+	u'رَضِيَ':{
+		{'root':u'رضو','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'سلط':{
+	u'سَلُطَ':{
+		{'root':u'سلط','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'سَلِطَ':{
+		{'root':u'سلط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زنّ':{
+	u'زَنَّ':{
+		{'root':u'زنن','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'زنن','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'قزم':{
+	u'قَزِمَ':{
+		{'root':u'قزم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'قَزَمَ':{
+		{'root':u'قزم','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'قزل':{
+	u'قَزِلَ':{
+		{'root':u'قزل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'قَزَلَ':{
+		{'root':u'قزل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'نثج':{
+	u'نَثَجَ':{
+		{'root':u'نثج','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ليس':{
+	u'لَيِسَ':{
+		{'root':u'ليس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زفى':{
+	u'زَفَى':{
+		{'root':u'زفي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'رزم':{
+	u'رَزَمَ':{
+		{'root':u'رزم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'رزم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'رزن':{
+	u'رَزُنَ':{
+		{'root':u'رزن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'رَزَنَ':{
+		{'root':u'رزن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'وفد':{
+	u'وَفَدَ':{
+		{'root':u'وفد','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'سرب':{
+	u'سَرَبَ':{
+		{'root':u'سرب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'سَرِبَ':{
+		{'root':u'سرب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رزى':{
+	u'رَزَى':{
+		{'root':u'رزي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'وثب':{
+	u'وَثَبَ':{
+		{'root':u'وثب','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'دقس':{
+	u'دَقَسَ':{
+		{'root':u'دقس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'رزّ':{
+	u'رَزَّ':{
+		{'root':u'رزز','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'رزز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'خرع':{
+	u'خَرُعَ':{
+		{'root':u'خرع','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'خَرِعَ':{
+		{'root':u'خرع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'خَرَعَ':{
+		{'root':u'خرع','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'رهل':{
+	u'رَهِلَ':{
+		{'root':u'رهل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خرج':{
+	u'خَرِجَ':{
+		{'root':u'خرج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'خَرَجَ':{
+		{'root':u'خرج','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'كعا':{
+	u'كَعَا':{
+		{'root':u'كعو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'وفز':{
+	u'وَفَزَ':{
+		{'root':u'وفز','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'دقر':{
+	u'دَقِرَ':{
+		{'root':u'دقر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وغد':{
+	u'وَغُدَ':{
+		{'root':u'وغد','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'وَغَدَ':{
+		{'root':u'وغد','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'وفض':{
+	u'وَفَضَ':{
+		{'root':u'وفض','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'وفى':{
+	u'وَفَى':{
+		{'root':u'وفي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'رزأ':{
+	u'رَزَأَ':{
+		{'root':u'رزء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'زقى':{
+	u'زَقَى':{
+		{'root':u'زقي','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'رزئ':{
+	u'رَزِئَ':{
+		{'root':u'رزء','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'رزب':{
+	u'رَزَبَ':{
+		{'root':u'رزب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'أكر':{
+	u'أَكَرَ':{
+		{'root':u'ءكر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'وفق':{
+	u'وَفِقَ':{
+		{'root':u'وفق','bab':6,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'وفل':{
+	u'وَفَلَ':{
+		{'root':u'وفل','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'قزع':{
+	u'قَزِعَ':{
+		{'root':u'قزع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'قَزَعَ':{
+		{'root':u'قزع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رزخ':{
+	u'رَزَخَ':{
+		{'root':u'رزخ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'علك':{
+	u'عَلَكَ':{
+		{'root':u'علك','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'علك','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ناع':{
+	u'نَاعَ':{
+		{'root':u'نوع','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نيع','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'وأد':{
+	u'وَأَدَ':{
+		{'root':u'وءد','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'وثأ':{
+	u'وَثَأَ':{
+		{'root':u'وثء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'رزغ':{
+	u'رَزِغَ':{
+		{'root':u'رزغ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'علف':{
+	u'عَلَفَ':{
+		{'root':u'علف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'وكز':{
+	u'وَكَزَ':{
+		{'root':u'وكز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'صهب':{
+	u'صَهُبَ':{
+		{'root':u'صهب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'صَهِبَ':{
+		{'root':u'صهب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'صهد':{
+	u'صَهَدَ':{
+		{'root':u'صهد','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'رسم':{
+	u'رَسَمَ':{
+		{'root':u'رسم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'رسم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'بها':{
+	u'بَهَا':{
+		{'root':u'بهو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'بهو','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'خشب':{
+	u'خَشَبَ':{
+		{'root':u'خشب','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'هثّ':{
+	u'هَثَّ':{
+		{'root':u'هثث','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'وثئ':{
+	u'وَثِئَ':{
+		{'root':u'وثء','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'وضأ':{
+	u'وَضَأَ':{
+		{'root':u'وضء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'صها':{
+	u'صَهَا':{
+		{'root':u'صهو','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وضؤ':{
+	u'وَضُؤَ':{
+		{'root':u'وضء','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'هثى':{
+	u'هَثَى':{
+		{'root':u'هثي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'رزق':{
+	u'رَزَقَ':{
+		{'root':u'رزق','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'قزح':{
+	u'قَزِحَ':{
+		{'root':u'قزح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'قَزَحَ':{
+		{'root':u'قزح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ربد':{
+	u'رَبِدَ':{
+		{'root':u'ربد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'رَبَدَ':{
+		{'root':u'ربد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'رغف':{
+	u'رَغَفَ':{
+		{'root':u'رغف','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'صؤل':{
+	u'صَؤُلَ':{
+		{'root':u'صءل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'قزب':{
+	u'قَزِبَ':{
+		{'root':u'قزب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قزا':{
+	u'قَزَا':{
+		{'root':u'قزو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نزك':{
+	u'نَزَكَ':{
+		{'root':u'نزك','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'صهر':{
+	u'صَهَرَ':{
+		{'root':u'صهر','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'لزأ':{
+	u'لَزَأَ':{
+		{'root':u'لزء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'رؤف':{
+	u'رَؤُفَ':{
+		{'root':u'رءف','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'طبا':{
+	u'طَبَا':{
+		{'root':u'طبو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'خضر':{
+	u'خَضِرَ':{
+		{'root':u'خضر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'خَضَرَ':{
+		{'root':u'خضر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'أجل':{
+	u'أَجَلَ':{
+		{'root':u'ءجل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ءجل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'أَجِلَ':{
+		{'root':u'ءجل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أجم':{
+	u'أَجِمَ':{
+		{'root':u'ءجم','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'أَجَمَ':{
+		{'root':u'ءجم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'أجن':{
+	u'أَجَنَ':{
+		{'root':u'ءجن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ءجن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'أَجِنَ':{
+		{'root':u'ءجن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'أَجُنَ':{
+		{'root':u'ءجن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'وظب':{
+	u'وَظَبَ':{
+		{'root':u'وظب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قمن':{
+	u'قَمِنَ':{
+		{'root':u'قمن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'قَمُنَ':{
+		{'root':u'قمن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'قمه':{
+	u'قَمَهَ':{
+		{'root':u'قمه','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'قَمِهَ':{
+		{'root':u'قمه','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قمل':{
+	u'قَمِلَ':{
+		{'root':u'قمل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شسف':{
+	u'شَسُفَ':{
+		{'root':u'شسف','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'شَسَفَ':{
+		{'root':u'شسف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'أفت':{
+	u'أَفَتَ':{
+		{'root':u'ءفت','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'بذو':{
+	u'بَذُوَ':{
+		{'root':u'بذو','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'أفد':{
+	u'أَفِدَ':{
+		{'root':u'ءفد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أفخ':{
+	u'أَفَخَ':{
+		{'root':u'ءفخ','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'طبز':{
+	u'طَبَزَ':{
+		{'root':u'طبز','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'بزل':{
+	u'بَزَلَ':{
+		{'root':u'بزل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'خضد':{
+	u'خَضَدَ':{
+		{'root':u'خضد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'خَضِدَ':{
+		{'root':u'خضد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قمّ':{
+	u'قَمَّ':{
+		{'root':u'قمم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'أجّ':{
+	u'أَجَّ':{
+		{'root':u'ءجج','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'ءجج','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'بذم':{
+	u'بَذُمَ':{
+		{'root':u'بذم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بذل':{
+	u'بَذَلَ':{
+		{'root':u'بذل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'بذل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'هطل':{
+	u'هَطَلَ':{
+		{'root':u'هطل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ضحي':{
+	u'ضَحِيَ':{
+		{'root':u'ضحو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لوى':{
+	u'لَوَى':{
+		{'root':u'لوي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'بخا':{
+	u'بَخَا':{
+		{'root':u'بخو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'دبل':{
+	u'دَبَلَ':{
+		{'root':u'دبل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'دبل','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'دَبِلَ':{
+		{'root':u'دبل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سهم':{
+	u'سَهُمَ':{
+		{'root':u'سهم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'سَهَمَ':{
+		{'root':u'سهم','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضحل':{
+	u'ضَحَلَ':{
+		{'root':u'ضحل','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بخت':{
+	u'بَخَتَ':{
+		{'root':u'بخت','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ضحك':{
+	u'ضَحِكَ':{
+		{'root':u'ضحك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دبق':{
+	u'دَبِقَ':{
+		{'root':u'دبق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'دَبَقَ':{
+		{'root':u'دبق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'طحن':{
+	u'طَحَنَ':{
+		{'root':u'طحن','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'بخر':{
+	u'بَخَرَ':{
+		{'root':u'بخر','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'بَخِرَ':{
+		{'root':u'بخر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وذأ':{
+	u'وَذَأَ':{
+		{'root':u'وذء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'بخس':{
+	u'بَخَسَ':{
+		{'root':u'بخس','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'بخز':{
+	u'بَخَزَ':{
+		{'root':u'بخز','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'بخص':{
+	u'بَخَصَ':{
+		{'root':u'بخص','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	u'بَخِصَ':{
+		{'root':u'بخص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خشا':{
+	u'خَشَا':{
+		{'root':u'خشو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بخع':{
+	u'بَخَعَ':{
+		{'root':u'بخع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'بَخِعَ':{
+		{'root':u'بخع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'علّ':{
+	u'عَلَّ':{
+		{'root':u'علل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'علل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'دبّ':{
+	u'دَبَّ':{
+		{'root':u'دبب','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'دبب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رهد':{
+	u'رَهُدَ':{
+		{'root':u'رهد','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'رَهَدَ':{
+		{'root':u'رهد','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'دبج':{
+	u'دَبَجَ':{
+		{'root':u'دبج','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'دنق':{
+	u'دَنَقَ':{
+		{'root':u'دنق','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'دنق','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'هطا':{
+	u'هَطَا':{
+		{'root':u'هطو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'بخق':{
+	u'بَخِقَ':{
+		{'root':u'بخق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'بَخَقَ':{
+		{'root':u'بخق','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'دأل':{
+	u'دَأَلَ':{
+		{'root':u'دءل','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'بخل':{
+	u'بَخِلَ':{
+		{'root':u'بخل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'بَخُلَ':{
+		{'root':u'بخل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'جيد':{
+	u'جَيِدَ':{
+		{'root':u'جيد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بخن':{
+	u'بَخَنَ':{
+		{'root':u'بخن','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضحا':{
+	u'ضَحَا':{
+		{'root':u'ضحو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'ضحو','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قاق':{
+	u'قَاقَ':{
+		{'root':u'قوق','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'قيق','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'بكأ':{
+	u'بَكَأَ':{
+		{'root':u'بكء','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دبأ':{
+	u'دَبَأَ':{
+		{'root':u'دبء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'بخّ':{
+	u'بَخَّ':{
+		{'root':u'بخخ','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'دنف':{
+	u'دَنِفَ':{
+		{'root':u'دنف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هطر':{
+	u'هَطَرَ':{
+		{'root':u'هطر','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'نخف':{
+	u'نَخَفَ':{
+		{'root':u'نخف','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'نخف','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زكم':{
+	u'زَكَمَ':{
+		{'root':u'زكم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'جير':{
+	u'جَيِرَ':{
+		{'root':u'جير','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سأى':{
+	u'سَأَى':{
+		{'root':u'سءي','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'هطع':{
+	u'هَطَعَ':{
+		{'root':u'هطع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دبر':{
+	u'دَبِرَ':{
+		{'root':u'دبر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'دَبَرَ':{
+		{'root':u'دبر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'طبل':{
+	u'طَبَلَ':{
+		{'root':u'طبل','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'عجن':{
+	u'عَجَنَ':{
+		{'root':u'عجن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عجن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'عَجِنَ':{
+		{'root':u'عجن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بذع':{
+	u'بَذَعَ':{
+		{'root':u'بذع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'أجد':{
+	u'أَجَدَ':{
+		{'root':u'ءجد','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'مصخ':{
+	u'مَصَخَ':{
+		{'root':u'مصخ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'قمد':{
+	u'قَمَدَ':{
+		{'root':u'قمد','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'قَمِدَ':{
+		{'root':u'قمد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شسب':{
+	u'شَسُبَ':{
+		{'root':u'شسب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'شَسِبَ':{
+		{'root':u'شسب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قمح':{
+	u'قَمِحَ':{
+		{'root':u'قمح','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'قَمَحَ':{
+		{'root':u'قمح','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نقز':{
+	u'نَقَزَ':{
+		{'root':u'نقز','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نقز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قمأ':{
+	u'قَمَأَ':{
+		{'root':u'قمء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'أفّ':{
+	u'أَفَّ':{
+		{'root':u'ءفف','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'ءفف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'همل':{
+	u'هَمَلَ':{
+		{'root':u'همل','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'همل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'طبى':{
+	u'طَبَى':{
+		{'root':u'طبي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'طبي':{
+	u'طَبِيَ':{
+		{'root':u'طبي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أجأ':{
+	u'أَجَأَ':{
+		{'root':u'ءجء','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نزه':{
+	u'نَزُهَ':{
+		{'root':u'نزه','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'نَزَهَ':{
+		{'root':u'نزه','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	u'نَزِهَ':{
+		{'root':u'نزه','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خضم':{
+	u'خَضِمَ':{
+		{'root':u'خضم','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'خَضَمَ':{
+		{'root':u'خضم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قمع':{
+	u'قَمِعَ':{
+		{'root':u'قمع','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'قَمَعَ':{
+		{'root':u'قمع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'بذخ':{
+	u'بَذَخَ':{
+		{'root':u'بذخ','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'بَذِخَ':{
+		{'root':u'بذخ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بذح':{
+	u'بَذِحَ':{
+		{'root':u'بذح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'بَذَحَ':{
+		{'root':u'بذح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'شسع':{
+	u'شَسِعَ':{
+		{'root':u'شسع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'شَسَعَ':{
+		{'root':u'شسع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'أفك':{
+	u'أَفِكَ':{
+		{'root':u'ءفك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'أَفَكَ':{
+		{'root':u'ءفك','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'أفق':{
+	u'أَفِقَ':{
+		{'root':u'ءفق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'أَفَقَ':{
+		{'root':u'ءفق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قمر':{
+	u'قَمِرَ':{
+		{'root':u'قمر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'قَمَرَ':{
+		{'root':u'قمر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'قمر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'بذا':{
+	u'بَذَا':{
+		{'root':u'بذو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بذئ':{
+	u'بَذِئَ':{
+		{'root':u'بذء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قمش':{
+	u'قَمَشَ':{
+		{'root':u'قمش','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'قمش','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'بذؤ':{
+	u'بَذُؤَ':{
+		{'root':u'بذء','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'جلق':{
+	u'جَلَقَ':{
+		{'root':u'جلق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'جلف':{
+	u'جَلِفَ':{
+		{'root':u'جلف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'جَلَفَ':{
+		{'root':u'جلف','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'جله':{
+	u'جَلَهَ':{
+		{'root':u'جله','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	u'جَلِهَ':{
+		{'root':u'جله','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'تنخ':{
+	u'تَنِخَ':{
+		{'root':u'تنخ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'تَنَخَ':{
+		{'root':u'تنخ','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جلم':{
+	u'جَلَمَ':{
+		{'root':u'جلم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'بقت':{
+	u'بَقَتَ':{
+		{'root':u'بقت','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'تنأ':{
+	u'تَنَأَ':{
+		{'root':u'تنء','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جلي':{
+	u'جَلِيَ':{
+		{'root':u'جلي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جلى':{
+	u'جَلَى':{
+		{'root':u'جلي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'كعل':{
+	u'كَعُلَ':{
+		{'root':u'كعل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ضنأ':{
+	u'ضَنَأَ':{
+		{'root':u'ضنء','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وثق':{
+	u'وَثِقَ':{
+		{'root':u'وثق','bab':6,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'وَثُقَ':{
+		{'root':u'وثق','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'جلّ':{
+	u'جَلَّ':{
+		{'root':u'جلل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'جلل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'بقع':{
+	u'بَقَعَ':{
+		{'root':u'بقع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'بَقِعَ':{
+		{'root':u'بقع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حطم':{
+	u'حَطَمَ':{
+		{'root':u'حطم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'حَطِمَ':{
+		{'root':u'حطم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سدّ':{
+	u'سَدَّ':{
+		{'root':u'سدد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'سدد','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ضنط':{
+	u'ضَنِطَ':{
+		{'root':u'ضنط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بقط':{
+	u'بَقَطَ':{
+		{'root':u'بقط','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'بقر':{
+	u'بَقَرَ':{
+		{'root':u'بقر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'بَقِرَ':{
+		{'root':u'بقر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ذكا':{
+	u'ذَكَا':{
+		{'root':u'ذكو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نئف':{
+	u'نَئِفَ':{
+		{'root':u'نءف','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'سخأ':{
+	u'سَخَأَ':{
+		{'root':u'سخء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'وثف':{
+	u'وَثَفَ':{
+		{'root':u'وثف','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'حيف':{
+	u'حَيِفَ':{
+		{'root':u'حيف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ختم':{
+	u'خَتَمَ':{
+		{'root':u'ختم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ختل':{
+	u'خَتَلَ':{
+		{'root':u'ختل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'ختل','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'كثع':{
+	u'كَثِعَ':{
+		{'root':u'كثع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'كَثَعَ':{
+		{'root':u'كثع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نكف':{
+	u'نَكَفَ':{
+		{'root':u'نكف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'نَكِفَ':{
+		{'root':u'نكف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ختّ':{
+	u'خَتَّ':{
+		{'root':u'ختت','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'ختت','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'ختت','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دنّ':{
+	u'دَنَّ':{
+		{'root':u'دنن','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'دنن','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نكل':{
+	u'نَكِلَ':{
+		{'root':u'نكل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَكَلَ':{
+		{'root':u'نكل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نكل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حيّ':{
+	u'حَيَّ':{
+		{'root':u'حيي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نكه':{
+	u'نَكِهَ':{
+		{'root':u'نكه','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'نَكَهَ':{
+		{'root':u'نكه','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'نكه','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ساف':{
+	u'سَافَ':{
+		{'root':u'سوف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'سيف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نكى':{
+	u'نَكَى':{
+		{'root':u'نكي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'غصب':{
+	u'غَصَبَ':{
+		{'root':u'غصب','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'فطس':{
+	u'فَطِسَ':{
+		{'root':u'فطس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'فَطَسَ':{
+		{'root':u'فطس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ختأ':{
+	u'خَتَأَ':{
+		{'root':u'ختء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'نكر':{
+	u'نَكِرَ':{
+		{'root':u'نكر','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'نَكُرَ':{
+		{'root':u'نكر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'نكز':{
+	u'نَكَزَ':{
+		{'root':u'نكز','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'نَكِزَ':{
+		{'root':u'نكز','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غصّ':{
+	u'غَصَّ':{
+		{'root':u'غصص','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'غصص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ختا':{
+	u'خَتَا':{
+		{'root':u'ختو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نكص':{
+	u'نَكَصَ':{
+		{'root':u'نكص','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'نكص','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'سحف':{
+	u'سَحَفَ':{
+		{'root':u'سحف','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نكظ':{
+	u'نَكَظَ':{
+		{'root':u'نكظ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'نَكِظَ':{
+		{'root':u'نكظ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نكع':{
+	u'نَكَعَ':{
+		{'root':u'نكع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'نَكِعَ':{
+		{'root':u'نكع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ختر':{
+	u'خَتِرَ':{
+		{'root':u'ختر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'خَتَرَ':{
+		{'root':u'ختر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ختر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'أرب':{
+	u'أَرَبَ':{
+		{'root':u'ءرب','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'أَرُبَ':{
+		{'root':u'ءرب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'أَرِبَ':{
+		{'root':u'ءرب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غصن':{
+	u'غَصَنَ':{
+		{'root':u'غصن','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'حير':{
+	u'حَيِرَ':{
+		{'root':u'حير','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هاج':{
+	u'هَاجَ':{
+		{'root':u'هيج','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نكب':{
+	u'نَكَبَ':{
+		{'root':u'نكب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'نَكِبَ':{
+		{'root':u'نكب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'صحر':{
+	u'صَحِرَ':{
+		{'root':u'صحر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'صَحَرَ':{
+		{'root':u'صحر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ختع':{
+	u'خَتَعَ':{
+		{'root':u'ختع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نكث':{
+	u'نَكَثَ':{
+		{'root':u'نكث','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'نكث','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'نكح':{
+	u'نَكَحَ':{
+		{'root':u'نكح','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'نكح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نكخ':{
+	u'نَكَخَ':{
+		{'root':u'نكخ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'تاح':{
+	u'تَاحَ':{
+		{'root':u'توح','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'تيح','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'جلأ':{
+	u'جَلَأَ':{
+		{'root':u'جلء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'حطر':{
+	u'حَطَرَ':{
+		{'root':u'حطر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'بقى':{
+	u'بَقَى':{
+		{'root':u'بقي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'تاخ':{
+	u'تَاخَ':{
+		{'root':u'تيخ','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ضنى':{
+	u'ضَنَى':{
+		{'root':u'ضني','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'بقي':{
+	u'بَقِيَ':{
+		{'root':u'بقي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بقم':{
+	u'بَقِمَ':{
+		{'root':u'بقم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بقل':{
+	u'بَقَلَ':{
+		{'root':u'بقل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'جلب':{
+	u'جَلَبَ':{
+		{'root':u'جلب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'جلب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'جَلِبَ':{
+		{'root':u'جلب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جلد':{
+	u'جَلُدَ':{
+		{'root':u'جلد','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'جَلَدَ':{
+		{'root':u'جلد','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'جَلِدَ':{
+		{'root':u'جلد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جلخ':{
+	u'جَلَخَ':{
+		{'root':u'جلخ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'تنم':{
+	u'تَنَمَ':{
+		{'root':u'تنم','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ضأد':{
+	u'ضَأَدَ':{
+		{'root':u'ضءد','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'جلس':{
+	u'جَلَسَ':{
+		{'root':u'جلس','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'جلز':{
+	u'جَلَزَ':{
+		{'root':u'جلز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ضأز':{
+	u'ضَأَزَ':{
+		{'root':u'ضءز','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'جلط':{
+	u'جَلَطَ':{
+		{'root':u'جلط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'هرّ':{
+	u'هَرَّ':{
+		{'root':u'هرر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'هرر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'هرر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جلغ':{
+	u'جَلَغَ':{
+		{'root':u'جلغ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'تنّ':{
+	u'تَنَّ':{
+		{'root':u'تنن','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'حطب':{
+	u'حَطَبَ':{
+		{'root':u'حطب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'حَطِبَ':{
+		{'root':u'حطب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بقّ':{
+	u'بَقَّ':{
+		{'root':u'بقق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'بقق','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ضنّ':{
+	u'ضَنَّ':{
+		{'root':u'ضنن','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'ضنن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نشر':{
+	u'نَشَرَ':{
+		{'root':u'نشر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نشر','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'نَشِرَ':{
+		{'root':u'نشر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'يرع':{
+	u'يَرِعَ':{
+		{'root':u'يرع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طنب':{
+	u'طَنِبَ':{
+		{'root':u'طنب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ثغر':{
+	u'ثَغَرَ':{
+		{'root':u'ثغر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'طنخ':{
+	u'طَنِخَ':{
+		{'root':u'طنخ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'معا':{
+	u'مَعَا':{
+		{'root':u'معو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'طنح':{
+	u'طَنِحَ':{
+		{'root':u'طنح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نشع':{
+	u'نَشَعَ':{
+		{'root':u'نشع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'طنأ':{
+	u'طَنَأَ':{
+		{'root':u'طنء','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كفّ':{
+	u'كَفَّ':{
+		{'root':u'كفف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'معت':{
+	u'مَعَتَ':{
+		{'root':u'معت','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'طنئ':{
+	u'طَنِئَ':{
+		{'root':u'طنء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'معج':{
+	u'مَعَجَ':{
+		{'root':u'معج','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'معد':{
+	u'مَعَدَ':{
+		{'root':u'معد','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'مَعِدَ':{
+		{'root':u'معد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عشّ':{
+	u'عَشَّ':{
+		{'root':u'عشش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عشش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'معر':{
+	u'مَعِرَ':{
+		{'root':u'معر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كفى':{
+	u'كَفَى':{
+		{'root':u'كفي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'معز':{
+	u'مَعِزَ':{
+		{'root':u'معز','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'مَعَزَ':{
+		{'root':u'معز','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'عشي':{
+	u'عَشِيَ':{
+		{'root':u'عشو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ثغا':{
+	u'ثَغَا':{
+		{'root':u'ثغو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'معط':{
+	u'مَعَطَ':{
+		{'root':u'معط','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'مَعِطَ':{
+		{'root':u'معط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'معض':{
+	u'مَعِضَ':{
+		{'root':u'معض','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طنز':{
+	u'طَنَزَ':{
+		{'root':u'طنز','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'طنز','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'نشب':{
+	u'نَشِبَ':{
+		{'root':u'نشب','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ثغب':{
+	u'ثَغَبَ':{
+		{'root':u'ثغب','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'عثج':{
+	u'عَثَجَ':{
+		{'root':u'عثج','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'عشق':{
+	u'عَشِقَ':{
+		{'root':u'عشق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كفن':{
+	u'كَفَنَ':{
+		{'root':u'كفن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نشد':{
+	u'نَشَدَ':{
+		{'root':u'نشد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نشد','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'كفل':{
+	u'كَفِلَ':{
+		{'root':u'كفل','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'كَفَلَ':{
+		{'root':u'كفل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'كفل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'كَفُلَ':{
+		{'root':u'كفل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ذان':{
+	u'ذَانَ':{
+		{'root':u'ذين','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ذال':{
+	u'ذَالَ':{
+		{'root':u'ذيل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ذام':{
+	u'ذَامَ':{
+		{'root':u'ذيم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'قنّ':{
+	u'قَنَّ':{
+		{'root':u'قنن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نشّ':{
+	u'نَشَّ':{
+		{'root':u'نشش','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'نشش','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ذاف':{
+	u'ذَافَ':{
+		{'root':u'ذوف','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'رحّ':{
+	u'رَحَّ':{
+		{'root':u'رحح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نقر':{
+	u'نَقِرَ':{
+		{'root':u'نقر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَقَرَ':{
+		{'root':u'نقر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'هرب':{
+	u'هَرِبَ':{
+		{'root':u'هرب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'هَرَبَ':{
+		{'root':u'هرب','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'زوى':{
+	u'زَوَى':{
+		{'root':u'زوي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'قشا':{
+	u'قَشَا':{
+		{'root':u'قشو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'رحى':{
+	u'رَحَى':{
+		{'root':u'رحي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قاب':{
+	u'قَابَ':{
+		{'root':u'قوب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'هرئ':{
+	u'هَرِئَ':{
+		{'root':u'هرء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ماق':{
+	u'مَاقَ':{
+		{'root':u'موق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'دحا':{
+	u'دَحَا':{
+		{'root':u'دحو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'دحو','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'شآ':{
+	u'شَآ':{
+		{'root':u'شءو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'مان':{
+	u'مَانَ':{
+		{'root':u'مون','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'مين','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'مغص':{
+	u'مَغِصَ':{
+		{'root':u'مغص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خجّ':{
+	u'خَجَّ':{
+		{'root':u'خجج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ماع':{
+	u'مَاعَ':{
+		{'root':u'ميع','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'نصب':{
+	u'نَصِبَ':{
+		{'root':u'نصب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَصَبَ':{
+		{'root':u'نصب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نصب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'جضّ':{
+	u'جَضَّ':{
+		{'root':u'جضض','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'قعس':{
+	u'قَعَسَ':{
+		{'root':u'قعس','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'قَعِسَ':{
+		{'root':u'قعس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فنح':{
+	u'فَنَحَ':{
+		{'root':u'فنح','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ماس':{
+	u'مَاسَ':{
+		{'root':u'ميس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ماز':{
+	u'مَازَ':{
+		{'root':u'ميز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'مار':{
+	u'مَارَ':{
+		{'root':u'مور','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'مير','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ذاح':{
+	u'ذَاحَ':{
+		{'root':u'ذوح','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'لشا':{
+	u'لَشَا':{
+		{'root':u'لشو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'فنخ':{
+	u'فَنَخَ':{
+		{'root':u'فنخ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ماص':{
+	u'مَاصَ':{
+		{'root':u'موص','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'ماش':{
+	u'مَاشَ':{
+		{'root':u'موش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ميش','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ماث':{
+	u'مَاثَ':{
+		{'root':u'موث','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ميث','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'مات':{
+	u'مَاتَ':{
+		{'root':u'موت','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'سقر':{
+	u'سَقَرَ':{
+		{'root':u'سقر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ماد':{
+	u'مَادَ':{
+		{'root':u'ميد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ماخ':{
+	u'مَاخَ':{
+		{'root':u'ميخ','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ماح':{
+	u'مَاحَ':{
+		{'root':u'ميح','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'تار':{
+	u'تَارَ':{
+		{'root':u'تور','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'وظف':{
+	u'وَظَفَ':{
+		{'root':u'وظف','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ماء':{
+	u'مَاءَ':{
+		{'root':u'موء','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'دنح':{
+	u'دَنَحَ':{
+		{'root':u'دنح','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رحا':{
+	u'رَحَا':{
+		{'root':u'رحو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ذاع':{
+	u'ذَاعَ':{
+		{'root':u'ذوع','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'ذيع','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'طني':{
+	u'طَنِيَ':{
+		{'root':u'طني','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هام':{
+	u'هَامَ':{
+		{'root':u'هيم','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'معك':{
+	u'مَعُكَ':{
+		{'root':u'معك','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'مَعَكَ':{
+		{'root':u'معك','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'معق':{
+	u'مَعُقَ':{
+		{'root':u'معق','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'مَعَقَ':{
+		{'root':u'معق','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'معل':{
+	u'مَعَلَ':{
+		{'root':u'معل','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'معن':{
+	u'مَعَنَ':{
+		{'root':u'معن','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'مَعِنَ':{
+		{'root':u'معن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'مَعُنَ':{
+		{'root':u'معن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'كفس':{
+	u'كَفِسَ':{
+		{'root':u'كفس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عشط':{
+	u'عَشَطَ':{
+		{'root':u'عشط','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'كفر':{
+	u'كَفَرَ':{
+		{'root':u'كفر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'كفر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'طنف':{
+	u'طَنِفَ':{
+		{'root':u'طنف','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'عشز':{
+	u'عَشَزَ':{
+		{'root':u'عشز','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'صحب':{
+	u'صَحِبَ':{
+		{'root':u'صحب','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	u'صَحَبَ':{
+		{'root':u'صحب','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'معّ':{
+	u'مَعَّ':{
+		{'root':u'معع','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'عشد':{
+	u'عَشَدَ':{
+		{'root':u'عشد','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'نشق':{
+	u'نَشِقَ':{
+		{'root':u'نشق','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نشم':{
+	u'نَشِمَ':{
+		{'root':u'نشم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كفخ':{
+	u'كَفَخَ':{
+		{'root':u'كفخ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'عشب':{
+	u'عَشِبَ':{
+		{'root':u'عشب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَشُبَ':{
+		{'root':u'عشب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ثغم':{
+	u'ثَغِمَ':{
+		{'root':u'ثغم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كثم':{
+	u'كَثِمَ':{
+		{'root':u'كثم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'كَثَمَ':{
+		{'root':u'كثم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'عشا':{
+	u'عَشَا':{
+		{'root':u'عشو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'طنّ':{
+	u'طَنَّ':{
+		{'root':u'طنن','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'دمر':{
+	u'دَمَرَ':{
+		{'root':u'دمر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'دلك':{
+	u'دَلَكَ':{
+		{'root':u'دلك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'بحش':{
+	u'بَحَشَ':{
+		{'root':u'بحش','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رسب':{
+	u'رَسَبَ':{
+		{'root':u'رسب','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'رَسُبَ':{
+		{'root':u'رسب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بحر':{
+	u'بَحَرَ':{
+		{'root':u'بحر','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	u'بَحِرَ':{
+		{'root':u'بحر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بحز':{
+	u'بَحَزَ':{
+		{'root':u'بحز','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'هرط':{
+	u'هَرِطَ':{
+		{'root':u'هرط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'هَرَطَ':{
+		{'root':u'هرط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ودك':{
+	u'وَدُكَ':{
+		{'root':u'ودك','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'وَدِكَ':{
+		{'root':u'ودك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دمص':{
+	u'دَمَصَ':{
+		{'root':u'دمص','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'دَمِصَ':{
+		{'root':u'دمص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بحت':{
+	u'بَحُتَ':{
+		{'root':u'بحت','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بحث':{
+	u'بَحَثَ':{
+		{'root':u'بحث','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'رسغ':{
+	u'رَسَغَ':{
+		{'root':u'رسغ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'رسع':{
+	u'رَسَعَ':{
+		{'root':u'رسع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'رَسِعَ':{
+		{'root':u'رسع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نبق':{
+	u'نَبَقَ':{
+		{'root':u'نبق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'دمث':{
+	u'دَمِثَ':{
+		{'root':u'دمث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'دَمُثَ':{
+		{'root':u'دمث','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'نمّ':{
+	u'نَمَّ':{
+		{'root':u'نمم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نمم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قصع':{
+	u'قَصُعَ':{
+		{'root':u'قصع','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'قَصِعَ':{
+		{'root':u'قصع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'قَصَعَ':{
+		{'root':u'قصع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'دقي':{
+	u'دَقِيَ':{
+		{'root':u'دقي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قأى':{
+	u'قَأَى':{
+		{'root':u'قءي','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عتا':{
+	u'عَتَا':{
+		{'root':u'عتو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'عتب':{
+	u'عَتَبَ':{
+		{'root':u'عتب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عتب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'هرس':{
+	u'هَرِسَ':{
+		{'root':u'هرس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'هَرَسَ':{
+		{'root':u'هرس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'دقل':{
+	u'دَقَلَ':{
+		{'root':u'دقل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'قصر':{
+	u'قَصُرَ':{
+		{'root':u'قصر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'قَصِرَ':{
+		{'root':u'قصر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'قَصَرَ':{
+		{'root':u'قصر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'قصر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'وصب':{
+	u'وَصَبَ':{
+		{'root':u'وصب','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'وَصِبَ':{
+		{'root':u'وصب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سفط':{
+	u'سَفُطَ':{
+		{'root':u'سفط','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'عتد':{
+	u'عَتُدَ':{
+		{'root':u'عتد','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'خرق':{
+	u'خَرَقَ':{
+		{'root':u'خرق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'خرق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'خَرِقَ':{
+		{'root':u'خرق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'خَرُقَ':{
+		{'root':u'خرق','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'عتر':{
+	u'عَتَرَ':{
+		{'root':u'عتر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قصب':{
+	u'قَصَبَ':{
+		{'root':u'قصب','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'خرف':{
+	u'خَرُفَ':{
+		{'root':u'خرف','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'خَرِفَ':{
+		{'root':u'خرف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'خَرَفَ':{
+		{'root':u'خرف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'قصد':{
+	u'قَصَدَ':{
+		{'root':u'قصد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'قَصُدَ':{
+		{'root':u'قصد','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'صور':{
+	u'صَوِرَ':{
+		{'root':u'صور','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'يقن':{
+	u'يَقِنَ':{
+		{'root':u'يقن','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'قصا':{
+	u'قَصَا':{
+		{'root':u'قصو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ملك':{
+	u'مَلَكَ':{
+		{'root':u'ملك','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'خرز':{
+	u'خَرَزَ':{
+		{'root':u'خرز','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'خرز','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'خَرِزَ':{
+		{'root':u'خرز','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عتف':{
+	u'عَتَفَ':{
+		{'root':u'عتف','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'عتق':{
+	u'عَتَقَ':{
+		{'root':u'عتق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عتق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'عَتُقَ':{
+		{'root':u'عتق','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'عتك':{
+	u'عَتَكَ':{
+		{'root':u'عتك','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عتل':{
+	u'عَتِلَ':{
+		{'root':u'عتل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَتَلَ':{
+		{'root':u'عتل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'عتل','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'عتم':{
+	u'عَتَمَ':{
+		{'root':u'عتم','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'عتم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عتن':{
+	u'عَتَنَ':{
+		{'root':u'عتن','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'عتن','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'صوف':{
+	u'صَوِفَ':{
+		{'root':u'صوف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عتي':{
+	u'عَتِيَ':{
+		{'root':u'عتي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قصّ':{
+	u'قَصَّ':{
+		{'root':u'قصص','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'صوي':{
+	u'صَوِيَ':{
+		{'root':u'صوي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وصى':{
+	u'وَصَى':{
+		{'root':u'وصي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'صوى':{
+	u'صَوَى':{
+		{'root':u'صوي','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'قصي':{
+	u'قَصِيَ':{
+		{'root':u'قصو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عتّ':{
+	u'عَتَّ':{
+		{'root':u'عتت','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'زيم':{
+	u'زَيِمَ':{
+		{'root':u'زيم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زيل':{
+	u'زَيِلَ':{
+		{'root':u'زيل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خرئ':{
+	u'خَرِئَ':{
+		{'root':u'خرء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طوي':{
+	u'طَوِيَ':{
+		{'root':u'طوي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دقع':{
+	u'دَقِعَ':{
+		{'root':u'دقع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خرت':{
+	u'خَرَتَ':{
+		{'root':u'خرت','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'خرث':{
+	u'خَرِثَ':{
+		{'root':u'خرث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خرب':{
+	u'خَرَبَ':{
+		{'root':u'خرب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'خَرِبَ':{
+		{'root':u'خرب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قصف':{
+	u'قَصِفَ':{
+		{'root':u'قصف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'قَصَفَ':{
+		{'root':u'قصف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'غمل':{
+	u'غَمِلَ':{
+		{'root':u'غمل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'غَمَلَ':{
+		{'root':u'غمل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'خرد':{
+	u'خَرِدَ':{
+		{'root':u'خرد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قصل':{
+	u'قَصَلَ':{
+		{'root':u'قصل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قصم':{
+	u'قَصِمَ':{
+		{'root':u'قصم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'قَصَمَ':{
+		{'root':u'قصم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'رسف':{
+	u'رَسَفَ':{
+		{'root':u'رسف','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'رسف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'همد':{
+	u'هَمِدَ':{
+		{'root':u'همد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'هَمَدَ':{
+		{'root':u'همد','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'رسن':{
+	u'رَسَنَ':{
+		{'root':u'رسن','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'رسن','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'وكى':{
+	u'وَكَى':{
+		{'root':u'وكي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'رسل':{
+	u'رَسِلَ':{
+		{'root':u'رسل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وضر':{
+	u'وَضِرَ':{
+		{'root':u'وضر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بزغ':{
+	u'بَزَغَ':{
+		{'root':u'بزغ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'بحّ':{
+	u'بَحَّ':{
+		{'root':u'بحح','bab':3,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'بحح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سقد':{
+	u'سَقَدَ':{
+		{'root':u'سقد','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'سهر':{
+	u'سَهِرَ':{
+		{'root':u'سهر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رسّ':{
+	u'رَسَّ':{
+		{'root':u'رسس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'طحز':{
+	u'طَحَزَ':{
+		{'root':u'طحز','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'دله':{
+	u'دَلَهَ':{
+		{'root':u'دله','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'دَلِهَ':{
+		{'root':u'دله','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'تحم':{
+	u'تَحَمَ':{
+		{'root':u'تحم','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'خال':{
+	u'خَالَ':{
+		{'root':u'خول','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'خام':{
+	u'خَامَ':{
+		{'root':u'خوم','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'خيم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'خان':{
+	u'خَانَ':{
+		{'root':u'خون','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'غقّ':{
+	u'غَقَّ':{
+		{'root':u'غقق','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'خاق':{
+	u'خَاقَ':{
+		{'root':u'خوق','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'غشي':{
+	u'غَشِيَ':{
+		{'root':u'غشو','bab':4,'transitive':u'ك','haraka':u'َ'},
+		{'root':u'غشي','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'غشم':{
+	u'غَشَمَ':{
+		{'root':u'غشم','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'غشم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'بزر':{
+	u'بَزَرَ':{
+		{'root':u'بزر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'وبد':{
+	u'وَبِدَ':{
+		{'root':u'وبد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضجع':{
+	u'ضَجَعَ':{
+		{'root':u'ضجع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'هشر':{
+	u'هَشَرَ':{
+		{'root':u'هشر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'كمت':{
+	u'كَمَتَ':{
+		{'root':u'كمت','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'كَمُتَ':{
+		{'root':u'كمت','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'نبخ':{
+	u'نَبَخَ':{
+		{'root':u'نبخ','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'سخر':{
+	u'سَخَرَ':{
+		{'root':u'سخر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'سَخِرَ':{
+		{'root':u'سخر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضجر':{
+	u'ضَجِرَ':{
+		{'root':u'ضجر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زهف':{
+	u'زَهَفَ':{
+		{'root':u'زهف','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'زَهِفَ':{
+		{'root':u'زهف','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'غشّ':{
+	u'غَشَّ':{
+		{'root':u'غشش','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'غشش','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'نظم':{
+	u'نَظَمَ':{
+		{'root':u'نظم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'فشأ':{
+	u'فَشَأَ':{
+		{'root':u'فشء','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أحد':{
+	u'أَحِدَ':{
+		{'root':u'ءحد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شزب':{
+	u'شَزَبَ':{
+		{'root':u'شزب','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'شَزُبَ':{
+		{'root':u'شزب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'فشل':{
+	u'فَشَلَ':{
+		{'root':u'فشل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'فَشِلَ':{
+		{'root':u'فشل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فند':{
+	u'فَنِدَ':{
+		{'root':u'فند','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فشق':{
+	u'فَشِقَ':{
+		{'root':u'فشق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'فَشَقَ':{
+		{'root':u'فشق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'بزج':{
+	u'بَزَجَ':{
+		{'root':u'بزج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ضفق':{
+	u'ضَفَقَ':{
+		{'root':u'ضفق','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'قهب':{
+	u'قَهِبَ':{
+		{'root':u'قهب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قلد':{
+	u'قَلَدَ':{
+		{'root':u'قلد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قلخ':{
+	u'قَلَخَ':{
+		{'root':u'قلخ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ضفن':{
+	u'ضَفَنَ':{
+		{'root':u'ضفن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قلب':{
+	u'قَلَبَ':{
+		{'root':u'قلب','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'قلب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'قَلِبَ':{
+		{'root':u'قلب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شزا':{
+	u'شَزَا':{
+		{'root':u'شزو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'قلت':{
+	u'قَلِتَ':{
+		{'root':u'قلت','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قلص':{
+	u'قَلَصَ':{
+		{'root':u'قلص','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'قَلِصَ':{
+		{'root':u'قلص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خشي':{
+	u'خَشِيَ':{
+		{'root':u'خشي','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'فنع':{
+	u'فَنِعَ':{
+		{'root':u'فنع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قلس':{
+	u'قَلَسَ':{
+		{'root':u'قلس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'فشّ':{
+	u'فَشَّ':{
+		{'root':u'فشش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'شزر':{
+	u'شَزَرَ':{
+		{'root':u'شزر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'شزر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'زهل':{
+	u'زَهِلَ':{
+		{'root':u'زهل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'زَهَلَ':{
+		{'root':u'زهل','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضفّ':{
+	u'ضَفَّ':{
+		{'root':u'ضفف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'قلع':{
+	u'قَلَعَ':{
+		{'root':u'قلع','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	u'قَلِعَ':{
+		{'root':u'قلع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نبا':{
+	u'نَبَا':{
+		{'root':u'نبو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ذاط':{
+	u'ذَاطَ':{
+		{'root':u'ذوط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ذيط','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'فنس':{
+	u'فَنَسَ':{
+		{'root':u'فنس','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'قلم':{
+	u'قَلَمَ':{
+		{'root':u'قلم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'فشا':{
+	u'فَشَا':{
+		{'root':u'فشو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ذقط':{
+	u'ذَقَطَ':{
+		{'root':u'ذقط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قلف':{
+	u'قَلَفَ':{
+		{'root':u'قلف','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'قلف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'قَلِفَ':{
+		{'root':u'قلف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضفد':{
+	u'ضَفَدَ':{
+		{'root':u'ضفد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'فني':{
+	u'فَنِيَ':{
+		{'root':u'فني','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قلق':{
+	u'قَلِقَ':{
+		{'root':u'قلق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'قَلَقَ':{
+		{'root':u'قلق','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'فشخ':{
+	u'فَشَخَ':{
+		{'root':u'فشخ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'أحن':{
+	u'أَحِنَ':{
+		{'root':u'ءحن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'أَحَنَ':{
+		{'root':u'ءحن','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فشج':{
+	u'فَشَجَ':{
+		{'root':u'فشج','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'فشح':{
+	u'فَشَحَ':{
+		{'root':u'فشح','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قلى':{
+	u'قَلَى':{
+		{'root':u'قلي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ضفا':{
+	u'ضَفَا':{
+		{'root':u'ضفو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'فنق':{
+	u'فَنَقَ':{
+		{'root':u'فنق','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'شزن':{
+	u'شَزُنَ':{
+		{'root':u'شزن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'شَزِنَ':{
+		{'root':u'شزن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خشف':{
+	u'خَشَفَ':{
+		{'root':u'خشف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'خشف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'خَشِفَ':{
+		{'root':u'خشف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضفع':{
+	u'ضَفَعَ':{
+		{'root':u'ضفع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قلّ':{
+	u'قَلَّ':{
+		{'root':u'قلل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نبأ':{
+	u'نَبَأَ':{
+		{'root':u'نبء','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شزّ':{
+	u'شَزَّ':{
+		{'root':u'شزز','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ضفس':{
+	u'ضَفَسَ':{
+		{'root':u'ضفس','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ضفر':{
+	u'ضَفَرَ':{
+		{'root':u'ضفر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'فشغ':{
+	u'فَشِغَ':{
+		{'root':u'فشغ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'فَشَغَ':{
+		{'root':u'فشغ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ضفط':{
+	u'ضَفَطَ':{
+		{'root':u'ضفط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'ضَفُطَ':{
+		{'root':u'ضفط','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'أحّ':{
+	u'أَحَّ':{
+		{'root':u'ءحح','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'فشع':{
+	u'فَشَعَ':{
+		{'root':u'فشع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سخن':{
+	u'سَخَنَ':{
+		{'root':u'سخن','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'سَخُنَ':{
+		{'root':u'سخن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'سَخِنَ':{
+		{'root':u'سخن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سخل':{
+	u'سَخَلَ':{
+		{'root':u'سخل','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'فسد':{
+	u'فَسُدَ':{
+		{'root':u'فسد','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'فَسَدَ':{
+		{'root':u'فسد','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'لعج':{
+	u'لَعَجَ':{
+		{'root':u'لعج','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'هشم':{
+	u'هَشَمَ':{
+		{'root':u'هشم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'نوك':{
+	u'نَوِكَ':{
+		{'root':u'نوك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زدع':{
+	u'زَدَعَ':{
+		{'root':u'زدع','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'طحا':{
+	u'طَحَا':{
+		{'root':u'طحو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'غشا':{
+	u'غَشَا':{
+		{'root':u'غشو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'ضجم':{
+	u'ضَجِمَ':{
+		{'root':u'ضجم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خجأ':{
+	u'خَجَأَ':{
+		{'root':u'خجء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'خات':{
+	u'خَاتَ':{
+		{'root':u'خوت','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'خيت','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'سخى':{
+	u'سَخَى':{
+		{'root':u'سخي','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'خاش':{
+	u'خَاشَ':{
+		{'root':u'خوش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'خيش','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'هشّ':{
+	u'هَشَّ':{
+		{'root':u'هشش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'هشش','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'هشش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خاض':{
+	u'خَاضَ':{
+		{'root':u'خوض','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'خاط':{
+	u'خَاطَ':{
+		{'root':u'خيط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'خار':{
+	u'خَارَ':{
+		{'root':u'خور','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'خير','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'خاز':{
+	u'خَازَ':{
+		{'root':u'خوز','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'خيز','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'خاس':{
+	u'خَاسَ':{
+		{'root':u'خوس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'خيس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ضجّ':{
+	u'ضَجَّ':{
+		{'root':u'ضجج','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'نبع':{
+	u'نَبَعَ':{
+		{'root':u'نبع','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'نبع','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'نبع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نقس':{
+	u'نَقَسَ':{
+		{'root':u'نقس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'نَقِسَ':{
+		{'root':u'نقس','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'جصّ':{
+	u'جَصَّ':{
+		{'root':u'جصص','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'فتغ':{
+	u'فَتَغَ':{
+		{'root':u'فتغ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'قفط':{
+	u'قَفَطَ':{
+		{'root':u'قفط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'قفط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نقط':{
+	u'نَقَطَ':{
+		{'root':u'نقط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نقض':{
+	u'نَقَضَ':{
+		{'root':u'نقض','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نقض','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'نقص':{
+	u'نَقَصَ':{
+		{'root':u'نقص','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'نَقُصَ':{
+		{'root':u'نقص','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'نقش':{
+	u'نَقَشَ':{
+		{'root':u'نقش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'فتر':{
+	u'فَتَرَ':{
+		{'root':u'فتر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'فتر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نقع':{
+	u'نَقَعَ':{
+		{'root':u'نقع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'خجئ':{
+	u'خَجِئَ':{
+		{'root':u'خجء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فتش':{
+	u'فَتَشَ':{
+		{'root':u'فتش','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ضفز':{
+	u'ضَفَزَ':{
+		{'root':u'ضفز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نغت':{
+	u'نَغَتَ':{
+		{'root':u'نغت','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نقا':{
+	u'نَقَا':{
+		{'root':u'نقو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'فتح':{
+	u'فَتَحَ':{
+		{'root':u'فتح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'فتخ':{
+	u'فَتِخَ':{
+		{'root':u'فتخ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'فَتَخَ':{
+		{'root':u'فتخ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'دمق':{
+	u'دَمَقَ':{
+		{'root':u'دمق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'دمق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'مغل':{
+	u'مَغَلَ':{
+		{'root':u'مغل','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'مغل','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'مَغِلَ':{
+		{'root':u'مغل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جنف':{
+	u'جَنَفَ':{
+		{'root':u'جنف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'جَنِفَ':{
+		{'root':u'جنف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فتأ':{
+	u'فَتَأَ':{
+		{'root':u'فتء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'نقد':{
+	u'نَقَدَ':{
+		{'root':u'نقد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'نَقِدَ':{
+		{'root':u'نقد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نقخ':{
+	u'نَقَخَ':{
+		{'root':u'نقخ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'فتئ':{
+	u'فَتِئَ':{
+		{'root':u'فتء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فتا':{
+	u'فَتَا':{
+		{'root':u'فتو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'طهل':{
+	u'طَهَلَ':{
+		{'root':u'طهل','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'طَهِلَ':{
+		{'root':u'طهل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حبج':{
+	u'حَبَجَ':{
+		{'root':u'حبج','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'حَبِجَ':{
+		{'root':u'حبج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نبض':{
+	u'نَبَضَ':{
+		{'root':u'نبض','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'طهق':{
+	u'طَهَقَ':{
+		{'root':u'طهق','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نطل':{
+	u'نَطَلَ':{
+		{'root':u'نطل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'حبا':{
+	u'حَبَا':{
+		{'root':u'حبو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'دنئ':{
+	u'دَنِئَ':{
+		{'root':u'دنء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طهى':{
+	u'طَهَى':{
+		{'root':u'طهي','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'فطح':{
+	u'فَطَحَ':{
+		{'root':u'فطح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'فَطِحَ':{
+		{'root':u'فطح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نطق':{
+	u'نَطُقَ':{
+		{'root':u'نطق','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'نَطَقَ':{
+		{'root':u'نطق','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'فنّ':{
+	u'فَنَّ':{
+		{'root':u'فنن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'حبض':{
+	u'حَبَضَ':{
+		{'root':u'حبض','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'حَبِضَ':{
+		{'root':u'حبض','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حبط':{
+	u'حَبِطَ':{
+		{'root':u'حبط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'حَبَطَ':{
+		{'root':u'حبط','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'حبش':{
+	u'حَبَشَ':{
+		{'root':u'حبش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'دمل':{
+	u'دَمِلَ':{
+		{'root':u'دمل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'دَمَلَ':{
+		{'root':u'دمل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'حبس':{
+	u'حَبَسَ':{
+		{'root':u'حبس','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'رضح':{
+	u'رَضَحَ':{
+		{'root':u'رضح','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'حبر':{
+	u'حَبَرَ':{
+		{'root':u'حبر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'حَبِرَ':{
+		{'root':u'حبر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نطح':{
+	u'نَطَحَ':{
+		{'root':u'نطح','bab':2,'transitive':u'م','haraka':u'ِ'},
+		{'root':u'نطح','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'طها':{
+	u'طَهَا':{
+		{'root':u'طهو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'طهو','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'دحب':{
+	u'دَحَبَ':{
+		{'root':u'دحب','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'غفي':{
+	u'غَفِيَ':{
+		{'root':u'غفي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حبى':{
+	u'حَبَى':{
+		{'root':u'حبي','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'حبن':{
+	u'حَبِنَ':{
+		{'root':u'حبن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حبل':{
+	u'حَبَلَ':{
+		{'root':u'حبل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'حَبِلَ':{
+		{'root':u'حبل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نطا':{
+	u'نَطَا':{
+		{'root':u'نطو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'حبق':{
+	u'حَبَقَ':{
+		{'root':u'حبق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حبك':{
+	u'حَبَكَ':{
+		{'root':u'حبك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حبك','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ذمر':{
+	u'ذَمَرَ':{
+		{'root':u'ذمر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ضئط':{
+	u'ضَئِطَ':{
+		{'root':u'ضءط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طهر':{
+	u'طَهُرَ':{
+		{'root':u'طهر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'طَهَرَ':{
+		{'root':u'طهر','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'طهر','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ندغ':{
+	u'نَدَغَ':{
+		{'root':u'ندغ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'طهس':{
+	u'طَهَسَ':{
+		{'root':u'طهس','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مضّ':{
+	u'مَضَّ':{
+		{'root':u'مضض','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'مضض','bab':4,'transitive':u'ك','haraka':u'َ'},
+		{'root':u'مضض','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ذبح':{
+	u'ذَبَحَ':{
+		{'root':u'ذبح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'دحج':{
+	u'دَحَجَ':{
+		{'root':u'دحج','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'نطر':{
+	u'نَطَرَ':{
+		{'root':u'نطر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'حبّ':{
+	u'حَبَّ':{
+		{'root':u'حبب','bab':2,'transitive':u'م','haraka':u'ِ'},
+		{'root':u'حبب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'حبب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'داغ':{
+	u'دَاغَ':{
+		{'root':u'دوغ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'بلا':{
+	u'بَلَا':{
+		{'root':u'بلو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'نقّ':{
+	u'نَقَّ':{
+		{'root':u'نقق','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'دحز':{
+	u'دَحَزَ':{
+		{'root':u'دحز','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'فتّ':{
+	u'فَتَّ':{
+		{'root':u'فتت','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'مغط':{
+	u'مَغَطَ':{
+		{'root':u'مغط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'مغط','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'عبر':{
+	u'عَبَرَ':{
+		{'root':u'عبر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عبر','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'عَبِرَ':{
+		{'root':u'عبر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مغر':{
+	u'مَغَرَ':{
+		{'root':u'مغر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'مغس':{
+	u'مَغَسَ':{
+		{'root':u'مغس','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'فتو':{
+	u'فَتُوَ':{
+		{'root':u'فتو','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'سبط':{
+	u'سَبُطَ':{
+		{'root':u'سبط','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'سَبِطَ':{
+		{'root':u'سبط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فتي':{
+	u'فَتِيَ':{
+		{'root':u'فتي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مغد':{
+	u'مَغَدَ':{
+		{'root':u'مغد','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'مَغِدَ':{
+		{'root':u'مغد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نقه':{
+	u'نَقَهَ':{
+		{'root':u'نقه','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'نَقِهَ':{
+		{'root':u'نقه','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نقم':{
+	u'نَقِمَ':{
+		{'root':u'نقم','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	u'نَقَمَ':{
+		{'root':u'نقم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'مغث':{
+	u'مَغَثَ':{
+		{'root':u'مغث','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'جنّ':{
+	u'جَنَّ':{
+		{'root':u'جنن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'جنن','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'فتق':{
+	u'فَتَقَ':{
+		{'root':u'فتق','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'فتق','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'فَتِقَ':{
+		{'root':u'فتق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فتك':{
+	u'فَتَكَ':{
+		{'root':u'فتك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'فتك','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'فتل':{
+	u'فَتِلَ':{
+		{'root':u'فتل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'فَتَلَ':{
+		{'root':u'فتل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'فتن':{
+	u'فَتَنَ':{
+		{'root':u'فتن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'دحض':{
+	u'دَحَضَ':{
+		{'root':u'دحض','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ولذ':{
+	u'وَلَذَ':{
+		{'root':u'ولذ','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'جاب':{
+	u'جَابَ':{
+		{'root':u'جوب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'جيب','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'جاخ':{
+	u'جَاخَ':{
+		{'root':u'جوخ','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'جيخ','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'جاد':{
+	u'جَادَ':{
+		{'root':u'جود','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'جاج':{
+	u'جَاجَ':{
+		{'root':u'جوج','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'جاح':{
+	u'جَاحَ':{
+		{'root':u'جوح','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'جيح','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'خاب':{
+	u'خَابَ':{
+		{'root':u'خوب','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'خيب','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'شمق':{
+	u'شَمِقَ':{
+		{'root':u'شمق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جاء':{
+	u'جَاءَ':{
+		{'root':u'جيء','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'شمل':{
+	u'شَمَلَ':{
+		{'root':u'شمل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'شمل','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'شَمِلَ':{
+		{'root':u'شمل','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ذئج':{
+	u'ذَئِجَ':{
+		{'root':u'ذءج','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'زاط':{
+	u'زَاطَ':{
+		{'root':u'زيط','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ذئر':{
+	u'ذَئِرَ':{
+		{'root':u'ذءر','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ثوى':{
+	u'ثَوَى':{
+		{'root':u'ثوي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'جاظ':{
+	u'جَاظَ':{
+		{'root':u'جوظ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'جيظ','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'جاع':{
+	u'جَاعَ':{
+		{'root':u'جوع','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'رنخ':{
+	u'رَنَخَ':{
+		{'root':u'رنخ','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'سخو':{
+	u'سَخُوَ':{
+		{'root':u'سخو','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ظلّ':{
+	u'ظَلَّ':{
+		{'root':u'ظلل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'ظلل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زأم':{
+	u'زَأَمَ':{
+		{'root':u'زءم','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'جاز':{
+	u'جَازَ':{
+		{'root':u'جوز','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'شمّ':{
+	u'شَمَّ':{
+		{'root':u'شمم','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'شمم','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ونك':{
+	u'وَنَكَ':{
+		{'root':u'ونك','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'جار':{
+	u'جَارَ':{
+		{'root':u'جور','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'جاض':{
+	u'جَاضَ':{
+		{'root':u'جيض','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'جاش':{
+	u'جَاشَ':{
+		{'root':u'جوش','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'جيش','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'آل':{
+	u'آلَ':{
+		{'root':u'ءول','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'آم':{
+	u'آمَ':{
+		{'root':u'ءوم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ءيم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'آن':{
+	u'آنَ':{
+		{'root':u'ءون','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'ءين','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'آه':{
+	u'آهَ':{
+		{'root':u'ءوه','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'آف':{
+	u'آفَ':{
+		{'root':u'ءوف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'آق':{
+	u'آقَ':{
+		{'root':u'ءوق','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'خاص':{
+	u'خَاصَ':{
+		{'root':u'خوص','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'خيص','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عصر':{
+	u'عَصَرَ':{
+		{'root':u'عصر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'فعر':{
+	u'فَعَرَ':{
+		{'root':u'فعر','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زأك':{
+	u'زَأَكَ':{
+		{'root':u'زءك','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'سبع':{
+	u'سَبَعَ':{
+		{'root':u'سبع','bab':2,'transitive':u'م','haraka':u'ِ'},
+		{'root':u'سبع','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'نثم':{
+	u'نَثَمَ':{
+		{'root':u'نثم','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'عهد':{
+	u'عَهِدَ':{
+		{'root':u'عهد','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'دمج':{
+	u'دَمَجَ':{
+		{'root':u'دمج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'عصب':{
+	u'عَصَبَ':{
+		{'root':u'عصب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'عَصِبَ':{
+		{'root':u'عصب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عصد':{
+	u'عَصَدَ':{
+		{'root':u'عصد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عصد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'عَصِدَ':{
+		{'root':u'عصد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كذّ':{
+	u'كَذَّ':{
+		{'root':u'كذذ','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'هوس':{
+	u'هَوِسَ':{
+		{'root':u'هوس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نهى':{
+	u'نَهَى':{
+		{'root':u'نهي','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'عصا':{
+	u'عَصَا':{
+		{'root':u'عصو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'كذب':{
+	u'كَذَبَ':{
+		{'root':u'كذب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عصّ':{
+	u'عَصَّ':{
+		{'root':u'عصص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'آد':{
+	u'آدَ':{
+		{'root':u'ءود','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ءيد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'آب':{
+	u'آبَ':{
+		{'root':u'ءوب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ءيب','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'عصى':{
+	u'عَصَى':{
+		{'root':u'عصي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'آض':{
+	u'آضَ':{
+		{'root':u'ءيض','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عصي':{
+	u'عَصِيَ':{
+		{'root':u'عصو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'آر':{
+	u'آرَ':{
+		{'root':u'ءور','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'ءير','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ونم':{
+	u'وَنَمَ':{
+		{'root':u'ونم','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'آس':{
+	u'آسَ':{
+		{'root':u'ءوس','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'ءيس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عصف':{
+	u'عَصَفَ':{
+		{'root':u'عصف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'يدى':{
+	u'يَدَى':{
+		{'root':u'يدي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'يدي':{
+	u'يَدِيَ':{
+		{'root':u'يدي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مضا':{
+	u'مَضَا':{
+		{'root':u'مضو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'عصم':{
+	u'عَصِمَ':{
+		{'root':u'عصم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَصَمَ':{
+		{'root':u'عصم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عصل':{
+	u'عَصِلَ':{
+		{'root':u'عصل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَصَلَ':{
+		{'root':u'عصل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'كوم':{
+	u'كَوِمَ':{
+		{'root':u'كوم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غسر':{
+	u'غَسَرَ':{
+		{'root':u'غسر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ذنّ':{
+	u'ذَنَّ':{
+		{'root':u'ذنن','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'ذنن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شمت':{
+	u'شَمِتَ':{
+		{'root':u'شمت','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شمج':{
+	u'شَمَجَ':{
+		{'root':u'شمج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'رخّ':{
+	u'رَخَّ':{
+		{'root':u'رخخ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'رخخ','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'شمخ':{
+	u'شَمَخَ':{
+		{'root':u'شمخ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'زقا':{
+	u'زَقَا':{
+		{'root':u'زقو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'مثن':{
+	u'مَثِنَ':{
+		{'root':u'مثن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'مَثَنَ':{
+		{'root':u'مثن','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'مثن','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ثحج':{
+	u'ثَحَجَ':{
+		{'root':u'ثحج','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'جان':{
+	u'جَانَ':{
+		{'root':u'جون','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'جاه':{
+	u'جَاهَ':{
+		{'root':u'جوه','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'جال':{
+	u'جَالَ':{
+		{'root':u'جول','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'جام':{
+	u'جَامَ':{
+		{'root':u'جوم','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'شمظ':{
+	u'شَمَظَ':{
+		{'root':u'شمظ','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'شمع':{
+	u'شَمَعَ':{
+		{'root':u'شمع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هطف':{
+	u'هَطَفَ':{
+		{'root':u'هطف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'رخف':{
+	u'رَخِفَ':{
+		{'root':u'رخف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'رَخَفَ':{
+		{'root':u'رخف','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'رَخُفَ':{
+		{'root':u'رخف','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'وجب':{
+	u'وَجَبَ':{
+		{'root':u'وجب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'وَجُبَ':{
+		{'root':u'وجب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'شمذ':{
+	u'شَمَذَ':{
+		{'root':u'شمذ','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'شمر':{
+	u'شَمَرَ':{
+		{'root':u'شمر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'شمر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'شمز':{
+	u'شَمَزَ':{
+		{'root':u'شمز','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'شمس':{
+	u'شَمِسَ':{
+		{'root':u'شمس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'شَمَسَ':{
+		{'root':u'شمس','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'شمس','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'رخو':{
+	u'رَخُوَ':{
+		{'root':u'رخو','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'شمص':{
+	u'شَمَصَ':{
+		{'root':u'شمص','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ظلع':{
+	u'ظَلَعَ':{
+		{'root':u'ظلع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'شمط':{
+	u'شَمِطَ':{
+		{'root':u'شمط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'شَمَطَ':{
+		{'root':u'شمط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'شرم':{
+	u'شَرَمَ':{
+		{'root':u'شرم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'شَرِمَ':{
+		{'root':u'شرم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شرن':{
+	u'شَرِنَ':{
+		{'root':u'شرن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شره':{
+	u'شَرِهَ':{
+		{'root':u'شره','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قهل':{
+	u'قَهِلَ':{
+		{'root':u'قهل','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'قَهَلَ':{
+		{'root':u'قهل','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'شرف':{
+	u'شَرَفَ':{
+		{'root':u'شرف','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'شَرِفَ':{
+		{'root':u'شرف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'شَرُفَ':{
+		{'root':u'شرف','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'شرق':{
+	u'شَرَقَ':{
+		{'root':u'شرق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'شَرِقَ':{
+		{'root':u'شرق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شرك':{
+	u'شَرِكَ':{
+		{'root':u'شرك','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'فهم':{
+	u'فَهِمَ':{
+		{'root':u'فهم','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'خذئ':{
+	u'خَذِئَ':{
+		{'root':u'خذء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أتن':{
+	u'أَتَنَ':{
+		{'root':u'ءتن','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'شرى':{
+	u'شَرَى':{
+		{'root':u'شري','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'شري':{
+	u'شَرِيَ':{
+		{'root':u'شري','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أتم':{
+	u'أَتَمَ':{
+		{'root':u'ءتم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'أَتِمَ':{
+		{'root':u'ءتم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دكع':{
+	u'دَكَعَ':{
+		{'root':u'دكع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قهّ':{
+	u'قَهَّ':{
+		{'root':u'قهه','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'نقذ':{
+	u'نَقِذَ':{
+		{'root':u'نقذ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَقَذَ':{
+		{'root':u'نقذ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'خذع':{
+	u'خَذَعَ':{
+		{'root':u'خذع','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'شرّ':{
+	u'شَرَّ':{
+		{'root':u'شرر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'شرر','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'شرر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'شرر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'طخش':{
+	u'طَخِشَ':{
+		{'root':u'طخش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مضر':{
+	u'مَضَرَ':{
+		{'root':u'مضر','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'دكس':{
+	u'دَكَسَ':{
+		{'root':u'دكس','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'دَكِسَ':{
+		{'root':u'دكس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أتّ':{
+	u'أَتَّ':{
+		{'root':u'ءتت','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'فهّ':{
+	u'فَهَّ':{
+		{'root':u'فهه','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ضعز':{
+	u'ضَعَزَ':{
+		{'root':u'ضعز','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'جون':{
+	u'جَوِنَ':{
+		{'root':u'جون','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضدن':{
+	u'ضَدَنَ':{
+		{'root':u'ضدن','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'حشف':{
+	u'حَشَفَ':{
+		{'root':u'حشف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'سدم':{
+	u'سَدِمَ':{
+		{'root':u'سدم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'سَدَمَ':{
+		{'root':u'سدم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'جوق':{
+	u'جَوِقَ':{
+		{'root':u'جوق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جوف':{
+	u'جَوِفَ':{
+		{'root':u'جوف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فقر':{
+	u'فَقُرَ':{
+		{'root':u'فقر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'فَقِرَ':{
+		{'root':u'فقر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'فَقَرَ':{
+		{'root':u'فقر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'فقر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'سدى':{
+	u'سَدَى':{
+		{'root':u'سدي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'دهن':{
+	u'دَهِنَ':{
+		{'root':u'دهن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'دَهُنَ':{
+		{'root':u'دهن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'دَهَنَ':{
+		{'root':u'دهن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'سدي':{
+	u'سَدِيَ':{
+		{'root':u'سدو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دخن':{
+	u'دَخُنَ':{
+		{'root':u'دخن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'دَخِنَ':{
+		{'root':u'دخن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'دَخَنَ':{
+		{'root':u'دخن','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'دخن','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'دخن','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جوي':{
+	u'جَوِيَ':{
+		{'root':u'جوي','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ضدي':{
+	u'ضَدِيَ':{
+		{'root':u'ضدي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دخم':{
+	u'دَخَمَ':{
+		{'root':u'دخم','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ورط':{
+	u'وَرَطَ':{
+		{'root':u'ورط','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'حقل':{
+	u'حَقَلَ':{
+		{'root':u'حقل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'حَقِلَ':{
+		{'root':u'حقل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هصّ':{
+	u'هَصَّ':{
+		{'root':u'هصص','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'هصص','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'نفى':{
+	u'نَفَى':{
+		{'root':u'نفي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ضدّ':{
+	u'ضَدَّ':{
+		{'root':u'ضدد','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'وطس':{
+	u'وَطَسَ':{
+		{'root':u'وطس','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'فلح':{
+	u'فَلَحَ':{
+		{'root':u'فلح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'فَلِحَ':{
+		{'root':u'فلح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دخّ':{
+	u'دَخَّ':{
+		{'root':u'دخخ','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'دخخ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حقن':{
+	u'حَقَنَ':{
+		{'root':u'حقن','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'حقن','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'نقث':{
+	u'نَقَثَ':{
+		{'root':u'نقث','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'غاظ':{
+	u'غَاظَ':{
+		{'root':u'غيظ','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ضدئ':{
+	u'ضَدِئَ':{
+		{'root':u'ضدء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضعّ':{
+	u'ضَعَّ':{
+		{'root':u'ضعع','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'هصا':{
+	u'هَصَا':{
+		{'root':u'هصو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'سدا':{
+	u'سَدَا':{
+		{'root':u'سدو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'سيس':{
+	u'سَيِسَ':{
+		{'root':u'سيس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جوث':{
+	u'جَوِثَ':{
+		{'root':u'جوث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سدج':{
+	u'سَدَجَ':{
+		{'root':u'سدج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'غنض':{
+	u'غَنَضَ':{
+		{'root':u'غنض','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'سدر':{
+	u'سَدِرَ':{
+		{'root':u'سدر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'سَدَرَ':{
+		{'root':u'سدر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'سدر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'هصر':{
+	u'هَصَرَ':{
+		{'root':u'هصر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'هَصِرَ':{
+		{'root':u'هصر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضعف':{
+	u'ضَعُفَ':{
+		{'root':u'ضعف','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'ضَعَفَ':{
+		{'root':u'ضعف','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'بآ':{
+	u'بَآ':{
+		{'root':u'بءو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'دخس':{
+	u'دَخِسَ':{
+		{'root':u'دخس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'دَخَسَ':{
+		{'root':u'دخس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'دخس','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'دخر':{
+	u'دَخَرَ':{
+		{'root':u'دخر','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'دَخِرَ':{
+		{'root':u'دخر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دخض':{
+	u'دَخَضَ':{
+		{'root':u'دخض','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مذل':{
+	u'مَذُلَ':{
+		{'root':u'مذل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'مَذَلَ':{
+		{'root':u'مذل','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'مَذِلَ':{
+		{'root':u'مذل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دخش':{
+	u'دَخِشَ':{
+		{'root':u'دخش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دخص':{
+	u'دَخَصَ':{
+		{'root':u'دخص','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فهد':{
+	u'فَهِدَ':{
+		{'root':u'فهد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'فَهَدَ':{
+		{'root':u'فهد','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غنث':{
+	u'غَنَثَ':{
+		{'root':u'غنث','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'غَنِثَ':{
+		{'root':u'غنث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زعب':{
+	u'زَعَبَ':{
+		{'root':u'زعب','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'تغب':{
+	u'تَغَبَ':{
+		{'root':u'تغب','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'تَغِبَ':{
+		{'root':u'تغب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'تغا':{
+	u'تَغَا':{
+		{'root':u'تغو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'شرح':{
+	u'شَرَحَ':{
+		{'root':u'شرح','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'شرخ':{
+	u'شَرَخَ':{
+		{'root':u'شرخ','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'شرد':{
+	u'شَرَدَ':{
+		{'root':u'شرد','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'شرب':{
+	u'شَرَبَ':{
+		{'root':u'شرب','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'شَرِبَ':{
+		{'root':u'شرب','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'أتا':{
+	u'أَتَا':{
+		{'root':u'ءتو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'شرث':{
+	u'شَرِثَ':{
+		{'root':u'شرث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فخج':{
+	u'فَخَجَ':{
+		{'root':u'فخج','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'فَخِجَ':{
+		{'root':u'فخج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قهز':{
+	u'قَهَزَ':{
+		{'root':u'قهز','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شرط':{
+	u'شَرِطَ':{
+		{'root':u'شرط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'شَرَطَ':{
+		{'root':u'شرط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'شرط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'شرز':{
+	u'شَرَزَ':{
+		{'root':u'شرز','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'شرس':{
+	u'شَرِسَ':{
+		{'root':u'شرس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'شَرَسَ':{
+		{'root':u'شرس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'شَرُسَ':{
+		{'root':u'شرس','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'دكّ':{
+	u'دَكَّ':{
+		{'root':u'دكك','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'دكك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خذّ':{
+	u'خَذَّ':{
+		{'root':u'خذذ','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'شرع':{
+	u'شَرَعَ':{
+		{'root':u'شرع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'تغر':{
+	u'تَغِرَ':{
+		{'root':u'تغر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'تَغَرَ':{
+		{'root':u'تغر','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مغى':{
+	u'مَغَى':{
+		{'root':u'مغي','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ذفر':{
+	u'ذَفِرَ':{
+		{'root':u'ذفر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سرع':{
+	u'سَرُعَ':{
+		{'root':u'سرع','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'سَرِعَ':{
+		{'root':u'سرع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زغل':{
+	u'زَغَلَ':{
+		{'root':u'زغل','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ذفط':{
+	u'ذَفَطَ':{
+		{'root':u'ذفط','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'سرس':{
+	u'سَرِسَ':{
+		{'root':u'سرس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غنج':{
+	u'غَنِجَ':{
+		{'root':u'غنج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فصح':{
+	u'فَصُحَ':{
+		{'root':u'فصح','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'فَصَحَ':{
+		{'root':u'فصح','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'فصد':{
+	u'فَصَدَ':{
+		{'root':u'فصد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'فصخ':{
+	u'فَصَخَ':{
+		{'root':u'فصخ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'مسد':{
+	u'مَسَدَ':{
+		{'root':u'مسد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نفع':{
+	u'نَفَعَ':{
+		{'root':u'نفع','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'زال':{
+	u'زَالَ':{
+		{'root':u'زول','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'زيل','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'فخت':{
+	u'فَخَتَ':{
+		{'root':u'فخت','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'زان':{
+	u'زَانَ':{
+		{'root':u'زين','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'سرج':{
+	u'سَرِجَ':{
+		{'root':u'سرج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'سَرَجَ':{
+		{'root':u'سرج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'فصع':{
+	u'فَصَعَ':{
+		{'root':u'فصع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'سرا':{
+	u'سَرَا':{
+		{'root':u'سرو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'فخش':{
+	u'فَخَشَ':{
+		{'root':u'فخش','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'نقب':{
+	u'نَقِبَ':{
+		{'root':u'نقب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَقَبَ':{
+		{'root':u'نقب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'نَقُبَ':{
+		{'root':u'نقب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'يقظ':{
+	u'يَقُظَ':{
+		{'root':u'يقظ','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'يَقِظَ':{
+		{'root':u'يقظ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فثّ':{
+	u'فَثَّ':{
+		{'root':u'فثث','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'مذع':{
+	u'مَذَعَ':{
+		{'root':u'مذع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'حدئ':{
+	u'حَدِئَ':{
+		{'root':u'حدء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زقب':{
+	u'زَقَبَ':{
+		{'root':u'زقب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نقح':{
+	u'نَقَحَ':{
+		{'root':u'نقح','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'نفس':{
+	u'نَفَسَ':{
+		{'root':u'نفس','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'نَفُسَ':{
+		{'root':u'نفس','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'نَفِسَ':{
+		{'root':u'نفس','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'فخذ':{
+	u'فَخَذَ':{
+		{'root':u'فخذ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'غطس':{
+	u'غَطَسَ':{
+		{'root':u'غطس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'غطش':{
+	u'غَطِشَ':{
+		{'root':u'غطش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'غَطَشَ':{
+		{'root':u'غطش','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'زكي':{
+	u'زَكِيَ':{
+		{'root':u'زكو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غطى':{
+	u'غَطَى':{
+		{'root':u'غطي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'غطف':{
+	u'غَطِفَ':{
+		{'root':u'غطف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غطل':{
+	u'غَطِلَ':{
+		{'root':u'غطل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'غَطَلَ':{
+		{'root':u'غطل','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'نشي':{
+	u'نَشِيَ':{
+		{'root':u'نشو','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'وجي':{
+	u'وَجِيَ':{
+		{'root':u'وجي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مدق':{
+	u'مَدَقَ':{
+		{'root':u'مدق','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'رحم':{
+	u'رَحُمَ':{
+		{'root':u'رحم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'رَحِمَ':{
+		{'root':u'رحم','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'زفّ':{
+	u'زَفَّ':{
+		{'root':u'زفف','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'زفف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'زفف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نفش':{
+	u'نَفِشَ':{
+		{'root':u'نفش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَفَشَ':{
+		{'root':u'نفش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نفش','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'فثج':{
+	u'فَثَجَ':{
+		{'root':u'فثج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'فثأ':{
+	u'فَثَأَ':{
+		{'root':u'فثء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'غطّ':{
+	u'غَطَّ':{
+		{'root':u'غطط','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'غطط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نفص':{
+	u'نَفَصَ':{
+		{'root':u'نفص','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'فثئ':{
+	u'فَثِئَ':{
+		{'root':u'فثء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غسل':{
+	u'غَسَلَ':{
+		{'root':u'غسل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قفا':{
+	u'قَفَا':{
+		{'root':u'قفو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'فصم':{
+	u'فَصَمَ':{
+		{'root':u'فصم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'فصل':{
+	u'فَصَلَ':{
+		{'root':u'فصل','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'فصل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'غسم':{
+	u'غَسَمَ':{
+		{'root':u'غسم','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'توى':{
+	u'تَوَى':{
+		{'root':u'توي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'زاع':{
+	u'زَاعَ':{
+		{'root':u'زوع','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'رغا':{
+	u'رَغَا':{
+		{'root':u'رغو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'توي':{
+	u'تَوِيَ':{
+		{'root':u'توي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زمر':{
+	u'زَمِرَ':{
+		{'root':u'زمر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'زَمَرَ':{
+		{'root':u'زمر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'زمر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'غسن':{
+	u'غَسَنَ':{
+		{'root':u'غسن','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'فصّ':{
+	u'فَصَّ':{
+		{'root':u'فصص','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'زفن':{
+	u'زَفَنَ':{
+		{'root':u'زفن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'سرى':{
+	u'سَرَى':{
+		{'root':u'سري','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'سرو':{
+	u'سَرُوَ':{
+		{'root':u'سرو','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'مقس':{
+	u'مَقَسَ':{
+		{'root':u'مقس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'مَقِسَ':{
+		{'root':u'مقس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غفا':{
+	u'غَفَا':{
+		{'root':u'غفو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'دأم':{
+	u'دَأَمَ':{
+		{'root':u'دءم','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'طيط':{
+	u'طَيِطَ':{
+		{'root':u'طيط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زات':{
+	u'زَاتَ':{
+		{'root':u'زيت','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'زعر':{
+	u'زَعِرَ':{
+		{'root':u'زعر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'زَعَرَ':{
+		{'root':u'زعر','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'زاج':{
+	u'زَاجَ':{
+		{'root':u'زوج','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'زاح':{
+	u'زَاحَ':{
+		{'root':u'زوح','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'زيح','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'زاخ':{
+	u'زَاخَ':{
+		{'root':u'زيخ','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'نفد':{
+	u'نَفِدَ':{
+		{'root':u'نفد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نضد':{
+	u'نَضَدَ':{
+		{'root':u'نضد','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'نضخ':{
+	u'نَضَخَ':{
+		{'root':u'نضخ','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'نضخ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نضح':{
+	u'نَضَحَ':{
+		{'root':u'نضح','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'نضح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نضج':{
+	u'نَضِجَ':{
+		{'root':u'نضج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هاث':{
+	u'هَاثَ':{
+		{'root':u'هيث','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عضّ':{
+	u'عَضَّ':{
+		{'root':u'عضض','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'طلا':{
+	u'طَلَا':{
+		{'root':u'طلو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'طلب':{
+	u'طَلَبَ':{
+		{'root':u'طلب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'طَلِبَ':{
+		{'root':u'طلب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حات':{
+	u'حَاتَ':{
+		{'root':u'حوت','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'حاب':{
+	u'حَابَ':{
+		{'root':u'حوب','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'حاد':{
+	u'حَادَ':{
+		{'root':u'حود','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'حيد','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'جأش':{
+	u'جَأَشَ':{
+		{'root':u'جءش','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حاج':{
+	u'حَاجَ':{
+		{'root':u'حوج','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'حيج','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'حاس':{
+	u'حَاسَ':{
+		{'root':u'حوس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حيس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حاز':{
+	u'حَازَ':{
+		{'root':u'حوز','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حيز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حار':{
+	u'حَارَ':{
+		{'root':u'حور','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'حاذ':{
+	u'حَاذَ':{
+		{'root':u'حوذ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'حاط':{
+	u'حَاطَ':{
+		{'root':u'حوط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حيط','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'حاض':{
+	u'حَاضَ':{
+		{'root':u'حوض','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حيض','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'حاص':{
+	u'حَاصَ':{
+		{'root':u'حوص','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حيص','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'حاش':{
+	u'حَاشَ':{
+		{'root':u'حوش','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'حيش','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'طلع':{
+	u'طَلِعَ':{
+		{'root':u'طلع','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	u'طَلَعَ':{
+		{'root':u'طلع','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'طلع','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'طلغ':{
+	u'طَلَغَ':{
+		{'root':u'طلغ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نضر':{
+	u'نَضِرَ':{
+		{'root':u'نضر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَضَرَ':{
+		{'root':u'نضر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'نَضُرَ':{
+		{'root':u'نضر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'لغف':{
+	u'لَغَفَ':{
+		{'root':u'لغف','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'لَغِفَ':{
+		{'root':u'لغف','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'جئل':{
+	u'جَئِلَ':{
+		{'root':u'جءل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جشر':{
+	u'جَشِرَ':{
+		{'root':u'جشر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'جَشَرَ':{
+		{'root':u'جشر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'سخط':{
+	u'سَخِطَ':{
+		{'root':u'سخط','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لغم':{
+	u'لَغَمَ':{
+		{'root':u'لغم','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'لَغِمَ':{
+		{'root':u'لغم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مؤل':{
+	u'مَؤُلَ':{
+		{'root':u'مءل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ردّ':{
+	u'رَدَّ':{
+		{'root':u'ردد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'جشع':{
+	u'جَشِعَ':{
+		{'root':u'جشع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لغي':{
+	u'لَغِيَ':{
+		{'root':u'لغو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سئف':{
+	u'سَئِفَ':{
+		{'root':u'سءف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شكا':{
+	u'شَكَا':{
+		{'root':u'شكو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'جشأ':{
+	u'جَشَأَ':{
+		{'root':u'جشء','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ردن':{
+	u'رَدِنَ':{
+		{'root':u'ردن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'رَدَنَ':{
+		{'root':u'ردن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ردم':{
+	u'رَدَمَ':{
+		{'root':u'ردم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ردم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ستل':{
+	u'سَتِلَ':{
+		{'root':u'ستل','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	u'سَتَلَ':{
+		{'root':u'ستل','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ردف':{
+	u'رَدَفَ':{
+		{'root':u'ردف','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'رَدِفَ':{
+		{'root':u'ردف','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ردؤ':{
+	u'رَدُؤَ':{
+		{'root':u'ردء','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'جشب':{
+	u'جَشَبَ':{
+		{'root':u'جشب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'جَشُبَ':{
+		{'root':u'جشب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'جَشِبَ':{
+		{'root':u'جشب','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ردي':{
+	u'رَدِيَ':{
+		{'root':u'ردي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ردى':{
+	u'رَدَى':{
+		{'root':u'ردي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نمس':{
+	u'نَمَسَ':{
+		{'root':u'نمس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'نَمِسَ':{
+		{'root':u'نمس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زرق':{
+	u'زَرِقَ':{
+		{'root':u'زرق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'زَرَقَ':{
+		{'root':u'زرق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'زرق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'جشّ':{
+	u'جَشَّ':{
+		{'root':u'جشش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'جشش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نذخ':{
+	u'نَذَخَ':{
+		{'root':u'نذخ','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ردس':{
+	u'رَدَسَ':{
+		{'root':u'ردس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ردس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'لغا':{
+	u'لَغَا':{
+		{'root':u'لغو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'دحق':{
+	u'دَحَقَ':{
+		{'root':u'دحق','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لغب':{
+	u'لَغَبَ':{
+		{'root':u'لغب','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'لغب','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'لَغِبَ':{
+		{'root':u'لغب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نمر':{
+	u'نَمِرَ':{
+		{'root':u'نمر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَمَرَ':{
+		{'root':u'نمر','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ردغ':{
+	u'رَدِغَ':{
+		{'root':u'ردغ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جئث':{
+	u'جَئِثَ':{
+		{'root':u'جءث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فسج':{
+	u'فَسَجَ':{
+		{'root':u'فسج','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'لغز':{
+	u'لَغَزَ':{
+		{'root':u'لغز','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'جئر':{
+	u'جَئِرَ':{
+		{'root':u'جءر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جشن':{
+	u'جَشِنَ':{
+		{'root':u'جشن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جشم':{
+	u'جَشِمَ':{
+		{'root':u'جشم','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'جئز':{
+	u'جَئِزَ':{
+		{'root':u'جءز','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ردأ':{
+	u'رَدَأَ':{
+		{'root':u'ردء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'تلى':{
+	u'تَلَى':{
+		{'root':u'تلي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ردح':{
+	u'رَدُحَ':{
+		{'root':u'ردح','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'رَدَحَ':{
+		{'root':u'ردح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'هقى':{
+	u'هَقَى':{
+		{'root':u'هقي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ندّ':{
+	u'نَدَّ':{
+		{'root':u'ندد','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'حاك':{
+	u'حَاكَ':{
+		{'root':u'حوك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حيك','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حاق':{
+	u'حَاقَ':{
+		{'root':u'حوق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حيق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حاف':{
+	u'حَافَ':{
+		{'root':u'حوف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حيف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'حان':{
+	u'حَانَ':{
+		{'root':u'حين','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'حام':{
+	u'حَامَ':{
+		{'root':u'حوم','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'حال':{
+	u'حَالَ':{
+		{'root':u'حول','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'حيل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'طلى':{
+	u'طَلَى':{
+		{'root':u'طلي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'طلي':{
+	u'طَلِيَ':{
+		{'root':u'طلي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نضل':{
+	u'نَضِلَ':{
+		{'root':u'نضل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَضَلَ':{
+		{'root':u'نضل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'نضف':{
+	u'نَضِفَ':{
+		{'root':u'نضف','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'نَضَفَ':{
+		{'root':u'نضف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نضف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نطّ':{
+	u'نَطَّ':{
+		{'root':u'نطط','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'نطط','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'طلّ':{
+	u'طَلَّ':{
+		{'root':u'طلل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'طلل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'طلل','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'عضا':{
+	u'عَضَا':{
+		{'root':u'عضو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'عضد':{
+	u'عَضَدَ':{
+		{'root':u'عضد','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'عضد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'عَضِدَ':{
+		{'root':u'عضد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عضب':{
+	u'عَضِبَ':{
+		{'root':u'عضب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَضُبَ':{
+		{'root':u'عضب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'عَضَبَ':{
+		{'root':u'عضب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نضّ':{
+	u'نَضَّ':{
+		{'root':u'نضض','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'لطا':{
+	u'لَطَا':{
+		{'root':u'لطو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'كرث':{
+	u'كَرَثَ':{
+		{'root':u'كرث','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'كرث','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'زمت':{
+	u'زَمَتَ':{
+		{'root':u'زمت','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'زَمُتَ':{
+		{'root':u'زمت','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'كرب':{
+	u'كَرَبَ':{
+		{'root':u'كرب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'كَرِبَ':{
+		{'root':u'كرب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كرد':{
+	u'كَرَدَ':{
+		{'root':u'كرد','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'شفق':{
+	u'شَفِقَ':{
+		{'root':u'شفق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كرج':{
+	u'كَرِجَ':{
+		{'root':u'كرج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نبج':{
+	u'نَبَجَ':{
+		{'root':u'نبج','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'نبج','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'خذي':{
+	u'خَذِيَ':{
+		{'root':u'خذي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كرا':{
+	u'كَرَا':{
+		{'root':u'كرو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ذمّ':{
+	u'ذَمَّ':{
+		{'root':u'ذمم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ذمم','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'كرع':{
+	u'كَرَعَ':{
+		{'root':u'كرع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'كَرِعَ':{
+		{'root':u'كرع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فلق':{
+	u'فَلَقَ':{
+		{'root':u'فلق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'زخّ':{
+	u'زَخَّ':{
+		{'root':u'زخخ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'زخخ','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'رضع':{
+	u'رَضِعَ':{
+		{'root':u'رضع','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'رَضَعَ':{
+		{'root':u'رضع','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'رضع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'رَضُعَ':{
+		{'root':u'رضع','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'لطث':{
+	u'لَطَثَ':{
+		{'root':u'لطث','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'كرس':{
+	u'كَرِسَ':{
+		{'root':u'كرس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كرز':{
+	u'كَرِزَ':{
+		{'root':u'كرز','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'كَرَزَ':{
+		{'root':u'كرز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'كنف':{
+	u'كَنَفَ':{
+		{'root':u'كنف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'كنف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'دمس':{
+	u'دَمِسَ':{
+		{'root':u'دمس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'دَمَسَ':{
+		{'root':u'دمس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'دمس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'هلع':{
+	u'هَلِعَ':{
+		{'root':u'هلع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ثرى':{
+	u'ثَرَى':{
+		{'root':u'ثري','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'كرص':{
+	u'كَرَصَ':{
+		{'root':u'كرص','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'كرش':{
+	u'كَرِشَ':{
+		{'root':u'كرش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زأج':{
+	u'زَأَجَ':{
+		{'root':u'زءج','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غثي':{
+	u'غَثِيَ':{
+		{'root':u'غثي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فآ':{
+	u'فَآ':{
+		{'root':u'فءو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'شلخ':{
+	u'شَلَخَ':{
+		{'root':u'شلخ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ندم':{
+	u'نَدِمَ':{
+		{'root':u'ندم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خذم':{
+	u'خَذَمَ':{
+		{'root':u'خذم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'خَذِمَ':{
+		{'root':u'خذم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زنب':{
+	u'زَنِبَ':{
+		{'root':u'زنب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غفى':{
+	u'غَفَى':{
+		{'root':u'غفي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'شلا':{
+	u'شَلَا':{
+		{'root':u'شلو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'بلم':{
+	u'بَلِمَ':{
+		{'root':u'بلم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شفى':{
+	u'شَفَى':{
+		{'root':u'شفي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'هبل':{
+	u'هَبُلَ':{
+		{'root':u'هبل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'هَبِلَ':{
+		{'root':u'هبل','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'شلغ':{
+	u'شَلَغَ':{
+		{'root':u'شلغ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'زأد':{
+	u'زَأَدَ':{
+		{'root':u'زءد','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'كأى':{
+	u'كَأَى':{
+		{'root':u'كءي','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جأب':{
+	u'جَأَبَ':{
+		{'root':u'جءب','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'مرن':{
+	u'مَرَنَ':{
+		{'root':u'مرن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'سكم':{
+	u'سَكَمَ':{
+		{'root':u'سكم','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'كأل':{
+	u'كَأَلَ':{
+		{'root':u'كءل','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'غفل':{
+	u'غَفَلَ':{
+		{'root':u'غفل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ندف':{
+	u'نَدَفَ':{
+		{'root':u'ندف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'هبش':{
+	u'هَبَشَ':{
+		{'root':u'هبش','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'هَبِشَ':{
+		{'root':u'هبش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هبص':{
+	u'هَبِصَ':{
+		{'root':u'هبص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'هَبَصَ':{
+		{'root':u'هبص','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'هبط':{
+	u'هَبَطَ':{
+		{'root':u'هبط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'هبط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ثتن':{
+	u'ثَتِنَ':{
+		{'root':u'ثتن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جنس':{
+	u'جَنَسَ':{
+		{'root':u'جنس','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'هبز':{
+	u'هَبَزَ':{
+		{'root':u'هبز','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ثتم':{
+	u'ثَتَمَ':{
+		{'root':u'ثتم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'كأص':{
+	u'كَأَصَ':{
+		{'root':u'كءص','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'شلق':{
+	u'شَلَقَ':{
+		{'root':u'شلق','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'فاغ':{
+	u'فَاغَ':{
+		{'root':u'فوغ','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'هبع':{
+	u'هَبَعَ':{
+		{'root':u'هبع','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'هبع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هبغ':{
+	u'هَبَغَ':{
+		{'root':u'هبغ','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كأج':{
+	u'كَأَجَ':{
+		{'root':u'كءج','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أله':{
+	u'أَلَهَ':{
+		{'root':u'ءله','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'أَلِهَ':{
+		{'root':u'ءله','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هبا':{
+	u'هَبَا':{
+		{'root':u'هبو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'هبج':{
+	u'هَبَجَ':{
+		{'root':u'هبج','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'هَبِجَ':{
+		{'root':u'هبج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شلّ':{
+	u'شَلَّ':{
+		{'root':u'شلل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'شلل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هبد':{
+	u'هَبَدَ':{
+		{'root':u'هبد','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'هبت':{
+	u'هَبَتَ':{
+		{'root':u'هبت','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'هبث':{
+	u'هَبَثَ':{
+		{'root':u'هبث','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'كري':{
+	u'كَرِيَ':{
+		{'root':u'كرو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'كري','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كرى':{
+	u'كَرَى':{
+		{'root':u'كري','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ذمه':{
+	u'ذَمِهَ':{
+		{'root':u'ذمه','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مشى':{
+	u'مَشَى':{
+		{'root':u'مشي','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'طهش':{
+	u'طَهَشَ':{
+		{'root':u'طهش','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'خضب':{
+	u'خَضَبَ':{
+		{'root':u'خضب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'خَضِبَ':{
+		{'root':u'خضب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كرف':{
+	u'كَرَفَ':{
+		{'root':u'كرف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'كرف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'زبن':{
+	u'زَبَنَ':{
+		{'root':u'زبن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'كره':{
+	u'كَرِهَ':{
+		{'root':u'كره','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'كَرُهَ':{
+		{'root':u'كره','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'كرم':{
+	u'كَرَمَ':{
+		{'root':u'كرم','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'كَرُمَ':{
+		{'root':u'كرم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بلي':{
+	u'بَلِيَ':{
+		{'root':u'بلي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سلع':{
+	u'سَلِعَ':{
+		{'root':u'سلع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'سَلَعَ':{
+		{'root':u'سلع','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ذاد':{
+	u'ذَادَ':{
+		{'root':u'ذود','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'وأل':{
+	u'وَأَلَ':{
+		{'root':u'وءل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ظفّ':{
+	u'ظَفَّ':{
+		{'root':u'ظفف','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'نهش':{
+	u'نَهَشَ':{
+		{'root':u'نهش','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'نهش','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'كرّ':{
+	u'كَرَّ':{
+		{'root':u'كرر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'كرر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'كرر','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'وأى':{
+	u'وَأَى':{
+		{'root':u'وءي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نعص':{
+	u'نَعَصَ':{
+		{'root':u'نعص','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'لؤم':{
+	u'لَؤُمَ':{
+		{'root':u'لءم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'نطع':{
+	u'نَطَعَ':{
+		{'root':u'نطع','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ذهن':{
+	u'ذَهِنَ':{
+		{'root':u'ذهن','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'ذَهُنَ':{
+		{'root':u'ذهن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'ذَهَنَ':{
+		{'root':u'ذهن','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ذهل':{
+	u'ذَهِلَ':{
+		{'root':u'ذهل','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'ذَهَلَ':{
+		{'root':u'ذهل','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'شعب':{
+	u'شَعَبَ':{
+		{'root':u'شعب','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'شَعِبَ':{
+		{'root':u'شعب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سبح':{
+	u'سَبَحَ':{
+		{'root':u'سبح','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سلف':{
+	u'سَلَفَ':{
+		{'root':u'سلف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'شعث':{
+	u'شَعِثَ':{
+		{'root':u'شعث','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ضام':{
+	u'ضَامَ':{
+		{'root':u'ضيم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ضان':{
+	u'ضَانَ':{
+		{'root':u'ضون','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'شعا':{
+	u'شَعَا':{
+		{'root':u'شعو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'سطم':{
+	u'سَطَمَ':{
+		{'root':u'سطم','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'بنش':{
+	u'بَنَشَ':{
+		{'root':u'بنش','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'تقع':{
+	u'تَقِعَ':{
+		{'root':u'تقع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضاك':{
+	u'ضَاكَ':{
+		{'root':u'ضوك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ضيك','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ذاج':{
+	u'ذَاجَ':{
+		{'root':u'ذوج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ذيج','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'يئس':{
+	u'يَئِسَ':{
+		{'root':u'يءس','bab':4,'transitive':u'ك','haraka':u'َ'},
+		{'root':u'يءس','bab':6,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'مهى':{
+	u'مَهَى':{
+		{'root':u'مهي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'مهو':{
+	u'مَهُوَ':{
+		{'root':u'مهو','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بنح':{
+	u'بَنَحَ':{
+		{'root':u'بنح','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'بنج':{
+	u'بَنَجَ':{
+		{'root':u'بنج','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'حسى':{
+	u'حَسَى':{
+		{'root':u'حسي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'مهك':{
+	u'مَهِكَ':{
+		{'root':u'مهك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'مَهَكَ':{
+		{'root':u'مهك','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'حسن':{
+	u'حَسُنَ':{
+		{'root':u'حسن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'حَسَنَ':{
+		{'root':u'حسن','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'حسم':{
+	u'حَسَمَ':{
+		{'root':u'حسم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حسل':{
+	u'حَسَلَ':{
+		{'root':u'حسل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'حسك':{
+	u'حَسِكَ':{
+		{'root':u'حسك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شعر':{
+	u'شَعَرَ':{
+		{'root':u'شعر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'شَعِرَ':{
+		{'root':u'شعر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'شَعُرَ':{
+		{'root':u'شعر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'حسف':{
+	u'حَسَفَ':{
+		{'root':u'حسف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'حَسِفَ':{
+		{'root':u'حسف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مهل':{
+	u'مَهَلَ':{
+		{'root':u'مهل','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'خذف':{
+	u'خَذَفَ':{
+		{'root':u'خذف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'كشم':{
+	u'كَشِمَ':{
+		{'root':u'كشم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'كَشَمَ':{
+		{'root':u'كشم','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'غرض':{
+	u'غَرَضَ':{
+		{'root':u'غرض','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'غَرِضَ':{
+		{'root':u'غرض','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'غَرُضَ':{
+		{'root':u'غرض','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'مزق':{
+	u'مَزَقَ':{
+		{'root':u'مزق','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'مزق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ضهد':{
+	u'ضَهَدَ':{
+		{'root':u'ضهد','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'دآ':{
+	u'دَآ':{
+		{'root':u'دءو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ألق':{
+	u'أَلِقَ':{
+		{'root':u'ءلق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'أَلَقَ':{
+		{'root':u'ءلق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'غرس':{
+	u'غَرَسَ':{
+		{'root':u'غرس','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'نتل':{
+	u'نَتَلَ':{
+		{'root':u'نتل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نتل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'غرد':{
+	u'غَرِدَ':{
+		{'root':u'غرد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خظا':{
+	u'خَظَا':{
+		{'root':u'خظو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'غرث':{
+	u'غَرِثَ':{
+		{'root':u'غرث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غرب':{
+	u'غَرِبَ':{
+		{'root':u'غرب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'غَرُبَ':{
+		{'root':u'غرب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'غَرَبَ':{
+		{'root':u'غرب','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'وقل':{
+	u'وَقَلَ':{
+		{'root':u'وقل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'نهل':{
+	u'نَهِلَ':{
+		{'root':u'نهل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غرا':{
+	u'غَرَا':{
+		{'root':u'غرو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نتّ':{
+	u'نَتَّ':{
+		{'root':u'نتت','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نطس':{
+	u'نَطِسَ':{
+		{'root':u'نطس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نهف':{
+	u'نَهَفَ':{
+		{'root':u'نهف','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نهق':{
+	u'نَهِقَ':{
+		{'root':u'نهق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَهَقَ':{
+		{'root':u'نهق','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'نهق','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'نهق','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قحط':{
+	u'قَحَطَ':{
+		{'root':u'قحط','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'قَحِطَ':{
+		{'root':u'قحط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رهش':{
+	u'رَهِشَ':{
+		{'root':u'رهش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نتخ':{
+	u'نَتَخَ':{
+		{'root':u'نتخ','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نتح':{
+	u'نَتَحَ':{
+		{'root':u'نتح','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نتج':{
+	u'نَتَجَ':{
+		{'root':u'نتج','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نتأ':{
+	u'نَتَأَ':{
+		{'root':u'نتء','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رهس':{
+	u'رَهَسَ':{
+		{'root':u'رهس','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'نهض':{
+	u'نَهَضَ':{
+		{'root':u'نهض','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نهط':{
+	u'نَهَطَ':{
+		{'root':u'نهط','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'نتا':{
+	u'نَتَا':{
+		{'root':u'نتو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'قحا':{
+	u'قَحَا':{
+		{'root':u'قحو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'نهز':{
+	u'نَهَزَ':{
+		{'root':u'نهز','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'غرّ':{
+	u'غَرَّ':{
+		{'root':u'غرر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'غرر','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'غرر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نهج':{
+	u'نَهُجَ':{
+		{'root':u'نهج','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'نَهَجَ':{
+		{'root':u'نهج','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَهِجَ':{
+		{'root':u'نهج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نتغ':{
+	u'نَتَغَ':{
+		{'root':u'نتغ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نتغ','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نتع':{
+	u'نَتَعَ':{
+		{'root':u'نتع','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'نتع','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'نهد':{
+	u'نَهَدَ':{
+		{'root':u'نهد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نهد','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'نَهُدَ':{
+		{'root':u'نهد','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'غري':{
+	u'غَرِيَ':{
+		{'root':u'غرو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لقا':{
+	u'لَقَا':{
+		{'root':u'لقو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نهت':{
+	u'نَهَتَ':{
+		{'root':u'نهت','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'غرى':{
+	u'غَرَى':{
+		{'root':u'غري','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'غرن':{
+	u'غَرِنَ':{
+		{'root':u'غرن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غرل':{
+	u'غَرِلَ':{
+		{'root':u'غرل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غرم':{
+	u'غَرِمَ':{
+		{'root':u'غرم','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'غرق':{
+	u'غَرِقَ':{
+		{'root':u'غرق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غنّ':{
+	u'غَنَّ':{
+		{'root':u'غنن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غرف':{
+	u'غَرِفَ':{
+		{'root':u'غرف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'غَرَفَ':{
+		{'root':u'غرف','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'غرف','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ضاج':{
+	u'ضَاجَ':{
+		{'root':u'ضوج','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'ضيج','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ضاح':{
+	u'ضَاحَ':{
+		{'root':u'ضيح','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ضاب':{
+	u'ضَابَ':{
+		{'root':u'ضوب','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'شعي':{
+	u'شَعِيَ':{
+		{'root':u'شعو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مخر':{
+	u'مَخَرَ':{
+		{'root':u'مخر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'مخر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'بنّ':{
+	u'بَنَّ':{
+		{'root':u'بنن','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'مهز':{
+	u'مَهَزَ':{
+		{'root':u'مهز','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'شعن':{
+	u'شَعِنَ':{
+		{'root':u'شعن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هزأ':{
+	u'هَزَأَ':{
+		{'root':u'هزء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'شعف':{
+	u'شَعَفَ':{
+		{'root':u'شعف','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'شَعِفَ':{
+		{'root':u'شعف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حسر':{
+	u'حَسَرَ':{
+		{'root':u'حسر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حسر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'حَسِرَ':{
+		{'root':u'حسر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'حَسُرَ':{
+		{'root':u'حسر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بنى':{
+	u'بَنَى':{
+		{'root':u'بني','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'مهد':{
+	u'مَهَدَ':{
+		{'root':u'مهد','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ضاع':{
+	u'ضَاعَ':{
+		{'root':u'ضوع','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ضيع','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'حسب':{
+	u'حَسِبَ':{
+		{'root':u'حسب','bab':4,'transitive':u'ك','haraka':u'َ'},
+		{'root':u'حسب','bab':6,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'حَسَبَ':{
+		{'root':u'حسب','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'حَسُبَ':{
+		{'root':u'حسب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'حسا':{
+	u'حَسَا':{
+		{'root':u'حسو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ذعج':{
+	u'ذَعَجَ':{
+		{'root':u'ذعج','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ذاق':{
+	u'ذَاقَ':{
+		{'root':u'ذوق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'بنق':{
+	u'بَنَقَ':{
+		{'root':u'بنق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'مها':{
+	u'مَهَا':{
+		{'root':u'مهو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'شعّ':{
+	u'شَعَّ':{
+		{'root':u'شعع','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'شعع','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ضاز':{
+	u'ضَازَ':{
+		{'root':u'ضوز','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ضيز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ضاس':{
+	u'ضَاسَ':{
+		{'root':u'ضوس','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'ضيس','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'حلي':{
+	u'حَلِيَ':{
+		{'root':u'حلو','bab':4,'transitive':u'ك','haraka':u'َ'},
+		{'root':u'حلي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جزأ':{
+	u'جَزَأَ':{
+		{'root':u'جزء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'حلى':{
+	u'حَلَى':{
+		{'root':u'حلي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'سلغ':{
+	u'سَلِغَ':{
+		{'root':u'سلغ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'سَلَغَ':{
+		{'root':u'سلغ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'جزئ':{
+	u'جَزِئَ':{
+		{'root':u'جزء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حلق':{
+	u'حَلَقَ':{
+		{'root':u'حلق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حلق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'حَلِقَ':{
+		{'root':u'حلق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حلك':{
+	u'حَلِكَ':{
+		{'root':u'حلك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'حَلَكَ':{
+		{'root':u'حلك','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'حلف':{
+	u'حَلَفَ':{
+		{'root':u'حلف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'حَلُفَ':{
+		{'root':u'حلف','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'جزح':{
+	u'جَزَحَ':{
+		{'root':u'جزح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'سمك':{
+	u'سَمَكَ':{
+		{'root':u'سمك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نهر':{
+	u'نَهَرَ':{
+		{'root':u'نهر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'نَهِرَ':{
+		{'root':u'نهر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حلم':{
+	u'حَلُمَ':{
+		{'root':u'حلم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'حَلَمَ':{
+		{'root':u'حلم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'حَلِمَ':{
+		{'root':u'حلم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جزر':{
+	u'جَزَرَ':{
+		{'root':u'جزر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'جزر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'وطأ':{
+	u'وَطَأَ':{
+		{'root':u'وطء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'سعر':{
+	u'سَعَرَ':{
+		{'root':u'سعر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'سَعِرَ':{
+		{'root':u'سعر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مثج':{
+	u'مَثَجَ':{
+		{'root':u'مثج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'مصع':{
+	u'مَصَعَ':{
+		{'root':u'مصع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'جزع':{
+	u'جَزَعَ':{
+		{'root':u'جزع','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	u'جَزِعَ':{
+		{'root':u'جزع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نار':{
+	u'نَارَ':{
+		{'root':u'نور','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نير','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'مصط':{
+	u'مَصَطَ':{
+		{'root':u'مصط','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'حلّ':{
+	u'حَلَّ':{
+		{'root':u'حلل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حلل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'حلل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مصر':{
+	u'مَصَرَ':{
+		{'root':u'مصر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'هيف':{
+	u'هَيِفَ':{
+		{'root':u'هيف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'هيف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كمه':{
+	u'كَمِهَ':{
+		{'root':u'كمه','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فأق':{
+	u'فَأَقَ':{
+		{'root':u'فءق','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فحث':{
+	u'فَحَثَ':{
+		{'root':u'فحث','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كمل':{
+	u'كَمَلَ':{
+		{'root':u'كمل','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'كَمُلَ':{
+		{'root':u'كمل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'كَمِلَ':{
+		{'root':u'كمل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فحج':{
+	u'فَحِجَ':{
+		{'root':u'فحج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'فَحَجَ':{
+		{'root':u'فحج','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'فأم':{
+	u'فَأَمَ':{
+		{'root':u'فءم','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غني':{
+	u'غَنِيَ':{
+		{'root':u'غني','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زتّ':{
+	u'زَتَّ':{
+		{'root':u'زتت','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'فأى':{
+	u'فَأَى':{
+		{'root':u'فءي','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'همش':{
+	u'هَمِشَ':{
+		{'root':u'همش','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'هَمَشَ':{
+		{'root':u'همش','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'همش','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'نقف':{
+	u'نَقَفَ':{
+		{'root':u'نقف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'فحا':{
+	u'فَحَا':{
+		{'root':u'فحو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ذآ':{
+	u'ذَآ':{
+		{'root':u'ذءو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'لذم':{
+	u'لَذِمَ':{
+		{'root':u'لذم','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'مسل':{
+	u'مَسَلَ':{
+		{'root':u'مسل','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'لقط':{
+	u'لَقَطَ':{
+		{'root':u'لقط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'كمّ':{
+	u'كَمَّ':{
+		{'root':u'كمم','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'كمم','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ظفر':{
+	u'ظَفَرَ':{
+		{'root':u'ظفر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'ظَفِرَ':{
+		{'root':u'ظفر','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'مسك':{
+	u'مَسَكَ':{
+		{'root':u'مسك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'مسك','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'فحس':{
+	u'فَحَسَ':{
+		{'root':u'فحس','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'فحص':{
+	u'فَحَصَ':{
+		{'root':u'فحص','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'فحش':{
+	u'فَحَشَ':{
+		{'root':u'فحش','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'فَحُشَ':{
+		{'root':u'فحش','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'سلخ':{
+	u'سَلَخَ':{
+		{'root':u'سلخ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'سلخ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'سَلُخَ':{
+		{'root':u'سلخ','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'فحض':{
+	u'فَحَضَ':{
+		{'root':u'فحض','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'فحى':{
+	u'فَحَى':{
+		{'root':u'فحي','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'كمئ':{
+	u'كَمِئَ':{
+		{'root':u'كمء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فحي':{
+	u'فَحِيَ':{
+		{'root':u'فحي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كمأ':{
+	u'كَمَأَ':{
+		{'root':u'كمء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'مظّ':{
+	u'مَظَّ':{
+		{'root':u'مظظ','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'كمد':{
+	u'كَمِدَ':{
+		{'root':u'كمد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'كَمَدَ':{
+		{'root':u'كمد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'كمخ':{
+	u'كَمَخَ':{
+		{'root':u'كمخ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'خثى':{
+	u'خَثَى':{
+		{'root':u'خثي','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'نقل':{
+	u'نَقَلَ':{
+		{'root':u'نقل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'نَقِلَ':{
+		{'root':u'نقل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فأد':{
+	u'فَأَدَ':{
+		{'root':u'فءد','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'فحل':{
+	u'فَحَلَ':{
+		{'root':u'فحل','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'لذع':{
+	u'لَذَعَ':{
+		{'root':u'لذع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'فأس':{
+	u'فَأَسَ':{
+		{'root':u'فءس','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'فأر':{
+	u'فَأَرَ':{
+		{'root':u'فءر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'كمش':{
+	u'كَمَشَ':{
+		{'root':u'كمش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'كَمُشَ':{
+		{'root':u'كمش','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'كَمِشَ':{
+		{'root':u'كمش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بوه':{
+	u'بَوِهَ':{
+		{'root':u'بوه','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قدم':{
+	u'قَدُمَ':{
+		{'root':u'قدم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'قَدَمَ':{
+		{'root':u'قدم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'قَدِمَ':{
+		{'root':u'قدم','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'كمر':{
+	u'كَمِرَ':{
+		{'root':u'كمر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حقص':{
+	u'حَقَصَ':{
+		{'root':u'حقص','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'فحّ':{
+	u'فَحَّ':{
+		{'root':u'فحح','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'فحح','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'وخم':{
+	u'وَخَمَ':{
+		{'root':u'وخم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'وَخِمَ':{
+		{'root':u'وخم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'وَخُمَ':{
+		{'root':u'وخم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بوى':{
+	u'بَوَى':{
+		{'root':u'بوي','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'لذج':{
+	u'لَذَجَ':{
+		{'root':u'لذج','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'نقى':{
+	u'نَقَى':{
+		{'root':u'نقي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'كمع':{
+	u'كَمَعَ':{
+		{'root':u'كمع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'جزف':{
+	u'جَزَفَ':{
+		{'root':u'جزف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'حلب':{
+	u'حَلَبَ':{
+		{'root':u'حلب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حلب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'حَلِبَ':{
+		{'root':u'حلب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مغا':{
+	u'مَغَا':{
+		{'root':u'مغو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'جزم':{
+	u'جَزَمَ':{
+		{'root':u'جزم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'جزل':{
+	u'جَزِلَ':{
+		{'root':u'جزل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'جَزَلَ':{
+		{'root':u'جزل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'جَزُلَ':{
+		{'root':u'جزل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'حلج':{
+	u'حَلَجَ':{
+		{'root':u'حلج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حلج','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'طقّ':{
+	u'طَقَّ':{
+		{'root':u'طقق','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'جزى':{
+	u'جَزَى':{
+		{'root':u'جزي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حلأ':{
+	u'حَلَأَ':{
+		{'root':u'حلء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'سعى':{
+	u'سَعَى':{
+		{'root':u'سعي','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حلئ':{
+	u'حَلِئَ':{
+		{'root':u'حلء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حلا':{
+	u'حَلَا':{
+		{'root':u'حلو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'غثر':{
+	u'غَثَرَ':{
+		{'root':u'غثر','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'غَثِرَ':{
+		{'root':u'غثر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جزّ':{
+	u'جَزَّ':{
+		{'root':u'جزز','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'جزز','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'وخى':{
+	u'وَخَى':{
+		{'root':u'وخي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'غنم':{
+	u'غَنِمَ':{
+		{'root':u'غنم','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'هيب':{
+	u'هَيِبَ':{
+		{'root':u'هيب','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'حلز':{
+	u'حَلَزَ':{
+		{'root':u'حلز','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'حلس':{
+	u'حَلِسَ':{
+		{'root':u'حلس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'حَلَسَ':{
+		{'root':u'حلس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حلس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'غوي':{
+	u'غَوِيَ':{
+		{'root':u'غوو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مصّ':{
+	u'مَصَّ':{
+		{'root':u'مصص','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'مصص','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'حلط':{
+	u'حَلِطَ':{
+		{'root':u'حلط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'حَلَطَ':{
+		{'root':u'حلط','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'هلس':{
+	u'هَلَسَ':{
+		{'root':u'هلس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'خزج':{
+	u'خَزِجَ':{
+		{'root':u'خزج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عفق':{
+	u'عَفَقَ':{
+		{'root':u'عفق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'رخص':{
+	u'رَخُصَ':{
+		{'root':u'رخص','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'لدن':{
+	u'لَدُنَ':{
+		{'root':u'لدن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ظلم':{
+	u'ظَلِمَ':{
+		{'root':u'ظلم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'ظَلَمَ':{
+		{'root':u'ظلم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ونى':{
+	u'وَنَى':{
+		{'root':u'وني','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'مشط':{
+	u'مَشِطَ':{
+		{'root':u'مشط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'مَشَطَ':{
+		{'root':u'مشط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'مشط','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'هنع':{
+	u'هَنَعَ':{
+		{'root':u'هنع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'هَنِعَ':{
+		{'root':u'هنع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'همت':{
+	u'هَمَتَ':{
+		{'root':u'همت','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'هلب':{
+	u'هَلَبَ':{
+		{'root':u'هلب','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'هَلِبَ':{
+		{'root':u'هلب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ران':{
+	u'رَانَ':{
+		{'root':u'رون','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'رين','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'هلت':{
+	u'هَلَتَ':{
+		{'root':u'هلت','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'لدم':{
+	u'لَدَمَ':{
+		{'root':u'لدم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'هلج':{
+	u'هَلَجَ':{
+		{'root':u'هلج','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'راق':{
+	u'رَاقَ':{
+		{'root':u'روق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ريق','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'راف':{
+	u'رَافَ':{
+		{'root':u'روف','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'ريف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'هلد':{
+	u'هَلَدَ':{
+		{'root':u'هلد','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'شقع':{
+	u'شَقَعَ':{
+		{'root':u'شقع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'دمخ':{
+	u'دَمَخَ':{
+		{'root':u'دمخ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لهف':{
+	u'لَهِفَ':{
+		{'root':u'لهف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ظلف':{
+	u'ظَلِفَ':{
+		{'root':u'ظلف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'ظَلَفَ':{
+		{'root':u'ظلف','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'لهم':{
+	u'لَهِمَ':{
+		{'root':u'لهم','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'شقر':{
+	u'شَقُرَ':{
+		{'root':u'شقر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'شَقِرَ':{
+		{'root':u'شقر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شقذ':{
+	u'شَقَذَ':{
+		{'root':u'شقذ','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'شَقِذَ':{
+		{'root':u'شقذ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مأج':{
+	u'مَأَجَ':{
+		{'root':u'مءج','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لهّ':{
+	u'لَهَّ':{
+		{'root':u'لهه','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'شقح':{
+	u'شَقَحَ':{
+		{'root':u'شقح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'شَقِحَ':{
+		{'root':u'شقح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'شَقُحَ':{
+		{'root':u'شقح','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ذلى':{
+	u'ذَلَى':{
+		{'root':u'ذلي','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'لثّ':{
+	u'لَثَّ':{
+		{'root':u'لثث','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ذئب':{
+	u'ذَئِبَ':{
+		{'root':u'ذءب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رقى':{
+	u'رَقَى':{
+		{'root':u'رقي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'شقأ':{
+	u'شَقَأَ':{
+		{'root':u'شقء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'شقا':{
+	u'شَقَا':{
+		{'root':u'شقو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'مأد':{
+	u'مَأَدَ':{
+		{'root':u'مءد','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مأن':{
+	u'مَأَنَ':{
+		{'root':u'مءن','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'رقز':{
+	u'رَقَزَ':{
+		{'root':u'رقز','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'مأل':{
+	u'مَأَلَ':{
+		{'root':u'مءل','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'رقش':{
+	u'رَقِشَ':{
+		{'root':u'رقش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'رَقَشَ':{
+		{'root':u'رقش','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'لها':{
+	u'لَهَا':{
+		{'root':u'لهو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'فلك':{
+	u'فَلِكَ':{
+		{'root':u'فلك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'فَلَكَ':{
+		{'root':u'فلك','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'نقي':{
+	u'نَقِيَ':{
+		{'root':u'نقو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'نقي','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'شقّ':{
+	u'شَقَّ':{
+		{'root':u'شقق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'شقق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لهث':{
+	u'لَهَثَ':{
+		{'root':u'لهث','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'لَهِثَ':{
+		{'root':u'لهث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لهب':{
+	u'لَهِبَ':{
+		{'root':u'لهب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لهد':{
+	u'لَهَدَ':{
+		{'root':u'لهد','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'لهج':{
+	u'لَهِجَ':{
+		{'root':u'لهج','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لهز':{
+	u'لَهَزَ':{
+		{'root':u'لهز','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لهس':{
+	u'لَهَسَ':{
+		{'root':u'لهس','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'شقي':{
+	u'شَقِيَ':{
+		{'root':u'شقو','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نعل':{
+	u'نَعِلَ':{
+		{'root':u'نعل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَعَلَ':{
+		{'root':u'نعل','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'لهط':{
+	u'لَهَطَ':{
+		{'root':u'لهط','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'كوع':{
+	u'كَوِعَ':{
+		{'root':u'كوع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رقب':{
+	u'رَقَبَ':{
+		{'root':u'رقب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'رَقِبَ':{
+		{'root':u'رقب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لهع':{
+	u'لَهِعَ':{
+		{'root':u'لهع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خزا':{
+	u'خَزَا':{
+		{'root':u'خزو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'شقل':{
+	u'شَقَلَ':{
+		{'root':u'شقل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'شقن':{
+	u'شَقَنَ':{
+		{'root':u'شقن','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'شَقُنَ':{
+		{'root':u'شقن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'هلّ':{
+	u'هَلَّ':{
+		{'root':u'هلل','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'لدّ':{
+	u'لَدَّ':{
+		{'root':u'لدد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'لدد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'لدد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'راغ':{
+	u'رَاغَ':{
+		{'root':u'روغ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'راع':{
+	u'رَاعَ':{
+		{'root':u'روع','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ريع','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'قلا':{
+	u'قَلَا':{
+		{'root':u'قلو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'راط':{
+	u'رَاطَ':{
+		{'root':u'روط','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'ريط','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'وغل':{
+	u'وَغَلَ':{
+		{'root':u'وغل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'راص':{
+	u'رَاصَ':{
+		{'root':u'روص','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'راش':{
+	u'رَاشَ':{
+		{'root':u'روش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ريش','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'كتا':{
+	u'كَتَا':{
+		{'root':u'كتو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'راز':{
+	u'رَازَ':{
+		{'root':u'روز','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'رغم':{
+	u'رَغِمَ':{
+		{'root':u'رغم','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'رَغَمَ':{
+		{'root':u'رغم','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'رغم','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'رَغُمَ':{
+		{'root':u'رغم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'راد':{
+	u'رَادَ':{
+		{'root':u'رود','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'راخ':{
+	u'رَاخَ':{
+		{'root':u'ريخ','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'راح':{
+	u'رَاحَ':{
+		{'root':u'روح','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'هلك':{
+	u'هَلَكَ':{
+		{'root':u'هلك','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'هَلِكَ':{
+		{'root':u'هلك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'راث':{
+	u'رَاثَ':{
+		{'root':u'روث','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ريث','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'هلم':{
+	u'هَلِمَ':{
+		{'root':u'هلم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'راب':{
+	u'رَابَ':{
+		{'root':u'روب','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'ريب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'روح':{
+	u'رَوِحَ':{
+		{'root':u'روح','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'سأب':{
+	u'سَأَبَ':{
+		{'root':u'سءب','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لجأ':{
+	u'لَجَأَ':{
+		{'root':u'لجء','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أري':{
+	u'أَرِيَ':{
+		{'root':u'ءري','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أرى':{
+	u'أَرَى':{
+		{'root':u'ءري','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'صحّ':{
+	u'صَحَّ':{
+		{'root':u'صحح','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'لجئ':{
+	u'لَجِئَ':{
+		{'root':u'لجء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دجا':{
+	u'دَجَا':{
+		{'root':u'دجو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'أرك':{
+	u'أَرِكَ':{
+		{'root':u'ءرك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'أَرَكَ':{
+		{'root':u'ءرك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ءرك','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'أرق':{
+	u'أَرِقَ':{
+		{'root':u'ءرق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'تاق':{
+	u'تَاقَ':{
+		{'root':u'توق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'تاك':{
+	u'تَاكَ':{
+		{'root':u'تيك','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'تال':{
+	u'تَالَ':{
+		{'root':u'تول','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'أرن':{
+	u'أَرَنَ':{
+		{'root':u'ءرن','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'أَرِنَ':{
+		{'root':u'ءرن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أرم':{
+	u'أَرَمَ':{
+		{'root':u'ءرم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'أَرِمَ':{
+		{'root':u'ءرم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'تاه':{
+	u'تَاهَ':{
+		{'root':u'توه','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'تيه','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'صحل':{
+	u'صَحِلَ':{
+		{'root':u'صحل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ذلّ':{
+	u'ذَلَّ':{
+		{'root':u'ذلل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'صحن':{
+	u'صَحَنَ':{
+		{'root':u'صحن','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'بأه':{
+	u'بَأَهَ':{
+		{'root':u'بءه','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ذار':{
+	u'ذَارَ':{
+		{'root':u'ذور','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'جاس':{
+	u'جَاسَ':{
+		{'root':u'جوس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'خمط':{
+	u'خَمَطَ':{
+		{'root':u'خمط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'خمط','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'خَمِطَ':{
+		{'root':u'خمط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أرّ':{
+	u'أَرَّ':{
+		{'root':u'ءرر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ءرر','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'بأى':{
+	u'بَأَى':{
+		{'root':u'بءي','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'طوى':{
+	u'طَوَى':{
+		{'root':u'طوي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'خمس':{
+	u'خَمَسَ':{
+		{'root':u'خمس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'خمس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'رصد':{
+	u'رَصَدَ':{
+		{'root':u'رصد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'صحي':{
+	u'صَحِيَ':{
+		{'root':u'صحو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ثفأ':{
+	u'ثَفَأَ':{
+		{'root':u'ثفء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'كعز':{
+	u'كَعَزَ':{
+		{'root':u'كعز','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كعر':{
+	u'كَعِرَ':{
+		{'root':u'كعر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زهد':{
+	u'زَهِدَ':{
+		{'root':u'زهد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'زَهَدَ':{
+		{'root':u'زهد','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'زَهُدَ':{
+		{'root':u'زهد','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ثفا':{
+	u'ثَفَا':{
+		{'root':u'ثفو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'صقر':{
+	u'صَقَرَ':{
+		{'root':u'صقر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'رهط':{
+	u'رَهَطَ':{
+		{'root':u'رهط','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'عجر':{
+	u'عَجَرَ':{
+		{'root':u'عجر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'عَجِرَ':{
+		{'root':u'عجر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ثول':{
+	u'ثَوِلَ':{
+		{'root':u'ثول','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وثر':{
+	u'وَثَرَ':{
+		{'root':u'وثر','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'وَثُرَ':{
+		{'root':u'وثر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'صقع':{
+	u'صَقِعَ':{
+		{'root':u'صقع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'صَقَعَ':{
+		{'root':u'صقع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'زقّ':{
+	u'زَقَّ':{
+		{'root':u'زقق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ثفج':{
+	u'ثَفَجَ':{
+		{'root':u'ثفج','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'عجا':{
+	u'عَجَا':{
+		{'root':u'عجو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ثفر':{
+	u'ثَفَرَ':{
+		{'root':u'ثفر','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'لطف':{
+	u'لَطَفَ':{
+		{'root':u'لطف','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'لَطُفَ':{
+		{'root':u'لطف','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'كثّ':{
+	u'كَثَّ':{
+		{'root':u'كثث','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'كثث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وثج':{
+	u'وَثُجَ':{
+		{'root':u'وثج','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'كوى':{
+	u'كَوَى':{
+		{'root':u'كوي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'نذّ':{
+	u'نَذَّ':{
+		{'root':u'نذذ','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'روش':{
+	u'رَوِشَ':{
+		{'root':u'روش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كعب':{
+	u'كَعَبَ':{
+		{'root':u'كعب','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'كعب','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'صقب':{
+	u'صَقِبَ':{
+		{'root':u'صقب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'صَقَبَ':{
+		{'root':u'صقب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نعس':{
+	u'نَعَسَ':{
+		{'root':u'نعس','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'نعس','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عجب':{
+	u'عَجِبَ':{
+		{'root':u'عجب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كعّ':{
+	u'كَعَّ':{
+		{'root':u'كعع','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'مشح':{
+	u'مَشِحَ':{
+		{'root':u'مشح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ثفن':{
+	u'ثَفَنَ':{
+		{'root':u'ثفن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'ثَفِنَ':{
+		{'root':u'ثفن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كثأ':{
+	u'كَثَأَ':{
+		{'root':u'كثء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ثفل':{
+	u'ثَفَلَ':{
+		{'root':u'ثفل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'كثح':{
+	u'كَثَحَ':{
+		{'root':u'كثح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'كثج':{
+	u'كَثَجَ':{
+		{'root':u'كثج','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ثفى':{
+	u'ثَفَى':{
+		{'root':u'ثفي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'لطم':{
+	u'لَطَمَ':{
+		{'root':u'لطم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'كثب':{
+	u'كَثَبَ':{
+		{'root':u'كثب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'كثب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'صقل':{
+	u'صَقَلَ':{
+		{'root':u'صقل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'صَقِلَ':{
+		{'root':u'صقل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كزّ':{
+	u'كَزَّ':{
+		{'root':u'كزز','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'عجل':{
+	u'عَجِلَ':{
+		{'root':u'عجل','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'عجم':{
+	u'عَجَمَ':{
+		{'root':u'عجم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'عَجُمَ':{
+		{'root':u'عجم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'كثر':{
+	u'كَثُرَ':{
+		{'root':u'كثر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'كَثَرَ':{
+		{'root':u'كثر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'وخد':{
+	u'وَخَدَ':{
+		{'root':u'وخد','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'كعم':{
+	u'كَعَمَ':{
+		{'root':u'كعم','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'عجف':{
+	u'عَجُفَ':{
+		{'root':u'عجف','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'عَجَفَ':{
+		{'root':u'عجف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عجف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'عَجِفَ':{
+		{'root':u'عجف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نهؤ':{
+	u'نَهُؤَ':{
+		{'root':u'نهء','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'هتر':{
+	u'هَتَرَ':{
+		{'root':u'هتر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عجي':{
+	u'عَجِيَ':{
+		{'root':u'عجو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وثل':{
+	u'وَثَلَ':{
+		{'root':u'وثل','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'وثم':{
+	u'وَثُمَ':{
+		{'root':u'وثم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'وَثِمَ':{
+		{'root':u'وثم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'وَثَمَ':{
+		{'root':u'وثم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'تاب':{
+	u'تَابَ':{
+		{'root':u'توب','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'رغب':{
+	u'رَغُبَ':{
+		{'root':u'رغب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'رَغِبَ':{
+		{'root':u'رغب','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لجف':{
+	u'لَجِفَ':{
+		{'root':u'لجف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'لَجَفَ':{
+		{'root':u'لجف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'بأر':{
+	u'بَأَرَ':{
+		{'root':u'بءر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'تاج':{
+	u'تَاجَ':{
+		{'root':u'توج','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'أرخ':{
+	u'أَرَخَ':{
+		{'root':u'ءرخ','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'ءرخ','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بأش':{
+	u'بَأَشَ':{
+		{'root':u'بءش','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'أرج':{
+	u'أَرِجَ':{
+		{'root':u'ءرج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'أَرَجَ':{
+		{'root':u'ءرج','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'خمن':{
+	u'خَمَنَ':{
+		{'root':u'خمن','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'خمن','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'خمل':{
+	u'خَمَلَ':{
+		{'root':u'خمل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'أرا':{
+	u'أَرَا':{
+		{'root':u'ءرو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'رصف':{
+	u'رَصِفَ':{
+		{'root':u'رصف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'رَصَفَ':{
+		{'root':u'رصف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'رَصُفَ':{
+		{'root':u'رصف','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'تاع':{
+	u'تَاعَ':{
+		{'root':u'توع','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'تيع','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'صحا':{
+	u'صَحَا':{
+		{'root':u'صحو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'رغث':{
+	u'رَغَثَ':{
+		{'root':u'رغث','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'دبى':{
+	u'دَبَى':{
+		{'root':u'دبي','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'رصن':{
+	u'رَصَنَ':{
+		{'root':u'رصن','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'رَصُنَ':{
+		{'root':u'رصن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'أرس':{
+	u'أَرَسَ':{
+		{'root':u'ءرس','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'أرز':{
+	u'أَرَزَ':{
+		{'root':u'ءرز','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'تاز':{
+	u'تَازَ':{
+		{'root':u'توز','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'تيز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'تاس':{
+	u'تَاسَ':{
+		{'root':u'تيس','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'أرط':{
+	u'أَرِطَ':{
+		{'root':u'ءرط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'أَرَطَ':{
+		{'root':u'ءرط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'أرض':{
+	u'أَرَضَ':{
+		{'root':u'ءرض','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'أَرُضَ':{
+		{'root':u'ءرض','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'أَرِضَ':{
+		{'root':u'ءرض','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بأج':{
+	u'بَأَجَ':{
+		{'root':u'بءج','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'أرش':{
+	u'أَرَشَ':{
+		{'root':u'ءرش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'فخم':{
+	u'فَخُمَ':{
+		{'root':u'فخم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ركز':{
+	u'رَكَزَ':{
+		{'root':u'ركز','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ركز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'هيع':{
+	u'هَيِعَ':{
+		{'root':u'هيع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خطم':{
+	u'خَطَمَ':{
+		{'root':u'خطم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'رغد':{
+	u'رَغُدَ':{
+		{'root':u'رغد','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'رَغِدَ':{
+		{'root':u'رغد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فخّ':{
+	u'فَخَّ':{
+		{'root':u'فخخ','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'فخخ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جرّ':{
+	u'جَرَّ':{
+		{'root':u'جرر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'وسب':{
+	u'وَسِبَ':{
+		{'root':u'وسب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'وَسَبَ':{
+		{'root':u'وسب','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'روي':{
+	u'رَوِيَ':{
+		{'root':u'روي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نهئ':{
+	u'نَهِئَ':{
+		{'root':u'نهء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جرى':{
+	u'جَرَى':{
+		{'root':u'جري','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'جرل':{
+	u'جَرِلَ':{
+		{'root':u'جرل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جرم':{
+	u'جَرُمَ':{
+		{'root':u'جرم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'جَرَمَ':{
+		{'root':u'جرم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'جَرِمَ':{
+		{'root':u'جرم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جرن':{
+	u'جَرَنَ':{
+		{'root':u'جرن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'قلح':{
+	u'قَلِحَ':{
+		{'root':u'قلح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جرف':{
+	u'جَرَفَ':{
+		{'root':u'جرف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نبغ':{
+	u'نَبَغَ':{
+		{'root':u'نبغ','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'نبغ','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'نبغ','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خطّ':{
+	u'خَطَّ':{
+		{'root':u'خطط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'جهث':{
+	u'جَهَثَ':{
+		{'root':u'جهث','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'روى':{
+	u'رَوَى':{
+		{'root':u'روي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'جهد':{
+	u'جَهَدَ':{
+		{'root':u'جهد','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'جَهِدَ':{
+		{'root':u'جهد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ذنب':{
+	u'ذَنَبَ':{
+		{'root':u'ذنب','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'ذنب','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'حشر':{
+	u'حَشَرَ':{
+		{'root':u'حشر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'حشر','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'حشط':{
+	u'حَشَطَ':{
+		{'root':u'حشط','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'عفش':{
+	u'عَفَشَ':{
+		{'root':u'عفش','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'هرى':{
+	u'هَرَى':{
+		{'root':u'هري','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'حشد':{
+	u'حَشَدَ':{
+		{'root':u'حشد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حشد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'جهز':{
+	u'جَهَزَ':{
+		{'root':u'جهز','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حشأ':{
+	u'حَشَأَ':{
+		{'root':u'حشء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'جهر':{
+	u'جَهِرَ':{
+		{'root':u'جهر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'جَهَرَ':{
+		{'root':u'جهر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'جَهُرَ':{
+		{'root':u'جهر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'جهض':{
+	u'جَهَضَ':{
+		{'root':u'جهض','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'حشا':{
+	u'حَشَا':{
+		{'root':u'حشو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'جهش':{
+	u'جَهَشَ':{
+		{'root':u'جهش','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'جَهِشَ':{
+		{'root':u'جهش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جهي':{
+	u'جَهِيَ':{
+		{'root':u'جهي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رأس':{
+	u'رَأَسَ':{
+		{'root':u'رءس','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'مضح':{
+	u'مَضَحَ':{
+		{'root':u'مضح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'كلد':{
+	u'كَلَدَ':{
+		{'root':u'كلد','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'حشّ':{
+	u'حَشَّ':{
+		{'root':u'حشش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حشش','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'جهن':{
+	u'جَهَنَ':{
+		{'root':u'جهن','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'مخق':{
+	u'مَخِقَ':{
+		{'root':u'مخق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جهل':{
+	u'جَهِلَ':{
+		{'root':u'جهل','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'جهم':{
+	u'جَهُمَ':{
+		{'root':u'جهم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'جَهِمَ':{
+		{'root':u'جهم','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	u'جَهَمَ':{
+		{'root':u'جهم','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'حشي':{
+	u'حَشِيَ':{
+		{'root':u'حشي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'موه':{
+	u'مَوِهَ':{
+		{'root':u'موه','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'مضغ':{
+	u'مَضَغَ':{
+		{'root':u'مضغ','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'مضغ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'غثّ':{
+	u'غَثَّ':{
+		{'root':u'غثث','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'غثث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حشك':{
+	u'حَشِكَ':{
+		{'root':u'حشك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'حَشَكَ':{
+		{'root':u'حشك','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'حشك','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'جهّ':{
+	u'جَهَّ':{
+		{'root':u'جهه','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'حشن':{
+	u'حَشِنَ':{
+		{'root':u'حشن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حشل':{
+	u'حَشَلَ':{
+		{'root':u'حشل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'حشم':{
+	u'حَشَمَ':{
+		{'root':u'حشم','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'حشم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'حَشِمَ':{
+		{'root':u'حشم','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'وتم':{
+	u'وَتِمَ':{
+		{'root':u'وتم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جرع':{
+	u'جَرَعَ':{
+		{'root':u'جرع','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	u'جَرِعَ':{
+		{'root':u'جرع','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'جرش':{
+	u'جَرَشَ':{
+		{'root':u'جرش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'جرش','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'جرض':{
+	u'جَرِضَ':{
+		{'root':u'جرض','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'جَرَضَ':{
+		{'root':u'جرض','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'جرض','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'جرط':{
+	u'جَرِطَ':{
+		{'root':u'جرط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جرذ':{
+	u'جَرَذَ':{
+		{'root':u'جرذ','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'جَرِذَ':{
+		{'root':u'جرذ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جرز':{
+	u'جَرَزَ':{
+		{'root':u'جرز','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'جَرُزَ':{
+		{'root':u'جرز','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'جَرِزَ':{
+		{'root':u'جرز','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جرس':{
+	u'جَرَسَ':{
+		{'root':u'جرس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'جرس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'جرج':{
+	u'جَرِجَ':{
+		{'root':u'جرج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'جَرَجَ':{
+		{'root':u'جرج','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'جرح':{
+	u'جَرَحَ':{
+		{'root':u'جرح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'جَرِحَ':{
+		{'root':u'جرح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فلى':{
+	u'فَلَى':{
+		{'root':u'فلي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'جرد':{
+	u'جَرِدَ':{
+		{'root':u'جرد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'جَرَدَ':{
+		{'root':u'جرد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'جرب':{
+	u'جَرِبَ':{
+		{'root':u'جرب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فخر':{
+	u'فَخِرَ':{
+		{'root':u'فخر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'فَخَرَ':{
+		{'root':u'فخر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'فخر','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فخز':{
+	u'فَخِزَ':{
+		{'root':u'فخز','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'فَخَزَ':{
+		{'root':u'فخز','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'جرؤ':{
+	u'جَرُؤَ':{
+		{'root':u'جرء','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'طغي':{
+	u'طَغِيَ':{
+		{'root':u'طغي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لطس':{
+	u'لَطَسَ':{
+		{'root':u'لطس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ثرّ':{
+	u'ثَرَّ':{
+		{'root':u'ثرر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ثرر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'جأص':{
+	u'جَأَصَ':{
+		{'root':u'جءص','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'شفّ':{
+	u'شَفَّ':{
+		{'root':u'شفف','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'شفف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'جأذ':{
+	u'جَأَذَ':{
+		{'root':u'جءذ','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جأر':{
+	u'جَأَرَ':{
+		{'root':u'جءر','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سخا':{
+	u'سَخَا':{
+		{'root':u'سخو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'لطع':{
+	u'لَطِعَ':{
+		{'root':u'لطع','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'لَطَعَ':{
+		{'root':u'لطع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'سمّ':{
+	u'سَمَّ':{
+		{'root':u'سمم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'لطأ':{
+	u'لَطَأَ':{
+		{'root':u'لطء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'شفن':{
+	u'شَفِنَ':{
+		{'root':u'شفن','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	u'شَفَنَ':{
+		{'root':u'شفن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'شفه':{
+	u'شَفَهَ':{
+		{'root':u'شفه','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'لطئ':{
+	u'لَطِئَ':{
+		{'root':u'لطء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ثرن':{
+	u'ثَرِنَ':{
+		{'root':u'ثرن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ثرم':{
+	u'ثَرَمَ':{
+		{'root':u'ثرم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'ثَرِمَ':{
+		{'root':u'ثرم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لتب':{
+	u'لَتَبَ':{
+		{'root':u'لتب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ثري':{
+	u'ثَرِيَ':{
+		{'root':u'ثرو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'ثري','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جأج':{
+	u'جَأَجَ':{
+		{'root':u'جءج','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لطخ':{
+	u'لَطَخَ':{
+		{'root':u'لطخ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'جأث':{
+	u'جَأَثَ':{
+		{'root':u'جءث','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شفي':{
+	u'شَفِيَ':{
+		{'root':u'شفو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لطح':{
+	u'لَطَحَ':{
+		{'root':u'لطح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'تاف':{
+	u'تَافَ':{
+		{'root':u'توف','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'حما':{
+	u'حَمَا':{
+		{'root':u'حمو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'حمئ':{
+	u'حَمِئَ':{
+		{'root':u'حمء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كشّ':{
+	u'كَشَّ':{
+		{'root':u'كشش','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حمأ':{
+	u'حَمَأَ':{
+		{'root':u'حمء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'مأس':{
+	u'مَأَسَ':{
+		{'root':u'مءس','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'سما':{
+	u'سَمَا':{
+		{'root':u'سمو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'لتح':{
+	u'لَتَحَ':{
+		{'root':u'لتح','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	u'لَتِحَ':{
+		{'root':u'لتح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حمد':{
+	u'حَمِدَ':{
+		{'root':u'حمد','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'هرم':{
+	u'هَرَمَ':{
+		{'root':u'هرم','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'هَرِمَ':{
+		{'root':u'هرم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حمت':{
+	u'حَمَتَ':{
+		{'root':u'حمت','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'حَمِتَ':{
+		{'root':u'حمت','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'حَمُتَ':{
+		{'root':u'حمت','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'حمص':{
+	u'حَمَصَ':{
+		{'root':u'حمص','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'حمش':{
+	u'حَمَشَ':{
+		{'root':u'حمش','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'حمش','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'حَمُشَ':{
+		{'root':u'حمش','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'حَمِشَ':{
+		{'root':u'حمش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حمط':{
+	u'حَمَطَ':{
+		{'root':u'حمط','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'حمض':{
+	u'حَمِضَ':{
+		{'root':u'حمض','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'حَمُضَ':{
+		{'root':u'حمض','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'حَمَضَ':{
+		{'root':u'حمض','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'حمر':{
+	u'حَمِرَ':{
+		{'root':u'حمر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'حَمَرَ':{
+		{'root':u'حمر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'كشف':{
+	u'كَشِفَ':{
+		{'root':u'كشف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'كَشَفَ':{
+		{'root':u'كشف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حمس':{
+	u'حَمُسَ':{
+		{'root':u'حمس','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'حَمَسَ':{
+		{'root':u'حمس','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'حَمِسَ':{
+		{'root':u'حمس','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'حمز':{
+	u'حَمَزَ':{
+		{'root':u'حمز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'حَمُزَ':{
+		{'root':u'حمز','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'همى':{
+	u'هَمَى':{
+		{'root':u'همي','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ربذ':{
+	u'رَبِذَ':{
+		{'root':u'ربذ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'همس':{
+	u'هَمَسَ':{
+		{'root':u'همس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حمل':{
+	u'حَمَلَ':{
+		{'root':u'حمل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'همر':{
+	u'هَمَرَ':{
+		{'root':u'همر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'همر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'كشط':{
+	u'كَشَطَ':{
+		{'root':u'كشط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'همط':{
+	u'هَمَطَ':{
+		{'root':u'همط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'كشر':{
+	u'كَشِرَ':{
+		{'root':u'كشر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'كَشَرَ':{
+		{'root':u'كشر','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'حمك':{
+	u'حَمَكَ':{
+		{'root':u'حمك','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'حَمِكَ':{
+		{'root':u'حمك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حمق':{
+	u'حَمِقَ':{
+		{'root':u'حمق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'حَمُقَ':{
+		{'root':u'حمق','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'همغ':{
+	u'هَمَغَ':{
+		{'root':u'همغ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'همع':{
+	u'هَمَعَ':{
+		{'root':u'همع','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'همع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'زغب':{
+	u'زَغِبَ':{
+		{'root':u'زغب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حمى':{
+	u'حَمَى':{
+		{'root':u'حمي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'كشع':{
+	u'كَشَعَ':{
+		{'root':u'كشع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حمي':{
+	u'حَمِيَ':{
+		{'root':u'حمي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'همأ':{
+	u'هَمَأَ':{
+		{'root':u'همء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'وقص':{
+	u'وَقَصَ':{
+		{'root':u'وقص','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'وَقِصَ':{
+		{'root':u'وقص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كشئ':{
+	u'كَشِئَ':{
+		{'root':u'كشء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كشا':{
+	u'كَشَا':{
+		{'root':u'كشو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'حمّ':{
+	u'حَمَّ':{
+		{'root':u'حمم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حمم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مدح':{
+	u'مَدَحَ':{
+		{'root':u'مدح','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'كشأ':{
+	u'كَشَأَ':{
+		{'root':u'كشء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'كشح':{
+	u'كَشِحَ':{
+		{'root':u'كشح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'كَشَحَ':{
+		{'root':u'كشح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'كشد':{
+	u'كَشَدَ':{
+		{'root':u'كشد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'كشب':{
+	u'كَشَبَ':{
+		{'root':u'كشب','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ذعق':{
+	u'ذَعَقَ':{
+		{'root':u'ذعق','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'همج':{
+	u'هَمَجَ':{
+		{'root':u'همج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'زنق':{
+	u'زَنَقَ':{
+		{'root':u'زنق','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'زنق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'زلم':{
+	u'زَلَمَ':{
+		{'root':u'زلم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'زَلِمَ':{
+		{'root':u'زلم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لطّ':{
+	u'لَطَّ':{
+		{'root':u'لطط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'لطط','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ثرط':{
+	u'ثَرَطَ':{
+		{'root':u'ثرط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'شفر':{
+	u'شَفَرَ':{
+		{'root':u'شفر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'شَفِرَ':{
+		{'root':u'شفر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شفز':{
+	u'شَفَزَ':{
+		{'root':u'شفز','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'زلّ':{
+	u'زَلَّ':{
+		{'root':u'زلل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'زلل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ثرغ':{
+	u'ثَرِغَ':{
+		{'root':u'ثرغ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ثرع':{
+	u'ثَرِعَ':{
+		{'root':u'ثرع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دكن':{
+	u'دَكَنَ':{
+		{'root':u'دكن','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'دَكِنَ':{
+		{'root':u'دكن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رسخ':{
+	u'رَسَخَ':{
+		{'root':u'رسخ','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شفع':{
+	u'شَفَعَ':{
+		{'root':u'شفع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'مؤج':{
+	u'مَؤُجَ':{
+		{'root':u'مءج','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'دسّ':{
+	u'دَسَّ':{
+		{'root':u'دسس','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'جأل':{
+	u'جَأَلَ':{
+		{'root':u'جءل','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'شفا':{
+	u'شَفَا':{
+		{'root':u'شفو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ثرا':{
+	u'ثَرَا':{
+		{'root':u'ثرو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'لطه':{
+	u'لَطَهَ':{
+		{'root':u'لطه','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'جأف':{
+	u'جَأَفَ':{
+		{'root':u'جءف','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'لطي':{
+	u'لَطِيَ':{
+		{'root':u'لطي','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ثرب':{
+	u'ثَرَبَ':{
+		{'root':u'ثرب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ثرد':{
+	u'ثَرِدَ':{
+		{'root':u'ثرد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'ثَرَدَ':{
+		{'root':u'ثرد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'جأى':{
+	u'جَأَى':{
+		{'root':u'جءي','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ركس':{
+	u'رَكَسَ':{
+		{'root':u'ركس','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'صرى':{
+	u'صَرَى':{
+		{'root':u'صري','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'خلق':{
+	u'خَلَقَ':{
+		{'root':u'خلق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'خَلُقَ':{
+		{'root':u'خلق','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'خَلِقَ':{
+		{'root':u'خلق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ركض':{
+	u'رَكَضَ':{
+		{'root':u'ركض','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'صكّ':{
+	u'صَكَّ':{
+		{'root':u'صكك','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'صكك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خفأ':{
+	u'خَفَأَ':{
+		{'root':u'خفء','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ثأج':{
+	u'ثَأَجَ':{
+		{'root':u'ثءج','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رسح':{
+	u'رَسِحَ':{
+		{'root':u'رسح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سكت':{
+	u'سَكَتَ':{
+		{'root':u'سكت','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'مأر':{
+	u'مَأَرَ':{
+		{'root':u'مءر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'صكم':{
+	u'صَكَمَ':{
+		{'root':u'صكم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'وتن':{
+	u'وَتَنَ':{
+		{'root':u'وتن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ثأر':{
+	u'ثَأَرَ':{
+		{'root':u'ثءر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'رثي':{
+	u'رَثِيَ':{
+		{'root':u'رثي','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'طغى':{
+	u'طَغَى':{
+		{'root':u'طغي','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'تام':{
+	u'تَامَ':{
+		{'root':u'تيم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ركب':{
+	u'رَكَبَ':{
+		{'root':u'ركب','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'رَكِبَ':{
+		{'root':u'ركب','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ركد':{
+	u'رَكَدَ':{
+		{'root':u'ركد','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ركح':{
+	u'رَكَحَ':{
+		{'root':u'ركح','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خفا':{
+	u'خَفَا':{
+		{'root':u'خفو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'خلى':{
+	u'خَلَى':{
+		{'root':u'خلي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'خيل':{
+	u'خَيِلَ':{
+		{'root':u'خيل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عفج':{
+	u'عَفَجَ':{
+		{'root':u'عفج','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'عَفِجَ':{
+		{'root':u'عفج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ومز':{
+	u'وَمَزَ':{
+		{'root':u'ومز','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ومس':{
+	u'وَمَسَ':{
+		{'root':u'ومس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'خلف':{
+	u'خَلَفَ':{
+		{'root':u'خلف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'خَلِفَ':{
+		{'root':u'خلف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'خَلُفَ':{
+		{'root':u'خلف','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'رضم':{
+	u'رَضَمَ':{
+		{'root':u'رضم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'رضن':{
+	u'رَضَنَ':{
+		{'root':u'رضن','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'وغف':{
+	u'وَغَفَ':{
+		{'root':u'وغف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'رضف':{
+	u'رَضَفَ':{
+		{'root':u'رضف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'أصر':{
+	u'أَصَرَ':{
+		{'root':u'ءصر','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'رزف':{
+	u'رَزَفَ':{
+		{'root':u'رزف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ومأ':{
+	u'وَمَأَ':{
+		{'root':u'ومء','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خلّ':{
+	u'خَلَّ':{
+		{'root':u'خلل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'خلل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'كفح':{
+	u'كَفَحَ':{
+		{'root':u'كفح','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	u'كَفِحَ':{
+		{'root':u'كفح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ومد':{
+	u'وَمِدَ':{
+		{'root':u'ومد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'داج':{
+	u'دَاجَ':{
+		{'root':u'دوج','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'ديج','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'رضّ':{
+	u'رَضَّ':{
+		{'root':u'رضض','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'خلب':{
+	u'خَلِبَ':{
+		{'root':u'خلب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'خَلَبَ':{
+		{'root':u'خلب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'خلب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'رضخ':{
+	u'رَضَخَ':{
+		{'root':u'رضخ','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'رضخ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'رضد':{
+	u'رَضَدَ':{
+		{'root':u'رضد','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'رضب':{
+	u'رَضَبَ':{
+		{'root':u'رضب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'خلج':{
+	u'خَلَجَ':{
+		{'root':u'خلج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'خلج','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'خَلِجَ':{
+		{'root':u'خلج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خلد':{
+	u'خَلَدَ':{
+		{'root':u'خلد','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'خلد','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'صرم':{
+	u'صَرُمَ':{
+		{'root':u'صرم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'صَرَمَ':{
+		{'root':u'صرم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'خلأ':{
+	u'خَلَأَ':{
+		{'root':u'خلء','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رضا':{
+	u'رَضَا':{
+		{'root':u'رضو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'خلا':{
+	u'خَلَا':{
+		{'root':u'خلو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'رذي':{
+	u'رَذِيَ':{
+		{'root':u'رذو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خلع':{
+	u'خَلَعَ':{
+		{'root':u'خلع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'خَلُعَ':{
+		{'root':u'خلع','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ومه':{
+	u'وَمِهَ':{
+		{'root':u'ومه','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ذأى':{
+	u'ذَأَى':{
+		{'root':u'ذءي','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'خبق':{
+	u'خَبَقَ':{
+		{'root':u'خبق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ومق':{
+	u'وَمِقَ':{
+		{'root':u'ومق','bab':6,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'دمه':{
+	u'دَمِهَ':{
+		{'root':u'دمه','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خلس':{
+	u'خَلِسَ':{
+		{'root':u'خلس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'خَلَسَ':{
+		{'root':u'خلس','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'لاز':{
+	u'لَازَ':{
+		{'root':u'لوز','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ليز','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'خلص':{
+	u'خَلَصَ':{
+		{'root':u'خلص','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'خَلِصَ':{
+		{'root':u'خلص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خلط':{
+	u'خَلَطَ':{
+		{'root':u'خلط','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ذعت':{
+	u'ذَعَتَ':{
+		{'root':u'ذعت','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'دسق':{
+	u'دَسِقَ':{
+		{'root':u'دسق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وتر':{
+	u'وَتَرَ':{
+		{'root':u'وتر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'كئب':{
+	u'كَئِبَ':{
+		{'root':u'كءب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رتم':{
+	u'رَتَمَ':{
+		{'root':u'رتم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ثأى':{
+	u'ثَأَى':{
+		{'root':u'ثءي','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'طغر':{
+	u'طَغَرَ':{
+		{'root':u'طغر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'صكا':{
+	u'صَكَا':{
+		{'root':u'صكو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'ضهس':{
+	u'ضَهَسَ':{
+		{'root':u'ضهس','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'سلا':{
+	u'سَلَا':{
+		{'root':u'سلو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'كفأ':{
+	u'كَفَأَ':{
+		{'root':u'كفء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'وتأ':{
+	u'وَتَأَ':{
+		{'root':u'وتء','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ركل':{
+	u'رَكَلَ':{
+		{'root':u'ركل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'وتح':{
+	u'وَتُحَ':{
+		{'root':u'وتح','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'وَتَحَ':{
+		{'root':u'وتح','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'طغا':{
+	u'طَغَا':{
+		{'root':u'طغو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'وتد':{
+	u'وَتَدَ':{
+		{'root':u'وتد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'وتخ':{
+	u'وَتَخَ':{
+		{'root':u'وتخ','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'وتب':{
+	u'وَتَبَ':{
+		{'root':u'وتب','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'وأم':{
+	u'وَأَمَ':{
+		{'root':u'وءم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'أمه':{
+	u'أَمِهَ':{
+		{'root':u'ءمه','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'أَمَهَ':{
+		{'root':u'ءمه','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'أمن':{
+	u'أَمُنَ':{
+		{'root':u'ءمن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'أَمِنَ':{
+		{'root':u'ءمن','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'خيف':{
+	u'خَيِفَ':{
+		{'root':u'خيف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جاف':{
+	u'جَافَ':{
+		{'root':u'جوف','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'جيف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'قفّ':{
+	u'قَفَّ':{
+		{'root':u'قفف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'كبت':{
+	u'كَبَتَ':{
+		{'root':u'كبت','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'شدّ':{
+	u'شَدَّ':{
+		{'root':u'شدد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'شدد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'دغت':{
+	u'دَغَتَ':{
+		{'root':u'دغت','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'كبح':{
+	u'كَبَحَ':{
+		{'root':u'كبح','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'أمو':{
+	u'أَمُوَ':{
+		{'root':u'ءمو','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'قفن':{
+	u'قَفَنَ':{
+		{'root':u'قفن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'كبر':{
+	u'كَبُرَ':{
+		{'root':u'كبر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'كَبِرَ':{
+		{'root':u'كبر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'كَبَرَ':{
+		{'root':u'كبر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'قفل':{
+	u'قَفَلَ':{
+		{'root':u'قفل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'قفل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'قَفِلَ':{
+		{'root':u'قفل','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'كبس':{
+	u'كَبَسَ':{
+		{'root':u'كبس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'كَبِسَ':{
+		{'root':u'كبس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كبش':{
+	u'كَبَشَ':{
+		{'root':u'كبش','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'أمّ':{
+	u'أَمَّ':{
+		{'root':u'ءمم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ءمم','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'دعن':{
+	u'دَعَنَ':{
+		{'root':u'دعن','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شدق':{
+	u'شَدِقَ':{
+		{'root':u'شدق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'صاد':{
+	u'صَادَ':{
+		{'root':u'صيد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ردع':{
+	u'رَدَعَ':{
+		{'root':u'ردع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'شدف':{
+	u'شَدِفَ':{
+		{'root':u'شدف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'شَدَفَ':{
+		{'root':u'شدف','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'شدن':{
+	u'شَدَنَ':{
+		{'root':u'شدن','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'شده':{
+	u'شَدَهَ':{
+		{'root':u'شده','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'قفى':{
+	u'قَفَى':{
+		{'root':u'قفي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'هسّ':{
+	u'هَسَّ':{
+		{'root':u'هسس','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'هسس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'صخر':{
+	u'صَخِرَ':{
+		{'root':u'صخر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بشم':{
+	u'بَشِمَ':{
+		{'root':u'بشم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دعل':{
+	u'دَعَلَ':{
+		{'root':u'دعل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'بشك':{
+	u'بَشَكَ':{
+		{'root':u'بشك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'بشك','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'بشق':{
+	u'بَشَقَ':{
+		{'root':u'بشق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'رخم':{
+	u'رَخُمَ':{
+		{'root':u'رخم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'رَخِمَ':{
+		{'root':u'رخم','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'رَخَمَ':{
+		{'root':u'رخم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'رخم','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'دعك':{
+	u'دَعِكَ':{
+		{'root':u'دعك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'دَعَكَ':{
+		{'root':u'دعك','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ضرّ':{
+	u'ضَرَّ':{
+		{'root':u'ضرر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'عفّ':{
+	u'عَفَّ':{
+		{'root':u'عفف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ضري':{
+	u'ضَرِيَ':{
+		{'root':u'ضرو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضرى':{
+	u'ضَرَى':{
+		{'root':u'ضري','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'سجح':{
+	u'سَجِحَ':{
+		{'root':u'سجح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'سَجَحَ':{
+		{'root':u'سجح','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بشّ':{
+	u'بَشَّ':{
+		{'root':u'بشش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'صخب':{
+	u'صَخِبَ':{
+		{'root':u'صخب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضرك':{
+	u'ضَرُكَ':{
+		{'root':u'ضرك','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'عفه':{
+	u'عَفَهَ':{
+		{'root':u'عفه','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عفن':{
+	u'عَفِنَ':{
+		{'root':u'عفن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَفَنَ':{
+		{'root':u'عفن','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'عفك':{
+	u'عَفَكَ':{
+		{'root':u'عفك','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'عَفِكَ':{
+		{'root':u'عفك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'صخد':{
+	u'صَخَدَ':{
+		{'root':u'صخد','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'صَخِدَ':{
+		{'root':u'صخد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بشا':{
+	u'بَشَا':{
+		{'root':u'بشو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'صخّ':{
+	u'صَخَّ':{
+		{'root':u'صخخ','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'صخخ','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'زأر':{
+	u'زَأَرَ':{
+		{'root':u'زءر','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'زءر','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضرع':{
+	u'ضَرُعَ':{
+		{'root':u'ضرع','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'ضَرِعَ':{
+		{'root':u'ضرع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'ضَرَعَ':{
+		{'root':u'ضرع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'وطد':{
+	u'وَطَدَ':{
+		{'root':u'وطد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عفص':{
+	u'عَفِصَ':{
+		{'root':u'عفص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَفَصَ':{
+		{'root':u'عفص','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'تئق':{
+	u'تَئِقَ':{
+		{'root':u'تءق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عفط':{
+	u'عَفَطَ':{
+		{'root':u'عفط','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'عفر':{
+	u'عَفِرَ':{
+		{'root':u'عفر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَفَرَ':{
+		{'root':u'عفر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ضرط':{
+	u'ضَرَطَ':{
+		{'root':u'ضرط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'ضَرِطَ':{
+		{'root':u'ضرط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عفس':{
+	u'عَفَسَ':{
+		{'root':u'عفس','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'سفي':{
+	u'سَفِيَ':{
+		{'root':u'سفو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'صخف':{
+	u'صَخَفَ':{
+		{'root':u'صخف','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ضرب':{
+	u'ضَرُبَ':{
+		{'root':u'ضرب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'ضَرَبَ':{
+		{'root':u'ضرب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'ضَرِبَ':{
+		{'root':u'ضرب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وعك':{
+	u'وَعَكَ':{
+		{'root':u'وعك','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'رمح':{
+	u'رَمَحَ':{
+		{'root':u'رمح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'بشر':{
+	u'بَشُرَ':{
+		{'root':u'بشر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'بَشِرَ':{
+		{'root':u'بشر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'بَشَرَ':{
+		{'root':u'بشر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ضرح':{
+	u'ضَرَحَ':{
+		{'root':u'ضرح','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'ضرح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'سمن':{
+	u'سَمُنَ':{
+		{'root':u'سمن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'سَمِنَ':{
+		{'root':u'سمن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'سَمَنَ':{
+		{'root':u'سمن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ضرأ':{
+	u'ضَرَأَ':{
+		{'root':u'ضرء','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'صخي':{
+	u'صَخِيَ':{
+		{'root':u'صخو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضرا':{
+	u'ضَرَا':{
+		{'root':u'ضرو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بشع':{
+	u'بَشِعَ':{
+		{'root':u'بشع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عبد':{
+	u'عَبِدَ':{
+		{'root':u'عبد','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'عَبَدَ':{
+		{'root':u'عبد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'عَبُدَ':{
+		{'root':u'عبد','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'أما':{
+	u'أَمَا':{
+		{'root':u'ءمو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'طشّ':{
+	u'طَشَّ':{
+		{'root':u'طشش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'طشش','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'قفش':{
+	u'قَفَشَ':{
+		{'root':u'قفش','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قفص':{
+	u'قَفِصَ':{
+		{'root':u'قفص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'قَفَصَ':{
+		{'root':u'قفص','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قفز':{
+	u'قَفِزَ':{
+		{'root':u'قفز','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'قَفَزَ':{
+		{'root':u'قفز','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'طعر':{
+	u'طَعَرَ':{
+		{'root':u'طعر','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'كبن':{
+	u'كَبَنَ':{
+		{'root':u'كبن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'كبن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قفر':{
+	u'قَفِرَ':{
+		{'root':u'قفر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'قَفَرَ':{
+		{'root':u'قفر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'أمد':{
+	u'أَمِدَ':{
+		{'root':u'ءمد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سرّ':{
+	u'سَرَّ':{
+		{'root':u'سرر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'سرر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أمح':{
+	u'أَمَحَ':{
+		{'root':u'ءمح','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'أمج':{
+	u'أَمَجَ':{
+		{'root':u'ءمج','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'أَمِجَ':{
+		{'root':u'ءمج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أمت':{
+	u'أَمَتَ':{
+		{'root':u'ءمت','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'دعّ':{
+	u'دَعَّ':{
+		{'root':u'دعع','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'قفع':{
+	u'قَفِعَ':{
+		{'root':u'قفع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'قَفَعَ':{
+		{'root':u'قفع','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'قفئ':{
+	u'قَفِئَ':{
+		{'root':u'قفء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أمض':{
+	u'أَمِضَ':{
+		{'root':u'ءمض','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سعد':{
+	u'سَعِدَ':{
+		{'root':u'سعد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'سَعَدَ':{
+		{'root':u'سعد','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'رمج':{
+	u'رَمَجَ':{
+		{'root':u'رمج','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'شدخ':{
+	u'شَدَخَ':{
+		{'root':u'شدخ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'فعم':{
+	u'فَعِمَ':{
+		{'root':u'فعم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'فَعَمَ':{
+		{'root':u'فعم','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	u'فَعُمَ':{
+		{'root':u'فعم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'أمر':{
+	u'أَمَرَ':{
+		{'root':u'ءمر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'أَمِرَ':{
+		{'root':u'ءمر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'أَمُرَ':{
+		{'root':u'ءمر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'شدح':{
+	u'شَدَحَ':{
+		{'root':u'شدح','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قفخ':{
+	u'قَفَخَ':{
+		{'root':u'قفخ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'قفد':{
+	u'قَفَدَ':{
+		{'root':u'قفد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'قَفِدَ':{
+		{'root':u'قفد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قفح':{
+	u'قَفَحَ':{
+		{'root':u'قفح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'زمن':{
+	u'زَمِنَ':{
+		{'root':u'زمن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شدا':{
+	u'شَدَا':{
+		{'root':u'شدو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'زمل':{
+	u'زَمَلَ':{
+		{'root':u'زمل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'زمل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'رتن':{
+	u'رَتَنَ':{
+		{'root':u'رتن','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'غيد':{
+	u'غَيِدَ':{
+		{'root':u'غيد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حنف':{
+	u'حَنُفَ':{
+		{'root':u'حنف','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'حَنِفَ':{
+		{'root':u'حنف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'حَنَفَ':{
+		{'root':u'حنف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حنق':{
+	u'حَنِقَ':{
+		{'root':u'حنق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حنك':{
+	u'حَنَكَ':{
+		{'root':u'حنك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حنك','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'مطخ':{
+	u'مَطَخَ':{
+		{'root':u'مطخ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'غدن':{
+	u'غَدِنَ':{
+		{'root':u'غدن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مطأ':{
+	u'مَطَأَ':{
+		{'root':u'مطء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'حنى':{
+	u'حَنَى':{
+		{'root':u'حني','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'غدي':{
+	u'غَدِيَ':{
+		{'root':u'غدو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مطا':{
+	u'مَطَا':{
+		{'root':u'مطو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نغض':{
+	u'نَغَضَ':{
+		{'root':u'نغض','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نغض','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نغص':{
+	u'نَغِصَ':{
+		{'root':u'نغص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَغَصَ':{
+		{'root':u'نغص','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'قسر':{
+	u'قَسَرَ':{
+		{'root':u'قسر','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'حنّ':{
+	u'حَنَّ':{
+		{'root':u'حنن','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'حنن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'مطع':{
+	u'مَطَعَ':{
+		{'root':u'مطع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'أتى':{
+	u'أَتَى':{
+		{'root':u'ءتي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'كهم':{
+	u'كَهُمَ':{
+		{'root':u'كهم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'كَهَمَ':{
+		{'root':u'كهم','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'مطس':{
+	u'مَطَسَ':{
+		{'root':u'مطس','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'يتن':{
+	u'يَتَنَ':{
+		{'root':u'يتن','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'مطر':{
+	u'مَطَرَ':{
+		{'root':u'مطر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'زرح':{
+	u'زَرِحَ':{
+		{'root':u'زرح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'زَرَحَ':{
+		{'root':u'زرح','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'غيس':{
+	u'غَيِسَ':{
+		{'root':u'غيس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هوى':{
+	u'هَوَى':{
+		{'root':u'هوي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'غير':{
+	u'غَيِرَ':{
+		{'root':u'غير','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طخا':{
+	u'طَخَا':{
+		{'root':u'طخو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'تغى':{
+	u'تَغَى':{
+		{'root':u'تغي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'جذع':{
+	u'جَذَعَ':{
+		{'root':u'جذع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'قسح':{
+	u'قَسَحَ':{
+		{'root':u'قسح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لضم':{
+	u'لَضَمَ':{
+		{'root':u'لضم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'فدخ':{
+	u'فَدَخَ':{
+		{'root':u'فدخ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'فدح':{
+	u'فَدَحَ':{
+		{'root':u'فدح','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'هزر':{
+	u'هَزَرَ':{
+		{'root':u'هزر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قحل':{
+	u'قَحِلَ':{
+		{'root':u'قحل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'قَحَلَ':{
+		{'root':u'قحل','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هتن':{
+	u'هَتَنَ':{
+		{'root':u'هتن','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'جذر':{
+	u'جَذَرَ':{
+		{'root':u'جذر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'يفخ':{
+	u'يَفَخَ':{
+		{'root':u'يفخ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'زاد':{
+	u'زَادَ':{
+		{'root':u'زود','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'زيد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'رشد':{
+	u'رَشِدَ':{
+		{'root':u'رشد','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'رَشَدَ':{
+		{'root':u'رشد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'فدش':{
+	u'فَدَشَ':{
+		{'root':u'فدش','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'مول':{
+	u'مَوِلَ':{
+		{'root':u'مول','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دسا':{
+	u'دَسَا':{
+		{'root':u'دسو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'فدر':{
+	u'فَدَرَ':{
+		{'root':u'فدر','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'فَدِرَ':{
+		{'root':u'فدر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جذب':{
+	u'جَذَبَ':{
+		{'root':u'جذب','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'جذب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'جذا':{
+	u'جَذَا':{
+		{'root':u'جذو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'خيص':{
+	u'خَيِصَ':{
+		{'root':u'خيص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رطل':{
+	u'رَطَلَ':{
+		{'root':u'رطل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'فدغ':{
+	u'فَدَغَ':{
+		{'root':u'فدغ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'فدع':{
+	u'فَدِعَ':{
+		{'root':u'فدع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خطف':{
+	u'خَطَفَ':{
+		{'root':u'خطف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'خَطِفَ':{
+		{'root':u'خطف','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'فدم':{
+	u'فَدُمَ':{
+		{'root':u'فدم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'فَدَمَ':{
+		{'root':u'فدم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'سكن':{
+	u'سَكُنَ':{
+		{'root':u'سكن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'سَكَنَ':{
+		{'root':u'سكن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'سهب':{
+	u'سَهَبَ':{
+		{'root':u'سهب','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'رعا':{
+	u'رَعَا':{
+		{'root':u'رعو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'زبق':{
+	u'زَبَقَ':{
+		{'root':u'زبق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'زبق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'سكف':{
+	u'سَكِفَ':{
+		{'root':u'سكف','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'لضا':{
+	u'لَضَا':{
+		{'root':u'لضو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'لاغ':{
+	u'لَاغَ':{
+		{'root':u'لوغ','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'ليغ','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ركّ':{
+	u'رَكَّ':{
+		{'root':u'ركك','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'ركك','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'جذّ':{
+	u'جَذَّ':{
+		{'root':u'جذذ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'فهق':{
+	u'فَهَقَ':{
+		{'root':u'فهق','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	u'فَهِقَ':{
+		{'root':u'فهق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سمق':{
+	u'سَمَقَ':{
+		{'root':u'سمق','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'أتل':{
+	u'أَتَلَ':{
+		{'root':u'ءتل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'جذى':{
+	u'جَذَى':{
+		{'root':u'جذي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'وفر':{
+	u'وَفُرَ':{
+		{'root':u'وفر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'وَفَرَ':{
+		{'root':u'وفر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'جذم':{
+	u'جَذِمَ':{
+		{'root':u'جذم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'جَذَمَ':{
+		{'root':u'جذم','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'جذم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'جذل':{
+	u'جَذَلَ':{
+		{'root':u'جذل','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'جَذِلَ':{
+		{'root':u'جذل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وطش':{
+	u'وَطَشَ':{
+		{'root':u'وطش','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'جذف':{
+	u'جَذَفَ':{
+		{'root':u'جذف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'هوش':{
+	u'هَوِشَ':{
+		{'root':u'هوش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'داح':{
+	u'دَاحَ':{
+		{'root':u'دوح','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'حنأ':{
+	u'حَنَأَ':{
+		{'root':u'حنء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'سنى':{
+	u'سَنَى':{
+		{'root':u'سني','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حنا':{
+	u'حَنَا':{
+		{'root':u'حنو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'حنب':{
+	u'حَنِبَ':{
+		{'root':u'حنب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غين':{
+	u'غَيِنَ':{
+		{'root':u'غين','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حنث':{
+	u'حَنِثَ':{
+		{'root':u'حنث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حنج':{
+	u'حَنَجَ':{
+		{'root':u'حنج','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'هوع':{
+	u'هَوِعَ':{
+		{'root':u'هوع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مطل':{
+	u'مَطَلَ':{
+		{'root':u'مطل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'حنذ':{
+	u'حَنَذَ':{
+		{'root':u'حنذ','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حنر':{
+	u'حَنَرَ':{
+		{'root':u'حنر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'نغى':{
+	u'نَغَى':{
+		{'root':u'نغي','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'حنس':{
+	u'حَنِسَ':{
+		{'root':u'حنس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حنش':{
+	u'حَنَشَ':{
+		{'root':u'حنش','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'زرك':{
+	u'زَرِكَ':{
+		{'root':u'زرك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نأم':{
+	u'نَأَمَ':{
+		{'root':u'نءم','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'نءم','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حنط':{
+	u'حَنَطَ':{
+		{'root':u'حنط','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'حنط','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'حَنِطَ':{
+		{'root':u'حنط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هوج':{
+	u'هَوِجَ':{
+		{'root':u'هوج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نغق':{
+	u'نَغَقَ':{
+		{'root':u'نغق','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'نغق','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مطّ':{
+	u'مَطَّ':{
+		{'root':u'مطط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'صتأ':{
+	u'صَتَأَ':{
+		{'root':u'صتء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نغم':{
+	u'نَغَمَ':{
+		{'root':u'نغم','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'نغم','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'نغم','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نغل':{
+	u'نَغُلَ':{
+		{'root':u'نغل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'نَغِلَ':{
+		{'root':u'نغل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لمّ':{
+	u'لَمَّ':{
+		{'root':u'لمم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'عظر':{
+	u'عَظَرَ':{
+		{'root':u'عظر','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'عَظِرَ':{
+		{'root':u'عظر','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نحس':{
+	u'نَحَسَ':{
+		{'root':u'نحس','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	u'نَحُسَ':{
+		{'root':u'نحس','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'نَحِسَ':{
+		{'root':u'نحس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وله':{
+	u'وَلَهَ':{
+		{'root':u'وله','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'وَلِهَ':{
+		{'root':u'وله','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'وله','bab':6,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'لمى':{
+	u'لَمَى':{
+		{'root':u'لمي','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'عظب':{
+	u'عَظَبَ':{
+		{'root':u'عظب','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'عَظِبَ':{
+		{'root':u'عظب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ولق':{
+	u'وَلَقَ':{
+		{'root':u'ولق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ولف':{
+	u'وَلَفَ':{
+		{'root':u'ولف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'لمق':{
+	u'لَمَقَ':{
+		{'root':u'لمق','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'لمك':{
+	u'لَمَكَ':{
+		{'root':u'لمك','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'طمل':{
+	u'طَمِلَ':{
+		{'root':u'طمل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'طَمَلَ':{
+		{'root':u'طمل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ولى':{
+	u'وَلَى':{
+		{'root':u'ولي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'دأب':{
+	u'دَأَبَ':{
+		{'root':u'دءب','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لغد':{
+	u'لَغَدَ':{
+		{'root':u'لغد','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'روع':{
+	u'رَوِعَ':{
+		{'root':u'روع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رخا':{
+	u'رَخَا':{
+		{'root':u'رخو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'رخو','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زحر':{
+	u'زَحَرَ':{
+		{'root':u'زحر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'زحر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'وطن':{
+	u'وَطَنَ':{
+		{'root':u'وطن','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'مكت':{
+	u'مَكَتَ':{
+		{'root':u'مكت','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'عذر':{
+	u'عَذَرَ':{
+		{'root':u'عذر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'عذر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'لتم':{
+	u'لَتَمَ':{
+		{'root':u'لتم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'سري':{
+	u'سَرِيَ':{
+		{'root':u'سرو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طثأ':{
+	u'طَثَأَ':{
+		{'root':u'طثء','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ظهر':{
+	u'ظَهِرَ':{
+		{'root':u'ظهر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'ظَهَرَ':{
+		{'root':u'ظهر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'سدف':{
+	u'سَدِفَ':{
+		{'root':u'سدف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وعث':{
+	u'وَعِثَ':{
+		{'root':u'وعث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'وَعُثَ':{
+		{'root':u'وعث','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ركم':{
+	u'رَكَمَ':{
+		{'root':u'ركم','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'سحى':{
+	u'سَحَى':{
+		{'root':u'سحي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		{'root':u'سحي','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ثخن':{
+	u'ثَخُنَ':{
+		{'root':u'ثخن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'نعى':{
+	u'نَعَى':{
+		{'root':u'نعي','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'سدك':{
+	u'سَدِكَ':{
+		{'root':u'سدك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قسّ':{
+	u'قَسَّ':{
+		{'root':u'قسس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'عبل':{
+	u'عَبِلَ':{
+		{'root':u'عبل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَبُلَ':{
+		{'root':u'عبل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'عَبَلَ':{
+		{'root':u'عبل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عبل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'وطف':{
+	u'وَطِفَ':{
+		{'root':u'وطف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'وَطَفَ':{
+		{'root':u'وطف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ثخّ':{
+	u'ثَخَّ':{
+		{'root':u'ثخخ','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'لمظ':{
+	u'لَمَظَ':{
+		{'root':u'لمظ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'لمع':{
+	u'لَمَعَ':{
+		{'root':u'لمع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'سعط':{
+	u'سَعَطَ':{
+		{'root':u'سعط','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'سعط','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ولس':{
+	u'وَلَسَ':{
+		{'root':u'ولس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'هصم':{
+	u'هَصَمَ':{
+		{'root':u'هصم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'كصّ':{
+	u'كَصَّ':{
+		{'root':u'كصص','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'وعر':{
+	u'وَعُرَ':{
+		{'root':u'وعر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'وَعَرَ':{
+		{'root':u'وعر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'وَعِرَ':{
+		{'root':u'وعر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لمز':{
+	u'لَمَزَ':{
+		{'root':u'لمز','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'لمز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عظّ':{
+	u'عَظَّ':{
+		{'root':u'عظظ','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'لمص':{
+	u'لَمَصَ':{
+		{'root':u'لمص','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'مصد':{
+	u'مَصَدَ':{
+		{'root':u'مصد','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'لمط':{
+	u'لَمَطَ':{
+		{'root':u'لمط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'عظي':{
+	u'عَظِيَ':{
+		{'root':u'عظي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كصم':{
+	u'كَصَمَ':{
+		{'root':u'كصم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عظى':{
+	u'عَظَى':{
+		{'root':u'عظي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'لمج':{
+	u'لَمَجَ':{
+		{'root':u'لمج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'لمح':{
+	u'لَمَحَ':{
+		{'root':u'لمح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لمخ':{
+	u'لَمَخَ':{
+		{'root':u'لمخ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ولد':{
+	u'وَلَدَ':{
+		{'root':u'ولد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ولخ':{
+	u'وَلَخَ':{
+		{'root':u'ولخ','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ولح':{
+	u'وَلَحَ':{
+		{'root':u'ولح','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'لمأ':{
+	u'لَمَأَ':{
+		{'root':u'لمء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ولث':{
+	u'وَلَثَ':{
+		{'root':u'ولث','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ولت':{
+	u'وَلَتَ':{
+		{'root':u'ولت','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'عظل':{
+	u'عَظِلَ':{
+		{'root':u'عظل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَظَلَ':{
+		{'root':u'عظل','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'عظم':{
+	u'عَظُمَ':{
+		{'root':u'عظم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'عَظَمَ':{
+		{'root':u'عظم','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'قرا':{
+	u'قَرَا':{
+		{'root':u'قرو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'صدّ':{
+	u'صَدَّ':{
+		{'root':u'صدد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'صدد','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'قرأ':{
+	u'قَرَأَ':{
+		{'root':u'قرء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'سرف':{
+	u'سَرَفَ':{
+		{'root':u'سرف','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'سَرِفَ':{
+		{'root':u'سرف','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'رطب':{
+	u'رَطِبَ':{
+		{'root':u'رطب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'رَطَبَ':{
+		{'root':u'رطب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'رَطُبَ':{
+		{'root':u'رطب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'رطا':{
+	u'رَطَا':{
+		{'root':u'رطو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'قرد':{
+	u'قَرَدَ':{
+		{'root':u'قرد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'قَرِدَ':{
+		{'root':u'قرد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شثر':{
+	u'شَثِرَ':{
+		{'root':u'شثر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قرت':{
+	u'قَرِتَ':{
+		{'root':u'قرت','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'قَرَتَ':{
+		{'root':u'قرت','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'قرث':{
+	u'قَرَثَ':{
+		{'root':u'قرث','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'قَرِثَ':{
+		{'root':u'قرث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قرب':{
+	u'قَرِبَ':{
+		{'root':u'قرب','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'قَرُبَ':{
+		{'root':u'قرب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'قَرَبَ':{
+		{'root':u'قرب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'قرض':{
+	u'قَرَضَ':{
+		{'root':u'قرض','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'قَرِضَ':{
+		{'root':u'قرض','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'صدق':{
+	u'صَدَقَ':{
+		{'root':u'صدق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'صدف':{
+	u'صَدَفَ':{
+		{'root':u'صدف','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'صدف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'صَدِفَ':{
+		{'root':u'صدف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أمل':{
+	u'أَمَلَ':{
+		{'root':u'ءمل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'ألت':{
+	u'أَلَتَ':{
+		{'root':u'ءلت','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'صدم':{
+	u'صَدَمَ':{
+		{'root':u'صدم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'صنّ':{
+	u'صَنَّ':{
+		{'root':u'صنن','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'صدي':{
+	u'صَدِيَ':{
+		{'root':u'صدي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رطس':{
+	u'رَطَسَ':{
+		{'root':u'رطس','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'رطس','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'قرظ':{
+	u'قَرِظَ':{
+		{'root':u'قرظ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'قَرَظَ':{
+		{'root':u'قرظ','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قرع':{
+	u'قَرِعَ':{
+		{'root':u'قرع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'قَرَعَ':{
+		{'root':u'قرع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'قحز':{
+	u'قَحَزَ':{
+		{'root':u'قحز','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'صته':{
+	u'صَتَهَ':{
+		{'root':u'صته','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'كاح':{
+	u'كَاحَ':{
+		{'root':u'كوح','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'كيح','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'كاد':{
+	u'كَادَ':{
+		{'root':u'كود','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'كيد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'كاء':{
+	u'كَاءَ':{
+		{'root':u'كوء','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'كيء','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قدّ':{
+	u'قَدَّ':{
+		{'root':u'قدد','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'ضاق':{
+	u'ضَاقَ':{
+		{'root':u'ضيق','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'صلع':{
+	u'صَلِعَ':{
+		{'root':u'صلع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فقخ':{
+	u'فَقَخَ':{
+		{'root':u'فقخ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'خصّ':{
+	u'خَصَّ':{
+		{'root':u'خصص','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'خصص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قدو':{
+	u'قَدُوَ':{
+		{'root':u'قدو','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'قدى':{
+	u'قَدَى':{
+		{'root':u'قدي','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'قدي':{
+	u'قَدِيَ':{
+		{'root':u'قدو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زلف':{
+	u'زَلَفَ':{
+		{'root':u'زلف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'صلا':{
+	u'صَلَا':{
+		{'root':u'صلو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'خصى':{
+	u'خَصَى':{
+		{'root':u'خصي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'صلت':{
+	u'صَلَتَ':{
+		{'root':u'صلت','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'صلت','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'صَلُتَ':{
+		{'root':u'صلت','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بهي':{
+	u'بَهِيَ':{
+		{'root':u'بهو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'صلب':{
+	u'صَلُبَ':{
+		{'root':u'صلب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'صَلَبَ':{
+		{'root':u'صلب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'صلب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'كاز':{
+	u'كَازَ':{
+		{'root':u'كوز','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'صلخ':{
+	u'صَلِخَ':{
+		{'root':u'صلخ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'صلد':{
+	u'صَلَدَ':{
+		{'root':u'صلد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'صَلُدَ':{
+		{'root':u'صلد','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'صلج':{
+	u'صَلِجَ':{
+		{'root':u'صلج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'صَلَجَ':{
+		{'root':u'صلج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'صلح':{
+	u'صَلُحَ':{
+		{'root':u'صلح','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'صَلَحَ':{
+		{'root':u'صلح','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'صلح','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قدع':{
+	u'قَدَعَ':{
+		{'root':u'قدع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'قَدِعَ':{
+		{'root':u'قدع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'صلّ':{
+	u'صَلَّ':{
+		{'root':u'صلل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'صلل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ألز':{
+	u'أَلِزَ':{
+		{'root':u'ءلز','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'أَلَزَ':{
+		{'root':u'ءلز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'صرب':{
+	u'صَرَبَ':{
+		{'root':u'صرب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'صرب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'صَرِبَ':{
+		{'root':u'صرب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كاف':{
+	u'كَافَ':{
+		{'root':u'كوف','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'كيف','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'قدر':{
+	u'قَدَرَ':{
+		{'root':u'قدر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'قدر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'قَدِرَ':{
+		{'root':u'قدر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سخف':{
+	u'سَخُفَ':{
+		{'root':u'سخف','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'قحص':{
+	u'قَحَصَ':{
+		{'root':u'قحص','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'كام':{
+	u'كَامَ':{
+		{'root':u'كوم','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'كال':{
+	u'كَالَ':{
+		{'root':u'كيل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'كاه':{
+	u'كَاهَ':{
+		{'root':u'كوه','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'كيه','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'كان':{
+	u'كَانَ':{
+		{'root':u'كون','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'كين','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'صلق':{
+	u'صَلَقَ':{
+		{'root':u'صلق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'صلق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'صلف':{
+	u'صَلَفَ':{
+		{'root':u'صلف','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'صَلِفَ':{
+		{'root':u'صلف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قدح':{
+	u'قَدَحَ':{
+		{'root':u'قدح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'خصب':{
+	u'خَصِبَ':{
+		{'root':u'خصب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'خَصَبَ':{
+		{'root':u'خصب','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'صلم':{
+	u'صَلَمَ':{
+		{'root':u'صلم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'صلي':{
+	u'صَلِيَ':{
+		{'root':u'صلو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'صلي','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'زلج':{
+	u'زَلِجَ':{
+		{'root':u'زلج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'زَلَجَ':{
+		{'root':u'زلج','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'صلى':{
+	u'صَلَى':{
+		{'root':u'صلي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'زلب':{
+	u'زَلِبَ':{
+		{'root':u'زلب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دزر':{
+	u'دَزَرَ':{
+		{'root':u'دزر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'قدا':{
+	u'قَدَا':{
+		{'root':u'قدو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'قرن':{
+	u'قَرَنَ':{
+		{'root':u'قرن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'قرن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'قَرِنَ':{
+		{'root':u'قرن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قره':{
+	u'قَرِهَ':{
+		{'root':u'قره','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'صدر':{
+	u'صَدَرَ':{
+		{'root':u'صدر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'صدر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قرم':{
+	u'قَرِمَ':{
+		{'root':u'قرم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'قَرَمَ':{
+		{'root':u'قرم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'قرم','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'قرق':{
+	u'قَرِقَ':{
+		{'root':u'قرق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'قَرَقَ':{
+		{'root':u'قرق','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'رطي':{
+	u'رَطِيَ':{
+		{'root':u'رطي','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'قرف':{
+	u'قَرِفَ':{
+		{'root':u'قرف','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'قَرَفَ':{
+		{'root':u'قرف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'صدغ':{
+	u'صَدُغَ':{
+		{'root':u'صدغ','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'صَدَغَ':{
+		{'root':u'صدغ','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'صدغ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'صدع':{
+	u'صَدَعَ':{
+		{'root':u'صدع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'دعظ':{
+	u'دَعَظَ':{
+		{'root':u'دعظ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'قري':{
+	u'قَرِيَ':{
+		{'root':u'قري','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دغش':{
+	u'دَغَشَ':{
+		{'root':u'دغش','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قرى':{
+	u'قَرَى':{
+		{'root':u'قري','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'صدأ':{
+	u'صَدَأَ':{
+		{'root':u'صدء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'خفي':{
+	u'خَفِيَ':{
+		{'root':u'خفو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'خفي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وقه':{
+	u'وَقِهَ':{
+		{'root':u'وقه','bab':6,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'دغص':{
+	u'دَغِصَ':{
+		{'root':u'دغص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زبل':{
+	u'زَبَلَ':{
+		{'root':u'زبل','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'صدئ':{
+	u'صَدِئَ':{
+		{'root':u'صدء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وسم':{
+	u'وَسُمَ':{
+		{'root':u'وسم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'وَسَمَ':{
+		{'root':u'وسم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'قرّ':{
+	u'قَرَّ':{
+		{'root':u'قرر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'قرر','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'قرر','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'زمخ':{
+	u'زَمَخَ':{
+		{'root':u'زمخ','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سمه':{
+	u'سَمَهَ':{
+		{'root':u'سمه','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دحم':{
+	u'دَحَمَ':{
+		{'root':u'دحم','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'صدح':{
+	u'صَدَحَ':{
+		{'root':u'صدح','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طام':{
+	u'طَامَ':{
+		{'root':u'طيم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'بسأ':{
+	u'بَسَأَ':{
+		{'root':u'بسء','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ذمي':{
+	u'ذَمِيَ':{
+		{'root':u'ذمي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طان':{
+	u'طَانَ':{
+		{'root':u'طين','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'بسئ':{
+	u'بَسِئَ':{
+		{'root':u'بسء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زمج':{
+	u'زَمِجَ':{
+		{'root':u'زمج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'زَمَجَ':{
+		{'root':u'زمج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'دوي':{
+	u'دَوِيَ':{
+		{'root':u'دوي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طاق':{
+	u'طَاقَ':{
+		{'root':u'طوق','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'غذّ':{
+	u'غَذَّ':{
+		{'root':u'غذذ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'غذذ','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عقر':{
+	u'عَقُرَ':{
+		{'root':u'عقر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'عَقِرَ':{
+		{'root':u'عقر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَقَرَ':{
+		{'root':u'عقر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'هذئ':{
+	u'هَذِئَ':{
+		{'root':u'هذء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هذا':{
+	u'هَذَا':{
+		{'root':u'هذو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'سفه':{
+	u'سَفِهَ':{
+		{'root':u'سفه','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'سَفُهَ':{
+		{'root':u'سفه','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'سَفَهَ':{
+		{'root':u'سفه','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'سفه','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'عقص':{
+	u'عَقِصَ':{
+		{'root':u'عقص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَقَصَ':{
+		{'root':u'عقص','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'هدغ':{
+	u'هَدَغَ':{
+		{'root':u'هدغ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'هذأ':{
+	u'هَذَأَ':{
+		{'root':u'هذء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'عقب':{
+	u'عَقَبَ':{
+		{'root':u'عقب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عقب','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'عَقِبَ':{
+		{'root':u'عقب','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'بسر':{
+	u'بَسَرَ':{
+		{'root':u'بسر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'بسط':{
+	u'بَسَطَ':{
+		{'root':u'بسط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'بَسُطَ':{
+		{'root':u'بسط','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'عقد':{
+	u'عَقَدَ':{
+		{'root':u'عقد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'عَقِدَ':{
+		{'root':u'عقد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هرج':{
+	u'هَرَجَ':{
+		{'root':u'هرج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'هرج','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'هَرِجَ':{
+		{'root':u'هرج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وشى':{
+	u'وَشَى':{
+		{'root':u'وشي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'غذم':{
+	u'غَذَمَ':{
+		{'root':u'غذم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'غَذِمَ':{
+		{'root':u'غذم','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'هذر':{
+	u'هَذِرَ':{
+		{'root':u'هذر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'هَذَرَ':{
+		{'root':u'هذر','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'هذر','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'عقا':{
+	u'عَقَا':{
+		{'root':u'عقو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'شخص':{
+	u'شَخُصَ':{
+		{'root':u'شخص','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'شَخَصَ':{
+		{'root':u'شخص','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'دكأ':{
+	u'دَكَأَ':{
+		{'root':u'دكء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'تمّ':{
+	u'تَمَّ':{
+		{'root':u'تمم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'شخر':{
+	u'شَخَرَ':{
+		{'root':u'شخر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'شظي':{
+	u'شَظِيَ':{
+		{'root':u'شظي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شظى':{
+	u'شَظَى':{
+		{'root':u'شظي','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'شخز':{
+	u'شَخَزَ':{
+		{'root':u'شخز','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ربص':{
+	u'رَبَصَ':{
+		{'root':u'ربص','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'قحم':{
+	u'قَحَمَ':{
+		{'root':u'قحم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'قحم','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'شظف':{
+	u'شَظُفَ':{
+		{'root':u'شظف','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'شَظِفَ':{
+		{'root':u'شظف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'شَظَفَ':{
+		{'root':u'شظف','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'دلم':{
+	u'دَلِمَ':{
+		{'root':u'دلم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضمن':{
+	u'ضَمِنَ':{
+		{'root':u'ضمن','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'تمك':{
+	u'تَمَكَ':{
+		{'root':u'تمك','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'تمك','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'تهن':{
+	u'تَهِنَ':{
+		{'root':u'تهن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كلح':{
+	u'كَلَحَ':{
+		{'root':u'كلح','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'تمه':{
+	u'تَمِهَ':{
+		{'root':u'تمه','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دخل':{
+	u'دَخِلَ':{
+		{'root':u'دخل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'دَخَلَ':{
+		{'root':u'دخل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'دشن':{
+	u'دَشَنَ':{
+		{'root':u'دشن','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'دعث':{
+	u'دَعِثَ':{
+		{'root':u'دعث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'دَعَثَ':{
+		{'root':u'دعث','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'قسم':{
+	u'قَسَمَ':{
+		{'root':u'قسم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'قَسُمَ':{
+		{'root':u'قسم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'زار':{
+	u'زَارَ':{
+		{'root':u'زور','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'زير','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ضمي':{
+	u'ضَمِيَ':{
+		{'root':u'ضمي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شخب':{
+	u'شَخَبَ':{
+		{'root':u'شخب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'شخب','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'شظّ':{
+	u'شَظَّ':{
+		{'root':u'شظظ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'شخت':{
+	u'شَخُتَ':{
+		{'root':u'شخت','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'تمر':{
+	u'تَمَرَ':{
+		{'root':u'تمر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'شخّ':{
+	u'شَخَّ':{
+		{'root':u'شخخ','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ضمس':{
+	u'ضَمَسَ':{
+		{'root':u'ضمس','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'تمش':{
+	u'تَمَشَ':{
+		{'root':u'تمش','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'ضمر':{
+	u'ضَمَرَ':{
+		{'root':u'ضمر','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'ضَمُرَ':{
+		{'root':u'ضمر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'سدح':{
+	u'سَدَحَ':{
+		{'root':u'سدح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'أقى':{
+	u'أَقَى':{
+		{'root':u'ءقي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'سلأ':{
+	u'سَلَأَ':{
+		{'root':u'سلء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'شخم':{
+	u'شَخَمَ':{
+		{'root':u'شخم','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'شَخِمَ':{
+		{'root':u'شخم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شخل':{
+	u'شَخَلَ':{
+		{'root':u'شخل','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'دمن':{
+	u'دَمَنَ':{
+		{'root':u'دمن','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'دَمِنَ':{
+		{'root':u'دمن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ألي':{
+	u'أَلِيَ':{
+		{'root':u'ءلي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هرت':{
+	u'هَرَتَ':{
+		{'root':u'هرت','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'هرت','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'هَرِتَ':{
+		{'root':u'هرت','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضمخ':{
+	u'ضَمَخَ':{
+		{'root':u'ضمخ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ضمد':{
+	u'ضَمَدَ':{
+		{'root':u'ضمد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ضمد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'ضَمِدَ':{
+		{'root':u'ضمد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضمج':{
+	u'ضَمِجَ':{
+		{'root':u'ضمج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وذف':{
+	u'وَذَفَ':{
+		{'root':u'وذف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'بسق':{
+	u'بَسَقَ':{
+		{'root':u'بسق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'سفت':{
+	u'سَفِتَ':{
+		{'root':u'سفت','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'دود':{
+	u'دَوِدَ':{
+		{'root':u'دود','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طاء':{
+	u'طَاءَ':{
+		{'root':u'طوء','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'هذى':{
+	u'هَذَى':{
+		{'root':u'هذي','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'بسل':{
+	u'بَسُلَ':{
+		{'root':u'بسل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'بَسَلَ':{
+		{'root':u'بسل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'بسم':{
+	u'بَسَمَ':{
+		{'root':u'بسم','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'طاح':{
+	u'طَاحَ':{
+		{'root':u'طوح','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'طيح','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'عقّ':{
+	u'عَقَّ':{
+		{'root':u'عقق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عقق','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'طاد':{
+	u'طَادَ':{
+		{'root':u'طود','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'طاخ':{
+	u'طَاخَ':{
+		{'root':u'طوخ','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'طيخ','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'سفا':{
+	u'سَفَا':{
+		{'root':u'سفو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'طاب':{
+	u'طَابَ':{
+		{'root':u'طيب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'وسى':{
+	u'وَسَى':{
+		{'root':u'وسي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ودق':{
+	u'وَدَقَ':{
+		{'root':u'ودق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'وَدِقَ':{
+		{'root':u'ودق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'وَدُقَ':{
+		{'root':u'ودق','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'طاش':{
+	u'طَاشَ':{
+		{'root':u'طيش','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'طاط':{
+	u'طَاطَ':{
+		{'root':u'طوط','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'طيط','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'بسّ':{
+	u'بَسَّ':{
+		{'root':u'بسس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'طار':{
+	u'طَارَ':{
+		{'root':u'طور','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'طير','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'وذم':{
+	u'وَذِمَ':{
+		{'root':u'وذم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طاس':{
+	u'طَاسَ':{
+		{'root':u'طوس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'طيس','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'خسف':{
+	u'خَسَفَ':{
+		{'root':u'خسف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'دوش':{
+	u'دَوِشَ':{
+		{'root':u'دوش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عقف':{
+	u'عَقَفَ':{
+		{'root':u'عقف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'سفر':{
+	u'سَفَرَ':{
+		{'root':u'سفر','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'سفر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قبض':{
+	u'قَبَضَ':{
+		{'root':u'قبض','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'طاع':{
+	u'طَاعَ':{
+		{'root':u'طوع','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'طيع','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'عقم':{
+	u'عَقِمَ':{
+		{'root':u'عقم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَقَمَ':{
+		{'root':u'عقم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عقم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'عَقُمَ':{
+		{'root':u'عقم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'غذا':{
+	u'غَذَا':{
+		{'root':u'غذو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ألّ':{
+	u'أَلَّ':{
+		{'root':u'ءلل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ءلل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'ءلل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ثدى':{
+	u'ثَدَى':{
+		{'root':u'ثدي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'أجر':{
+	u'أَجَرَ':{
+		{'root':u'ءجر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ءجر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'خطا':{
+	u'خَطَا':{
+		{'root':u'خطو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'رجع':{
+	u'رَجَعَ':{
+		{'root':u'رجع','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'مئر':{
+	u'مَئِرَ':{
+		{'root':u'مءر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لجم':{
+	u'لَجَمَ':{
+		{'root':u'لجم','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'ثدق':{
+	u'ثَدَقَ':{
+		{'root':u'ثدق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'رجز':{
+	u'رَجِزَ':{
+		{'root':u'رجز','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'رَجَزَ':{
+		{'root':u'رجز','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'رجس':{
+	u'رَجِسَ':{
+		{'root':u'رجس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'رَجَسَ':{
+		{'root':u'رجس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'رجس','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'رَجُسَ':{
+		{'root':u'رجس','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'لام':{
+	u'لَامَ':{
+		{'root':u'لوم','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'ثدن':{
+	u'ثَدِنَ':{
+		{'root':u'ثدن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شهق':{
+	u'شَهِقَ':{
+		{'root':u'شهق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'شَهَقَ':{
+		{'root':u'شهق','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'شهق','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رجد':{
+	u'رَجَدَ':{
+		{'root':u'رجد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'لصغ':{
+	u'لَصَغَ':{
+		{'root':u'لصغ','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رجح':{
+	u'رَجَحَ':{
+		{'root':u'رجح','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'رجح','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'رجح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'شهل':{
+	u'شَهِلَ':{
+		{'root':u'شهل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شهم':{
+	u'شَهُمَ':{
+		{'root':u'شهم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'شَهَمَ':{
+		{'root':u'شهم','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'شهم','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'شهي':{
+	u'شَهِيَ':{
+		{'root':u'شهو','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'رجا':{
+	u'رَجَا':{
+		{'root':u'رجو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'شهو':{
+	u'شَهُوَ':{
+		{'root':u'شهو','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بهؤ':{
+	u'بَهُؤَ':{
+		{'root':u'بهء','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ظرب':{
+	u'ظَرِبَ':{
+		{'root':u'ظرب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دغل':{
+	u'دَغَلَ':{
+		{'root':u'دغل','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ظأف':{
+	u'ظَأَفَ':{
+		{'root':u'ظءف','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'وقس':{
+	u'وَقَسَ':{
+		{'root':u'وقس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'دثط':{
+	u'دَثَطَ':{
+		{'root':u'دثط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'رفه':{
+	u'رَفُهَ':{
+		{'root':u'رفه','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'رَفَهَ':{
+		{'root':u'رفه','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ذغّ':{
+	u'ذَغَّ':{
+		{'root':u'ذغغ','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'رال':{
+	u'رَالَ':{
+		{'root':u'ريل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'بهأ':{
+	u'بَهَأَ':{
+		{'root':u'بهء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'هرا':{
+	u'هَرَا':{
+		{'root':u'هرو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'كزم':{
+	u'كَزَمَ':{
+		{'root':u'كزم','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'كزم','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'كَزِمَ':{
+		{'root':u'كزم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هفت':{
+	u'هَفَتَ':{
+		{'root':u'هفت','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'زقن':{
+	u'زَقَنَ':{
+		{'root':u'زقن','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'كزى':{
+	u'كَزَى':{
+		{'root':u'كزي','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'دغم':{
+	u'دَغَمَ':{
+		{'root':u'دغم','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'دَغِمَ':{
+		{'root':u'دغم','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ظرى':{
+	u'ظَرَى':{
+		{'root':u'ظري','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ظري':{
+	u'ظَرِيَ':{
+		{'root':u'ظري','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ظأت':{
+	u'ظَأَتَ':{
+		{'root':u'ظءت','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ظرف':{
+	u'ظَرُفَ':{
+		{'root':u'ظرف','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ظأب':{
+	u'ظَأَبَ':{
+		{'root':u'ظءب','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نضب':{
+	u'نَضَبَ':{
+		{'root':u'نضب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نضب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'وئب':{
+	u'وَئِبَ':{
+		{'root':u'وءب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ظأر':{
+	u'ظَأَرَ':{
+		{'root':u'ظءر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'عفل':{
+	u'عَفَلَ':{
+		{'root':u'عفل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'عَفِلَ':{
+		{'root':u'عفل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ناق':{
+	u'نَاقَ':{
+		{'root':u'نوق','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'ظرّ':{
+	u'ظَرَّ':{
+		{'root':u'ظرر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'قحف':{
+	u'قَحَفَ':{
+		{'root':u'قحف','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'سكب':{
+	u'سَكَبَ':{
+		{'root':u'سكب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'لصى':{
+	u'لَصَى':{
+		{'root':u'لصي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'لصي':{
+	u'لَصِيَ':{
+		{'root':u'لصي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شهر':{
+	u'شَهَرَ':{
+		{'root':u'شهر','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'لزن':{
+	u'لَزَنَ':{
+		{'root':u'لزن','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'لَزِنَ':{
+		{'root':u'لزن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لصف':{
+	u'لَصَفَ':{
+		{'root':u'لصف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'لصف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'لَصِفَ':{
+		{'root':u'لصف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لصق':{
+	u'لَصِقَ':{
+		{'root':u'لصق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طخم':{
+	u'طَخُمَ':{
+		{'root':u'طخم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'طَخَمَ':{
+		{'root':u'طخم','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ذقن':{
+	u'ذَقِنَ':{
+		{'root':u'ذقن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'ذَقَنَ':{
+		{'root':u'ذقن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ثدا':{
+	u'ثَدَا':{
+		{'root':u'ثدو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'ذبل':{
+	u'ذَبَلَ':{
+		{'root':u'ذبل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'ذَبُلَ':{
+		{'root':u'ذبل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'شرج':{
+	u'شَرِجَ':{
+		{'root':u'شرج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'شَرَجَ':{
+		{'root':u'شرج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ثدغ':{
+	u'ثَدَغَ':{
+		{'root':u'ثدغ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'رجي':{
+	u'رَجِيَ':{
+		{'root':u'رجو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شها':{
+	u'شَهَا':{
+		{'root':u'شهو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'ناك':{
+	u'نَاكَ':{
+		{'root':u'نيك','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'خذل':{
+	u'خَذَلَ':{
+		{'root':u'خذل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'رجن':{
+	u'رَجَنَ':{
+		{'root':u'رجن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'رَجِنَ':{
+		{'root':u'رجن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لصّ':{
+	u'لَصَّ':{
+		{'root':u'لصص','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'لصص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شهب':{
+	u'شَهِبَ':{
+		{'root':u'شهب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'شَهُبَ':{
+		{'root':u'شهب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'شَهَبَ':{
+		{'root':u'شهب','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ضرم':{
+	u'ضَرِمَ':{
+		{'root':u'ضرم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مئل':{
+	u'مَئِلَ':{
+		{'root':u'مءل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شهد':{
+	u'شَهِدَ':{
+		{'root':u'شهد','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'رجف':{
+	u'رَجَفَ':{
+		{'root':u'رجف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'زقم':{
+	u'زَقَمَ':{
+		{'root':u'زقم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'صمى':{
+	u'صَمَى':{
+		{'root':u'صمي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عدي':{
+	u'عَدِيَ':{
+		{'root':u'عدو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'صمل':{
+	u'صَمَلَ':{
+		{'root':u'صمل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'عدم':{
+	u'عَدُمَ':{
+		{'root':u'عدم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'عَدِمَ':{
+		{'root':u'عدم','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'عدل':{
+	u'عَدَلَ':{
+		{'root':u'عدل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'عَدُلَ':{
+		{'root':u'عدل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'عدك':{
+	u'عَدَكَ':{
+		{'root':u'عدك','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'عدق':{
+	u'عَدَقَ':{
+		{'root':u'عدق','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'عَدِقَ':{
+		{'root':u'عدق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عدف':{
+	u'عَدَفَ':{
+		{'root':u'عدف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'دكل':{
+	u'دَكَلَ':{
+		{'root':u'دكل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'دكل','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'وبق':{
+	u'وَبِقَ':{
+		{'root':u'وبق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'وبق','bab':6,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'وَبَقَ':{
+		{'root':u'وبق','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'دلح':{
+	u'دَلَحَ':{
+		{'root':u'دلح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'وبه':{
+	u'وَبَهَ':{
+		{'root':u'وبه','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'وَبِهَ':{
+		{'root':u'وبه','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وبل':{
+	u'وَبَلَ':{
+		{'root':u'وبل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'وَبُلَ':{
+		{'root':u'وبل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'دمّ':{
+	u'دَمَّ':{
+		{'root':u'دمم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'دمم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'دمم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'دمم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'خذق':{
+	u'خَذَقَ':{
+		{'root':u'خذق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'خذق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'صمّ':{
+	u'صَمَّ':{
+		{'root':u'صمم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'صمم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'صمم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عدّ':{
+	u'عَدَّ':{
+		{'root':u'عدد','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'قذف':{
+	u'قَذَفَ':{
+		{'root':u'قذف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'وكس':{
+	u'وَكَسَ':{
+		{'root':u'وكس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'مسر':{
+	u'مَسَرَ':{
+		{'root':u'مسر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'وكر':{
+	u'وَكَرَ':{
+		{'root':u'وكر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قذم':{
+	u'قَذَمَ':{
+		{'root':u'قذم','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'قَذِمَ':{
+		{'root':u'قذم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قذل':{
+	u'قَذَلَ':{
+		{'root':u'قذل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'هجب':{
+	u'هَجَبَ':{
+		{'root':u'هجب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قهر':{
+	u'قَهَرَ':{
+		{'root':u'قهر','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'قذى':{
+	u'قَذَى':{
+		{'root':u'قذي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'لاث':{
+	u'لَاثَ':{
+		{'root':u'لوث','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'لاب':{
+	u'لَابَ':{
+		{'root':u'لوب','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'قذي':{
+	u'قَذِيَ':{
+		{'root':u'قذي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لاخ':{
+	u'لَاخَ':{
+		{'root':u'لوخ','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'خني':{
+	u'خَنِيَ':{
+		{'root':u'خني','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قلي':{
+	u'قَلِيَ':{
+		{'root':u'قلي','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'لاح':{
+	u'لَاحَ':{
+		{'root':u'لوح','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'قذّ':{
+	u'قَذَّ':{
+		{'root':u'قذذ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'لاس':{
+	u'لَاسَ':{
+		{'root':u'لوس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'لاذ':{
+	u'لَاذَ':{
+		{'root':u'لوذ','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'طخّ':{
+	u'طَخَّ':{
+		{'root':u'طخخ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'لاط':{
+	u'لَاطَ':{
+		{'root':u'لوط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ليط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'خنّ':{
+	u'خَنَّ':{
+		{'root':u'خنن','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'خنن','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'خنن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضرس':{
+	u'ضَرَسَ':{
+		{'root':u'ضرس','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'ضرس','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'ضَرِسَ':{
+		{'root':u'ضرس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شأن':{
+	u'شَأَنَ':{
+		{'root':u'شءن','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'سكع':{
+	u'سَكِعَ':{
+		{'root':u'سكع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'سَكَعَ':{
+		{'root':u'سكع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لاظ':{
+	u'لَاظَ':{
+		{'root':u'لوظ','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'شأم':{
+	u'شَأَمَ':{
+		{'root':u'شءم','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'وكد':{
+	u'وَكَدَ':{
+		{'root':u'وكد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'سفّ':{
+	u'سَفَّ':{
+		{'root':u'سفف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'سفف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'سفف','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'وكح':{
+	u'وَكَحَ':{
+		{'root':u'وكح','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'لاق':{
+	u'لَاقَ':{
+		{'root':u'لوق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ليق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'لاك':{
+	u'لَاكَ':{
+		{'root':u'لوك','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'نظف':{
+	u'نَظُفَ':{
+		{'root':u'نظف','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'لاف':{
+	u'لَافَ':{
+		{'root':u'لوف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ليف','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'لان':{
+	u'لَانَ':{
+		{'root':u'لين','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'لاه':{
+	u'لَاهَ':{
+		{'root':u'لوه','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ليه','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'فلط':{
+	u'فَلَطَ':{
+		{'root':u'فلط','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'شأز':{
+	u'شَأَزَ':{
+		{'root':u'شءز','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'شجر':{
+	u'شَجِرَ':{
+		{'root':u'شجر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'شَجَرَ':{
+		{'root':u'شجر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'خنب':{
+	u'خَنِبَ':{
+		{'root':u'خنب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قذر':{
+	u'قَذَرَ':{
+		{'root':u'قذر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'قَذِرَ':{
+		{'root':u'قذر','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'قَذُرَ':{
+		{'root':u'قذر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'تعص':{
+	u'تَعِصَ':{
+		{'root':u'تعص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وكن':{
+	u'وَكَنَ':{
+		{'root':u'وكن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'خنز':{
+	u'خَنِزَ':{
+		{'root':u'خنز','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وكل':{
+	u'وَكَلَ':{
+		{'root':u'وكل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'وكم':{
+	u'وَكِمَ':{
+		{'root':u'وكم','bab':6,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'وَكَمَ':{
+		{'root':u'وكم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'قذع':{
+	u'قَذَعَ':{
+		{'root':u'قذع','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'مصل':{
+	u'مَصَلَ':{
+		{'root':u'مصل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'وأر':{
+	u'وَأَرَ':{
+		{'root':u'وءر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'خنع':{
+	u'خَنَعَ':{
+		{'root':u'خنع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'فلس':{
+	u'فَلِسَ':{
+		{'root':u'فلس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'صمح':{
+	u'صَمَحَ':{
+		{'root':u'صمح','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'صمح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'صمد':{
+	u'صَمَدَ':{
+		{'root':u'صمد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'صمخ':{
+	u'صَمَخَ':{
+		{'root':u'صمخ','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'وبط':{
+	u'وَبُطَ':{
+		{'root':u'وبط','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'وَبَطَ':{
+		{'root':u'وبط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'وَبِطَ':{
+		{'root':u'وبط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فلذ':{
+	u'فَلَذَ':{
+		{'root':u'فلذ','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'وبص':{
+	u'وَبِصَ':{
+		{'root':u'وبص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'وَبَصَ':{
+		{'root':u'وبص','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'صمت':{
+	u'صَمَتَ':{
+		{'root':u'صمت','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'عدا':{
+	u'عَدَا':{
+		{'root':u'عدو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'وبغ':{
+	u'وَبَغَ':{
+		{'root':u'وبغ','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'سلس':{
+	u'سَلُسَ':{
+		{'root':u'سلس','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'سَلِسَ':{
+		{'root':u'سلس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عفد':{
+	u'عَفَدَ':{
+		{'root':u'عفد','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'صمأ':{
+	u'صَمَأَ':{
+		{'root':u'صمء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'وبأ':{
+	u'وَبَأَ':{
+		{'root':u'وبء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'صمع':{
+	u'صَمِعَ':{
+		{'root':u'صمع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'صَمَعَ':{
+		{'root':u'صمع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'فهر':{
+	u'فَهَرَ':{
+		{'root':u'فهر','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وبؤ':{
+	u'وَبُؤَ':{
+		{'root':u'وبء','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'داق':{
+	u'دَاقَ':{
+		{'root':u'دوق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ديق','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'صمر':{
+	u'صَمِرَ':{
+		{'root':u'صمر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'صَمَرَ':{
+		{'root':u'صمر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'صمر','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'شجع':{
+	u'شَجُعَ':{
+		{'root':u'شجع','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'عدر':{
+	u'عَدِرَ':{
+		{'root':u'عدر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خشع':{
+	u'خَشَعَ':{
+		{'root':u'خشع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'شحّ':{
+	u'شَحَّ':{
+		{'root':u'شحح','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'شحح','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'شحح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضرج':{
+	u'ضَرَجَ':{
+		{'root':u'ضرج','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'ضرج','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'سرغ':{
+	u'سَرِغَ':{
+		{'root':u'سرغ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خشر':{
+	u'خَشَرَ':{
+		{'root':u'خشر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'خَشِرَ':{
+		{'root':u'خشر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضنك':{
+	u'ضَنُكَ':{
+		{'root':u'ضنك','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'ضَنَكَ':{
+		{'root':u'ضنك','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'قخر':{
+	u'قَخَرَ':{
+		{'root':u'قخر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'عفت':{
+	u'عَفَتَ':{
+		{'root':u'عفت','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'عَفِتَ':{
+		{'root':u'عفت','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بزّ':{
+	u'بَزَّ':{
+		{'root':u'بزز','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'وغب':{
+	u'وَغُبَ':{
+		{'root':u'وغب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'وغم':{
+	u'وَغَمَ':{
+		{'root':u'وغم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'وَغِمَ':{
+		{'root':u'وغم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'تهم':{
+	u'تَهِمَ':{
+		{'root':u'تهم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شحف':{
+	u'شَحَفَ':{
+		{'root':u'شحف','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'أكد':{
+	u'أَكَدَ':{
+		{'root':u'ءكد','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'شحك':{
+	u'شَحَكَ':{
+		{'root':u'شحك','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'وغر':{
+	u'وَغَرَ':{
+		{'root':u'وغر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'وَغِرَ':{
+		{'root':u'وغر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شحم':{
+	u'شَحَمَ':{
+		{'root':u'شحم','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	u'شَحِمَ':{
+		{'root':u'شحم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'شَحُمَ':{
+		{'root':u'شحم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'شحن':{
+	u'شَحَنَ':{
+		{'root':u'شحن','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'شحن','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'شَحِنَ':{
+		{'root':u'شحن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بزي':{
+	u'بَزِيَ':{
+		{'root':u'بزو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بزم':{
+	u'بَزَمَ':{
+		{'root':u'بزم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'بزم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'شحى':{
+	u'شَحَى':{
+		{'root':u'شحي','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'دحن':{
+	u'دَحِنَ':{
+		{'root':u'دحن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قخا':{
+	u'قَخَا':{
+		{'root':u'قخو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'عفا':{
+	u'عَفَا':{
+		{'root':u'عفو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'أكأ':{
+	u'أَكَأَ':{
+		{'root':u'ءكء','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بزق':{
+	u'بَزَقَ':{
+		{'root':u'بزق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'هاص':{
+	u'هَاصَ':{
+		{'root':u'هيص','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'هاش':{
+	u'هَاشَ':{
+		{'root':u'هوش','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'هيش','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'هاط':{
+	u'هَاطَ':{
+		{'root':u'هيط','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'هاض':{
+	u'هَاضَ':{
+		{'root':u'هيض','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'هار':{
+	u'هَارَ':{
+		{'root':u'هور','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'تبا':{
+	u'تَبَا':{
+		{'root':u'تبو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'سأل':{
+	u'سَأَلَ':{
+		{'root':u'سءل','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'عكّ':{
+	u'عَكَّ':{
+		{'root':u'عكك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عكك','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'هاع':{
+	u'هَاعَ':{
+		{'root':u'هوع','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'هيع','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'هرق':{
+	u'هَرَقَ':{
+		{'root':u'هرق','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'هرف':{
+	u'هَرَفَ':{
+		{'root':u'هرف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'تبر':{
+	u'تَبَرَ':{
+		{'root':u'تبر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'تبر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'تَبِرَ':{
+		{'root':u'تبر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عكى':{
+	u'عَكَى':{
+		{'root':u'عكي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نخل':{
+	u'نَخَلَ':{
+		{'root':u'نخل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'هاء':{
+	u'هَاءَ':{
+		{'root':u'هوء','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'هيء','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'تبع':{
+	u'تَبِعَ':{
+		{'root':u'تبع','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'شجا':{
+	u'شَجَا':{
+		{'root':u'شجو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'عكف':{
+	u'عَكَفَ':{
+		{'root':u'عكف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عكف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'زأب':{
+	u'زَأَبَ':{
+		{'root':u'زءب','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'هاب':{
+	u'هَابَ':{
+		{'root':u'هيب','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'عكم':{
+	u'عَكَمَ':{
+		{'root':u'عكم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عكل':{
+	u'عَكِلَ':{
+		{'root':u'عكل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَكَلَ':{
+		{'root':u'عكل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عكل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'هرد':{
+	u'هَرِدَ':{
+		{'root':u'هرد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'هَرَدَ':{
+		{'root':u'هرد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'خنى':{
+	u'خَنَى':{
+		{'root':u'خني','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'سأد':{
+	u'سَأَدَ':{
+		{'root':u'سءد','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'عكظ':{
+	u'عَكَظَ':{
+		{'root':u'عكظ','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'تبل':{
+	u'تَبَلَ':{
+		{'root':u'تبل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'تبن':{
+	u'تَبِنَ':{
+		{'root':u'تبن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'تَبَنَ':{
+		{'root':u'تبن','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'عكس':{
+	u'عَكَسَ':{
+		{'root':u'عكس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عكز':{
+	u'عَكِزَ':{
+		{'root':u'عكز','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَكَزَ':{
+		{'root':u'عكز','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'عكر':{
+	u'عَكَرَ':{
+		{'root':u'عكر','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'عَكِرَ':{
+		{'root':u'عكر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بكم':{
+	u'بَكُمَ':{
+		{'root':u'بكم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'بَكِمَ':{
+		{'root':u'بكم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هرأ':{
+	u'هَرَأَ':{
+		{'root':u'هرء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'دظّ':{
+	u'دَظَّ':{
+		{'root':u'دظظ','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'عكص':{
+	u'عَكَصَ':{
+		{'root':u'عكص','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'عَكِصَ':{
+		{'root':u'عكص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عكش':{
+	u'عَكِشَ':{
+		{'root':u'عكش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَكَشَ':{
+		{'root':u'عكش','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'تبّ':{
+	u'تَبَّ':{
+		{'root':u'تبب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'تبب','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'هال':{
+	u'هَالَ':{
+		{'root':u'هول','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'هيل','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'سنف':{
+	u'سَنَفَ':{
+		{'root':u'سنف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'سنف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عكب':{
+	u'عَكَبَ':{
+		{'root':u'عكب','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'عَكِبَ':{
+		{'root':u'عكب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عكد':{
+	u'عَكِدَ':{
+		{'root':u'عكد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَكَدَ':{
+		{'root':u'عكد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'هرع':{
+	u'هَرِعَ':{
+		{'root':u'هرع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فغّ':{
+	u'فَغَّ':{
+		{'root':u'فغغ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'لبخ':{
+	u'لَبَخَ':{
+		{'root':u'لبخ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'كبل':{
+	u'كَبَلَ':{
+		{'root':u'كبل','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'هرص':{
+	u'هَرِصَ':{
+		{'root':u'هرص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هرش':{
+	u'هَرَشَ':{
+		{'root':u'هرش','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'هرش','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'هَرِشَ':{
+		{'root':u'هرش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عكا':{
+	u'عَكَا':{
+		{'root':u'عكو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'هرز':{
+	u'هَرِزَ':{
+		{'root':u'هرز','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قفس':{
+	u'قَفَسَ':{
+		{'root':u'قفس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'قَفُسَ':{
+		{'root':u'قفس','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'قَفِسَ':{
+		{'root':u'قفس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شحذ':{
+	u'شَحَذَ':{
+		{'root':u'شحذ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'شحر':{
+	u'شَحَرَ':{
+		{'root':u'شحر','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شجب':{
+	u'شَجَبَ':{
+		{'root':u'شجب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'شَجِبَ':{
+		{'root':u'شجب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بزع':{
+	u'بَزُعَ':{
+		{'root':u'بزع','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'أخذ':{
+	u'أَخِذَ':{
+		{'root':u'ءخذ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'أَخُذَ':{
+		{'root':u'ءخذ','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'أَخَذَ':{
+		{'root':u'ءخذ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'شحط':{
+	u'شَحِطَ':{
+		{'root':u'شحط','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'شَحَطَ':{
+		{'root':u'شحط','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'خشّ':{
+	u'خَشَّ':{
+		{'root':u'خشش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'فلت':{
+	u'فَلَتَ':{
+		{'root':u'فلت','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'دغف':{
+	u'دَغَفَ':{
+		{'root':u'دغف','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'أكّ':{
+	u'أَكَّ':{
+		{'root':u'ءكك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'أخا':{
+	u'أَخَا':{
+		{'root':u'ءخو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'زهق':{
+	u'زَهَقَ':{
+		{'root':u'زهق','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بزخ':{
+	u'بَزِخَ':{
+		{'root':u'بزخ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'بَزَخَ':{
+		{'root':u'بزخ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'أكى':{
+	u'أَكَى':{
+		{'root':u'ءكي','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'تعب':{
+	u'تَعِبَ':{
+		{'root':u'تعب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شحا':{
+	u'شَحَا':{
+		{'root':u'شحو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'شحب':{
+	u'شَحُبَ':{
+		{'root':u'شحب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'شَحَبَ':{
+		{'root':u'شحب','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'شحب','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'أكل':{
+	u'أَكَلَ':{
+		{'root':u'ءكل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'أَكِلَ':{
+		{'root':u'ءكل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بزا':{
+	u'بَزَا':{
+		{'root':u'بزو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'شحج':{
+	u'شَحَجَ':{
+		{'root':u'شحج','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'شحج','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خشل':{
+	u'خَشَلَ':{
+		{'root':u'خشل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'خَشِلَ':{
+		{'root':u'خشل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خشن':{
+	u'خَشُنَ':{
+		{'root':u'خشن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بلط':{
+	u'بَلَطَ':{
+		{'root':u'بلط','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'مكا':{
+	u'مَكَا':{
+		{'root':u'مكو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'تلد':{
+	u'تَلِدَ':{
+		{'root':u'تلد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'تَلَدَ':{
+		{'root':u'تلد','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'تلد','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'زمّ':{
+	u'زَمَّ':{
+		{'root':u'زمم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'زمم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حصّ':{
+	u'حَصَّ':{
+		{'root':u'حصص','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حصص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سرح':{
+	u'سَرَحَ':{
+		{'root':u'سرح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'سَرِحَ':{
+		{'root':u'سرح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جنق':{
+	u'جَنَقَ':{
+		{'root':u'جنق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ضلع':{
+	u'ضَلَعَ':{
+		{'root':u'ضلع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'ضَلِعَ':{
+		{'root':u'ضلع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'ضَلُعَ':{
+		{'root':u'ضلع','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'رحل':{
+	u'رَحَلَ':{
+		{'root':u'رحل','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'تلا':{
+	u'تَلَا':{
+		{'root':u'تلو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ذمط':{
+	u'ذَمَطَ':{
+		{'root':u'ذمط','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'جنى':{
+	u'جَنَى':{
+		{'root':u'جني','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'بلغ':{
+	u'بَلَغَ':{
+		{'root':u'بلغ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'بَلُغَ':{
+		{'root':u'بلغ','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بلع':{
+	u'بَلِعَ':{
+		{'root':u'بلع','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	u'بَلَعَ':{
+		{'root':u'بلع','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'حصم':{
+	u'حَصَمَ':{
+		{'root':u'حصم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حصل':{
+	u'حَصَلَ':{
+		{'root':u'حصل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'حَصِلَ':{
+		{'root':u'حصل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حصن':{
+	u'حَصُنَ':{
+		{'root':u'حصن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'حَصَنَ':{
+		{'root':u'حصن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'حصف':{
+	u'حَصُفَ':{
+		{'root':u'حصف','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'حَصِفَ':{
+		{'root':u'حصف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'حَصَفَ':{
+		{'root':u'حصف','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'زأى':{
+	u'زَأَى':{
+		{'root':u'زءي','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ذمت':{
+	u'ذَمَتَ':{
+		{'root':u'ذمت','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'بلد':{
+	u'بَلُدَ':{
+		{'root':u'بلد','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'بَلَدَ':{
+		{'root':u'بلد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'بَلِدَ':{
+		{'root':u'بلد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بلخ':{
+	u'بَلِخَ':{
+		{'root':u'بلخ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بلح':{
+	u'بَلَحَ':{
+		{'root':u'بلح','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بلج':{
+	u'بَلَجَ':{
+		{'root':u'بلج','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'بلج','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'بَلِجَ':{
+		{'root':u'بلج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حصى':{
+	u'حَصَى':{
+		{'root':u'حصي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'بلت':{
+	u'بَلَتَ':{
+		{'root':u'بلت','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'بلت','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'بَلِتَ':{
+		{'root':u'بلت','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'بَلُتَ':{
+		{'root':u'بلت','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'حصي':{
+	u'حَصِيَ':{
+		{'root':u'حصي','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'خبل':{
+	u'خَبِلَ':{
+		{'root':u'خبل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'خَبَلَ':{
+		{'root':u'خبل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'خبل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'خبن':{
+	u'خَبَنَ':{
+		{'root':u'خبن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حوي':{
+	u'حَوِيَ':{
+		{'root':u'حوو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضهت':{
+	u'ضَهَتَ':{
+		{'root':u'ضهت','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'حوى':{
+	u'حَوَى':{
+		{'root':u'حوي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'رثأ':{
+	u'رَثَأَ':{
+		{'root':u'رثء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'حول':{
+	u'حَوِلَ':{
+		{'root':u'حول','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فلّ':{
+	u'فَلَّ':{
+		{'root':u'فلل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'فلل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'فلل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غسا':{
+	u'غَسَا':{
+		{'root':u'غسو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'خبّ':{
+	u'خَبَّ':{
+		{'root':u'خبب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'خبب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نفق':{
+	u'نَفَقَ':{
+		{'root':u'نفق','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'خيط':{
+	u'خَيِطَ':{
+		{'root':u'خيط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نثط':{
+	u'نَثَطَ':{
+		{'root':u'نثط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نفه':{
+	u'نَفَهَ':{
+		{'root':u'نفه','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَفِهَ':{
+		{'root':u'نفه','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نفل':{
+	u'نَفَلَ':{
+		{'root':u'نفل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'دلا':{
+	u'دَلَا':{
+		{'root':u'دلو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نفغ':{
+	u'نَفَغَ':{
+		{'root':u'نفغ','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَفِغَ':{
+		{'root':u'نفغ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سأر':{
+	u'سَأَرَ':{
+		{'root':u'سءر','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خبا':{
+	u'خَبَا':{
+		{'root':u'خبو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'خبئ':{
+	u'خَبِئَ':{
+		{'root':u'خبء','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'غسّ':{
+	u'غَسَّ':{
+		{'root':u'غسس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'خبأ':{
+	u'خَبَأَ':{
+		{'root':u'خبء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'نفز':{
+	u'نَفَزَ':{
+		{'root':u'نفز','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'خبج':{
+	u'خَبَجَ':{
+		{'root':u'خبج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نفذ':{
+	u'نَفَذَ':{
+		{'root':u'نفذ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نفر':{
+	u'نَفَرَ':{
+		{'root':u'نفر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نفر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نفض':{
+	u'نَفَضَ':{
+		{'root':u'نفض','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نفط':{
+	u'نَفَطَ':{
+		{'root':u'نفط','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'نَفِطَ':{
+		{'root':u'نفط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خبث':{
+	u'خَبُثَ':{
+		{'root':u'خبث','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'خَبَثَ':{
+		{'root':u'خبث','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'خبت':{
+	u'خَبَتَ':{
+		{'root':u'خبت','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'خبص':{
+	u'خَبَصَ':{
+		{'root':u'خبص','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'خبش':{
+	u'خَبَشَ':{
+		{'root':u'خبش','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'خبط':{
+	u'خَبَطَ':{
+		{'root':u'خبط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'مشّ':{
+	u'مَشَّ':{
+		{'root':u'مشش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'مشش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خبر':{
+	u'خَبُرَ':{
+		{'root':u'خبر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'خَبَرَ':{
+		{'root':u'خبر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'خَبِرَ':{
+		{'root':u'خبر','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نخع':{
+	u'نَخِعَ':{
+		{'root':u'نخع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَخَعَ':{
+		{'root':u'نخع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'خبس':{
+	u'خَبَسَ':{
+		{'root':u'خبس','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'خبز':{
+	u'خَبِزَ':{
+		{'root':u'خبز','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'خَبَزَ':{
+		{'root':u'خبز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'زعف':{
+	u'زَعَفَ':{
+		{'root':u'زعف','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'رعب':{
+	u'رَعَبَ':{
+		{'root':u'رعب','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'حوص':{
+	u'حَوِصَ':{
+		{'root':u'حوص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خبع':{
+	u'خَبَعَ':{
+		{'root':u'خبع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'حوس':{
+	u'حَوِسَ':{
+		{'root':u'حوس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غسي':{
+	u'غَسِيَ':{
+		{'root':u'غسو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حور':{
+	u'حَوِرَ':{
+		{'root':u'حور','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضلّ':{
+	u'ضَلَّ':{
+		{'root':u'ضلل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'ضلل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جنئ':{
+	u'جَنِئَ':{
+		{'root':u'جنء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حصر':{
+	u'حَصُرَ':{
+		{'root':u'حصر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'حَصِرَ':{
+		{'root':u'حصر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'حَصَرَ':{
+		{'root':u'حصر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حصر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'جنأ':{
+	u'جَنَأَ':{
+		{'root':u'جنء','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'تلي':{
+	u'تَلِيَ':{
+		{'root':u'تلو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جنح':{
+	u'جَنَحَ':{
+		{'root':u'جنح','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'جنح','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'جنح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'فعل':{
+	u'فَعَلَ':{
+		{'root':u'فعل','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'تله':{
+	u'تَلِهَ':{
+		{'root':u'تله','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'زأط':{
+	u'زَأَطَ':{
+		{'root':u'زءط','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'تلف':{
+	u'تَلِفَ':{
+		{'root':u'تلف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جنب':{
+	u'جَنِبَ':{
+		{'root':u'جنب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'جَنَبَ':{
+		{'root':u'جنب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'جنب','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'جَنُبَ':{
+		{'root':u'جنب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'زمه':{
+	u'زَمِهَ':{
+		{'root':u'زمه','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'بله':{
+	u'بَلِهَ':{
+		{'root':u'بله','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جنش':{
+	u'جَنَشَ':{
+		{'root':u'جنش','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'حصا':{
+	u'حَصَا':{
+		{'root':u'حصو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'حصئ':{
+	u'حَصِئَ':{
+		{'root':u'حصء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بلك':{
+	u'بَلَكَ':{
+		{'root':u'بلك','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'بلق':{
+	u'بَلَقَ':{
+		{'root':u'بلق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'بَلِقَ':{
+		{'root':u'بلق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'بَلُقَ':{
+		{'root':u'بلق','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'حصأ':{
+	u'حَصَأَ':{
+		{'root':u'حصء','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جنز':{
+	u'جَنَزَ':{
+		{'root':u'جنز','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'قرح':{
+	u'قَرِحَ':{
+		{'root':u'قرح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'قَرَحَ':{
+		{'root':u'قرح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'بكئ':{
+	u'بَكِئَ':{
+		{'root':u'بكء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حصد':{
+	u'حَصَدَ':{
+		{'root':u'حصد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حصد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'حَصِدَ':{
+		{'root':u'حصد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فرع':{
+	u'فَرِعَ':{
+		{'root':u'فرع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'فَرَعَ':{
+		{'root':u'فرع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'تلّ':{
+	u'تَلَّ':{
+		{'root':u'تلل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'تلل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'حصب':{
+	u'حَصِبَ':{
+		{'root':u'حصب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'حَصَبَ':{
+		{'root':u'حصب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حصب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'شجن':{
+	u'شَجَنَ':{
+		{'root':u'شجن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'شَجِنَ':{
+		{'root':u'شجن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'شَجُنَ':{
+		{'root':u'شجن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ثار':{
+	u'ثَارَ':{
+		{'root':u'ثور','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ربع':{
+	u'رَبَعَ':{
+		{'root':u'ربع','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'ربع','bab':2,'transitive':u'م','haraka':u'ِ'},
+		{'root':u'ربع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لقث':{
+	u'لَقِثَ':{
+		{'root':u'لقث','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	u'لَقَثَ':{
+		{'root':u'لقث','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'لقح':{
+	u'لَقِحَ':{
+		{'root':u'لقح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سلق':{
+	u'سَلَقَ':{
+		{'root':u'سلق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'غدف':{
+	u'غَدَفَ':{
+		{'root':u'غدف','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ثاع':{
+	u'ثَاعَ':{
+		{'root':u'ثوع','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'ثيع','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'رؤد':{
+	u'رَؤُدَ':{
+		{'root':u'رءد','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'رهص':{
+	u'رَهَصَ':{
+		{'root':u'رهص','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'رَهِصَ':{
+		{'root':u'رهص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ثقف':{
+	u'ثَقَفَ':{
+		{'root':u'ثقف','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'ثَقِفَ':{
+		{'root':u'ثقف','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'ثَقُفَ':{
+		{'root':u'ثقف','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'مخج':{
+	u'مَخَجَ':{
+		{'root':u'مخج','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'غدق':{
+	u'غَدَقَ':{
+		{'root':u'غدق','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'غَدِقَ':{
+		{'root':u'غدق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ثقل':{
+	u'ثَقِلَ':{
+		{'root':u'ثقل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'ثَقُلَ':{
+		{'root':u'ثقل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'ثَقَلَ':{
+		{'root':u'ثقل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'مشن':{
+	u'مَشَنَ':{
+		{'root':u'مشن','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'لقع':{
+	u'لَقَعَ':{
+		{'root':u'لقع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'أدى':{
+	u'أَدَى':{
+		{'root':u'ءدي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'كأش':{
+	u'كَأَشَ':{
+		{'root':u'كءش','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ذحى':{
+	u'ذَحَى':{
+		{'root':u'ذحي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'مخض':{
+	u'مَخِضَ':{
+		{'root':u'مخض','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'مَخَضَ':{
+		{'root':u'مخض','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'مخض','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'مخض','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'فغر':{
+	u'فَغَرَ':{
+		{'root':u'فغر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'فغر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'رها':{
+	u'رَهَا':{
+		{'root':u'رهو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ثاب':{
+	u'ثَابَ':{
+		{'root':u'ثوب','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'لقس':{
+	u'لَقِسَ':{
+		{'root':u'لقس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'لَقَسَ':{
+		{'root':u'لقس','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'لقس','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'غطا':{
+	u'غَطَا':{
+		{'root':u'غطو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'لقص':{
+	u'لَقَصَ':{
+		{'root':u'لقص','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'لَقِصَ':{
+		{'root':u'لقص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فلغ':{
+	u'فَلَغَ':{
+		{'root':u'فلغ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ثاخ':{
+	u'ثَاخَ':{
+		{'root':u'ثيخ','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'وخف':{
+	u'وَخَفَ':{
+		{'root':u'وخف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'زرط':{
+	u'زَرَطَ':{
+		{'root':u'زرط','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'عسب':{
+	u'عَسَبَ':{
+		{'root':u'عسب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عسد':{
+	u'عَسَدَ':{
+		{'root':u'عسد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'مطح':{
+	u'مَطَحَ':{
+		{'root':u'مطح','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'خذا':{
+	u'خَذَا':{
+		{'root':u'خذو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'عسج':{
+	u'عَسِجَ':{
+		{'root':u'عسج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَسَجَ':{
+		{'root':u'عسج','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'كوب':{
+	u'كَوِبَ':{
+		{'root':u'كوب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لدك':{
+	u'لَدِكَ':{
+		{'root':u'لدك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عسا':{
+	u'عَسَا':{
+		{'root':u'عسو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'هرض':{
+	u'هَرَضَ':{
+		{'root':u'هرض','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'كود':{
+	u'كَوِدَ':{
+		{'root':u'كود','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سلي':{
+	u'سَلِيَ':{
+		{'root':u'سلو','bab':4,'transitive':u'ك','haraka':u'َ'},
+		{'root':u'سلي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نغز':{
+	u'نَغَزَ':{
+		{'root':u'نغز','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'جفظ':{
+	u'جَفَظَ':{
+		{'root':u'جفظ','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'عسر':{
+	u'عَسُرَ':{
+		{'root':u'عسر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'عَسَرَ':{
+		{'root':u'عسر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عسر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'عَسِرَ':{
+		{'root':u'عسر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بره':{
+	u'بَرِهَ':{
+		{'root':u'بره','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رغل':{
+	u'رَغِلَ':{
+		{'root':u'رغل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'رَغَلَ':{
+		{'root':u'رغل','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'نغر':{
+	u'نَغِرَ':{
+		{'root':u'نغر','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'نَغَرَ':{
+		{'root':u'نغر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'نغر','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رغن':{
+	u'رَغَنَ':{
+		{'root':u'رغن','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'منح':{
+	u'مَنَحَ':{
+		{'root':u'منح','bab':2,'transitive':u'م','haraka':u'ِ'},
+		{'root':u'منح','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'عسي':{
+	u'عَسِيَ':{
+		{'root':u'عسو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'عسي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عسى':{
+	u'عَسَى':{
+		{'root':u'عسي','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ضمّ':{
+	u'ضَمَّ':{
+		{'root':u'ضمم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'كوه':{
+	u'كَوِهَ':{
+		{'root':u'كوه','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عسك':{
+	u'عَسِكَ':{
+		{'root':u'عسك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عسق':{
+	u'عَسِقَ':{
+		{'root':u'عسق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عسف':{
+	u'عَسَفَ':{
+		{'root':u'عسف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'رغس':{
+	u'رَغَسَ':{
+		{'root':u'رغس','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'رغش':{
+	u'رَغَشَ':{
+		{'root':u'رغش','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عسن':{
+	u'عَسِنَ':{
+		{'root':u'عسن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عسم':{
+	u'عَسَمَ':{
+		{'root':u'عسم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'عَسِمَ':{
+		{'root':u'عسم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عسل':{
+	u'عَسَلَ':{
+		{'root':u'عسل','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'عسل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'لدغ':{
+	u'لَدَغَ':{
+		{'root':u'لدغ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'وخز':{
+	u'وَخَزَ':{
+		{'root':u'وخز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'وخش':{
+	u'وَخُشَ':{
+		{'root':u'وخش','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'وخط':{
+	u'وَخَطَ':{
+		{'root':u'وخط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'وخض':{
+	u'وَخَضَ':{
+		{'root':u'وخض','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'لدس':{
+	u'لَدَسَ':{
+		{'root':u'لدس','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'عسّ':{
+	u'عَسَّ':{
+		{'root':u'عسس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نغش':{
+	u'نَغَشَ':{
+		{'root':u'نغش','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رأد':{
+	u'رَأَدَ':{
+		{'root':u'رءد','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وضع':{
+	u'وَضُعَ':{
+		{'root':u'وضع','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'وَضَعَ':{
+		{'root':u'وضع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'وَضِعَ':{
+		{'root':u'وضع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كاش':{
+	u'كَاشَ':{
+		{'root':u'كوش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'سمع':{
+	u'سَمِعَ':{
+		{'root':u'سمع','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ثقب':{
+	u'ثَقُبَ':{
+		{'root':u'ثقب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'ثَقَبَ':{
+		{'root':u'ثقب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'لقي':{
+	u'لَقِيَ':{
+		{'root':u'لقي','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'مخن':{
+	u'مَخَنَ':{
+		{'root':u'مخن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'غدّ':{
+	u'غَدَّ':{
+		{'root':u'غدد','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'لقف':{
+	u'لَقِفَ':{
+		{'root':u'لقف','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لقم':{
+	u'لَقَمَ':{
+		{'root':u'لقم','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'لَقِمَ':{
+		{'root':u'لقم','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'وكت':{
+	u'وَكَتَ':{
+		{'root':u'وكت','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'لقن':{
+	u'لَقِنَ':{
+		{'root':u'لقن','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نغب':{
+	u'نَغَبَ':{
+		{'root':u'نغب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نغب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'نغب','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ثال':{
+	u'ثَالَ':{
+		{'root':u'ثول','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'لقّ':{
+	u'لَقَّ':{
+		{'root':u'لقق','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'رهن':{
+	u'رَهَنَ':{
+		{'root':u'رهن','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'جفس':{
+	u'جَفِسَ':{
+		{'root':u'جفس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رهك':{
+	u'رَهَكَ':{
+		{'root':u'رهك','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'رهق':{
+	u'رَهِقَ':{
+		{'root':u'رهق','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'رهف':{
+	u'رَهَفَ':{
+		{'root':u'رهف','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	u'رَهُفَ':{
+		{'root':u'رهف','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'دمش':{
+	u'دَمِشَ':{
+		{'root':u'دمش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وذع':{
+	u'وَذَعَ':{
+		{'root':u'وذع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سمح':{
+	u'سَمُحَ':{
+		{'root':u'سمح','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'سَمَحَ':{
+		{'root':u'سمح','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فثغ':{
+	u'فَثَغَ':{
+		{'root':u'فثغ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'وذر':{
+	u'وَذِرَ':{
+		{'root':u'وذر','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	u'وَذَرَ':{
+		{'root':u'وذر','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'هوك':{
+	u'هَوِكَ':{
+		{'root':u'هوك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قبل':{
+	u'قَبَلَ':{
+		{'root':u'قبل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'قبل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'قَبُلَ':{
+		{'root':u'قبل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'قَبِلَ':{
+		{'root':u'قبل','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'قبن':{
+	u'قَبَنَ':{
+		{'root':u'قبن','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'هضل':{
+	u'هَضَلَ':{
+		{'root':u'هضل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'وذح':{
+	u'وَذِحَ':{
+		{'root':u'وذح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زرد':{
+	u'زَرَدَ':{
+		{'root':u'زرد','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'زرد','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'زَرِدَ':{
+		{'root':u'زرد','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'قبّ':{
+	u'قَبَّ':{
+		{'root':u'قبب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'قبب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'قبب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'قبب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هضم':{
+	u'هَضَمَ':{
+		{'root':u'هضم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'هَضِمَ':{
+		{'root':u'هضم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'يتم':{
+	u'يَتُمَ':{
+		{'root':u'يتم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'يَتِمَ':{
+		{'root':u'يتم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'يَتَمَ':{
+		{'root':u'يتم','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'جسأ':{
+	u'جَسَأَ':{
+		{'root':u'جسء','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شثن':{
+	u'شَثِنَ':{
+		{'root':u'شثن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'شَثُنَ':{
+		{'root':u'شثن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'شثل':{
+	u'شَثِلَ':{
+		{'root':u'شثل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'شَثُلَ':{
+		{'root':u'شثل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'أزر':{
+	u'أَزَرَ':{
+		{'root':u'ءزر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'أَزِرَ':{
+		{'root':u'ءزر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'صتع':{
+	u'صَتَعَ':{
+		{'root':u'صتع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'فها':{
+	u'فَهَا':{
+		{'root':u'فهو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بئس':{
+	u'بَئِسَ':{
+		{'root':u'بءس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فكر':{
+	u'فَكَرَ':{
+		{'root':u'فكر','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'فكر','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'أزأ':{
+	u'أَزَأَ':{
+		{'root':u'ءزء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'أزا':{
+	u'أَزَا':{
+		{'root':u'ءزو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'منّ':{
+	u'مَنَّ':{
+		{'root':u'منن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'خوق':{
+	u'خَوِقَ':{
+		{'root':u'خوق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أزب':{
+	u'أَزَبَ':{
+		{'root':u'ءزب','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'أَزِبَ':{
+		{'root':u'ءزب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'صتا':{
+	u'صَتَا':{
+		{'root':u'صتو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'مشظ':{
+	u'مَشَظَ':{
+		{'root':u'مشظ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'مَشِظَ':{
+		{'root':u'مشظ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أزج':{
+	u'أَزِجَ':{
+		{'root':u'ءزج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'أَزَجَ':{
+		{'root':u'ءزج','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'ءزج','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'أزح':{
+	u'أَزَحَ':{
+		{'root':u'ءزح','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'أزّ':{
+	u'أَزَّ':{
+		{'root':u'ءزز','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ءزز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نسف':{
+	u'نَسَفَ':{
+		{'root':u'نسف','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'نسف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'هاس':{
+	u'هَاسَ':{
+		{'root':u'هوس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'هيس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'صتّ':{
+	u'صَتَّ':{
+		{'root':u'صتت','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'أزق':{
+	u'أَزَقَ':{
+		{'root':u'ءزق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'أَزِقَ':{
+		{'root':u'ءزق','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'أزف':{
+	u'أَزَفَ':{
+		{'root':u'ءزف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'أَزِفَ':{
+		{'root':u'ءزف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رثع':{
+	u'رَثِعَ':{
+		{'root':u'رثع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أزل':{
+	u'أَزَلَ':{
+		{'root':u'ءزل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'أزم':{
+	u'أَزَمَ':{
+		{'root':u'ءزم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'أَزِمَ':{
+		{'root':u'ءزم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أزي':{
+	u'أَزِيَ':{
+		{'root':u'ءزي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نسل':{
+	u'نَسَلَ':{
+		{'root':u'نسل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نسل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'أزى':{
+	u'أَزَى':{
+		{'root':u'ءزي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'غما':{
+	u'غَمَا':{
+		{'root':u'غمو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'قبث':{
+	u'قَبَثَ':{
+		{'root':u'قبث','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'قبح':{
+	u'قَبُحَ':{
+		{'root':u'قبح','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'قَبَحَ':{
+		{'root':u'قبح','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'فيح':{
+	u'فَيِحَ':{
+		{'root':u'فيح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'يفع':{
+	u'يَفَعَ':{
+		{'root':u'يفع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'زفت':{
+	u'زَفَتَ':{
+		{'root':u'زفت','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'قبا':{
+	u'قَبَا':{
+		{'root':u'قبو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'قبع':{
+	u'قَبَعَ':{
+		{'root':u'قبع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'وذى':{
+	u'وَذَى':{
+		{'root':u'وذي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'عقى':{
+	u'عَقَى':{
+		{'root':u'عقي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'رمغ':{
+	u'رَمَغَ':{
+		{'root':u'رمغ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'زفر':{
+	u'زَفَرَ':{
+		{'root':u'زفر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قبر':{
+	u'قَبَرَ':{
+		{'root':u'قبر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'قبر','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'سبك':{
+	u'سَبَكَ':{
+		{'root':u'سبك','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'سبك','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'قبس':{
+	u'قَبِسَ':{
+		{'root':u'قبس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'قَبُسَ':{
+		{'root':u'قبس','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'قَبَسَ':{
+		{'root':u'قبس','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'قبص':{
+	u'قَبَصَ':{
+		{'root':u'قبص','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'قَبِصَ':{
+		{'root':u'قبص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كجّ':{
+	u'كَجَّ':{
+		{'root':u'كجج','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'قبط':{
+	u'قَبَطَ':{
+		{'root':u'قبط','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ضؤل':{
+	u'ضَؤُلَ':{
+		{'root':u'ضءل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بغم':{
+	u'بَغَمَ':{
+		{'root':u'بغم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'بغم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'بغم','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'بغل':{
+	u'بَغُلَ':{
+		{'root':u'بغل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'فكه':{
+	u'فَكِهَ':{
+		{'root':u'فكه','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فكن':{
+	u'فَكَنَ':{
+		{'root':u'فكن','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'شصر':{
+	u'شَصَرَ':{
+		{'root':u'شصر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'شصر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قئب':{
+	u'قَئِبَ':{
+		{'root':u'قءب','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'بغى':{
+	u'بَغَى':{
+		{'root':u'بغي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'شصب':{
+	u'شَصِبَ':{
+		{'root':u'شصب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'شَصَبَ':{
+		{'root':u'شصب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'فكّ':{
+	u'فَكَّ':{
+		{'root':u'فكك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'فكك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'فكك','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بغّ':{
+	u'بَغَّ':{
+		{'root':u'بغغ','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'كاص':{
+	u'كَاصَ':{
+		{'root':u'كيص','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'سمج':{
+	u'سَمُجَ':{
+		{'root':u'سمج','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'شصا':{
+	u'شَصَا':{
+		{'root':u'شصو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'كأد':{
+	u'كَأَدَ':{
+		{'root':u'كءد','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ثطّ':{
+	u'ثَطَّ':{
+		{'root':u'ثطط','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'ثطط','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'عمت':{
+	u'عَمَتَ':{
+		{'root':u'عمت','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عمج':{
+	u'عَمَجَ':{
+		{'root':u'عمج','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'عمد':{
+	u'عَمَدَ':{
+		{'root':u'عمد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'عَمِدَ':{
+		{'root':u'عمد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نسّ':{
+	u'نَسَّ':{
+		{'root':u'نسس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نسس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'زقف':{
+	u'زَقَفَ':{
+		{'root':u'زقف','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'دهش':{
+	u'دَهَشَ':{
+		{'root':u'دهش','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	u'دَهِشَ':{
+		{'root':u'دهش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دهر':{
+	u'دَهَرَ':{
+		{'root':u'دهر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'مكي':{
+	u'مَكِيَ':{
+		{'root':u'مكو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دهس':{
+	u'دَهُسَ':{
+		{'root':u'دهس','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'دَهِسَ':{
+		{'root':u'دهس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زحك':{
+	u'زَحَكَ':{
+		{'root':u'زحك','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نخم':{
+	u'نَخِمَ':{
+		{'root':u'نخم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَخَمَ':{
+		{'root':u'نخم','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'غمر':{
+	u'غَمُرَ':{
+		{'root':u'غمر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'غَمِرَ':{
+		{'root':u'غمر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'غَمَرَ':{
+		{'root':u'غمر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'زحن':{
+	u'زَحَنَ':{
+		{'root':u'زحن','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'مشج':{
+	u'مَشَجَ':{
+		{'root':u'مشج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'مكّ':{
+	u'مَكَّ':{
+		{'root':u'مكك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'زحم':{
+	u'زَحَمَ':{
+		{'root':u'زحم','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'عمر':{
+	u'عَمِرَ':{
+		{'root':u'عمر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَمَرَ':{
+		{'root':u'عمر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عمر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'عَمُرَ':{
+		{'root':u'عمر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ولج':{
+	u'وَلَجَ':{
+		{'root':u'ولج','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عمس':{
+	u'عَمُسَ':{
+		{'root':u'عمس','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'عَمَسَ':{
+		{'root':u'عمس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عمس','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'عَمِسَ':{
+		{'root':u'عمس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جسع':{
+	u'جَسَعَ':{
+		{'root':u'جسع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سلب':{
+	u'سَلِبَ':{
+		{'root':u'سلب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'سَلَبَ':{
+		{'root':u'سلب','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'عمش':{
+	u'عَمِشَ':{
+		{'root':u'عمش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَمَشَ':{
+		{'root':u'عمش','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'عمط':{
+	u'عَمَطَ':{
+		{'root':u'عمط','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'عمى':{
+	u'عَمَى':{
+		{'root':u'عمي','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'نخص':{
+	u'نَخِصَ':{
+		{'root':u'نخص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَخَصَ':{
+		{'root':u'نخص','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نخص','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عمي':{
+	u'عَمِيَ':{
+		{'root':u'عمي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نخس':{
+	u'نَخَسَ':{
+		{'root':u'نخس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نخس','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'نخز':{
+	u'نَخَزَ':{
+		{'root':u'نخز','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'نخر':{
+	u'نَخِرَ':{
+		{'root':u'نخر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَخَرَ':{
+		{'root':u'نخر','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'نخر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'نخر','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ذفّ':{
+	u'ذَفَّ':{
+		{'root':u'ذفف','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'ذفف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'مكد':{
+	u'مَكَدَ':{
+		{'root':u'مكد','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'عمق':{
+	u'عَمِقَ':{
+		{'root':u'عمق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَمُقَ':{
+		{'root':u'عمق','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'مكث':{
+	u'مَكُثَ':{
+		{'root':u'مكث','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'مَكَثَ':{
+		{'root':u'مكث','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'عمل':{
+	u'عَمِلَ':{
+		{'root':u'عمل','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'عمه':{
+	u'عَمَهَ':{
+		{'root':u'عمه','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَمِهَ':{
+		{'root':u'عمه','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عمن':{
+	u'عَمَنَ':{
+		{'root':u'عمن','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'عَمِنَ':{
+		{'root':u'عمن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نخا':{
+	u'نَخَا':{
+		{'root':u'نخو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'سلم':{
+	u'سَلِمَ':{
+		{'root':u'سلم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'سَلَمَ':{
+		{'root':u'سلم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'مكس':{
+	u'مَكَسَ':{
+		{'root':u'مكس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'دعر':{
+	u'دَعَرَ':{
+		{'root':u'دعر','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'دَعِرَ':{
+		{'root':u'دعر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مكر':{
+	u'مَكَرَ':{
+		{'root':u'مكر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'مَكِرَ':{
+		{'root':u'مكر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دهي':{
+	u'دَهِيَ':{
+		{'root':u'دهي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عمّ':{
+	u'عَمَّ':{
+		{'root':u'عمم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'زحب':{
+	u'زَحَبَ':{
+		{'root':u'زحب','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مرض':{
+	u'مَرِضَ':{
+		{'root':u'مرض','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دهف':{
+	u'دَهَفَ':{
+		{'root':u'دهف','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'سلى':{
+	u'سَلَى':{
+		{'root':u'سلي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'دهك':{
+	u'دَهَكَ':{
+		{'root':u'دهك','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'نخب':{
+	u'نَخَبَ':{
+		{'root':u'نخب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نخب','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	u'نَخِبَ':{
+		{'root':u'نخب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بغا':{
+	u'بَغَا':{
+		{'root':u'بغو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'قئم':{
+	u'قَئِمَ':{
+		{'root':u'قءم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رطن':{
+	u'رَطَنَ':{
+		{'root':u'رطن','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'شصّ':{
+	u'شَصَّ':{
+		{'root':u'شصص','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'شصص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دفّ':{
+	u'دَفَّ':{
+		{'root':u'دفف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'دفف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'زبر':{
+	u'زَبَرَ':{
+		{'root':u'زبر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'زبر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'زَبُرَ':{
+		{'root':u'زبر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'قمز':{
+	u'قَمَزَ':{
+		{'root':u'قمز','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'بغث':{
+	u'بَغِثَ':{
+		{'root':u'بغث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بغت':{
+	u'بَغَتَ':{
+		{'root':u'بغت','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'بغش':{
+	u'بَغَشَ':{
+		{'root':u'بغش','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'شصي':{
+	u'شَصِيَ':{
+		{'root':u'شصي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بغض':{
+	u'بَغُضَ':{
+		{'root':u'بغض','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'بَغِضَ':{
+		{'root':u'بغض','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'بَغَضَ':{
+		{'root':u'بغض','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'بغر':{
+	u'بَغَرَ':{
+		{'root':u'بغر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'بغر','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'بَغِرَ':{
+		{'root':u'بغر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نطف':{
+	u'نَطَفَ':{
+		{'root':u'نطف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نطف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'نَطِفَ':{
+		{'root':u'نطف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بغز':{
+	u'بَغَزَ':{
+		{'root':u'بغز','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'فكع':{
+	u'فَكَعَ':{
+		{'root':u'فكع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'فَكِعَ':{
+		{'root':u'فكع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سقب':{
+	u'سَقِبَ':{
+		{'root':u'سقب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زاغ':{
+	u'زَاغَ':{
+		{'root':u'زوغ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'زيغ','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'مرج':{
+	u'مَرِجَ':{
+		{'root':u'مرج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'مَرَجَ':{
+		{'root':u'مرج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'مرع':{
+	u'مَرِعَ':{
+		{'root':u'مرع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'مَرَعَ':{
+		{'root':u'مرع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'مَرُعَ':{
+		{'root':u'مرع','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'نسم':{
+	u'نَسَمَ':{
+		{'root':u'نسم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'نَسِمَ':{
+		{'root':u'نسم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مرغ':{
+	u'مَرِغَ':{
+		{'root':u'مرغ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'مَرَغَ':{
+		{'root':u'مرغ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'غلظ':{
+	u'غَلَظَ':{
+		{'root':u'غلظ','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'غَلُظَ':{
+		{'root':u'غلظ','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'مرذ':{
+	u'مَرَذَ':{
+		{'root':u'مرذ','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'غلط':{
+	u'غَلِطَ':{
+		{'root':u'غلط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مرخ':{
+	u'مَرَخَ':{
+		{'root':u'مرخ','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'مرخ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'مَرِخَ':{
+		{'root':u'مرخ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مرص':{
+	u'مَرِصَ':{
+		{'root':u'مرص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'مَرَصَ':{
+		{'root':u'مرص','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'مرش':{
+	u'مَرَشَ':{
+		{'root':u'مرش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'مرط':{
+	u'مَرَطَ':{
+		{'root':u'مرط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'مَرِطَ':{
+		{'root':u'مرط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خدف':{
+	u'خَدَفَ':{
+		{'root':u'خدف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'غلج':{
+	u'غَلَجَ':{
+		{'root':u'غلج','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'مرث':{
+	u'مَرَثَ':{
+		{'root':u'مرث','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'مرث','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'مَرِثَ':{
+		{'root':u'مرث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مرت':{
+	u'مَرَتَ':{
+		{'root':u'مرت','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'مرح':{
+	u'مَرِحَ':{
+		{'root':u'مرح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غلب':{
+	u'غَلَبَ':{
+		{'root':u'غلب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'غَلِبَ':{
+		{'root':u'غلب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غلث':{
+	u'غَلِثَ':{
+		{'root':u'غلث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'غَلَثَ':{
+		{'root':u'غلث','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'غلت':{
+	u'غَلِتَ':{
+		{'root':u'غلت','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'غَلَتَ':{
+		{'root':u'غلت','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'غمن':{
+	u'غَمَنَ':{
+		{'root':u'غمن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'غلا':{
+	u'غَلَا':{
+		{'root':u'غلو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'مرأ':{
+	u'مَرَأَ':{
+		{'root':u'مرء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'مرئ':{
+	u'مَرِئَ':{
+		{'root':u'مرء','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'فرص':{
+	u'فَرَصَ':{
+		{'root':u'فرص','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'فرص','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'فرش':{
+	u'فَرَشَ':{
+		{'root':u'فرش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'فرش','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'فرط':{
+	u'فَرَطَ':{
+		{'root':u'فرط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'فرط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'فرض':{
+	u'فَرُضَ':{
+		{'root':u'فرض','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'فَرَضَ':{
+		{'root':u'فرض','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ثطا':{
+	u'ثَطَا':{
+		{'root':u'ثطو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'فرس':{
+	u'فَرُسَ':{
+		{'root':u'فرس','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'فَرَسَ':{
+		{'root':u'فرس','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'فَرِسَ':{
+		{'root':u'فرس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فرز':{
+	u'فَرَزَ':{
+		{'root':u'فرز','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'فاه':{
+	u'فَاهَ':{
+		{'root':u'فوه','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'فان':{
+	u'فَانَ':{
+		{'root':u'فين','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ثطئ':{
+	u'ثَطِئَ':{
+		{'root':u'ثطء','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'غتم':{
+	u'غَتِمَ':{
+		{'root':u'غتم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'غَتَمَ':{
+		{'root':u'غتم','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'فاق':{
+	u'فَاقَ':{
+		{'root':u'فوق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'فيق','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'فاف':{
+	u'فَافَ':{
+		{'root':u'فوف','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'فرغ':{
+	u'فَرَغَ':{
+		{'root':u'فرغ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'فرغ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'فَرِغَ':{
+		{'root':u'فرغ','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'فَرُغَ':{
+		{'root':u'فرغ','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'نسب':{
+	u'نَسَبَ':{
+		{'root':u'نسب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نسب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قان':{
+	u'قَانَ':{
+		{'root':u'قين','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'فرح':{
+	u'فَرِحَ':{
+		{'root':u'فرح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فرج':{
+	u'فَرَجَ':{
+		{'root':u'فرج','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'فَرُجَ':{
+		{'root':u'فرج','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'فَرِجَ':{
+		{'root':u'فرج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فرد':{
+	u'فَرُدَ':{
+		{'root':u'فرد','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'فَرَدَ':{
+		{'root':u'فرد','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'فَرِدَ':{
+		{'root':u'فرد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فرخ':{
+	u'فَرِخَ':{
+		{'root':u'فرخ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فرث':{
+	u'فَرَثَ':{
+		{'root':u'فرث','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'فرث','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'فَرِثَ':{
+		{'root':u'فرث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فرت':{
+	u'فَرَتَ':{
+		{'root':u'فرت','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'فَرِتَ':{
+		{'root':u'فرت','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'فَرُتَ':{
+		{'root':u'فرت','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'فاد':{
+	u'فَادَ':{
+		{'root':u'فود','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'فيد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'فاخ':{
+	u'فَاخَ':{
+		{'root':u'فوخ','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'فيخ','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'فاح':{
+	u'فَاحَ':{
+		{'root':u'فوح','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'فيح','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'فاج':{
+	u'فَاجَ':{
+		{'root':u'فوج','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'فيج','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'فرّ':{
+	u'فَرَّ':{
+		{'root':u'فرر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'فرر','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'فات':{
+	u'فَاتَ':{
+		{'root':u'فوت','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'حضر':{
+	u'حَضَرَ':{
+		{'root':u'حضر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'دقّ':{
+	u'دَقَّ':{
+		{'root':u'دقق','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'دقق','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ضعط':{
+	u'ضَعَطَ':{
+		{'root':u'ضعط','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'فاء':{
+	u'فَاءَ':{
+		{'root':u'فيء','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'فرم':{
+	u'فَرَمَ':{
+		{'root':u'فرم','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'زاب':{
+	u'زَابَ':{
+		{'root':u'زوب','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'فره':{
+	u'فَرُهَ':{
+		{'root':u'فره','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'فَرَهَ':{
+		{'root':u'فره','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'فَرِهَ':{
+		{'root':u'فره','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فدى':{
+	u'فَدَى':{
+		{'root':u'فدي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'فرك':{
+	u'فَرَكَ':{
+		{'root':u'فرك','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'فَرِكَ':{
+		{'root':u'فرك','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'فرق':{
+	u'فَرَقَ':{
+		{'root':u'فرق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'فرق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'فَرِقَ':{
+		{'root':u'فرق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فاض':{
+	u'فَاضَ':{
+		{'root':u'فيض','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'فاص':{
+	u'فَاصَ':{
+		{'root':u'فيص','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'فاش':{
+	u'فَاشَ':{
+		{'root':u'فيش','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'فرى':{
+	u'فَرَى':{
+		{'root':u'فري','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'فاز':{
+	u'فَازَ':{
+		{'root':u'فوز','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'فار':{
+	u'فَارَ':{
+		{'root':u'فور','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'فري':{
+	u'فَرِيَ':{
+		{'root':u'فري','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مهن':{
+	u'مَهَنَ':{
+		{'root':u'مهن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'مهن','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'مَهُنَ':{
+		{'root':u'مهن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'رحب':{
+	u'رَحُبَ':{
+		{'root':u'رحب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'رَحِبَ':{
+		{'root':u'رحب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لسّ':{
+	u'لَسَّ':{
+		{'root':u'لسس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'مرّ':{
+	u'مَرَّ':{
+		{'root':u'مرر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'مرر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غلّ':{
+	u'غَلَّ':{
+		{'root':u'غلل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'غلل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'غلل','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'فجس':{
+	u'فَجَسَ':{
+		{'root':u'فجس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'مرى':{
+	u'مَرَى':{
+		{'root':u'مري','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'غمّ':{
+	u'غَمَّ':{
+		{'root':u'غمم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'غمم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غلى':{
+	u'غَلَى':{
+		{'root':u'غلي','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'غلي':{
+	u'غَلِيَ':{
+		{'root':u'غلي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غلم':{
+	u'غَلَمَ':{
+		{'root':u'غلم','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'غَلِمَ':{
+		{'root':u'غلم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رحض':{
+	u'رَحَضَ':{
+		{'root':u'رحض','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'رحض','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'درص':{
+	u'دَرِصَ':{
+		{'root':u'درص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غلن':{
+	u'غَلَنَ':{
+		{'root':u'غلن','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'غلف':{
+	u'غَلَفَ':{
+		{'root':u'غلف','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'غَلِفَ':{
+		{'root':u'غلف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مره':{
+	u'مَرِهَ':{
+		{'root':u'مره','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'غلق':{
+	u'غَلِقَ':{
+		{'root':u'غلق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'غَلَقَ':{
+		{'root':u'غلق','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'رثط':{
+	u'رَثَطَ':{
+		{'root':u'رثط','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'لخا':{
+	u'لَخَا':{
+		{'root':u'لخو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'فال':{
+	u'فَالَ':{
+		{'root':u'فيل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'أسى':{
+	u'أَسَى':{
+		{'root':u'ءسي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'فدّ':{
+	u'فَدَّ':{
+		{'root':u'فدد','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ذرئ':{
+	u'ذَرِئَ':{
+		{'root':u'ذرء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أسي':{
+	u'أَسِيَ':{
+		{'root':u'ءسي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ذرب':{
+	u'ذَرِبَ':{
+		{'root':u'ذرب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'ذَرَبَ':{
+		{'root':u'ذرب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'أسل':{
+	u'أَسُلَ':{
+		{'root':u'ءسل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'أسن':{
+	u'أَسِنَ':{
+		{'root':u'ءسن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'أَسَنَ':{
+		{'root':u'ءسن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ءسن','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'أسف':{
+	u'أَسِفَ':{
+		{'root':u'ءسف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لخب':{
+	u'لَخَبَ':{
+		{'root':u'لخب','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'لخب','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'رشح':{
+	u'رَشَحَ':{
+		{'root':u'رشح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'طفق':{
+	u'طَفِقَ':{
+		{'root':u'طفق','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لخص':{
+	u'لَخَصَ':{
+		{'root':u'لخص','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	u'لَخِصَ':{
+		{'root':u'لخص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دمع':{
+	u'دَمَعَ':{
+		{'root':u'دمع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'دَمِعَ':{
+		{'root':u'دمع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نسع':{
+	u'نَسَعَ':{
+		{'root':u'نسع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ذرع':{
+	u'ذَرُعَ':{
+		{'root':u'ذرع','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'ذَرَعَ':{
+		{'root':u'ذرع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'ذَرِعَ':{
+		{'root':u'ذرع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ناس':{
+	u'نَاسَ':{
+		{'root':u'نوس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'أسّ':{
+	u'أَسَّ':{
+		{'root':u'ءسس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'يقّ':{
+	u'يَقَّ':{
+		{'root':u'يقق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ورك':{
+	u'وَرِكَ':{
+		{'root':u'ورك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'ورك','bab':6,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'وَرَكَ':{
+		{'root':u'ورك','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ناح':{
+	u'نَاحَ':{
+		{'root':u'نوح','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نيح','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'وحش':{
+	u'وَحِشَ':{
+		{'root':u'وحش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'وَحَشَ':{
+		{'root':u'وحش','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'وحص':{
+	u'وَحَصَ':{
+		{'root':u'وحص','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ذهر':{
+	u'ذَهِرَ':{
+		{'root':u'ذهر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كحل':{
+	u'كَحَلَ':{
+		{'root':u'كحل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'كحل','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'كَحِلَ':{
+		{'root':u'كحل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نصل':{
+	u'نَصَلَ':{
+		{'root':u'نصل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'طرّ':{
+	u'طَرَّ':{
+		{'root':u'طرر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'طرر','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'وحج':{
+	u'وَحِجَ':{
+		{'root':u'وحج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نضا':{
+	u'نَضَا':{
+		{'root':u'نضو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'حضأ':{
+	u'حَضَأَ':{
+		{'root':u'حضء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'طري':{
+	u'طَرِيَ':{
+		{'root':u'طرو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'طري','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طرو':{
+	u'طَرُوَ':{
+		{'root':u'طرو','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ناب':{
+	u'نَابَ':{
+		{'root':u'نوب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نيب','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'طرم':{
+	u'طَرِمَ':{
+		{'root':u'طرم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طرق':{
+	u'طَرَقَ':{
+		{'root':u'طرق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'طَرِقَ':{
+		{'root':u'طرق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طرف':{
+	u'طَرَفَ':{
+		{'root':u'طرف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'طَرِفَ':{
+		{'root':u'طرف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'طَرُفَ':{
+		{'root':u'طرف','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'قمص':{
+	u'قَمَصَ':{
+		{'root':u'قمص','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'قمص','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ثكم':{
+	u'ثَكِمَ':{
+		{'root':u'ثكم','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'ثَكَمَ':{
+		{'root':u'ثكم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ثكل':{
+	u'ثَكِلَ':{
+		{'root':u'ثكل','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'طلث':{
+	u'طَلَثَ':{
+		{'root':u'طلث','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'كحث':{
+	u'كَحَثَ':{
+		{'root':u'كحث','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'سمت':{
+	u'سَمَتَ':{
+		{'root':u'سمت','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'سمت','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'كحب':{
+	u'كَحَبَ':{
+		{'root':u'كحب','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'طرط':{
+	u'طَرِطَ':{
+		{'root':u'طرط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كلب':{
+	u'كَلِبَ':{
+		{'root':u'كلب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'كَلَبَ':{
+		{'root':u'كلب','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'طرش':{
+	u'طَرِشَ':{
+		{'root':u'طرش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طرس':{
+	u'طَرِسَ':{
+		{'root':u'طرس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'طَرَسَ':{
+		{'root':u'طرس','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'طرز':{
+	u'طَرَزَ':{
+		{'root':u'طرز','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'طَرِزَ':{
+		{'root':u'طرز','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'طلح':{
+	u'طَلِحَ':{
+		{'root':u'طلح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'طَلَحَ':{
+		{'root':u'طلح','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'طلح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'طرد':{
+	u'طَرَدَ':{
+		{'root':u'طرد','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'طرح':{
+	u'طَرَحَ':{
+		{'root':u'طرح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'طَرِحَ':{
+		{'root':u'طرح','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ركن':{
+	u'رَكَنَ':{
+		{'root':u'ركن','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'ركن','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'رَكُنَ':{
+		{'root':u'ركن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'رَكِنَ':{
+		{'root':u'ركن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ثكّ':{
+	u'ثَكَّ':{
+		{'root':u'ثكك','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'وحى':{
+	u'وَحَى':{
+		{'root':u'وحي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'طرب':{
+	u'طَرِبَ':{
+		{'root':u'طرب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طرا':{
+	u'طَرَا':{
+		{'root':u'طرو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'وحم':{
+	u'وَحِمَ':{
+		{'root':u'وحم','bab':4,'transitive':u'ك','haraka':u'َ'},
+		{'root':u'وحم','bab':6,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'كحص':{
+	u'كَحَصَ':{
+		{'root':u'كحص','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'طرؤ':{
+	u'طَرُؤَ':{
+		{'root':u'طرء','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'طرأ':{
+	u'طَرَأَ':{
+		{'root':u'طرء','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وحف':{
+	u'وَحَفَ':{
+		{'root':u'وحف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'وَحِفَ':{
+		{'root':u'وحف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'وَحُفَ':{
+		{'root':u'وحف','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'سقف':{
+	u'سَقَفَ':{
+		{'root':u'سقف','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'سَقِفَ':{
+		{'root':u'سقف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لخم':{
+	u'لَخُمَ':{
+		{'root':u'لخم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'لَخَمَ':{
+		{'root':u'لخم','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'عضل':{
+	u'عَضَلَ':{
+		{'root':u'عضل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عضل','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'عَضِلَ':{
+		{'root':u'عضل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أسد':{
+	u'أَسَدَ':{
+		{'root':u'ءسد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'أَسِدَ':{
+		{'root':u'ءسد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لخن':{
+	u'لَخِنَ':{
+		{'root':u'لخن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'لَخَنَ':{
+		{'root':u'لخن','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لخف':{
+	u'لَخَفَ':{
+		{'root':u'لخف','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ذرم':{
+	u'ذَرَمَ':{
+		{'root':u'ذرم','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ذرى':{
+	u'ذَرَى':{
+		{'root':u'ذري','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'أسا':{
+	u'أَسَا':{
+		{'root':u'ءسو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'غدا':{
+	u'غَدَا':{
+		{'root':u'غدو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'لخى':{
+	u'لَخَى':{
+		{'root':u'لخي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'لخي':{
+	u'لَخِيَ':{
+		{'root':u'لخي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سدس':{
+	u'سَدَسَ':{
+		{'root':u'سدس','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'سدس','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ذرّ':{
+	u'ذَرَّ':{
+		{'root':u'ذرر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ذرر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زغر':{
+	u'زَغَرَ':{
+		{'root':u'زغر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'طلس':{
+	u'طَلَسَ':{
+		{'root':u'طلس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'طَلُسَ':{
+		{'root':u'طلس','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'طَلِسَ':{
+		{'root':u'طلس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لخّ':{
+	u'لَخَّ':{
+		{'root':u'لخخ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'لخخ','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'لخخ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'لخخ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وكب':{
+	u'وَكِبَ':{
+		{'root':u'وكب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'وَكَبَ':{
+		{'root':u'وكب','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'سقت':{
+	u'سَقِتَ':{
+		{'root':u'سقت','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أسر':{
+	u'أَسِرَ':{
+		{'root':u'ءسر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'أَسَرَ':{
+		{'root':u'ءسر','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'صعر':{
+	u'صَعِرَ':{
+		{'root':u'صعر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زلق':{
+	u'زَلِقَ':{
+		{'root':u'زلق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'زَلَقَ':{
+		{'root':u'زلق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'زلق','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'بطح':{
+	u'بَطَحَ':{
+		{'root':u'بطح','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'عنف':{
+	u'عَنُفَ':{
+		{'root':u'عنف','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'شتا':{
+	u'شَتَا':{
+		{'root':u'شتو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'عنك':{
+	u'عَنَكَ':{
+		{'root':u'عنك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'مطه':{
+	u'مَطَهَ':{
+		{'root':u'مطه','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بطؤ':{
+	u'بَطُؤَ':{
+		{'root':u'بطء','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'شوى':{
+	u'شَوَى':{
+		{'root':u'شوي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'سؤف':{
+	u'سَؤُفَ':{
+		{'root':u'سءف','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'عنى':{
+	u'عَنَى':{
+		{'root':u'عني','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عني':{
+	u'عَنِيَ':{
+		{'root':u'عني','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'سئر':{
+	u'سَئِرَ':{
+		{'root':u'سءر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شتر':{
+	u'شَتَرَ':{
+		{'root':u'شتر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'شَتِرَ':{
+		{'root':u'شتر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لهي':{
+	u'لَهِيَ':{
+		{'root':u'لهو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دلي':{
+	u'دَلِيَ':{
+		{'root':u'دلو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سمل':{
+	u'سَمَلَ':{
+		{'root':u'سمل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'سَمُلَ':{
+		{'root':u'سمل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بطغ':{
+	u'بَطِغَ':{
+		{'root':u'بطغ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عنّ':{
+	u'عَنَّ':{
+		{'root':u'عنن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عنن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'صعا':{
+	u'صَعَا':{
+		{'root':u'صعو','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شتع':{
+	u'شَتِعَ':{
+		{'root':u'شتع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'صعب':{
+	u'صَعُبَ':{
+		{'root':u'صعب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بطش':{
+	u'بَطَشَ':{
+		{'root':u'بطش','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'بطش','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'شتغ':{
+	u'شَتَغَ':{
+		{'root':u'شتغ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'تسع':{
+	u'تَسَعَ':{
+		{'root':u'تسع','bab':2,'transitive':u'م','haraka':u'ِ'},
+		{'root':u'تسع','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'صعد':{
+	u'صَعِدَ':{
+		{'root':u'صعد','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'بطر':{
+	u'بَطِرَ':{
+		{'root':u'بطر','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'بَطَرَ':{
+		{'root':u'بطر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'بطر','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'لبز':{
+	u'لَبَزَ':{
+		{'root':u'لبز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'أنح':{
+	u'أَنَحَ':{
+		{'root':u'ءنح','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'أنت':{
+	u'أَنَتَ':{
+		{'root':u'ءنت','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'أنث':{
+	u'أَنُثَ':{
+		{'root':u'ءنث','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'غدر':{
+	u'غَدَرَ':{
+		{'root':u'غدر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'غدر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'غَدِرَ':{
+		{'root':u'غدر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أوى':{
+	u'أَوَى':{
+		{'root':u'ءوي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نخش':{
+	u'نَخِشَ':{
+		{'root':u'نخش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَخَشَ':{
+		{'root':u'نخش','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'نخش','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نصر':{
+	u'نَصَرَ':{
+		{'root':u'نصر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'هوئ':{
+	u'هَوِئَ':{
+		{'root':u'هوء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ميل':{
+	u'مَيِلَ':{
+		{'root':u'ميل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زرم':{
+	u'زَرِمَ':{
+		{'root':u'زرم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'زَرَمَ':{
+		{'root':u'زرم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'طفئ':{
+	u'طَفِئَ':{
+		{'root':u'طفء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أنض':{
+	u'أَنَضَ':{
+		{'root':u'ءنض','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'أَنُضَ':{
+		{'root':u'ءنض','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'تفه':{
+	u'تَفَهَ':{
+		{'root':u'تفه','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'تَفِهَ':{
+		{'root':u'تفه','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'تفل':{
+	u'تَفَلَ':{
+		{'root':u'تفل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'تفل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'تَفِلَ':{
+		{'root':u'تفل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أنس':{
+	u'أَنِسَ':{
+		{'root':u'ءنس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'أَنَسَ':{
+		{'root':u'ءنس','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'أَنُسَ':{
+		{'root':u'ءنس','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'قثم':{
+	u'قَثَمَ':{
+		{'root':u'قثم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'قثم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'قَثِمَ':{
+		{'root':u'قثم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'قَثُمَ':{
+		{'root':u'قثم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'أني':{
+	u'أَنِيَ':{
+		{'root':u'ءني','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أنى':{
+	u'أَنَى':{
+		{'root':u'ءني','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'أوب':{
+	u'أَوِبَ':{
+		{'root':u'ءوب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أنه':{
+	u'أَنَهَ':{
+		{'root':u'ءنه','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'زرف':{
+	u'زَرِفَ':{
+		{'root':u'زرف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'زَرَفَ':{
+		{'root':u'زرف','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'زرف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'أنق':{
+	u'أَنِقَ':{
+		{'root':u'ءنق','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'أنك':{
+	u'أَنَكَ':{
+		{'root':u'ءنك','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'أنف':{
+	u'أَنَفَ':{
+		{'root':u'ءنف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ءنف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'أَنِفَ':{
+		{'root':u'ءنف','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'وحد':{
+	u'وَحِدَ':{
+		{'root':u'وحد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'وَحَدَ':{
+		{'root':u'وحد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'وَحُدَ':{
+		{'root':u'وحد','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'رقد':{
+	u'رَقَدَ':{
+		{'root':u'رقد','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ربح':{
+	u'رَبِحَ':{
+		{'root':u'ربح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'تفث':{
+	u'تَفِثَ':{
+		{'root':u'تفث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'تفئ':{
+	u'تَفِئَ':{
+		{'root':u'تفء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نغف':{
+	u'نَغِفَ':{
+		{'root':u'نغف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'أنّ':{
+	u'أَنَّ':{
+		{'root':u'ءنن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'دلظ':{
+	u'دَلَظَ':{
+		{'root':u'دلظ','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'دلع':{
+	u'دَلَعَ':{
+		{'root':u'دلع','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'دلع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'دلغ':{
+	u'دَلَغَ':{
+		{'root':u'دلغ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'عنا':{
+	u'عَنَا':{
+		{'root':u'عنو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'شتم':{
+	u'شَتَمَ':{
+		{'root':u'شتم','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'شتم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'شَتُمَ':{
+		{'root':u'شتم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'شتل':{
+	u'شَتَلَ':{
+		{'root':u'شتل','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'سمر':{
+	u'سَمَرَ':{
+		{'root':u'سمر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'سمر','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'سَمِرَ':{
+		{'root':u'سمر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'سَمُرَ':{
+		{'root':u'سمر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'شتن':{
+	u'شَتَنَ':{
+		{'root':u'شتن','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'بطن':{
+	u'بَطِنَ':{
+		{'root':u'بطن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'بَطُنَ':{
+		{'root':u'بطن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'بَطَنَ':{
+		{'root':u'بطن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'بطل':{
+	u'بَطِلَ':{
+		{'root':u'بطل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'بَطُلَ':{
+		{'root':u'بطل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'بَطَلَ':{
+		{'root':u'بطل','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'عند':{
+	u'عَنَدَ':{
+		{'root':u'عند','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عند','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'عَنُدَ':{
+		{'root':u'عند','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'عَنِدَ':{
+		{'root':u'عند','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وقت':{
+	u'وَقَتَ':{
+		{'root':u'وقت','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'دلص':{
+	u'دَلِصَ':{
+		{'root':u'دلص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'دَلَصَ':{
+		{'root':u'دلص','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'عنت':{
+	u'عَنِتَ':{
+		{'root':u'عنت','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شتّ':{
+	u'شَتَّ':{
+		{'root':u'شتت','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ذلف':{
+	u'ذَلِفَ':{
+		{'root':u'ذلف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'صعق':{
+	u'صَعِقَ':{
+		{'root':u'صعق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'صَعَقَ':{
+		{'root':u'صعق','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'دلج':{
+	u'دَلَجَ':{
+		{'root':u'دلج','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'دلج','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'صعل':{
+	u'صَعِلَ':{
+		{'root':u'صعل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عنز':{
+	u'عَنَزَ':{
+		{'root':u'عنز','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'عنس':{
+	u'عَنَسَ':{
+		{'root':u'عنس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عنس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'عَنِسَ':{
+		{'root':u'عنس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سمد':{
+	u'سَمَدَ':{
+		{'root':u'سمد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'سمخ':{
+	u'سَمَخَ':{
+		{'root':u'سمخ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'رشأ':{
+	u'رَشَأَ':{
+		{'root':u'رشء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'زرى':{
+	u'زَرَى':{
+		{'root':u'زري','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نخط':{
+	u'نَخَطَ':{
+		{'root':u'نخط','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بطّ':{
+	u'بَطَّ':{
+		{'root':u'بطط','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'حذا':{
+	u'حَذَا':{
+		{'root':u'حذو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ملئ':{
+	u'مَلِئَ':{
+		{'root':u'ملء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فاع':{
+	u'فَاعَ':{
+		{'root':u'فوع','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ملؤ':{
+	u'مَلُؤَ':{
+		{'root':u'ملء','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ملث':{
+	u'مَلَثَ':{
+		{'root':u'ملث','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'زجا':{
+	u'زَجَا':{
+		{'root':u'زجو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'فاظ':{
+	u'فَاظَ':{
+		{'root':u'فوظ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'فيظ','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ملخ':{
+	u'مَلُخَ':{
+		{'root':u'ملخ','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'مَلَخَ':{
+		{'root':u'ملخ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ملد':{
+	u'مَلِدَ':{
+		{'root':u'ملد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'مَلَدَ':{
+		{'root':u'ملد','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'ملج':{
+	u'مَلِجَ':{
+		{'root':u'ملج','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'مَلَجَ':{
+		{'root':u'ملج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ملح':{
+	u'مَلُحَ':{
+		{'root':u'ملح','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'مَلَحَ':{
+		{'root':u'ملح','bab':2,'transitive':u'م','haraka':u'ِ'},
+		{'root':u'ملح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'مَلِحَ':{
+		{'root':u'ملح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ملز':{
+	u'مَلَزَ':{
+		{'root':u'ملز','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ملس':{
+	u'مَلِسَ':{
+		{'root':u'ملس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'مَلَسَ':{
+		{'root':u'ملس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'مَلُسَ':{
+		{'root':u'ملس','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ملذ':{
+	u'مَلَذَ':{
+		{'root':u'ملذ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'مَلِذَ':{
+		{'root':u'ملذ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضمى':{
+	u'ضَمَى':{
+		{'root':u'ضمي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ملش':{
+	u'مَلَشَ':{
+		{'root':u'ملش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'حذر':{
+	u'حَذِرَ':{
+		{'root':u'حذر','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'وشغ':{
+	u'وَشَغَ':{
+		{'root':u'وشغ','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'جئي':{
+	u'جَئِيَ':{
+		{'root':u'جءي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زجر':{
+	u'زَجَرَ':{
+		{'root':u'زجر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'رطم':{
+	u'رَطَمَ':{
+		{'root':u'رطم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'رده':{
+	u'رَدَهَ':{
+		{'root':u'رده','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نصح':{
+	u'نَصَحَ':{
+		{'root':u'نصح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'مزّ':{
+	u'مَزَّ':{
+		{'root':u'مزز','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'مزز','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بعا':{
+	u'بَعَا':{
+		{'root':u'بعو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'بعو','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'زأف':{
+	u'زَأَفَ':{
+		{'root':u'زءف','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'نصت':{
+	u'نَصَتَ':{
+		{'root':u'نصت','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'هذب':{
+	u'هَذَبَ':{
+		{'root':u'هذب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'بعث':{
+	u'بَعِثَ':{
+		{'root':u'بعث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'بَعَثَ':{
+		{'root':u'بعث','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'بعج':{
+	u'بَعَجَ':{
+		{'root':u'بعج','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'خدل':{
+	u'خَدِلَ':{
+		{'root':u'خدل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سغل':{
+	u'سَغِلَ':{
+		{'root':u'سغل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بعد':{
+	u'بَعِدَ':{
+		{'root':u'بعد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'بَعُدَ':{
+		{'root':u'بعد','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بعر':{
+	u'بَعَرَ':{
+		{'root':u'بعر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'بَعِرَ':{
+		{'root':u'بعر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مزن':{
+	u'مَزَنَ':{
+		{'root':u'مزن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'سبأ':{
+	u'سَبَأَ':{
+		{'root':u'سبء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'بعص':{
+	u'بَعَصَ':{
+		{'root':u'بعص','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بعض':{
+	u'بَعَضَ':{
+		{'root':u'بعض','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'بعط':{
+	u'بَعَطَ':{
+		{'root':u'بعط','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نعض':{
+	u'نَعَضَ':{
+		{'root':u'نعض','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'سبت':{
+	u'سَبَتَ':{
+		{'root':u'سبت','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'سبت','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'مظع':{
+	u'مَظَعَ':{
+		{'root':u'مظع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'مزى':{
+	u'مَزَى':{
+		{'root':u'مزي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'سبخ':{
+	u'سَبِخَ':{
+		{'root':u'سبخ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'سَبَخَ':{
+		{'root':u'سبخ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'سبد':{
+	u'سَبَدَ':{
+		{'root':u'سبد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ذحج':{
+	u'ذَحَجَ':{
+		{'root':u'ذحج','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'سبّ':{
+	u'سَبَّ':{
+		{'root':u'سبب','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'بعق':{
+	u'بَعَقَ':{
+		{'root':u'بعق','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'بعك':{
+	u'بَعِكَ':{
+		{'root':u'بعك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'بَعَكَ':{
+		{'root':u'بعك','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'بعل':{
+	u'بَعَلَ':{
+		{'root':u'بعل','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'بَعِلَ':{
+		{'root':u'بعل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مزر':{
+	u'مَزَرَ':{
+		{'root':u'مزر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'مَزُرَ':{
+		{'root':u'مزر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بعى':{
+	u'بَعَى':{
+		{'root':u'بعي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'خدم':{
+	u'خَدَمَ':{
+		{'root':u'خدم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'خدم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'مزع':{
+	u'مَزَعَ':{
+		{'root':u'مزع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'غهب':{
+	u'غَهِبَ':{
+		{'root':u'غهب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بعّ':{
+	u'بَعَّ':{
+		{'root':u'بعع','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'بعع','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'سبق':{
+	u'سَبَقَ':{
+		{'root':u'سبق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'سبق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'مزا':{
+	u'مَزَا':{
+		{'root':u'مزو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'سنو':{
+	u'سَنُوَ':{
+		{'root':u'سنو','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'مزج':{
+	u'مَزَجَ':{
+		{'root':u'مزج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'مزح':{
+	u'مَزَحَ':{
+		{'root':u'مزح','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ذأط':{
+	u'ذَأَطَ':{
+		{'root':u'ذءط','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'سغر':{
+	u'سَغَرَ':{
+		{'root':u'سغر','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ملق':{
+	u'مَلَقَ':{
+		{'root':u'ملق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ملق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'مَلِقَ':{
+		{'root':u'ملق','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'فزر':{
+	u'فَزِرَ':{
+		{'root':u'فزر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'فَزَرَ':{
+		{'root':u'فزر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'حذل':{
+	u'حَذِلَ':{
+		{'root':u'حذل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حذم':{
+	u'حَذَمَ':{
+		{'root':u'حذم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حذق':{
+	u'حَذِقَ':{
+		{'root':u'حذق','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'حَذَقَ':{
+		{'root':u'حذق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حذف':{
+	u'حَذَفَ':{
+		{'root':u'حذف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نطب':{
+	u'نَطَبَ':{
+		{'root':u'نطب','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'فزع':{
+	u'فَزِعَ':{
+		{'root':u'فزع','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'فَزَعَ':{
+		{'root':u'فزع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'حذي':{
+	u'حَذِيَ':{
+		{'root':u'حذي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لمي':{
+	u'لَمِيَ':{
+		{'root':u'لمي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حذى':{
+	u'حَذَى':{
+		{'root':u'حذي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'فجي':{
+	u'فَجِيَ':{
+		{'root':u'فجو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'فجي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ملّ':{
+	u'مَلَّ':{
+		{'root':u'ملل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ملل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'ملل','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'حذّ':{
+	u'حَذَّ':{
+		{'root':u'حذذ','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'رثا':{
+	u'رَثَا':{
+		{'root':u'رثو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'غثا':{
+	u'غَثَا':{
+		{'root':u'غثو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'زجّ':{
+	u'زَجَّ':{
+		{'root':u'زجج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'زجج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هدل':{
+	u'هَدَلَ':{
+		{'root':u'هدل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'هَدِلَ':{
+		{'root':u'هدل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كند':{
+	u'كَنَدَ':{
+		{'root':u'كند','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'كند','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'سال':{
+	u'سَالَ':{
+		{'root':u'سيل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'جدف':{
+	u'جَدَفَ':{
+		{'root':u'جدف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'كنت':{
+	u'كَنِتَ':{
+		{'root':u'كنت','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'كَنَتَ':{
+		{'root':u'كنت','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'جدل':{
+	u'جَدَلَ':{
+		{'root':u'جدل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'جدل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'جَدِلَ':{
+		{'root':u'جدل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جدم':{
+	u'جَدَمَ':{
+		{'root':u'جدم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ذخر':{
+	u'ذَخَرَ':{
+		{'root':u'ذخر','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'كنا':{
+	u'كَنَا':{
+		{'root':u'كنو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'جدى':{
+	u'جَدَى':{
+		{'root':u'جدي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'لسد':{
+	u'لَسَدَ':{
+		{'root':u'لسد','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'لَسِدَ':{
+		{'root':u'لسد','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'سكر':{
+	u'سَكِرَ':{
+		{'root':u'سكر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'سَكَرَ':{
+		{'root':u'سكر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'جدّ':{
+	u'جَدَّ':{
+		{'root':u'جدد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'جدد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'جدد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دلث':{
+	u'دَلَثَ':{
+		{'root':u'دلث','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'كنظ':{
+	u'كَنَظَ':{
+		{'root':u'كنظ','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'كنظ','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'كنع':{
+	u'كَنَعَ':{
+		{'root':u'كنع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'كَنِعَ':{
+		{'root':u'كنع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وسخ':{
+	u'وَسِخَ':{
+		{'root':u'وسخ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كنش':{
+	u'كَنَشَ':{
+		{'root':u'كنش','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'زرب':{
+	u'زَرِبَ':{
+		{'root':u'زرب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'زَرَبَ':{
+		{'root':u'زرب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'كنز':{
+	u'كَنَزَ':{
+		{'root':u'كنز','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'كنز','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'كنس':{
+	u'كَنَسَ':{
+		{'root':u'كنس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'كنس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حفر':{
+	u'حَفِرَ':{
+		{'root':u'حفر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'حَفَرَ':{
+		{'root':u'حفر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حفس':{
+	u'حَفَسَ':{
+		{'root':u'حفس','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'حفز':{
+	u'حَفَزَ':{
+		{'root':u'حفز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حفص':{
+	u'حَفَصَ':{
+		{'root':u'حفص','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'حفش':{
+	u'حَفِشَ':{
+		{'root':u'حفش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'حَفَشَ':{
+		{'root':u'حفش','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'غبط':{
+	u'غَبِطَ':{
+		{'root':u'غبط','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	u'غَبَطَ':{
+		{'root':u'غبط','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'حفض':{
+	u'حَفَضَ':{
+		{'root':u'حفض','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'زغد':{
+	u'زَغَدَ':{
+		{'root':u'زغد','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'حفظ':{
+	u'حَفِظَ':{
+		{'root':u'حفظ','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ورذ':{
+	u'وَرَذَ':{
+		{'root':u'ورذ','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ضعا':{
+	u'ضَعَا':{
+		{'root':u'ضعو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'هفّ':{
+	u'هَفَّ':{
+		{'root':u'هفف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'عظا':{
+	u'عَظَا':{
+		{'root':u'عظو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'حفأ':{
+	u'حَفَأَ':{
+		{'root':u'حفء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'زمق':{
+	u'زَمَقَ':{
+		{'root':u'زمق','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'زمق','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'حفا':{
+	u'حَفَا':{
+		{'root':u'حفو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'غفر':{
+	u'غَفِرَ':{
+		{'root':u'غفر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'غَفَرَ':{
+		{'root':u'غفر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'غبث':{
+	u'غَبِثَ':{
+		{'root':u'غبث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'غَبَثَ':{
+		{'root':u'غبث','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حفت':{
+	u'حَفَتَ':{
+		{'root':u'حفت','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'هفك':{
+	u'هَفَكَ':{
+		{'root':u'هفك','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'هفك','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'غبج':{
+	u'غَبِجَ':{
+		{'root':u'غبج','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'حفد':{
+	u'حَفَدَ':{
+		{'root':u'حفد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حفّ':{
+	u'حَفَّ':{
+		{'root':u'حفف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حفف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عاه':{
+	u'عَاهَ':{
+		{'root':u'عوه','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'عيه','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'سئم':{
+	u'سَئِمَ':{
+		{'root':u'سءم','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'غتل':{
+	u'غَتِلَ':{
+		{'root':u'غتل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زغف':{
+	u'زَغَفَ':{
+		{'root':u'زغف','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'عرج':{
+	u'عَرَجَ':{
+		{'root':u'عرج','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'عرج','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'عَرُجَ':{
+		{'root':u'عرج','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'عَرِجَ':{
+		{'root':u'عرج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عام':{
+	u'عَامَ':{
+		{'root':u'عوم','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'عيم','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'غبق':{
+	u'غَبَقَ':{
+		{'root':u'غبق','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'غبق','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'حفل':{
+	u'حَفَلَ':{
+		{'root':u'حفل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حفن':{
+	u'حَفَنَ':{
+		{'root':u'حفن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'حَفِنَ':{
+		{'root':u'حفن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هفا':{
+	u'هَفَا':{
+		{'root':u'هفو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'هدف':{
+	u'هَدَفَ':{
+		{'root':u'هدف','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'هدف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'فغي':{
+	u'فَغِيَ':{
+		{'root':u'فغي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حفي':{
+	u'حَفِيَ':{
+		{'root':u'حفو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دنأ':{
+	u'دَنَأَ':{
+		{'root':u'دنء','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عاق':{
+	u'عَاقَ':{
+		{'root':u'عوق','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'عيق','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'هثم':{
+	u'هَثَمَ':{
+		{'root':u'هثم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'مرق':{
+	u'مَرِقَ':{
+		{'root':u'مرق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'مَرَقَ':{
+		{'root':u'مرق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'مرق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'جدا':{
+	u'جَدَا':{
+		{'root':u'جدو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'كنى':{
+	u'كَنَى':{
+		{'root':u'كني','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ناط':{
+	u'نَاطَ':{
+		{'root':u'نوط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نيط','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'كنه':{
+	u'كَنَهَ':{
+		{'root':u'كنه','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'جدب':{
+	u'جَدِبَ':{
+		{'root':u'جدب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'جَدُبَ':{
+		{'root':u'جدب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'جَدَبَ':{
+		{'root':u'جدب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'جدب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'كيح':{
+	u'كَيِحَ':{
+		{'root':u'كيح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جدح':{
+	u'جَدَحَ':{
+		{'root':u'جدح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'جدس':{
+	u'جَدَسَ':{
+		{'root':u'جدس','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'جدر':{
+	u'جَدِرَ':{
+		{'root':u'جدر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'جَدَرَ':{
+		{'root':u'جدر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'جَدُرَ':{
+		{'root':u'جدر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'جدش':{
+	u'جَدَشَ':{
+		{'root':u'جدش','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'لسن':{
+	u'لَسِنَ':{
+		{'root':u'لسن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'لَسَنَ':{
+		{'root':u'لسن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'يمن':{
+	u'يَمُنَ':{
+		{'root':u'يمن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'يَمَنَ':{
+		{'root':u'يمن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'يمن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'جدع':{
+	u'جَدِعَ':{
+		{'root':u'جدع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'جَدَعَ':{
+		{'root':u'جدع','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'هيئ':{
+	u'هَيِئَ':{
+		{'root':u'هيء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كنّ':{
+	u'كَنَّ':{
+		{'root':u'كنن','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'أهى':{
+	u'أَهَى':{
+		{'root':u'ءهي','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'قتن':{
+	u'قَتَنَ':{
+		{'root':u'قتن','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'قَتُنَ':{
+		{'root':u'قتن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'قتم':{
+	u'قَتِمَ':{
+		{'root':u'قتم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'قَتَمَ':{
+		{'root':u'قتم','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'قتل':{
+	u'قَتَلَ':{
+		{'root':u'قتل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'خوف':{
+	u'خَوفَ':{
+		{'root':u'خوف','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لغط':{
+	u'لَغَطَ':{
+		{'root':u'لغط','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ورس':{
+	u'وَرِسَ':{
+		{'root':u'ورس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'وَرَسَ':{
+		{'root':u'ورس','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'كتح':{
+	u'كَتَحَ':{
+		{'root':u'كتح','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'رخي':{
+	u'رَخِيَ':{
+		{'root':u'رخو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خوى':{
+	u'خَوَى':{
+		{'root':u'خوي','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'أهل':{
+	u'أَهِلَ':{
+		{'root':u'ءهل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'أَهَلَ':{
+		{'root':u'ءهل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ءهل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'خوي':{
+	u'خَوِيَ':{
+		{'root':u'خوي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كتع':{
+	u'كَتَعَ':{
+		{'root':u'كتع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زكب':{
+	u'زَكَبَ':{
+		{'root':u'زكب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'قتّ':{
+	u'قَتَّ':{
+		{'root':u'قتت','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ردخ':{
+	u'رَدَخَ':{
+		{'root':u'ردخ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'أهّ':{
+	u'أَهَّ':{
+		{'root':u'ءهه','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'زكا':{
+	u'زَكَا':{
+		{'root':u'زكو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'زكأ':{
+	u'زَكَأَ':{
+		{'root':u'زكء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'هدئ':{
+	u'هَدِئَ':{
+		{'root':u'هدء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دهث':{
+	u'دَهَثَ':{
+		{'root':u'دهث','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'بؤس':{
+	u'بَؤُسَ':{
+		{'root':u'بءس','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'صغي':{
+	u'صَغِيَ':{
+		{'root':u'صغو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بضك':{
+	u'بَضَكَ':{
+		{'root':u'بضك','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ذرا':{
+	u'ذَرَا':{
+		{'root':u'ذرو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'بضم':{
+	u'بَضَمَ':{
+		{'root':u'بضم','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'خنف':{
+	u'خَنِفَ':{
+		{'root':u'خنف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'خَنَفَ':{
+		{'root':u'خنف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'خضف':{
+	u'خَضَفَ':{
+		{'root':u'خضف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'غتّ':{
+	u'غَتَّ':{
+		{'root':u'غتت','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'بضّ':{
+	u'بَضَّ':{
+		{'root':u'بضض','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'بضض','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'بضض','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ساك':{
+	u'سَاكَ':{
+		{'root':u'سوك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ساق':{
+	u'سَاقَ':{
+		{'root':u'سوق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'سرأ':{
+	u'سَرَأَ':{
+		{'root':u'سرء','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'صغّ':{
+	u'صَغَّ':{
+		{'root':u'صغغ','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'يسر':{
+	u'يَسُرَ':{
+		{'root':u'يسر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'يَسَرَ':{
+		{'root':u'يسر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'يَسِرَ':{
+		{'root':u'يسر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ساع':{
+	u'سَاعَ':{
+		{'root':u'سوع','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'سيع','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'سطح':{
+	u'سَطَحَ':{
+		{'root':u'سطح','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'أذي':{
+	u'أَذِيَ':{
+		{'root':u'ءذي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ساغ':{
+	u'سَاغَ':{
+		{'root':u'سوغ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'سيغ','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'سار':{
+	u'سَارَ':{
+		{'root':u'سور','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'سير','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ساس':{
+	u'سَاسَ':{
+		{'root':u'سوس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'صجّ':{
+	u'صَجَّ':{
+		{'root':u'صجج','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'طلق':{
+	u'طَلَقَ':{
+		{'root':u'طلق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'طلق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'طَلِقَ':{
+		{'root':u'طلق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'طَلُقَ':{
+		{'root':u'طلق','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'أذن':{
+	u'أَذِنَ':{
+		{'root':u'ءذن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'أَذَنَ':{
+		{'root':u'ءذن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ذرح':{
+	u'ذَرَحَ':{
+		{'root':u'ذرح','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'بضع':{
+	u'بَضَعَ':{
+		{'root':u'بضع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'هكع':{
+	u'هَكِعَ':{
+		{'root':u'هكع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'هَكَعَ':{
+		{'root':u'هكع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بؤل':{
+	u'بَؤُلَ':{
+		{'root':u'بءل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ساح':{
+	u'سَاحَ':{
+		{'root':u'سيح','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ساج':{
+	u'سَاجَ':{
+		{'root':u'سوج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'دنا':{
+	u'دَنَا':{
+		{'root':u'دنو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'عرش':{
+	u'عَرَشَ':{
+		{'root':u'عرش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عرش','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'عَرِشَ':{
+		{'root':u'عرش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ساء':{
+	u'سَاءَ':{
+		{'root':u'سوء','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'أذّ':{
+	u'أَذَّ':{
+		{'root':u'ءذذ','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'وضن':{
+	u'وَضَنَ':{
+		{'root':u'وضن','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'صغر':{
+	u'صَغِرَ':{
+		{'root':u'صغر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'صَغَرَ':{
+		{'root':u'صغر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'صَغُرَ':{
+		{'root':u'صغر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'رفث':{
+	u'رَفُثَ':{
+		{'root':u'رفث','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'رَفَثَ':{
+		{'root':u'رفث','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'رَفِثَ':{
+		{'root':u'رفث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طلم':{
+	u'طَلَمَ':{
+		{'root':u'طلم','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'قتا':{
+	u'قَتَا':{
+		{'root':u'قتو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'رأف':{
+	u'رَأَفَ':{
+		{'root':u'رءف','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نضى':{
+	u'نَضَى':{
+		{'root':u'نضي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'قتد':{
+	u'قَتِدَ':{
+		{'root':u'قتد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طله':{
+	u'طَلَهَ':{
+		{'root':u'طله','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كتن':{
+	u'كَتِنَ':{
+		{'root':u'كتن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كته':{
+	u'كَتَهَ':{
+		{'root':u'كته','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'كتل':{
+	u'كَتِلَ':{
+		{'root':u'كتل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'كَتَلَ':{
+		{'root':u'كتل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'قتب':{
+	u'قَتَبَ':{
+		{'root':u'قتب','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'خوص':{
+	u'خَوِصَ':{
+		{'root':u'خوص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وثن':{
+	u'وَثَنَ':{
+		{'root':u'وثن','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'كتف':{
+	u'كَتَفَ':{
+		{'root':u'كتف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'كَتِفَ':{
+		{'root':u'كتف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خور':{
+	u'خَوِرَ':{
+		{'root':u'خور','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قتر':{
+	u'قَتِرَ':{
+		{'root':u'قتر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'قَتَرَ':{
+		{'root':u'قتر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'قتر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'دشّ':{
+	u'دَشَّ':{
+		{'root':u'دشش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'زكن':{
+	u'زَكِنَ':{
+		{'root':u'زكن','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'كتّ':{
+	u'كَتَّ':{
+		{'root':u'كتت','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'كتت','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قتع':{
+	u'قَتَعَ':{
+		{'root':u'قتع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جقّ':{
+	u'جَقَّ':{
+		{'root':u'جقق','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ضوط':{
+	u'ضَوِطَ':{
+		{'root':u'ضوط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كلى':{
+	u'كَلَى':{
+		{'root':u'كلي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'بظّ':{
+	u'بَظَّ':{
+		{'root':u'بظظ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'كنب':{
+	u'كَنِبَ':{
+		{'root':u'كنب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'كَنَبَ':{
+		{'root':u'كنب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'كنب','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'دها':{
+	u'دَهَا':{
+		{'root':u'دهو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'حرف':{
+	u'حَرَفَ':{
+		{'root':u'حرف','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'حرف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'حَرُفَ':{
+		{'root':u'حرف','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'خزف':{
+	u'خَزَفَ':{
+		{'root':u'خزف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حرك':{
+	u'حَرُكَ':{
+		{'root':u'حرك','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'حَرَكَ':{
+		{'root':u'حرك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حرك','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'حَرِكَ':{
+		{'root':u'حرك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حرق':{
+	u'حَرِقَ':{
+		{'root':u'حرق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'حَرَقَ':{
+		{'root':u'حرق','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'حرق','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'حرم':{
+	u'حَرُمَ':{
+		{'root':u'حرم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'حَرِمَ':{
+		{'root':u'حرم','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'حَرَمَ':{
+		{'root':u'حرم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'سقط':{
+	u'سَقَطَ':{
+		{'root':u'سقط','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'حرن':{
+	u'حَرَنَ':{
+		{'root':u'حرن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'حَرُنَ':{
+		{'root':u'حرن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'حرى':{
+	u'حَرَى':{
+		{'root':u'حري','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نبل':{
+	u'نَبَلَ':{
+		{'root':u'نبل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'نَبُلَ':{
+		{'root':u'نبل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'نبه':{
+	u'نَبِهَ':{
+		{'root':u'نبه','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَبُهَ':{
+		{'root':u'نبه','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'نَبَهَ':{
+		{'root':u'نبه','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'سقع':{
+	u'سَقَعَ':{
+		{'root':u'سقع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نبك':{
+	u'نَبَكَ':{
+		{'root':u'نبك','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'عهب':{
+	u'عَهِبَ':{
+		{'root':u'عهب','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'حرّ':{
+	u'حَرَّ':{
+		{'root':u'حرر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حرر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'حرر','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'عاد':{
+	u'عَادَ':{
+		{'root':u'عود','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'سلك':{
+	u'سَلَكَ':{
+		{'root':u'سلك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'دئض':{
+	u'دَئِضَ':{
+		{'root':u'دءض','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خجل':{
+	u'خَجِلَ':{
+		{'root':u'خجل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'عهر':{
+	u'عَهَرَ':{
+		{'root':u'عهر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'دئص':{
+	u'دَئِصَ':{
+		{'root':u'دءص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خجى':{
+	u'خَجَى':{
+		{'root':u'خجي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'سدل':{
+	u'سَدِلَ':{
+		{'root':u'سدل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'سَدَلَ':{
+		{'root':u'سدل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'سدل','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'خجي':{
+	u'خَجِيَ':{
+		{'root':u'خجي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نبّ':{
+	u'نَبَّ':{
+		{'root':u'نبب','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'هذم':{
+	u'هَذَمَ':{
+		{'root':u'هذم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نبح':{
+	u'نَبَحَ':{
+		{'root':u'نبح','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'نبح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'عهن':{
+	u'عَهَنَ':{
+		{'root':u'عهن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عهن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عاج':{
+	u'عَاجَ':{
+		{'root':u'عوج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'عيج','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'نبث':{
+	u'نَبَثَ':{
+		{'root':u'نبث','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نبت':{
+	u'نَبَتَ':{
+		{'root':u'نبت','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'حرب':{
+	u'حَرَبَ':{
+		{'root':u'حرب','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'حَرِبَ':{
+		{'root':u'حرب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حرث':{
+	u'حَرَثَ':{
+		{'root':u'حرث','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حرث','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حرت':{
+	u'حَرِتَ':{
+		{'root':u'حرت','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'حَرَتَ':{
+		{'root':u'حرت','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'حرح':{
+	u'حَرِحَ':{
+		{'root':u'حرح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'حَرَحَ':{
+		{'root':u'حرح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'حرج':{
+	u'حَرِجَ':{
+		{'root':u'حرج','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'حَرَجَ':{
+		{'root':u'حرج','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'حرد':{
+	u'حَرَدَ':{
+		{'root':u'حرد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'حَرِدَ':{
+		{'root':u'حرد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'زدا':{
+	u'زَدَا':{
+		{'root':u'زدو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'دمي':{
+	u'دَمِيَ':{
+		{'root':u'دمي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حرس':{
+	u'حَرَسَ':{
+		{'root':u'حرس','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'حرس','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'حَرِسَ':{
+		{'root':u'حرس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حرز':{
+	u'حَرِزَ':{
+		{'root':u'حرز','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'حَرُزَ':{
+		{'root':u'حرز','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'حَرَزَ':{
+		{'root':u'حرز','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'حرص':{
+	u'حَرِصَ':{
+		{'root':u'حرص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'حَرَصَ':{
+		{'root':u'حرص','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'حرص','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حرش':{
+	u'حَرِشَ':{
+		{'root':u'حرش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'حَرَشَ':{
+		{'root':u'حرش','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'سقل':{
+	u'سَقِلَ':{
+		{'root':u'سقل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حرض':{
+	u'حَرَضَ':{
+		{'root':u'حرض','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حرض','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'حَرِضَ':{
+		{'root':u'حرض','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'حَرُضَ':{
+		{'root':u'حرض','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'نبص':{
+	u'نَبَصَ':{
+		{'root':u'نبص','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نبش':{
+	u'نَبَشَ':{
+		{'root':u'نبش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نبط':{
+	u'نَبَطَ':{
+		{'root':u'نبط','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نبط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عاب':{
+	u'عَابَ':{
+		{'root':u'عيب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نبر':{
+	u'نَبَرَ':{
+		{'root':u'نبر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نبذ':{
+	u'نَبَذَ':{
+		{'root':u'نبذ','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نبس':{
+	u'نَبَسَ':{
+		{'root':u'نبس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نبز':{
+	u'نَبَزَ':{
+		{'root':u'نبز','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'هكّ':{
+	u'هَكَّ':{
+		{'root':u'هكك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'بظا':{
+	u'بَظَا':{
+		{'root':u'بظو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'منأ':{
+	u'مَنَأَ':{
+		{'root':u'منء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'كتم':{
+	u'كَتَمَ':{
+		{'root':u'كتم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'جحم':{
+	u'جَحَمَ':{
+		{'root':u'جحم','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	u'جَحِمَ':{
+		{'root':u'جحم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'جَحُمَ':{
+		{'root':u'جحم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بظر':{
+	u'بَظِرَ':{
+		{'root':u'بظر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ضوى':{
+	u'ضَوَى':{
+		{'root':u'ضوي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'سطأ':{
+	u'سَطَأَ':{
+		{'root':u'سطء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'رعظ':{
+	u'رَعِظَ':{
+		{'root':u'رعظ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'رَعَظَ':{
+		{'root':u'رعظ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ضوي':{
+	u'ضَوِيَ':{
+		{'root':u'ضوي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'يسّ':{
+	u'يَسَّ':{
+		{'root':u'يسس','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'مسط':{
+	u'مَسَطَ':{
+		{'root':u'مسط','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'غنظ':{
+	u'غَنَظَ':{
+		{'root':u'غنظ','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'غثى':{
+	u'غَثَى':{
+		{'root':u'غثي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حقي':{
+	u'حَقِيَ':{
+		{'root':u'حقو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رفش':{
+	u'رَفَشَ':{
+		{'root':u'رفش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'رَفِشَ':{
+		{'root':u'رفش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حدس':{
+	u'حَدَسَ':{
+		{'root':u'حدس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حدس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'غثم':{
+	u'غَثَمَ':{
+		{'root':u'غثم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'غَثِمَ':{
+		{'root':u'غثم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حدر':{
+	u'حَدُرَ':{
+		{'root':u'حدر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'حَدَرَ':{
+		{'root':u'حدر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حدر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'حَدِرَ':{
+		{'root':u'حدر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حقف':{
+	u'حَقَفَ':{
+		{'root':u'حقف','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'غنص':{
+	u'غَنِصَ':{
+		{'root':u'غنص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وحر':{
+	u'وَحِرَ':{
+		{'root':u'وحر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'وحر','bab':6,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'حدث':{
+	u'حَدَثَ':{
+		{'root':u'حدث','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'زمع':{
+	u'زَمِعَ':{
+		{'root':u'زمع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'زَمَعَ':{
+		{'root':u'زمع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لجّ':{
+	u'لَجَّ':{
+		{'root':u'لجج','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'لجج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حدب':{
+	u'حَدَبَ':{
+		{'root':u'حدب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'حَدِبَ':{
+		{'root':u'حدب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مسأ':{
+	u'مَسَأَ':{
+		{'root':u'مسء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'حدج':{
+	u'حَدَجَ':{
+		{'root':u'حدج','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حدأ':{
+	u'حَدَأَ':{
+		{'root':u'حدء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'مسخ':{
+	u'مَسُخَ':{
+		{'root':u'مسخ','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'مَسَخَ':{
+		{'root':u'مسخ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'مسح':{
+	u'مَسَحَ':{
+		{'root':u'مسح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'مَسِحَ':{
+		{'root':u'مسح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حدا':{
+	u'حَدَا':{
+		{'root':u'حدو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'حقّ':{
+	u'حَقَّ':{
+		{'root':u'حقق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حقق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'حقق','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'وأط':{
+	u'وَأَطَ':{
+		{'root':u'وءط','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'نما':{
+	u'نَمَا':{
+		{'root':u'نمو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'فسر':{
+	u'فَسَرَ':{
+		{'root':u'فسر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'فسر','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'كهي':{
+	u'كَهِيَ':{
+		{'root':u'كهي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دأك':{
+	u'دَأَكَ':{
+		{'root':u'دءك','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ذحّ':{
+	u'ذَحَّ':{
+		{'root':u'ذحح','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'لزّ':{
+	u'لَزَّ':{
+		{'root':u'لزز','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'زقع':{
+	u'زَقَعَ':{
+		{'root':u'زقع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طاف':{
+	u'طَافَ':{
+		{'root':u'طوف','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'طيف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'وأص':{
+	u'وَأَصَ':{
+		{'root':u'وءص','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'جخّ':{
+	u'جَخَّ':{
+		{'root':u'جخخ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'كهن':{
+	u'كَهَنَ':{
+		{'root':u'كهن','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'كهن','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'كَهُنَ':{
+		{'root':u'كهن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'فسأ':{
+	u'فَسَأَ':{
+		{'root':u'فسء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'نمش':{
+	u'نَمَشَ':{
+		{'root':u'نمش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'نَمِشَ':{
+		{'root':u'نمش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نمص':{
+	u'نَمِصَ':{
+		{'root':u'نمص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَمَصَ':{
+		{'root':u'نمص','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'فسا':{
+	u'فَسَا':{
+		{'root':u'فسو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'فسئ':{
+	u'فَسِئَ':{
+		{'root':u'فسء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ذحق':{
+	u'ذَحَقَ':{
+		{'root':u'ذحق','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خزل':{
+	u'خَزَلَ':{
+		{'root':u'خزل','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'خَزِلَ':{
+		{'root':u'خزل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كهّ':{
+	u'كَهَّ':{
+		{'root':u'كهه','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'كهه','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'لزق':{
+	u'لَزِقَ':{
+		{'root':u'لزق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جخف':{
+	u'جَخَفَ':{
+		{'root':u'جخف','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'جخف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'جَخِفَ':{
+		{'root':u'جخف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فسخ':{
+	u'فَسَخَ':{
+		{'root':u'فسخ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'فَسِخَ':{
+		{'root':u'فسخ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فسح':{
+	u'فَسَحَ':{
+		{'root':u'فسح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'فَسُحَ':{
+		{'root':u'فسح','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بيت':{
+	u'بَيِتَ':{
+		{'root':u'بيت','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'كهب':{
+	u'كَهُبَ':{
+		{'root':u'كهب','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'كَهِبَ':{
+		{'root':u'كهب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نمل':{
+	u'نَمَلَ':{
+		{'root':u'نمل','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'نَمِلَ':{
+		{'root':u'نمل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نمق':{
+	u'نَمَقَ':{
+		{'root':u'نمق','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'كهد':{
+	u'كَهَدَ':{
+		{'root':u'كهد','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'وهس':{
+	u'وَهَسَ':{
+		{'root':u'وهس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'جخر':{
+	u'جَخَرَ':{
+		{'root':u'جخر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'جَخِرَ':{
+		{'root':u'جخر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رمأ':{
+	u'رَمَأَ':{
+		{'root':u'رمء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نمى':{
+	u'نَمَى':{
+		{'root':u'نمي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'فسق':{
+	u'فَسُقَ':{
+		{'root':u'فسق','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'فَسَقَ':{
+		{'root':u'فسق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'فسق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ذحا':{
+	u'ذَحَا':{
+		{'root':u'ذحو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ذحو','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لزج':{
+	u'لَزِجَ':{
+		{'root':u'لزج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فسل':{
+	u'فَسِلَ':{
+		{'root':u'فسل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'فَسَلَ':{
+		{'root':u'فسل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'فَسُلَ':{
+		{'root':u'فسل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'كهر':{
+	u'كَهَرَ':{
+		{'root':u'كهر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'جخا':{
+	u'جَخَا':{
+		{'root':u'جخو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'منا':{
+	u'مَنَا':{
+		{'root':u'منو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'حقد':{
+	u'حَقَدَ':{
+		{'root':u'حقد','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'حَقِدَ':{
+		{'root':u'حقد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حقب':{
+	u'حَقِبَ':{
+		{'root':u'حقب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مسّ':{
+	u'مَسَّ':{
+		{'root':u'مسس','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'دوئ':{
+	u'دَوِئَ':{
+		{'root':u'دوء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حدّ':{
+	u'حَدَّ':{
+		{'root':u'حدد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حدد','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'حقا':{
+	u'حَقَا':{
+		{'root':u'حقو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'ذهب':{
+	u'ذَهَبَ':{
+		{'root':u'ذهب','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'ذَهِبَ':{
+		{'root':u'ذهب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حدي':{
+	u'حَدِيَ':{
+		{'root':u'حدي','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حدى':{
+	u'حَدَى':{
+		{'root':u'حدي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'كرظ':{
+	u'كَرَظَ':{
+		{'root':u'كرظ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'كبا':{
+	u'كَبَا':{
+		{'root':u'كبو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'كحّ':{
+	u'كَحَّ':{
+		{'root':u'كحح','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'حدق':{
+	u'حَدَقَ':{
+		{'root':u'حدق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'فلأ':{
+	u'فَلَأَ':{
+		{'root':u'فلء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'حقط':{
+	u'حَقِطَ':{
+		{'root':u'حقط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رذل':{
+	u'رَذِلَ':{
+		{'root':u'رذل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'رَذُلَ':{
+		{'root':u'رذل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'رَذَلَ':{
+		{'root':u'رذل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'حقر':{
+	u'حَقِرَ':{
+		{'root':u'حقر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'حَقَرَ':{
+		{'root':u'حقر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'حَقُرَ':{
+		{'root':u'حقر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'حدم':{
+	u'حَدَمَ':{
+		{'root':u'حدم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'حَدِمَ':{
+		{'root':u'حدم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حدل':{
+	u'حَدِلَ':{
+		{'root':u'حدل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'حَدَلَ':{
+		{'root':u'حدل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'هنغ':{
+	u'هَنَغَ':{
+		{'root':u'هنغ','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لمس':{
+	u'لَمَسَ':{
+		{'root':u'لمس','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'لمس','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'زحف':{
+	u'زَحَفَ':{
+		{'root':u'زحف','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'رفأ':{
+	u'رَفَأَ':{
+		{'root':u'رفء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'رتل':{
+	u'رَتِلَ':{
+		{'root':u'رتل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ماط':{
+	u'مَاطَ':{
+		{'root':u'ميط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ولغ':{
+	u'وَلَغَ':{
+		{'root':u'ولغ','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'ولغ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'وَلِغَ':{
+		{'root':u'ولغ','bab':4,'transitive':u'ك','haraka':u'َ'},
+		{'root':u'ولغ','bab':6,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'هنب':{
+	u'هَنِبَ':{
+		{'root':u'هنب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هند':{
+	u'هَنَدَ':{
+		{'root':u'هند','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'سئد':{
+	u'سَئِدَ':{
+		{'root':u'سءد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هنأ':{
+	u'هَنَأَ':{
+		{'root':u'هنء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'هنئ':{
+	u'هَنِئَ':{
+		{'root':u'هنء','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'وأب':{
+	u'وَأَبَ':{
+		{'root':u'وءب','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'هنؤ':{
+	u'هَنُؤَ':{
+		{'root':u'هنء','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'نفّ':{
+	u'نَفَّ':{
+		{'root':u'نفف','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'لفم':{
+	u'لَفَمَ':{
+		{'root':u'لفم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'وجل':{
+	u'وَجَلَ':{
+		{'root':u'وجل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'وَجُلَ':{
+		{'root':u'وجل','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'وَجِلَ':{
+		{'root':u'وجل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مده':{
+	u'مَدَهَ':{
+		{'root':u'مده','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'مدن':{
+	u'مَدَنَ':{
+		{'root':u'مدن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'لفق':{
+	u'لَفَقَ':{
+		{'root':u'لفق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'لَفِقَ':{
+		{'root':u'لفق','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'سطع':{
+	u'سَطِعَ':{
+		{'root':u'سطع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'سَطَعَ':{
+		{'root':u'سطع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'فصى':{
+	u'فَصَى':{
+		{'root':u'فصي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'كرض':{
+	u'كَرَضَ':{
+		{'root':u'كرض','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'مدّ':{
+	u'مَدَّ':{
+		{'root':u'مدد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'لفّ':{
+	u'لَفَّ':{
+		{'root':u'لفف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'لفف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رهب':{
+	u'رَهِبَ':{
+		{'root':u'رهب','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'رفت':{
+	u'رَفَتَ':{
+		{'root':u'رفت','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'رفت','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'دنس':{
+	u'دَنِسَ':{
+		{'root':u'دنس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رمش':{
+	u'رَمِشَ':{
+		{'root':u'رمش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'رَمَشَ':{
+		{'root':u'رمش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'رمش','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'لفئ':{
+	u'لَفِئَ':{
+		{'root':u'لفء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لفا':{
+	u'لَفَا':{
+		{'root':u'لفو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'رمط':{
+	u'رَمَطَ':{
+		{'root':u'رمط','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'لفأ':{
+	u'لَفَأَ':{
+		{'root':u'لفء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'لفح':{
+	u'لَفَحَ':{
+		{'root':u'لفح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لفخ':{
+	u'لَفَخَ':{
+		{'root':u'لفخ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'مدخ':{
+	u'مَدَخَ':{
+		{'root':u'مدخ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لفت':{
+	u'لَفَتَ':{
+		{'root':u'لفت','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'لَفِتَ':{
+		{'root':u'لفت','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رزح':{
+	u'رَزَحَ':{
+		{'root':u'رزح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'مدس':{
+	u'مَدَسَ':{
+		{'root':u'مدس','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'مدر':{
+	u'مَدَرَ':{
+		{'root':u'مدر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'مَدِرَ':{
+		{'root':u'مدر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ورش':{
+	u'وَرَشَ':{
+		{'root':u'ورش','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'وَرِشَ':{
+		{'root':u'ورش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رصّ':{
+	u'رَصَّ':{
+		{'root':u'رصص','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'رصص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'مدش':{
+	u'مَدِشَ':{
+		{'root':u'مدش','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'مَدَشَ':{
+		{'root':u'مدش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'خفت':{
+	u'خَفَتَ':{
+		{'root':u'خفت','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'وفه':{
+	u'وَفَهَ':{
+		{'root':u'وفه','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لفظ':{
+	u'لَفَظَ':{
+		{'root':u'لفظ','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'لفع':{
+	u'لَفَعَ':{
+		{'root':u'لفع','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'هبّ':{
+	u'هَبَّ':{
+		{'root':u'هبب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'هبب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'مجّ':{
+	u'مَجَّ':{
+		{'root':u'مجج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'مجج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'مجج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رعّ':{
+	u'رَعَّ':{
+		{'root':u'رعع','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ورأ':{
+	u'وَرَأَ':{
+		{'root':u'ورء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'كلس':{
+	u'كَلَسَ':{
+		{'root':u'كلس','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'كَلِسَ':{
+		{'root':u'كلس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هنّ':{
+	u'هَنَّ':{
+		{'root':u'هنن','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'كبث':{
+	u'كَبَثَ':{
+		{'root':u'كبث','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'كَبِثَ':{
+		{'root':u'كبث','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'سدع':{
+	u'سَدَعَ':{
+		{'root':u'سدع','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'كصى':{
+	u'كَصَى':{
+		{'root':u'كصي','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'وهط':{
+	u'وَهَطَ':{
+		{'root':u'وهط','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'هنق':{
+	u'هَنِقَ':{
+		{'root':u'هنق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نعا':{
+	u'نَعَا':{
+		{'root':u'نعو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'لما':{
+	u'لَمَا':{
+		{'root':u'لمو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'بصا':{
+	u'بَصَا':{
+		{'root':u'بصو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'داع':{
+	u'دَاعَ':{
+		{'root':u'دوع','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'سلّ':{
+	u'سَلَّ':{
+		{'root':u'سلل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'سلل','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'هدج':{
+	u'هَدَجَ':{
+		{'root':u'هدج','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'داص':{
+	u'دَاصَ':{
+		{'root':u'ديص','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'داش':{
+	u'دَاشَ':{
+		{'root':u'دوش','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'خعّ':{
+	u'خَعَّ':{
+		{'root':u'خعع','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'دار':{
+	u'دَارَ':{
+		{'root':u'دور','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'قضّ':{
+	u'قَضَّ':{
+		{'root':u'قضض','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'قضض','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'قضض','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'داس':{
+	u'دَاسَ':{
+		{'root':u'دوس','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'هزع':{
+	u'هَزَعَ':{
+		{'root':u'هزع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'هزئ':{
+	u'هَزِئَ':{
+		{'root':u'هزء','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'هزا':{
+	u'هَزَا':{
+		{'root':u'هزو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'داخ':{
+	u'دَاخَ':{
+		{'root':u'دوخ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ديخ','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'بصر':{
+	u'بَصَرَ':{
+		{'root':u'بصر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'بَصِرَ':{
+		{'root':u'بصر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'بَصُرَ':{
+		{'root':u'بصر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'داث':{
+	u'دَاثَ':{
+		{'root':u'ديث','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'رفق':{
+	u'رَفَقَ':{
+		{'root':u'رفق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'رَفِقَ':{
+		{'root':u'رفق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'رَفُقَ':{
+		{'root':u'رفق','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'هزج':{
+	u'هَزِجَ':{
+		{'root':u'هزج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وهر':{
+	u'وَهَرَ':{
+		{'root':u'وهر','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'سكّ':{
+	u'سَكَّ':{
+		{'root':u'سكك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'سكك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بصع':{
+	u'بَصَعَ':{
+		{'root':u'بصع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'سقم':{
+	u'سَقُمَ':{
+		{'root':u'سقم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'سَقِمَ':{
+		{'root':u'سقم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'هدب':{
+	u'هَدِبَ':{
+		{'root':u'هدب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'هَدَبَ':{
+		{'root':u'هدب','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'شغّ':{
+	u'شَغَّ':{
+		{'root':u'شغغ','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ألا':{
+	u'أَلَا':{
+		{'root':u'ءلو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نفت':{
+	u'نَفَتَ':{
+		{'root':u'نفت','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'تكّ':{
+	u'تَكَّ':{
+		{'root':u'تكك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'تكك','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'شبع':{
+	u'شَبُعَ':{
+		{'root':u'شبع','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'شَبِعَ':{
+		{'root':u'شبع','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'رتع':{
+	u'رَتَعَ':{
+		{'root':u'رتع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قحث':{
+	u'قَحَثَ':{
+		{'root':u'قحث','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'قحب':{
+	u'قَحَبَ':{
+		{'root':u'قحب','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'وزغ':{
+	u'وَزَغَ':{
+		{'root':u'وزغ','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ألب':{
+	u'أَلِبَ':{
+		{'root':u'ءلب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'أَلَبَ':{
+		{'root':u'ءلب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ءلب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قحد':{
+	u'قَحَدَ':{
+		{'root':u'قحد','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شبر':{
+	u'شَبِرَ':{
+		{'root':u'شبر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'شَبَرَ':{
+		{'root':u'شبر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'شبر','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'بهّ':{
+	u'بَهَّ':{
+		{'root':u'بهه','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شغف':{
+	u'شَغَفَ':{
+		{'root':u'شغف','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	u'شَغِفَ':{
+		{'root':u'شغف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شبح':{
+	u'شَبَحَ':{
+		{'root':u'شبح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'شَبُحَ':{
+		{'root':u'شبح','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'قحر':{
+	u'قَحَرَ':{
+		{'root':u'قحر','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شبث':{
+	u'شَبِثَ':{
+		{'root':u'شبث','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'شغل':{
+	u'شَغَلَ':{
+		{'root':u'شغل','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'بهو':{
+	u'بَهُوَ':{
+		{'root':u'بهو','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ألس':{
+	u'أَلَسَ':{
+		{'root':u'ءلس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'شبا':{
+	u'شَبَا':{
+		{'root':u'شبو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'رشق':{
+	u'رَشُقَ':{
+		{'root':u'رشق','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'رَشَقَ':{
+		{'root':u'رشق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'بهل':{
+	u'بَهِلَ':{
+		{'root':u'بهل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'بَهَلَ':{
+		{'root':u'بهل','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'شغي':{
+	u'شَغِيَ':{
+		{'root':u'شغو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بهق':{
+	u'بَهِقَ':{
+		{'root':u'بهق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دهم':{
+	u'دَهِمَ':{
+		{'root':u'دهم','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'دَهَمَ':{
+		{'root':u'دهم','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'شغر':{
+	u'شَغَرَ':{
+		{'root':u'شغر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'شغر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ألم':{
+	u'أَلِمَ':{
+		{'root':u'ءلم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نفث':{
+	u'نَفَثَ':{
+		{'root':u'نفث','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نفث','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'شغز':{
+	u'شَغَزَ':{
+		{'root':u'شغز','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'ألف':{
+	u'أَلِفَ':{
+		{'root':u'ءلف','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	u'أَلَفَ':{
+		{'root':u'ءلف','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'بهظ':{
+	u'بَهَظَ':{
+		{'root':u'بهظ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ألك':{
+	u'أَلَكَ':{
+		{'root':u'ءلك','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'ءلك','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'بهض':{
+	u'بَهَضَ':{
+		{'root':u'بهض','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'رطأ':{
+	u'رَطَأَ':{
+		{'root':u'رطء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'بهش':{
+	u'بَهَشَ':{
+		{'root':u'بهش','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'بهص':{
+	u'بَهِصَ':{
+		{'root':u'بهص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بهز':{
+	u'بَهَزَ':{
+		{'root':u'بهز','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'بهس':{
+	u'بَهَسَ':{
+		{'root':u'بهس','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شبّ':{
+	u'شَبَّ':{
+		{'root':u'شبب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'شبب','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'بهر':{
+	u'بَهَرَ':{
+		{'root':u'بهر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'زند':{
+	u'زَنَدَ':{
+		{'root':u'زند','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'زَنِدَ':{
+		{'root':u'زند','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بهج':{
+	u'بَهِجَ':{
+		{'root':u'بهج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'بَهُجَ':{
+		{'root':u'بهج','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'بَهَجَ':{
+		{'root':u'بهج','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'قحّ':{
+	u'قَحَّ':{
+		{'root':u'قحح','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'بهت':{
+	u'بَهَتَ':{
+		{'root':u'بهت','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	u'بَهِتَ':{
+		{'root':u'بهت','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بهث':{
+	u'بَهَثَ':{
+		{'root':u'بهث','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شغا':{
+	u'شَغَا':{
+		{'root':u'شغو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'وهب':{
+	u'وَهَبَ':{
+		{'root':u'وهب','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'بهئ':{
+	u'بَهِئَ':{
+		{'root':u'بهء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شبن':{
+	u'شَبَنَ':{
+		{'root':u'شبن','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'شبم':{
+	u'شَبِمَ':{
+		{'root':u'شبم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'شَبَمَ':{
+		{'root':u'شبم','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'شبل':{
+	u'شَبَلَ':{
+		{'root':u'شبل','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'شبك':{
+	u'شَبَكَ':{
+		{'root':u'شبك','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'شبق':{
+	u'شَبِقَ':{
+		{'root':u'شبق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فوق':{
+	u'فَوِقَ':{
+		{'root':u'فوق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بصم':{
+	u'بَصَمَ':{
+		{'root':u'بصم','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'كبد':{
+	u'كَبَدَ':{
+		{'root':u'كبد','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'كبد','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'كَبِدَ':{
+		{'root':u'كبد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فوه':{
+	u'فَوِهَ':{
+		{'root':u'فوه','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بصق':{
+	u'بَصَقَ':{
+		{'root':u'بصق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'قرط':{
+	u'قَرَطَ':{
+		{'root':u'قرط','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'قَرِطَ':{
+		{'root':u'قرط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وضخ':{
+	u'وَضَخَ':{
+		{'root':u'وضخ','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'قرش':{
+	u'قَرَشَ':{
+		{'root':u'قرش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'قرش','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'قَرِشَ':{
+		{'root':u'قرش','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'هزل':{
+	u'هَزَلَ':{
+		{'root':u'هزل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'هزل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'هَزِلَ':{
+		{'root':u'هزل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قرص':{
+	u'قَرِصَ':{
+		{'root':u'قرص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'قَرَصَ':{
+		{'root':u'قرص','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'هزق':{
+	u'هَزِقَ':{
+		{'root':u'هزق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'بصّ':{
+	u'بَصَّ':{
+		{'root':u'بصص','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'هزف':{
+	u'هَزَفَ':{
+		{'root':u'هزف','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'دام':{
+	u'دَامَ':{
+		{'root':u'دوم','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'دال':{
+	u'دَالَ':{
+		{'root':u'دول','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'خصل':{
+	u'خَصَلَ':{
+		{'root':u'خصل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'داف':{
+	u'دَافَ':{
+		{'root':u'دوف','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'داك':{
+	u'دَاكَ':{
+		{'root':u'دوك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'قرس':{
+	u'قَرَسَ':{
+		{'root':u'قرس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'قَرِسَ':{
+		{'root':u'قرس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خدج':{
+	u'خَدَجَ':{
+		{'root':u'خدج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'خدج','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'سعم':{
+	u'سَعَمَ':{
+		{'root':u'سعم','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'خدب':{
+	u'خَدِبَ':{
+		{'root':u'خدب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'خَدَبَ':{
+		{'root':u'خدب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'خدب','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'فجل':{
+	u'فَجَلَ':{
+		{'root':u'فجل','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'فَجِلَ':{
+		{'root':u'فجل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فجم':{
+	u'فَجِمَ':{
+		{'root':u'فجم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دمغ':{
+	u'دَمَغَ':{
+		{'root':u'دمغ','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'دمغ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'نثا':{
+	u'نَثَا':{
+		{'root':u'نثو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'خدع':{
+	u'خَدَعَ':{
+		{'root':u'خدع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'سقى':{
+	u'سَقَى':{
+		{'root':u'سقي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'خدش':{
+	u'خَدَشَ':{
+		{'root':u'خدش','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'نثر':{
+	u'نَثَرَ':{
+		{'root':u'نثر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نثر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'زخر':{
+	u'زَخَرَ':{
+		{'root':u'زخر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نفخ':{
+	u'نَفِخَ':{
+		{'root':u'نفخ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَفَخَ':{
+		{'root':u'نفخ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'خدر':{
+	u'خَدَرَ':{
+		{'root':u'خدر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'خَدِرَ':{
+		{'root':u'خدر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'فجّ':{
+	u'فَجَّ':{
+		{'root':u'فجج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'فجج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'منع':{
+	u'مَنُعَ':{
+		{'root':u'منع','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'مَنَعَ':{
+		{'root':u'منع','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'جفخ':{
+	u'جَفَخَ':{
+		{'root':u'جفخ','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'جفخ','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جسم':{
+	u'جَسُمَ':{
+		{'root':u'جسم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'هدر':{
+	u'هَدَرَ':{
+		{'root':u'هدر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'هدر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'جفا':{
+	u'جَفَا':{
+		{'root':u'جفو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'جسي':{
+	u'جَسِيَ':{
+		{'root':u'جسو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حزر':{
+	u'حَزَرَ':{
+		{'root':u'حزر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حزر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'حَزُرَ':{
+		{'root':u'حزر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'جفأ':{
+	u'جَفَأَ':{
+		{'root':u'جفء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'مشق':{
+	u'مَشَقَ':{
+		{'root':u'مشق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'مَشِقَ':{
+		{'root':u'مشق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'دغر':{
+	u'دَغَرَ':{
+		{'root':u'دغر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'دَغِرَ':{
+		{'root':u'دغر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حزب':{
+	u'حَزَبَ':{
+		{'root':u'حزب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'جفع':{
+	u'جَفَعَ':{
+		{'root':u'جفع','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'مشل':{
+	u'مَشَلَ':{
+		{'root':u'مشل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'جسّ':{
+	u'جَسَّ':{
+		{'root':u'جسس','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'جفش':{
+	u'جَفَشَ':{
+		{'root':u'جفش','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'ودف':{
+	u'وَدَفَ':{
+		{'root':u'ودف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حزا':{
+	u'حَزَا':{
+		{'root':u'حزو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ذوط':{
+	u'ذَوِطَ':{
+		{'root':u'ذوط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جفر':{
+	u'جَفَرَ':{
+		{'root':u'جفر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'جفر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حزأ':{
+	u'حَزَأَ':{
+		{'root':u'حزء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'جسا':{
+	u'جَسَا':{
+		{'root':u'جسو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ذوى':{
+	u'ذَوَى':{
+		{'root':u'ذوي','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'مشر':{
+	u'مَشَرَ':{
+		{'root':u'مشر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'مَشِرَ':{
+		{'root':u'مشر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جفى':{
+	u'جَفَى':{
+		{'root':u'جفي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'سقّ':{
+	u'سَقَّ':{
+		{'root':u'سقق','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'كاب':{
+	u'كَابَ':{
+		{'root':u'كوب','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'جفل':{
+	u'جَفَلَ':{
+		{'root':u'جفل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'جفل','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'جسد':{
+	u'جَسِدَ':{
+		{'root':u'جسد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جفن':{
+	u'جَفَنَ':{
+		{'root':u'جفن','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'كثف':{
+	u'كَثُفَ':{
+		{'root':u'كثف','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'دمك':{
+	u'دَمَكَ':{
+		{'root':u'دمك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'حزّ':{
+	u'حَزَّ':{
+		{'root':u'حزز','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'منى':{
+	u'مَنَى':{
+		{'root':u'مني','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حزى':{
+	u'حَزَى':{
+		{'root':u'حزي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ثئط':{
+	u'ثَئِطَ':{
+		{'root':u'ثءط','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جسر':{
+	u'جَسَرَ':{
+		{'root':u'جسر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نفج':{
+	u'نَفَجَ':{
+		{'root':u'نفج','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نفج','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حزم':{
+	u'حَزُمَ':{
+		{'root':u'حزم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'حَزِمَ':{
+		{'root':u'حزم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'حَزَمَ':{
+		{'root':u'حزم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'حزن':{
+	u'حَزَنَ':{
+		{'root':u'حزن','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	u'حَزِنَ':{
+		{'root':u'حزن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'حَزُنَ':{
+		{'root':u'حزن','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'لحد':{
+	u'لَحَدَ':{
+		{'root':u'لحد','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'جفّ':{
+	u'جَفَّ':{
+		{'root':u'جفف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'جفف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'جفف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حزق':{
+	u'حَزَقَ':{
+		{'root':u'حزق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حزك':{
+	u'حَزَكَ':{
+		{'root':u'حزك','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'نثى':{
+	u'نَثَى':{
+		{'root':u'نثي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'خدى':{
+	u'خَدَى':{
+		{'root':u'خدي','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'فجئ':{
+	u'فَجِئَ':{
+		{'root':u'فجء','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'فجا':{
+	u'فَجَا':{
+		{'root':u'فجو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'زخف':{
+	u'زَخَفَ':{
+		{'root':u'زخف','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نثل':{
+	u'نَثَلَ':{
+		{'root':u'نثل','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'نثل','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'فجأ':{
+	u'فَجَأَ':{
+		{'root':u'فجء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'زخم':{
+	u'زَخِمَ':{
+		{'root':u'زخم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'زَخَمَ':{
+		{'root':u'زخم','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'سعل':{
+	u'سَعِلَ':{
+		{'root':u'سعل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'سَعَلَ':{
+		{'root':u'سعل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ذرز':{
+	u'ذَرِزَ':{
+		{'root':u'ذرز','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لحس':{
+	u'لَحِسَ':{
+		{'root':u'لحس','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	u'لَحَسَ':{
+		{'root':u'لحس','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ذجّ':{
+	u'ذَجَّ':{
+		{'root':u'ذجج','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'نفح':{
+	u'نَفَحَ':{
+		{'root':u'نفح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'فجع':{
+	u'فَجَعَ':{
+		{'root':u'فجع','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'نثّ':{
+	u'نَثَّ':{
+		{'root':u'نثث','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نثث','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'فجش':{
+	u'فَجَشَ':{
+		{'root':u'فجش','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'خدّ':{
+	u'خَدَّ':{
+		{'root':u'خدد','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'فجر':{
+	u'فَجَرَ':{
+		{'root':u'فجر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'جحظ':{
+	u'جَحَظَ':{
+		{'root':u'جحظ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'كلئ':{
+	u'كَلِئَ':{
+		{'root':u'كلء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خفى':{
+	u'خَفَى':{
+		{'root':u'خفي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'كلأ':{
+	u'كَلَأَ':{
+		{'root':u'كلء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'جحر':{
+	u'جَحَرَ':{
+		{'root':u'جحر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'جحس':{
+	u'جَحَسَ':{
+		{'root':u'جحس','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'جحش':{
+	u'جَحَشَ':{
+		{'root':u'جحش','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'دفي':{
+	u'دَفِيَ':{
+		{'root':u'دفو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كلت':{
+	u'كَلَتَ':{
+		{'root':u'كلت','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'شكّ':{
+	u'شَكَّ':{
+		{'root':u'شكك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'وهن':{
+	u'وَهِنَ':{
+		{'root':u'وهن','bab':6,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'وَهَنَ':{
+		{'root':u'وهن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قمى':{
+	u'قَمَى':{
+		{'root':u'قمي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'سخي':{
+	u'سَخِيَ':{
+		{'root':u'سخو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كلز':{
+	u'كَلَزَ':{
+		{'root':u'كلز','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'جحد':{
+	u'جَحِدَ':{
+		{'root':u'جحد','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'جَحَدَ':{
+		{'root':u'جحد','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'شكل':{
+	u'شَكِلَ':{
+		{'root':u'شكل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'شَكَلَ':{
+		{'root':u'شكل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'شكم':{
+	u'شَكِمَ':{
+		{'root':u'شكم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'شَكَمَ':{
+		{'root':u'شكم','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'كلع':{
+	u'كَلِعَ':{
+		{'root':u'كلع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'كَلَعَ':{
+		{'root':u'كلع','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جحا':{
+	u'جَحَا':{
+		{'root':u'جحو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'حكد':{
+	u'حَكَدَ':{
+		{'root':u'حكد','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'كاع':{
+	u'كَاعَ':{
+		{'root':u'كوع','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		{'root':u'كيع','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'وهم':{
+	u'وَهِمَ':{
+		{'root':u'وهم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'وهم','bab':6,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'وَهَمَ':{
+		{'root':u'وهم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'عنق':{
+	u'عَنِقَ':{
+		{'root':u'عنق','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'عَنَقَ':{
+		{'root':u'عنق','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'نعت':{
+	u'نَعَتَ':{
+		{'root':u'نعت','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	u'نَعِتَ':{
+		{'root':u'نعت','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَعُتَ':{
+		{'root':u'نعت','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'نعث':{
+	u'نَعَثَ':{
+		{'root':u'نعث','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'نعب':{
+	u'نَعَبَ':{
+		{'root':u'نعب','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'نعب','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حكأ':{
+	u'حَكَأَ':{
+		{'root':u'حكء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'زله':{
+	u'زَلِهَ':{
+		{'root':u'زله','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نعج':{
+	u'نَعِجَ':{
+		{'root':u'نعج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَعَجَ':{
+		{'root':u'نعج','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ظاف':{
+	u'ظَافَ':{
+		{'root':u'ظوف','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'طبج':{
+	u'طَبِجَ':{
+		{'root':u'طبج','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قما':{
+	u'قَمَا':{
+		{'root':u'قمو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'نعر':{
+	u'نَعِرَ':{
+		{'root':u'نعر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'نَعَرَ':{
+		{'root':u'نعر','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'نعر','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نسأ':{
+	u'نَسَأَ':{
+		{'root':u'نسء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نعش':{
+	u'نَعَشَ':{
+		{'root':u'نعش','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'أفز':{
+	u'أَفَزَ':{
+		{'root':u'ءفز','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'خزب':{
+	u'خَزِبَ':{
+		{'root':u'خزب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'نعظ':{
+	u'نَعَظَ':{
+		{'root':u'نعظ','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حكش':{
+	u'حَكَشَ':{
+		{'root':u'حكش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'خنا':{
+	u'خَنَا':{
+		{'root':u'خنو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'أفر':{
+	u'أَفَرَ':{
+		{'root':u'ءفر','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'أَفِرَ':{
+		{'root':u'ءفر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'حكر':{
+	u'حَكَرَ':{
+		{'root':u'حكر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'حَكِرَ':{
+		{'root':u'حكر','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نعق':{
+	u'نَعَقَ':{
+		{'root':u'نعق','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'نعق','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'تخم':{
+	u'تَخِمَ':{
+		{'root':u'تخم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'تَخَمَ':{
+		{'root':u'تخم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'حكى':{
+	u'حَكَى':{
+		{'root':u'حكي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'نعم':{
+	u'نَعِمَ':{
+		{'root':u'نعم','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'نَعَمَ':{
+		{'root':u'نعم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'نعم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'نَعُمَ':{
+		{'root':u'نعم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'ركا':{
+	u'رَكَا':{
+		{'root':u'ركو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'حكم':{
+	u'حَكُمَ':{
+		{'root':u'حكم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'حَكَمَ':{
+		{'root':u'حكم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'حكل':{
+	u'حَكَلَ':{
+		{'root':u'حكل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'رعم':{
+	u'رَعَمَ':{
+		{'root':u'رعم','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'رَعُمَ':{
+		{'root':u'رعم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'سئس':{
+	u'سَئِسَ':{
+		{'root':u'سءس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كار':{
+	u'كَارَ':{
+		{'root':u'كور','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'كير','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ودأ':{
+	u'وَدَأَ':{
+		{'root':u'ودء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نعّ':{
+	u'نَعَّ':{
+		{'root':u'نعع','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ذعر':{
+	u'ذَعَرَ':{
+		{'root':u'ذعر','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	u'ذَعِرَ':{
+		{'root':u'ذعر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خضع':{
+	u'خَضِعَ':{
+		{'root':u'خضع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'خَضَعَ':{
+		{'root':u'خضع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لحا':{
+	u'لَحَا':{
+		{'root':u'لحو','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'قدف':{
+	u'قَدَفَ':{
+		{'root':u'قدف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'ذبّ':{
+	u'ذَبَّ':{
+		{'root':u'ذبب','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ذبب','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'كاس':{
+	u'كَاسَ':{
+		{'root':u'كوس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'كيس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'حكّ':{
+	u'حَكَّ':{
+		{'root':u'حكك','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'حكك','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كلم':{
+	u'كَلَمَ':{
+		{'root':u'كلم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'خصم':{
+	u'خَصِمَ':{
+		{'root':u'خصم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'خَصَمَ':{
+		{'root':u'خصم','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'وحن':{
+	u'وَحِنَ':{
+		{'root':u'وحن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'وَحَنَ':{
+		{'root':u'وحن','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'كلف':{
+	u'كَلِفَ':{
+		{'root':u'كلف','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'شغب':{
+	u'شَغَبَ':{
+		{'root':u'شغب','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'شكع':{
+	u'شَكِعَ':{
+		{'root':u'شكع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'شَكَعَ':{
+		{'root':u'شكع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'جحّ':{
+	u'جَحَّ':{
+		{'root':u'جحح','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'شكز':{
+	u'شَكَزَ':{
+		{'root':u'شكز','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'شكس':{
+	u'شَكُسَ':{
+		{'root':u'شكس','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'شَكِسَ':{
+		{'root':u'شكس','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'كلي':{
+	u'كَلِيَ':{
+		{'root':u'كلو','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شكر':{
+	u'شَكِرَ':{
+		{'root':u'شكر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'شَكَرَ':{
+		{'root':u'شكر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'شكد':{
+	u'شَكَدَ':{
+		{'root':u'شكد','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'شكد','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'هجأ':{
+	u'هَجَأَ':{
+		{'root':u'هجء','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'ذجل':{
+	u'ذَجَلَ':{
+		{'root':u'ذجل','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'كلّ':{
+	u'كَلَّ':{
+		{'root':u'كلل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'ذعف':{
+	u'ذَعَفَ':{
+		{'root':u'ذعف','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'ذَعِفَ':{
+		{'root':u'ذعف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'شكئ':{
+	u'شَكِئَ':{
+		{'root':u'شكء','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جحف':{
+	u'جَحَفَ':{
+		{'root':u'جحف','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'نأى':{
+	u'نَأَى':{
+		{'root':u'نءي','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'خصف':{
+	u'خَصِفَ':{
+		{'root':u'خصف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'خَصَفَ':{
+		{'root':u'خصف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'جحل':{
+	u'جَحَلَ':{
+		{'root':u'جحل','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'شكأ':{
+	u'شَكَأَ':{
+		{'root':u'شكء','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'جحن':{
+	u'جَحَنَ':{
+		{'root':u'جحن','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'جَحِنَ':{
+		{'root':u'جحن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'طبر':{
+	u'طَبَرَ':{
+		{'root':u'طبر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'كظّ':{
+	u'كَظَّ':{
+		{'root':u'كظظ','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'رفض':{
+	u'رَفَضَ':{
+		{'root':u'رفض','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'رفض','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'سئب':{
+	u'سَئِبَ':{
+		{'root':u'سءب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'رفس':{
+	u'رَفَسَ':{
+		{'root':u'رفس','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'رفس','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'رفز':{
+	u'رَفَزَ':{
+		{'root':u'رفز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'صفّ':{
+	u'صَفَّ':{
+		{'root':u'صفف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'رفع':{
+	u'رَفُعَ':{
+		{'root':u'رفع','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'رَفَعَ':{
+		{'root':u'رفع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'وجّ':{
+	u'وَجَّ':{
+		{'root':u'وجج','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'رفغ':{
+	u'رَفِغَ':{
+		{'root':u'رفغ','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'رَفُغَ':{
+		{'root':u'رفغ','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'كبع':{
+	u'كَبَعَ':{
+		{'root':u'كبع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'صفو':{
+	u'صَفُوَ':{
+		{'root':u'صفو','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'رفا':{
+	u'رَفَا':{
+		{'root':u'رفو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'فغم':{
+	u'فَغِمَ':{
+		{'root':u'فغم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'فَغَمَ':{
+		{'root':u'فغم','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'وجى':{
+	u'وَجَى':{
+		{'root':u'وجي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'دلف':{
+	u'دَلَفَ':{
+		{'root':u'دلف','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'وجه':{
+	u'وَجُهَ':{
+		{'root':u'وجه','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'وَجَهَ':{
+		{'root':u'وجه','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'وجن':{
+	u'وَجَنَ':{
+		{'root':u'وجن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'وجم':{
+	u'وَجَمَ':{
+		{'root':u'وجم','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'صفق':{
+	u'صَفُقَ':{
+		{'root':u'صفق','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	u'صَفَقَ':{
+		{'root':u'صفق','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'دلق':{
+	u'دَلَقَ':{
+		{'root':u'دلق','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'وجف':{
+	u'وَجَفَ':{
+		{'root':u'وجف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'صفن':{
+	u'صَفَنَ':{
+		{'root':u'صفن','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'لحف':{
+	u'لَحَفَ':{
+		{'root':u'لحف','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لحق':{
+	u'لَحِقَ':{
+		{'root':u'لحق','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لحك':{
+	u'لَحِكَ':{
+		{'root':u'لحك','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	u'لَحَكَ':{
+		{'root':u'لحك','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لحم':{
+	u'لَحَمَ':{
+		{'root':u'لحم','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'لحم','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	u'لَحِمَ':{
+		{'root':u'لحم','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'لَحُمَ':{
+		{'root':u'لحم','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'لحن':{
+	u'لَحَنَ':{
+		{'root':u'لحن','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'لَحِنَ':{
+		{'root':u'لحن','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'رشّ':{
+	u'رَشَّ':{
+		{'root':u'رشش','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'دهى':{
+	u'دَهَى':{
+		{'root':u'دهي','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		{'root':u'دهي','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'لحى':{
+	u'لَحَى':{
+		{'root':u'لحي','bab':2,'transitive':u'م','haraka':u'ِ'},
+		{'root':u'لحي','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'وهص':{
+	u'وَهَصَ':{
+		{'root':u'وهص','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'وهز':{
+	u'وَهَزَ':{
+		{'root':u'وهز','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'وجح':{
+	u'وَجَحَ':{
+		{'root':u'وجح','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'وجح','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قاع':{
+	u'قَاعَ':{
+		{'root':u'قوع','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'قيع','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'طبع':{
+	u'طَبِعَ':{
+		{'root':u'طبع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'طَبَعَ':{
+		{'root':u'طبع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'رشن':{
+	u'رَشَنَ':{
+		{'root':u'رشن','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'لحّ':{
+	u'لَحَّ':{
+		{'root':u'لحح','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'لحح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		{'root':u'لحح','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وهج':{
+	u'وَهَجَ':{
+		{'root':u'وهج','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'رشم':{
+	u'رَشَمَ':{
+		{'root':u'رشم','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'رَشِمَ':{
+		{'root':u'رشم','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وهت':{
+	u'وَهَتَ':{
+		{'root':u'وهت','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'وهث':{
+	u'وَهَثَ':{
+		{'root':u'وهث','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'لأظ':{
+	u'لَأَظَ':{
+		{'root':u'لءظ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'رشف':{
+	u'رَشَفَ':{
+		{'root':u'رشف','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'رشف','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'رَشِفَ':{
+		{'root':u'رشف','bab':4,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'لأط':{
+	u'لَأَطَ':{
+		{'root':u'لءط','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'شسّ':{
+	u'شَسَّ':{
+		{'root':u'شسس','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'زرع':{
+	u'زَرَعَ':{
+		{'root':u'زرع','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'وعد':{
+	u'وَعَدَ':{
+		{'root':u'وعد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'ذبر':{
+	u'ذَبِرَ':{
+		{'root':u'ذبر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'ذَبَرَ':{
+		{'root':u'ذبر','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'ذبر','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	},
+u'قدس':{
+	u'قَدُسَ':{
+		{'root':u'قدس','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'دهو':{
+	u'دَهُوَ':{
+		{'root':u'دهو','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'لأى':{
+	u'لَأَى':{
+		{'root':u'لءي','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لحب':{
+	u'لَحِبَ':{
+		{'root':u'لحب','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'لَحَبَ':{
+		{'root':u'لحب','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'زلع':{
+	u'زَلَعَ':{
+		{'root':u'زلع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'زَلِعَ':{
+		{'root':u'زلع','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لحت':{
+	u'لَحَتَ':{
+		{'root':u'لحت','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'لأم':{
+	u'لَأَمَ':{
+		{'root':u'لءم','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لحج':{
+	u'لَحَجَ':{
+		{'root':u'لحج','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'لَحِجَ':{
+		{'root':u'لحج','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'لأف':{
+	u'لَأَفَ':{
+		{'root':u'لءف','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'رشا':{
+	u'رَشَا':{
+		{'root':u'رشو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'لحز':{
+	u'لَحِزَ':{
+		{'root':u'لحز','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'لَحَزَ':{
+		{'root':u'لحز','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'قثا':{
+	u'قَثَا':{
+		{'root':u'قثو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+u'وهي':{
+	u'وَهِيَ':{
+		{'root':u'وهي','bab':6,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'لحص':{
+	u'لَحَصَ':{
+		{'root':u'لحص','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'لَحِصَ':{
+		{'root':u'لحص','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'لحط':{
+	u'لَحَطَ':{
+		{'root':u'لحط','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'لحظ':{
+	u'لَحَظَ':{
+		{'root':u'لحظ','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'أول':{
+	u'أَوِلَ':{
+		{'root':u'ءول','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وهل':{
+	u'وَهِلَ':{
+		{'root':u'وهل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'وَهَلَ':{
+		{'root':u'وهل','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'وهل','bab':3,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'خصر':{
+	u'خَصِرَ':{
+		{'root':u'خصر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وهق':{
+	u'وَهَقَ':{
+		{'root':u'وهق','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'رئف':{
+	u'رَئِفَ':{
+		{'root':u'رءف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وهف':{
+	u'وَهَفَ':{
+		{'root':u'وهف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'صفع':{
+	u'صَفَعَ':{
+		{'root':u'صفع','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'كظر':{
+	u'كَظَرَ':{
+		{'root':u'كظر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		},
+	},
+u'صفغ':{
+	u'صَفَغَ':{
+		{'root':u'صفغ','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'رفّ':{
+	u'رَفَّ':{
+		{'root':u'رفف','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		{'root':u'رفف','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		{'root':u'رفف','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'وجع':{
+	u'وَجِعَ':{
+		{'root':u'وجع','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'وَجَعَ':{
+		{'root':u'وجع','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'صفر':{
+	u'صَفِرَ':{
+		{'root':u'صفر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'صَفَرَ':{
+		{'root':u'صفر','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	u'صَفُرَ':{
+		{'root':u'صفر','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'وجس':{
+	u'وَجَسَ':{
+		{'root':u'وجس','bab':2,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'وجز':{
+	u'وَجَزَ':{
+		{'root':u'وجز','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'وَجُزَ':{
+		{'root':u'وجز','bab':5,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'وجر':{
+	u'وَجِرَ':{
+		{'root':u'وجر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	u'وَجَرَ':{
+		{'root':u'وجر','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'وجد':{
+	u'وَجَدَ':{
+		{'root':u'وجد','bab':2,'transitive':u'ك','haraka':u'ِ'},
+		},
+	u'وَجِدَ':{
+		{'root':u'وجد','bab':6,'transitive':u'ل','haraka':u'ِ'},
+		},
+	},
+u'رفل':{
+	u'رَفَلَ':{
+		{'root':u'رفل','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	u'رَفِلَ':{
+		{'root':u'رفل','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'قشر':{
+	u'قَشَرَ':{
+		{'root':u'قشر','bab':1,'transitive':u'م','haraka':u'ُ'},
+		{'root':u'قشر','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	u'قَشِرَ':{
+		{'root':u'قشر','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'صفح':{
+	u'صَفِحَ':{
+		{'root':u'صفح','bab':4,'transitive':u'ك','haraka':u'َ'},
+		},
+	u'صَفَحَ':{
+		{'root':u'صفح','bab':3,'transitive':u'ك','haraka':u'َ'},
+		},
+	},
+u'صفد':{
+	u'صَفَدَ':{
+		{'root':u'صفد','bab':2,'transitive':u'م','haraka':u'ِ'},
+		},
+	},
+u'كظا':{
+	u'كَظَا':{
+		{'root':u'كظو','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'كظب':{
+	u'كَظَبَ':{
+		{'root':u'كظب','bab':1,'transitive':u'ل','haraka':u'ُ'},
+		},
+	},
+u'وجأ':{
+	u'وَجَأَ':{
+		{'root':u'وجء','bab':3,'transitive':u'م','haraka':u'َ'},
+		},
+	},
+u'ذعن':{
+	u'ذَعِنَ':{
+		{'root':u'ذعن','bab':4,'transitive':u'ل','haraka':u'َ'},
+		},
+	},
+u'صفا':{
+	u'صَفَا':{
+		{'root':u'صفو','bab':1,'transitive':u'ك','haraka':u'ُ'},
+		},
+	},
+}
