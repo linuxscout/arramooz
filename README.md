@@ -266,7 +266,9 @@ python $SCRIPT/verbs/gen_verb_dict_format.py -o xml -f $OUTPUT/verbs.aya.dic > $
     2- nouns/gen_noun_dict.py: generate the file format (xml, csv, sql) of  dictionary 
     
 *[requirement]
+
     1- libqutrub
+    
     2- pyarabic 
 
 
