@@ -202,13 +202,13 @@ CREATE TABLE  IF NOT EXISTS `nouns` (
 <?xml version="1.0" encoding="utf-8"?>
 <dictionary>
   <noun>
-    <id>2</id>
-    <vocalized>شَاذّ</vocalized>
-    <unvocalized>شاذ</unvocalized>
-    <normalized>شاذ</normalized>
-    <stamp>شذ</stamp>
+    <id>6</id>
+    <vocalized>بَارٌّ</vocalized>
+    <unvocalized>بار</unvocalized>
+    <normalized>بار</normalized>
+    <stamp>بر</stamp>
     <wordtype>اسم فاعل</wordtype>
-    <root>شذذ</root>
+    <root>برر</root>
     <wazn/>
     <category/>
     <original/>
@@ -223,7 +223,7 @@ CREATE TABLE  IF NOT EXISTS `nouns` (
     <dualable>DnT</dualable>
     <masculin_plural>Pm</masculin_plural>
     <feminin_plural>Pf</feminin_plural>
-    <broken_plural>+ون;+ات;شواذ</broken_plural>
+    <broken_plural>+ون;+ات;أَبْرَارٌ;بَرَرَةٌ</broken_plural>
     <mamnou3_sarf/>
     <relative/>
     <w_suffix/>
@@ -232,10 +232,11 @@ CREATE TABLE  IF NOT EXISTS `nouns` (
     <ha_suffix/>
     <k_suffix/>
     <annex/>
-    <definition/>
-    <note>:لا شرح</note>
+    <definition>". ""تَرَكَ ابْناً بَارّاً"" : صَادِقاً وَصَالِحاً وَمُحْسِناً. ""اِبْنُكَ البارُّ يُحِبُّكَ"</definition>
+    <note/>
   </noun>
-....
+...
+
 </dictionary>
 ```
 
@@ -251,12 +252,19 @@ python $SCRIPT/verbs/gen_verb_dict_format.py -o xml -f $OUTPUT/verbs.aya.dic > $
 ```
 
 *[scripts/verbs]
+
     1- verbdict_functions.py : functions to handle verbs dict used in the generation process
+    
     2- verbs/gen_verb_dict.py: generate the abstract dictionary from the brut manual dictionary
-    3- verbs/gen_verb_dict_format.py: generate the file format (xml, csv, sql) of  dictionary from verbs.aya.dic 
+    
+    3- verbs/gen_verb_dict_format.py: generate the file format (xml, csv, sql) of  dictionary from verbs.aya.dic
+     
 *[scripts/nouns]
+
     1- noundict_functions.py : functions to handle nouns dict used in the generation process
+    
     2- nouns/gen_noun_dict.py: generate the file format (xml, csv, sql) of  dictionary 
+    
 *[requirement]
     1- libqutrub
     2- pyarabic 
