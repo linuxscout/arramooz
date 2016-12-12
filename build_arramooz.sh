@@ -14,7 +14,7 @@ python $SCRIPT/verbs/gen_verb_dict_format.py -o sql -f $OUTPUT/verbs.aya.dic > $
 python $SCRIPT/verbs/gen_verb_dict_format.py -o csv -f $OUTPUT/verbs.aya.dic > $OUTPUT/verbs.csv
 
 #Generate csv files from ODS
-libreoffice --headless --convert-to "csv:Text - txt - csv (StarCalc):9,34,UTF8" $DATA_DIR/nouns/*.ods
+libreoffice --headless --convert-to "csv:Text - txt - csv (StarCalc):9,34,UTF8" --outdir $DATA_DIR/nouns/ $DATA_DIR/nouns/*.ods
 
 #Generate noun dictionary 
 # create a dictionary file from ayaspell cvs form
