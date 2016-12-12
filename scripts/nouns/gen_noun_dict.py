@@ -379,12 +379,15 @@ NOUN_DICTIONARY={"""
 
             line+=u"(%s);"%u",".join(items);
         elif display_format=="xml": 
-            line="<noun id='%d'>"%id;
+            line="<noun id='%d'>\n"%id;
             for k in range(len(display_order)):
                 key=display_order[k];
                 if display_order[k] != "id":
-                    line+=u"<%s>%s</%s> "%(key,fields[key],key);
-            line+=u"</noun>";
+                    if fields[key]:
+                        line+=u" <%s>%s</%s>\n"%(key,fields[key],key);
+                    else:
+                        line+=u" <%s/>\n"%(key);                        
+            line+=u"</noun>\n";
         elif display_format=="python": 
             line="u'%s':{"%fields['vocalized'];
             for k in range(len(display_order)):
