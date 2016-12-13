@@ -19,7 +19,7 @@ libreoffice --headless --convert-to "csv:Text - txt - csv (StarCalc):9,34,UTF8" 
 #Generate noun dictionary 
 # create a dictionary file from ayaspell cvs form
 # fa3il file
-#soffice  --convert-to csv $DATA_DIR/nouns/fa3il.ods
+
 python $SCRIPT/nouns/gen_noun_dict.py  -f $DATA_DIR/nouns/fa3il.csv -d txt -t fa3il >$OUTPUT/nouns.dict.csv
 ## maf3oul file
 python $SCRIPT/nouns/gen_noun_dict.py  -f $DATA_DIR/nouns/maf3oul.csv -d txt -t maf3oul >>$OUTPUT/nouns.dict.csv

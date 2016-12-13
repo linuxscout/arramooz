@@ -41,11 +41,17 @@ Those files are available as :
 ##BUILD Dictionary in multiple format
 The source files are data folder as open document speadsheet files, then we can build dictionary with
 ```
-./build_arramooz.sh 
+make
 ```
 which will generate xml, sql and text files, and package it in releases folder.
 
-To modify the version, you can update $VERSION variable in build_arramooz.sh  file.
+To modify the version, you can update $VERSION variable in Makefile file.
+
+To clean  releases use:
+```
+make clean
+```
+To modify data or updating data you can open files in data/ in libreoffice calc format, clean releases, and do make.
 
 ##Stopwords 
 The Stop words list is developed in an independent project (see http://arabicstopwords.sourceforge.ne)
