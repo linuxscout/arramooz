@@ -24,7 +24,11 @@
 
 
 import pyarabic.araby as araby
-   
+import re
+STAMP_PAT = re.compile(u"[%s%s%s%s%s%s%s%s%s]"% (araby.ALEF, 
+        araby.YEH, araby.HAMZA, araby.ALEF_HAMZA_ABOVE, araby.WAW_HAMZA,
+         araby.YEH_HAMZA, araby.WAW, araby.ALEF_MAKSURA, araby.SHADDA), 
+         re.UNICODE)   
 def decode_tenses(field):
     """
     Decode tenses field
@@ -53,7 +57,22 @@ def decode_tenses(field):
             confirmed=True;
     return (all, past, future, passive, imperative, future_moode, confirmed);
     
-
+def word_stamp(sword):
+    """
+    generate a stamp for a word, 
+    remove all letters which can change form in the word :
+        - ALEF, 
+        - HAMZA, 
+        - YEH, 
+        - WAW, 
+        - ALEF_MAKSURA
+        - SHADDA
+    @return: stamped word
+    """
+    # strip the last letter if is doubled
+    if word[-1:] ==  word[-2:-1]:
+        word = word[:-1]
+    return STAMP_PAT.sub('', word)
     
 
 

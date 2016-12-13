@@ -153,15 +153,15 @@ def main():
     model=0;
     cpt = 0
     for tuple_verb in verb_table[:limit]:
-        word=tuple_verb[verb_field_number].strip();
-        root=decode_root(tuple_verb[root_field_number].strip());
-        model=tuple_verb[0].strip();
+        word  = tuple_verb[verb_field_number].strip();
+        root  = decode_root(tuple_verb[root_field_number].strip());
+        model = tuple_verb[0].strip();
 
         if not is_valid_infinitive_verb(word):
             print (u"\t".join(["#", word, u"is invalid verb "] )).encode("utf8");
         else:
             #print word.encode("utf8")
-            future_type =u"-";
+            future_type = u"-";
             future_type = get_future_type_entree(future_type);
             verb_cat = tuple_verb[verb_cat_field_number].strip();
             # decode transitive flag

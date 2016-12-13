@@ -121,9 +121,54 @@ def main():
     if output_format=="xml":
         print "<?xml version='1.0' encoding='utf8'?>\n<dictionary>";
     elif output_format=="sql":
+        print u"""CREATE TABLE verbs
+            (id int unique not null,
+            vocalized varchar(30) not null,
+            unvocalized varchar(30) not null,
+            root varchar(30),
+            normalized varchar(30) not null,
+            stamped varchar(30) not null,
+            future_type varchar(5),
+            triliteral  varchar(2) NOT NULL default 'y', 
+            transitive  varchar(2) NOT NULL default 'y', 
+            double_trans  varchar(2) NOT NULL default 'y', 
+            think_trans  varchar(2) NOT NULL default 'y', 
+            unthink_trans  varchar(2) NOT NULL default 'y', 
+            reflexive_trans  varchar(2) NOT NULL default 'y', 
+            past  varchar(2) NOT NULL default 'y', 
+            future  varchar(2) NOT NULL default 'y',  
+            imperative  varchar(2) NOT NULL default 'y', 
+            passive  varchar(2) NOT NULL default 'y',  
+            future_moode  varchar(2) NOT NULL default 'y', 
+            confirmed  varchar(2) NOT NULL default 'y', 
+            PRIMARY KEY (id)
+            )"""
+        #~ print u"""create table verbs
+    #~ (
+    
+    #~ id int unique,
+    #~ vocalized varchar(30) not null,
+    #~ unvocalized varchar(30) not null,
+    #~ root varchar(30),
+    #~ future_type varchar(5),
+    #~ triliteral  VARCHAR(1) NOT NULL default "y", 
+    #~ transitive  VARCHAR(1) NOT NULL default "y", 
+    #~ double_trans  VARCHAR(1) NOT NULL default "y", 
+    #~ think_trans   VARCHAR(1) NOT NULL default "y", 
+    #~ unthink_trans   VARCHAR(1) NOT NULL default "y", 
+    #~ reflexive_trans   VARCHAR(1) NOT NULL default "y", 
+    #~ past   VARCHAR(1) NOT NULL default "y", 
+    #~ future   VARCHAR(1) NOT NULL default "y",  
+    #~ imperative   VARCHAR(1) NOT NULL default "y", 
+    #~ passive   VARCHAR(1) NOT NULL default "y",  
+    #~ future_moode   VARCHAR(1) NOT NULL default "y", 
+    #~ confirmed   VARCHAR(1) NOT NULL default "y", 
+    #~ PRIMARY KEY (id)
+    #~ )"""
+    elif output_format=="mysql":
         print u"""create table verbs
     (
-    id int unique auto_increment,
+    id int unique,
     vocalized varchar(30) not null,
     unvocalized varchar(30) not null,
     root varchar(30),
@@ -153,6 +198,8 @@ def main():
         unvocalized = araby.strip_tashkeel(word);
         tri=tuple_verb[1].strip();
         root=tuple_verb[2].strip();
+        normalized = araby.normalize_hamza(unvocalized)
+        stamp = vdf.stamp(unvocalized)
         future_type=tuple_verb[3].strip();
         transitive=tuple_verb[4].strip();
         nb_trans=tuple_verb[5].strip();
@@ -238,12 +285,12 @@ def main():
             print (u"<tenses past='%s' future='%s' imperative='%s' passive='%s' future_moode='%s' confirmed='%s'/>"%(str(past), str( future), str( imperative), str( passive), str( future_moode), str( confirmed))).encode('utf8');            
             print "</verb>";
         elif output_format=="sql": 
-            #(vocalized, unvocalized, root, future_type, triliteral, transitive, double_trans, think_trans, unthink_trans, reflexive_trans, past, future, imperative, passive, future_moode, confirmed)
+            #(vocalized, unvocalized, root, normalized, stamp, future_type, triliteral, transitive, double_trans, think_trans, unthink_trans, reflexive_trans, past, future, imperative, passive, future_moode, confirmed)
             line=u"insert into verbs ";
             line+="values ('%d','%s','%s','%s', '%s', '%s', '%s','%s','%s','%s', '%s', '%s', '%s','%s','%s','%s', '%s');"%(id, word, unvocalized , root , future_type ,yes(triliteral)  , yes(transitive)  , yes(double_trans)  , yes(think_trans)  , yes(unthink_trans)  , yes(reflexive_trans)  , yes(past)  , yes(future)  ,  yes(imperative)  ,yes( passive)  , yes( future_moode)  , yes(confirmed))
             print line.encode('utf8'); 
         else : #output_format will be csv: 
-            line = u"\t".join([str(id), word, unvocalized , root , future_type ,yes(triliteral)  , yes(transitive)  , yes(double_trans)  , yes(think_trans)  , yes(unthink_trans)  , yes(reflexive_trans)  , yes(past)  , yes(future)  ,  yes(imperative)  ,yes( passive)  , yes( future_moode)  , yes(confirmed)])
+            line = u"\t".join([str(id), word, unvocalized , root , normalized, stamp, future_type ,yes(triliteral)  , yes(transitive)  , yes(double_trans)  , yes(think_trans)  , yes(unthink_trans)  , yes(reflexive_trans)  , yes(past)  , yes(future)  ,  yes(imperative)  ,yes( passive)  , yes( future_moode)  , yes(confirmed)])
             print line.encode('utf8'); 
 
 
