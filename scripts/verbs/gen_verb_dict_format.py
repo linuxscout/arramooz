@@ -107,11 +107,14 @@ def main():
     verb_table=[];
     nb_field=12;
     if output_format == "sql":
-        mydict = vdf.SqlDict(version);
+        import sqldict
+        mydict = sqldict.SqlDict(version);
     elif output_format == "xml":
-        mydict = vdf.XmlDict(version);
+        import xmldict
+        mydict = xmldict.XmlDict(version);
     else:
-        mydict = vdf.CsvDict(version)
+        import csvdict
+        mydict = csvdict.CsvDict(version)
     while line :
         line= line.strip('\n').strip()
         if not line.startswith("#"):

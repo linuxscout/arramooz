@@ -115,11 +115,14 @@ def main():
     #print "#", (u'\t'.join(field_id.keys())).encode('utf8');
     model = 0;
     if output_format == "sql":
-        mydict = ndf.SqlDict(wordtype, version);
+        import sqldict
+        mydict = sqldict.SqlDict(wordtype, version);
     elif output_format == "xml":
-        mydict = ndf.XmlDict(wordtype, version);
+        import xmldict
+        mydict = xmldict.XmlDict(wordtype, version);
     else:
-        mydict = ndf.CsvDict(wordtype, version)    
+        import csvdict
+        mydict = csvdict.CsvDict(wordtype, version)    
     # create header
     print mydict.add_header().encode('utf8')
     for tuple_noun in noun_table[:limit]:

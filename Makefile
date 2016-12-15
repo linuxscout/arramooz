@@ -19,7 +19,7 @@ all: ods verb noun release
 publish:
 	git push origin master 
 
-ods: vods nods
+ods: verbods nounods
 #Generate csv files from ODS
 nounods:
 	libreoffice --headless --convert-to "csv:Text - txt - csv (StarCalc):9,34,UTF8" --outdir $(DATA_DIR)/nouns/ $(DATA_DIR)/nouns/*.ods
