@@ -11,7 +11,9 @@ default: all
 # Clean build files
 clean:
 	rm -f -r $(RELEASES)/*
-
+backup: 
+	mkdir -p $(RELEASES)/backup$(VERSION)
+	mv $(RELEASES)/*.bz2 $(RELEASES)/backup$(VERSION)
 #create all files 
 all: ods verb noun release
 
@@ -26,7 +28,7 @@ nounods:
 verbods:
 	libreoffice --headless --convert-to "csv:Text - txt - csv (StarCalc):9,34,UTF8" --outdir $(DATA_DIR)/verbs/ $(DATA_DIR)/verbs/*.ods
 #Package files
-release: xmlpack sqlpack csvpack
+release: backup xmlpack sqlpack csvpack
 verb: verbods verbdict  verbcsv verbxml verbsql
 noun: nounods nouncsv nounxml nounsql 
 verbdict:
