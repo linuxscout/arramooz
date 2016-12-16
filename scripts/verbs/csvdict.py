@@ -95,7 +95,7 @@ class CsvDict:
     def treat_tuple(self,tuple_verb):
         """ convert row data to specific fields
         return a dict of fields"""
-        self.id+=1;
+        #~ self.id+=1;
         v = {}  # verb dict of fields
         # word  tri root    future_type transitive  nb_trans    object_type reflexive_type  tenses  model   nb_case verb_cat    suggest
         

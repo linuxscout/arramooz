@@ -39,6 +39,10 @@ verbxml:
 	python $(SCRIPT)/verbs/gen_verb_dict_format.py -o xml -v $(VERSION) -f $(OUTPUT)/verbs.aya.dic > $(OUTPUT)/verbs.xml
 verbsql:
 	python $(SCRIPT)/verbs/gen_verb_dict_format.py -o sql  -v $(VERSION)  -f $(OUTPUT)/verbs.aya.dic > $(OUTPUT)/verbs.sql
+	echo "CREATE INDEX  IF NOT EXISTS 'idx_v_voc' ON 'verbs' ('vocalized' ASC);" >> $(OUTPUT)/verbs.sql
+	echo "CREATE INDEX  IF NOT EXISTS 'idx__verbstamp' ON 'verbs' ('stamped' ASC);" >> $(OUTPUT)/verbs.sql
+	echo "CREATE INDEX  IF NOT EXISTS 'idx_verb_norm'  ON 'verbs' ('normalized' ASC);" >> $(OUTPUT)/verbs.sql
+	echo "CREATE INDEX  IF NOT EXISTS 'idx_verb_unvoc' ON 'verbs' ('unvocalized' ASC);" >> $(OUTPUT)/verbs.sql
 verbcsv:
 	python $(SCRIPT)/verbs/gen_verb_dict_format.py -o csv  -v $(VERSION) -f $(OUTPUT)/verbs.aya.dic > $(OUTPUT)/verbs.csv
 
@@ -96,8 +100,43 @@ nounsql:
 	python $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/sifates.csv  -v $(VERSION) -d sql -t sifates  >>$(OUTPUT)/nouns.dict.sql
 	## tafdil.csv
 	python $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/tafdil.csv   -v $(VERSION) -d sql -t tafdil >>$(OUTPUT)/nouns.dict.sql
+	
+	echo "CREATE INDEX IF NOT EXISTS 'idx_n_voc'  ON 'nouns' ('vocalized' ASC);"   >>$(OUTPUT)/nouns.dict.sql
+	echo "CREATE INDEX IF NOT EXISTS 'idx_norm_n' ON 'nouns' ('normalized' ASC);" >>$(OUTPUT)/nouns.dict.sql
+	echo "CREATE INDEX IF NOT EXISTS 'idx_stamp'  ON 'nouns' ('stamp' ASC);"		  >>$(OUTPUT)/nouns.dict.sql
+	echo "CREATE INDEX IF NOT EXISTS 'idx_unv'    ON 'nouns' ('unvocalized' ASC);"   >>$(OUTPUT)/nouns.dict.sql
 
-#packaging 	
+
+
+nounstardict:
+	#Generate noun dictionary 
+	# create a dictionary file from ayaspell cvs form
+	# fa3il file
+	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/fa3il.csv -d stardict  -v $(VERSION) -t fa3il >$(OUTPUT)/nouns.dict.sdic
+	## maf3oul file
+	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/maf3oul.csv -d stardict  -v $(VERSION) -t maf3oul >>$(OUTPUT)/nouns.dict.sdic
+	## jamid file
+	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/jamid.csv -d stardict  -v $(VERSION) -t jamid >>$(OUTPUT)/nouns.dict.sdic
+	## mansoub.csv
+	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/mansoub.csv -d stardict  -v $(VERSION) -t mansoub >>$(OUTPUT)/nouns.dict.sdic
+	## masdar.csv
+	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/masdar.csv -d stardict  -v $(VERSION) -t masdar >>$(OUTPUT)/nouns.dict.sdic
+	## moubalagha.csv
+	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/moubalagha.csv -d stardict  -v $(VERSION) -t moubalagha >>$(OUTPUT)/nouns.dict.sdic
+	## mouchabbaha.csv
+	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/mouchabbaha.csv -d stardict  -v $(VERSION) -t mouchabbaha >>$(OUTPUT)/nouns.dict.sdic
+	## sifates.csv
+	python $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/sifates.csv -d stardict  -v $(VERSION) -t sifates  >>$(OUTPUT)/nouns.dict.sdic
+	## tafdil.csv
+	python $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/tafdil.csv  -d stardict -v $(VERSION) -t tafdil >>$(OUTPUT)/nouns.dict.sdic
+	#~ sed -i "s/\n\n\n/\n\n/g" $(OUTPUT)/nouns.dict.sdic
+	#~ sed -i "s/\n\n\n/\n\n/g" $(OUTPUT)/nouns.dict.sdic
+verbstardict:
+	python $(SCRIPT)/verbs/gen_verb_dict_format.py -o stardict  -v $(VERSION) -f $(OUTPUT)/verbs.aya.dic > $(OUTPUT)/verbs.sdic
+	#~ sed -i "s/\n\n\n/\n\n/g" $(OUTPUT)/verbs.sdic
+	#~ sed -i "s/\n\n\n/\n\n/g" $(OUTPUT)/verbs.sdic
+#packaging 
+
 xmlpack:
 	mkdir -p $(RELEASES)/xml/nouns
 
@@ -127,3 +166,29 @@ csvpack:
 	cp $(DOC)/LICENSE $(RELEASES)/csv/
 	cp $(DOC)/AUTHORS.md $(RELEASES)/csv/
 	tar cfj $(RELEASES)/arramooz.csv.$(VERSION).tar.bz2 $(RELEASES)/csv/
+
+
+stardictpack: nounstardict  verbstardict
+	# stardict
+	touch $(OUTPUT)/arramooz.sdic	
+	echo "\n#version=2.4.2" >$(OUTPUT)/arramooz.sdic	
+	echo "#bookname=Arramooz" >>$(OUTPUT)/arramooz.sdic
+	echo "#sametypesequence=m" >>$(OUTPUT)/arramooz.sdic
+	echo "#author=Taha Zerrouki" >>$(OUTPUT)/arramooz.sdic
+	echo "#email=taha.zerrouki@gmail.com" >>$(OUTPUT)/arramooz.sdic
+	echo "#website=http://arramooz.sf.net" >>$(OUTPUT)/arramooz.sdic
+	echo "#description=Arrammoz arabic Dictionary converted to StarDict format" >>$(OUTPUT)/arramooz.sdic
+	echo "#date=2016.12.16\n" >>$(OUTPUT)/arramooz.sdic
+
+	cat $(OUTPUT)/nouns.dict.sdic $(OUTPUT)/verbs.sdic >> $(OUTPUT)/arramooz.sdic
+
+	sed -i "s/\n\n(\n)+/\n\n/g" $(OUTPUT)/arramooz.sdic
+	
+	mkdir -p $(RELEASES)/stardict/
+	cp $(OUTPUT)/arramooz.sdic $(RELEASES)/stardict/
+	cp $(DOC)/README.md $(RELEASES)/stardict/
+	cp $(DOC)/LICENSE $(RELEASES)/stardict/
+	cp $(DOC)/AUTHORS.md $(RELEASES)/stardict/
+	echo "*********************************************************************"
+	echo "NOTE: you must use stardict-editor to Compile $(RELEASES)/stardict/arramooz.sdic"
+	echo "*********************************************************************"	

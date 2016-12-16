@@ -116,14 +116,14 @@ class CsvDict:
         }
         counter_table={
             "tafdil":      1,           #372
-            "sifates":     500,         #522
-            "mouchabbaha": 2000,     #785
-            "mansoub":     3000,            #864
-            "maf3oul":     4000,       #1261    
-            "moubalagha":  6000,        #1941
-            "fa3il":       8000,      # count of 4534
-            "masdar":     15000,        #7345
-            "jamid":      25000,        #10262
+            "sifates":     10000,         #522
+            "mouchabbaha": 20000,     #785
+            "mansoub":     30000,            #864
+            "maf3oul":     40000,       #1261    
+            "moubalagha":  50000,        #1941
+            "fa3il":       60000,      # count of 4534
+            "masdar":      80000,        #7345
+            "jamid":      100000,        #10262
 
         }
         self.id = counter_table.get(wordtype, 1);
@@ -177,7 +177,7 @@ class CsvDict:
     def treat_tuple(self,tuple_noun):
         """ convert row data to specific fields
         return a dict of fields"""
-        self.id+=1;
+        #~ self.id+=1;
         #extract field from the noun tuple
         fields={};
         for key in self.field_id.keys():

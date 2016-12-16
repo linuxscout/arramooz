@@ -101,6 +101,26 @@ class SqlDict(csvdict.CsvDict):
         ) ;"""
         return line
                
+    #~ def add_record(self, noun_row):
+        #~ """
+        #~ Add a new to the dict
+        #~ """
+        #~ self.id +=1
+        #~ fields = self.treat_tuple(noun_row)
+        #~ # to reduce the sql file size, 
+        #~ # doesn't work with multiple files
+        #~ line = "insert into nouns (%s) values "%", ".join(self.display_order);
+        #~ fields['id'] = self.id
+        #~ items=[];           
+        #~ for k in range(len(self.display_order)):
+            #~ key=self.display_order[k];
+            #~ if key == "id":
+                #~ items.append(u"%d"%fields[key]);
+            #~ else:
+                #~ items.append(u"'%s'"%fields[key]);
+#~ 
+        #~ line+=u"(%s);"%u",".join(items);
+        #~ return line
     def add_record(self, noun_row):
         """
         Add a new to the dict
@@ -109,17 +129,13 @@ class SqlDict(csvdict.CsvDict):
         fields = self.treat_tuple(noun_row)
         # to reduce the sql file size, 
         # doesn't work with multiple files
-        line = "insert into nouns (%s) values "%", ".join(self.display_order);
+        line = "insert into nouns values " #%", ".join(self.display_order);
         fields['id'] = self.id
-        items=[];           
-        for k in range(len(self.display_order)):
-            key=self.display_order[k];
-            if key == "id":
-                items.append(u"%d"%fields[key]);
-            else:
-                items.append(u"'%s'"%fields[key]);
-
-        line+=u"(%s);"%u",".join(items);
+        items=[];
+        items.append(u"%d"%fields['id']);                   
+        for key in self.display_order[1:]:
+            items.append(u"'%s'"%fields[key]);
+        line += u"(%s);"%u",".join(items);
         return line
         
 

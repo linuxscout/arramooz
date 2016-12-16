@@ -120,15 +120,26 @@ def main():
     elif output_format == "xml":
         import xmldict
         mydict = xmldict.XmlDict(wordtype, version);
+    elif output_format == "stardict":
+        import stardict
+        mydict = stardict.StarDict(wordtype, version);
     else:
         import csvdict
         mydict = csvdict.CsvDict(wordtype, version)    
     # create header
-    print mydict.add_header().encode('utf8')
+    h = mydict.add_header()
+    if h:
+        print h.encode('utf8')
     for tuple_noun in noun_table[:limit]:
-        print mydict.add_record(tuple_noun).encode('utf8')
+        l = mydict.add_record(tuple_noun)
+        if l:
+            print l.encode('utf8')
     # create footer
-    print mydict.add_footer().encode('utf8')
+    f = mydict.add_footer()
+    if f:
+        print f.encode('utf8')
+        
+    
 
 if __name__ == "__main__":
   main()

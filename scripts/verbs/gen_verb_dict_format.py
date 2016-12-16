@@ -112,6 +112,9 @@ def main():
     elif output_format == "xml":
         import xmldict
         mydict = xmldict.XmlDict(version);
+    elif output_format == "stardict":
+        import stardict
+        mydict = stardict.StarDict(version);        
     else:
         import csvdict
         mydict = csvdict.CsvDict(version)

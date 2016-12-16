@@ -118,4 +118,5 @@ class SqlDict(csvdict.CsvDict):
 
     def add_footer(self):
         """close the data set, used for ending xml, or sql"""
-        return ""
+        
+        return """"""
