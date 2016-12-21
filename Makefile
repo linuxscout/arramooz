@@ -45,6 +45,39 @@ verbsql:
 	echo "CREATE INDEX  IF NOT EXISTS 'idx_verb_unvoc' ON 'verbs' ('unvocalized' ASC);" >> $(OUTPUT)/verbs.sql
 verbcsv:
 	python $(SCRIPT)/verbs/gen_verb_dict_format.py -o csv  -v $(VERSION) -f $(OUTPUT)/verbs.aya.dic > $(OUTPUT)/verbs.csv
+verbspell:
+	python $(SCRIPT)/verbs/gen_verb_dict_format.py -o spell  -v $(VERSION) -f $(OUTPUT)/verbs.aya.dic > $(OUTPUT)/verbs.spell
+	python $(SCRIPT)/verbs/spelltools.py -f $(OUTPUT)/verbs.spell > $(OUTPUT)/verbs.2.spell
+
+nounspelltest:
+	python $(SCRIPT)/nouns/gen_noun_dict.py -l 100  -f $(DATA_DIR)/nouns/fa3il.csv -d spell -v $(VERSION) -t fa3il >$(OUTPUT)/nouns.dict.spell
+	## maf3oul file
+	python $(SCRIPT)/nouns/gen_noun_dict.py -l 100 -f $(DATA_DIR)/nouns/maf3oul.csv -d spell  -v $(VERSION) -t maf3oul >>$(OUTPUT)/nouns.dict.spell
+	## jamid file
+	python $(SCRIPT)/nouns/gen_noun_dict.py -l 100 -f $(DATA_DIR)/nouns/jamid.csv -d spell  -v $(VERSION) -t jamid >>$(OUTPUT)/nouns.dict.spell
+	## mansoub.csv
+	python $(SCRIPT)/nouns/gen_noun_dict.py -l 100 -f $(DATA_DIR)/nouns/mansoub.csv -d spell  -v $(VERSION) -t mansoub >>$(OUTPUT)/nouns.dict.spell
+	## masdar.csv
+	
+nounspell:
+	python $(SCRIPT)/nouns/gen_noun_dict.py   -f $(DATA_DIR)/nouns/fa3il.csv -d spell -v $(VERSION) -t fa3il >$(OUTPUT)/nouns.dict.spell
+	## maf3oul file
+	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/maf3oul.csv -d spell  -v $(VERSION) -t maf3oul >>$(OUTPUT)/nouns.dict.spell
+	## jamid file
+	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/jamid.csv -d spell  -v $(VERSION) -t jamid >>$(OUTPUT)/nouns.dict.spell
+	## mansoub.csv
+	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/mansoub.csv -d spell  -v $(VERSION) -t mansoub >>$(OUTPUT)/nouns.dict.spell
+	## masdar.csv
+	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/masdar.csv -d spell  -v $(VERSION) -t masdar >>$(OUTPUT)/nouns.dict.spell
+	## moubalagha.csv
+	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/moubalagha.csv -d spell  -v $(VERSION) -t moubalagha >>$(OUTPUT)/nouns.dict.spell
+	## mouchabbaha.csv
+	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/mouchabbaha.csv -d spell  -v $(VERSION) -t mouchabbaha >>$(OUTPUT)/nouns.dict.spell
+	## sifates.csv
+	python $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/sifates.csv -d spell  -v $(VERSION) -t sifates  >>$(OUTPUT)/nouns.dict.spell
+	## tafdil.csv
+	python $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/tafdil.csv  -d spell -v $(VERSION) -t tafdil >>$(OUTPUT)/nouns.dict.spell
+#~ 
 
 nouncsv:
 	#Generate noun dictionary 
@@ -145,7 +178,7 @@ xmlpack:
 	cp $(DOC)/README.md $(RELEASES)/xml/
 	cp $(DOC)/LICENSE $(RELEASES)/xml/
 	cp $(DOC)/AUTHORS.md $(RELEASES)/xml/
-	tar cfj $(RELEASES)/arramooz.xml.$(VERSION).tar.bz2 $(RELEASES)/xml/
+	cd $(RELEASES) && tar cfj arramooz.xml.$(VERSION).tar.bz2 xml/
 
 sqlpack :
 	# sql
@@ -155,7 +188,7 @@ sqlpack :
 	cp $(DOC)/README.md $(RELEASES)/sql/
 	cp $(DOC)/LICENSE $(RELEASES)/sql/
 	cp $(DOC)/AUTHORS.md $(RELEASES)/sql/
-	tar cfj $(RELEASES)/arramooz.sql.$(VERSION).tar.bz2 $(RELEASES)/sql/
+	cd $(RELEASES) && tar cfj arramooz.sql.$(VERSION).tar.bz2 sql/
 
 csvpack:
 	# csv
@@ -165,7 +198,7 @@ csvpack:
 	cp $(DOC)/README.md $(RELEASES)/csv/
 	cp $(DOC)/LICENSE $(RELEASES)/csv/
 	cp $(DOC)/AUTHORS.md $(RELEASES)/csv/
-	tar cfj $(RELEASES)/arramooz.csv.$(VERSION).tar.bz2 $(RELEASES)/csv/
+	cd $(RELEASES) && tar cfj arramooz.csv.$(VERSION).tar.bz2 csv/
 
 
 stardictpack: nounstardict  verbstardict

@@ -20,8 +20,8 @@ import getopt
 import os
 
 sys.path.append(os.path.join(os.path.dirname(sys.argv[0]), '../support/'))
-import pyarabic.araby as araby
-import noundict_functions as ndf
+#~ import pyarabic.araby as araby
+#~ import noundict_functions as ndf
 
 
 scriptname = os.path.splitext(os.path.basename(sys.argv[0]))[0]
@@ -49,6 +49,7 @@ def grabargs():
 #  "Grab command-line arguments"
     fname = ''
     limit = MAX_LINES_TREATED;
+    #~ limit = 100
     wordtype="typo";
     display="txto"; 
     version = ""
@@ -71,11 +72,10 @@ def grabargs():
             version = val
         if o in ("-l", "--limit"):
             try:
-                limit = int(val);
+                limit = int(val.strip());
             except:
-                limit=MAX_LINES_TREATED;
-        else:
-            limit=MAX_LINES_TREATED;
+                limit = MAX_LINES_TREATED;
+
         if o in ("-d", "--display"):
             display=val;
         if o in ("-t", "--type"):
@@ -94,7 +94,8 @@ def main():
     except:
         print " Error :No such file or directory: %s" % filename
         sys.exit(0)
-    #print "#",filename
+    #~ print "#",filename,limit, output_format, wordtype, version
+    #~ sys.exit()
 
     #display_format="txt"
 
@@ -123,6 +124,9 @@ def main():
     elif output_format == "stardict":
         import stardict
         mydict = stardict.StarDict(wordtype, version);
+    elif output_format == "spell":
+        import spelldict
+        mydict = spelldict.SpellDict(wordtype, version);
     else:
         import csvdict
         mydict = csvdict.CsvDict(wordtype, version)    

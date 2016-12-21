@@ -115,6 +115,9 @@ def main():
     elif output_format == "stardict":
         import stardict
         mydict = stardict.StarDict(version);        
+    elif output_format == "spell":
+        import spelldict
+        mydict = spelldict.SpellDict(version);        
     else:
         import csvdict
         mydict = csvdict.CsvDict(version)

@@ -78,3 +78,7 @@ def stamp(word):
 def yes(bool):
     if bool: return "y";
     else: return "n";
+def bool_yes(c):
+    if c == "y" or  c == "Y": return True;
+    if c == "n" or  c == "N": return False;
+    else: return c;
