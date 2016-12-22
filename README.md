@@ -11,7 +11,7 @@ Arabic Dictionary for Morphological analysis
 Features |   value
 ---------|---------------------------------------------------------------------------------
 Authors  | [Authors.md](https://github.com/linuxscout/arramooz/master/AUTHORS.md)
-Release  | 0.2
+Release  | 0.3
 License  |[GPL](https://github.com/linuxscout/arramooz/master/LICENSE)
 Tracker  |[linuxscout/arramooz/Issues](https://github.com/linuxscout/arramooz/issues)
 Website  |[http://arramooz.sourceforge.net](http://arramooz.sourceforge.net)
