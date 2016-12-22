@@ -24,13 +24,13 @@ import stem_noun_const as snconst
 #~ import qalsadi.wordcase as wordcase
 
 import spellcache
-def logic(field):
-    if not field:
-        return False
-    elif field == "N" or field == "n":
-        return False
-    else:
-        return True
+#~ def logic(field):
+    #~ if not field:
+        #~ return False
+    #~ elif field == "N" or field == "n":
+        #~ return False
+    #~ else:
+        #~ return True
     
 def verify_proaffix_affix(procletic, encletic, suffix):
     """
@@ -501,20 +501,20 @@ def validate_tags(noun_tuple, affix_tags, procletic, encletic_nm ,
         #~return False
     #تدقيق الغضافة إلى الضمائر المتصلة
     #~ if encletic_nm == u"هم" and noun_tuple['hm_suffix'] == 'N':
-    if encletic_nm == u"هم" and not logic(noun_tuple['hm_suffix']):
+    if encletic_nm == u"هم" and not noun_tuple['hm_suffix']:
         return False
     #~ if encletic_nm == u"ه" and noun_tuple['ha_suffix'] == 'N':
-    if encletic_nm == u"ه" and not logic(noun_tuple['ha_suffix'] ):
+    if encletic_nm == u"ه" and not noun_tuple['ha_suffix'] :
         return False
     #~ if encletic_nm == u"ك" and noun_tuple['k_suffix'] == 'N':
-    if encletic_nm == u"ك" and not logic(noun_tuple['k_suffix'] ):
+    if encletic_nm == u"ك" and not noun_tuple['k_suffix'] :
         return False
     #حالة قابلية التشبيه
-    if procletic.endswith(u"كال") and not logic(noun_tuple['kal_prefix']):
+    if procletic.endswith(u"كال") and not noun_tuple['kal_prefix']:
         return False
     # حالة المضاف إلى ما بعهده في حالة جمع المذكر السالم
     # مثل لاعبو، رياضيو
-    if suffix_nm == araby.WAW and not logic(noun_tuple['w_suffix']):
+    if suffix_nm == araby.WAW and not noun_tuple['w_suffix']:
         return False
     #التاء المربوطة لا تتصل بجمع التكسير
     if suffix_nm == araby.TEH_MARBUTA and noun_tuple['number'] == u"جمع":

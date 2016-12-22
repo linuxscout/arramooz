@@ -46,7 +46,58 @@ class CsvDict:
                     "Web            : http://arramooz.sf.net",
                     "Source         : http://github.com/linuxscout/arramooz",
                     "*************************************",
-                    ]        
+                    ] 
+        self.field_id={
+                    "vocalized"       : 0, # The word
+                    "tri"        : 1, # triletiral or not
+                    'root'       : 2, # root
+                    'future_type': 3, # future mark 
+                    'transitive' : 4, # transitive
+                    'nb_trans'   : 5, #  
+                    'object_type': 6,
+                    'reflexive_type' : 7,
+                    'tenses'     : 8,
+                    #'#model'    : 9,
+                    'nb_case'    : 10,
+                    #'#verb_cat'     : 11,
+                    #'#suggest'  : 12,        
+        }
+        #give the display order for text format display
+        self.display_order=[
+                'id' ,
+                'word',
+                'unvocalized',
+                'root',
+                'normalized',
+                'stamp',
+                'future_type',
+                'triliteral',
+                'transitive',
+                'double_trans',
+                'think_trans',
+                'unthink_trans',
+                'reflexive_trans',
+                'past',
+                'future',
+                'imperative',
+                'passive',
+                'future_moode',
+                'confirmed',
+                ]
+        self.boolean_fields=[
+                'triliteral',
+                'transitive',
+                'double_trans',
+                'think_trans',
+                'unthink_trans',
+                'reflexive_trans',
+                'past',
+                'future',
+                'imperative',
+                'passive',
+                'future_moode',
+                'confirmed',        
+                ]       
     def add_header(self,):
         """
         add the header for new dict
@@ -60,28 +111,34 @@ class CsvDict:
         Add a new to the dict
         """
         self.id += 1
-        vrecord = self.treat_tuple(verb_row) 
-        line = u"\t".join([str(self.id),
-            vrecord['word'],
-            vrecord['unvocalized'],
-            vrecord['root'],
-            vrecord['normalized'],
-            vrecord['stamp'],
-            vrecord['future_type'],
-            vdf.yes(vrecord['triliteral']),
-            vdf.yes(vrecord['transitive']),
-            vdf.yes(vrecord['double_trans']),
-            vdf.yes(vrecord['think_trans']),
-            vdf.yes(vrecord['unthink_trans']),
-            vdf.yes(vrecord['reflexive_trans']),
-            vdf.yes(vrecord['past']),
-            vdf.yes(vrecord['future']),
-            vdf.yes(vrecord['imperative']),
-            vdf.yes(vrecord['passive']),
-            vdf.yes(vrecord['future_moode']),
-            vdf.yes(vrecord['confirmed'])
-            ]
-            )
+        fields = self.treat_tuple(verb_row) 
+        items=[];
+        for k in range(len(self.display_order)):
+            key = self.display_order[k];
+            # some fields are integer, than we use str
+            items.append(unicode(fields[key]))
+        line = u"\t".join(items);
+        #~ line = u"\t".join([str(self.id),
+            #~ vrecord['word'],
+            #~ vrecord['unvocalized'],
+            #~ vrecord['root'],
+            #~ vrecord['normalized'],
+            #~ vrecord['stamp'],
+            #~ vrecord['future_type'],
+            #~ str(vrecord['triliteral']),
+            #~ str(vrecord['transitive']),
+            #~ str(vrecord['double_trans']),
+            #~ str(vrecord['think_trans']),
+            #~ str(vrecord['unthink_trans']),
+            #~ str(vrecord['reflexive_trans']),
+            #~ str(vrecord['past']),
+            #~ str(vrecord['future']),
+            #~ str(vrecord['imperative']),
+            #~ str(vrecord['passive']),
+            #~ str(vrecord['future_moode']),
+            #~ str(vrecord['confirmed'])
+            #~ ]
+            #~ )
         return line
         
     def add_footer(self):
@@ -96,25 +153,20 @@ class CsvDict:
         """ convert row data to specific fields
         return a dict of fields"""
         #~ self.id+=1;
-        v = {}  # verb dict of fields
+        v = {"id": self.id,}  # verb dict of fields
         # word  tri root    future_type transitive  nb_trans    object_type reflexive_type  tenses  model   nb_case verb_cat    suggest
-        
-        v["word"]       = tuple_verb[0].strip();
-        v["unvocalized"] = araby.strip_tashkeel(v['word']);
-        v["tri"]        = tuple_verb[1].strip();
-        v['root']       = tuple_verb[2].strip();
+                
+        #extract field from the verb tuple
+        for key in self.field_id.keys():
+            try:
+                v[key] = tuple_verb[self.field_id[key]].strip();
+            except IndexError:
+                print "#"*5, "key error [%s],"%key, self.field_id[key], len(tuple_verb);
+                print tuple_verb
+                sys.exit()
+        v["unvocalized"] = araby.strip_tashkeel(v['vocalized']);
         v['normalized'] = araby.normalize_hamza(v['unvocalized'])
         v['stamp']      = vdf.stamp(v['unvocalized'])
-        v['future_type']= tuple_verb[3].strip();
-        v['transitive'] = tuple_verb[4].strip();
-        v['nb_trans']   = tuple_verb[5].strip();
-        v['object_type']= tuple_verb[6].strip();
-        v['reflexive_type'] = tuple_verb[7].strip();
-        v['tenses']     = tuple_verb[8].strip();
-        #v['#model']    = tuple_verb[9].strip();
-        v['nb_case']    = tuple_verb[10].strip();
-        #v['#verb_cat']     = tuple_verb[11].strip();
-        #v['#suggest']  = tuple_verb[12].strip();
 
         # Adopt fields to the actual program
         #word;
@@ -170,19 +222,19 @@ class CsvDict:
             else: v['tenses'] += u"-";
             if v['confirmed']: v['tenses']+=u"ن";
             else: v['tenses'] += u"-";
-            # convert True/false to Y/n
+            # convert True/false to 0/1
             
-            v['triliteral']   = vdf.yes(v['triliteral'])
-            v['transitive']   = vdf.yes(v['transitive'])
-            v['double_trans'] = vdf.yes(v['double_trans'])
-            v['think_trans']  = vdf.yes(v['think_trans'])
-            v['unthink_trans'] =  vdf.yes(v['unthink_trans'])
-            v['reflexive_trans'] =    vdf.yes(v['reflexive_trans'])
-            v['past'] =   vdf.yes(v['past'])
-            v['future'] =     vdf.yes(v['future'])
-            v['imperative'] =     vdf.yes(v['imperative'])
-            v['passive'] =    vdf.yes(v['passive'])
-            v['future_moode'] =   vdf.yes(v['future_moode'])
-            v['confirmed'] =  vdf.yes(v['confirmed']) 
+        v['triliteral']   = vdf.yes(v['triliteral'])
+        v['transitive']   = vdf.yes(v['transitive'])
+        v['double_trans'] = vdf.yes(v['double_trans'])
+        v['think_trans']  = vdf.yes(v['think_trans'])
+        v['unthink_trans'] =  vdf.yes(v['unthink_trans'])
+        v['reflexive_trans'] =    vdf.yes(v['reflexive_trans'])
+        v['past'] =   vdf.yes(v['past'])
+        v['future'] =     vdf.yes(v['future'])
+        v['imperative'] =     vdf.yes(v['imperative'])
+        v['passive'] =    vdf.yes(v['passive'])
+        v['future_moode'] =   vdf.yes(v['future_moode'])
+        v['confirmed'] =  vdf.yes(v['confirmed']) 
            
         return v;

@@ -70,28 +70,78 @@ class CsvDict:
         }
         #give the display order for text format display
         self.display_order=[
-                'id',
-                'vocalized',
-                'unvocalized',
-                'normalized',
-                'stamp',
-                'wordtype',
-                'root',
-                'wazn',               #وزن    wazn
-                'category',
-                'original',
+                #~ 'id',
+                #~ 'vocalized',
+                #~ 'unvocalized',
+                #~ 'normalized',
+                #~ 'stamp',
+                #~ 'wordtype',
+                #~ 'root',
+                #~ 'wazn',               #وزن    wazn
+                #~ 'category',
+                #~ 'original',
+                #~ 'defined',          
+                #~ 'gender',             #جنس    gender
+                #~ 'feminin',            #مؤنث    feminin
+                #~ 'masculin',           #مذكر    masculin
+                #~ 'mankous',
+                #~ 'feminable',
+                #~ 'number',
+                #~ 'single',
+                #~ 'dualable',
+                #~ 'masculin_plural',
+                #~ 'feminin_plural',
+                #~ 'broken_plural',
+                #~ 'mamnou3_sarf',
+                #~ 'relative',
+                #~ 'w_suffix',
+                #~ 'hm_suffix',
+                #~ 'kal_prefix',
+                #~ 'ha_suffix',
+                #~ 'k_suffix',
+                #~ 'annex',
+                #~ 'definition',
+                #~ 'note',
+                'id' ,
+                'vocalized' ,
+                'unvocalized' ,
+                'normalized' ,
+                'stamp' ,
+                'wordtype' ,
+                'root' ,
+                'wazn' ,
+                'category' ,
+                'original' ,
+                'gender' ,
+                'feminin' ,
+                'masculin' ,
+                'number' ,
+                'single' ,
+                'broken_plural' ,            
+                'defined' ,
+                'mankous' ,
+                'feminable' ,
+                'dualable' ,
+                'masculin_plural' ,
+                'feminin_plural' ,
+                'mamnou3_sarf' ,
+                'relative' ,
+                'w_suffix' ,
+                'hm_suffix' ,
+                'kal_prefix' ,
+                'ha_suffix' ,
+                'k_suffix' ,
+                'annex' ,
+                'definition',
+                'note',
+                ]
+        self.boolean_fields=[
                 'defined',          
-                'gender',             #جنس    gender
-                'feminin',            #مؤنث    feminin
-                'masculin',           #مذكر    masculin
                 'mankous',
                 'feminable',
-                'number',
-                'single',
                 'dualable',
                 'masculin_plural',
                 'feminin_plural',
-                'broken_plural',
                 'mamnou3_sarf',
                 'relative',
                 'w_suffix',
@@ -100,9 +150,7 @@ class CsvDict:
                 'ha_suffix',
                 'k_suffix',
                 'annex',
-                'definition',
-                'note',
-                ]
+                ]                
         wordtype_table={
             "fa3il":u"اسم فاعل",
             "masdar":u"مصدر",
@@ -162,7 +210,8 @@ class CsvDict:
         items=[];
         for k in range(len(self.display_order)):
             key = self.display_order[k];
-            items.append(fields[key]);
+            # some fields are integer, than we use str
+            items.append(unicode(fields[key]))
         line = u"\t".join(items);
         return line
         
@@ -187,14 +236,12 @@ class CsvDict:
                 print "#"*5, "key error [%s],"%key, self.field_id[key], len(tuple_noun);
                 print tuple_noun
                 sys.exit()
+
         # treat specific fields
         fields['note']="";
-        # word root
-        #fields['root']  =  fields['root'];
         #if fields['root'] == "":
         if fields['number'] == u"جمع":
-            fields['number'] == u"جمع تكسير"
-            #fields['note']   = u":".join([fields['note'],u"لا جذر", u"لا مفرد"]);          
+            fields['number'] = u"جمع تكسير"
         else:
             fields['number'] = u"مفرد"
         # make note  if definition is not given
@@ -202,21 +249,16 @@ class CsvDict:
             fields['note'] = u":".join([fields['note'],u"لا شرح"]);
 
         #الممنوع من الصرف
-        if fields['tanwin_nasb']=="":
-            fields['mamnou3_sarf']=u"ممنوع من الصرف";
+        if not fields['tanwin_nasb']:
+            fields['mamnou3_sarf'] = u"ممنوع من الصرف";
         else:
-            fields['mamnou3_sarf']=u"";
-        # get the vocalized form 
-        #fields['vocalized']      = decode_vocalized(fields['vocalized']);
+            fields['mamnou3_sarf'] = u"";
+        
+        # get unvocalized fields
         fields['unvocalized'] = araby.strip_tashkeel(fields['vocalized']);
         # word type, must be defined for every file         
         fields['wordtype']   = self.wordtype;
-        # create mankous form if exist
-        #if fields['mankous'] == "Tk":
-        #   fields['mankous_from'] = get_mankous(fields['vocalized']);  
-        # create feminin form if is possibel
-        #if fields['feminable'] == "Ta":
-        #   fields['feminin_from'] = get_feminin(fields['vocalized']);  
+
         # extarct broken plurals
         if fields['plural']:
             fields['broken_plural'] = fields['plural']; 
@@ -225,4 +267,12 @@ class CsvDict:
         #display order
         fields['normalized'] = araby.normalize_hamza(fields['unvocalized'])
         fields['stamp'] = ndf.word_stamp(fields['unvocalized'])
+        # change boolean fields
+        for key in self.boolean_fields:
+            if not fields[key]: 
+                fields[key] = 0
+            elif fields[key] in ('n',"N"):
+                fields[key] = 0
+            else:
+                fields[key] = 1        
         return fields;

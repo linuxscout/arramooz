@@ -49,7 +49,6 @@ class StarDict(csvdict.CsvDict):
         line = ""
         # to reduce the sql file size, 
         # doesn't work with multiple files
-        fields["vocalized"] = fields["word"]
         if fields["vocalized"]:
             if fields["vocalized"] == fields["unvocalized"]:
                 line += fields["vocalized"]
@@ -57,32 +56,32 @@ class StarDict(csvdict.CsvDict):
                 line += u"|".join([fields["vocalized"], fields["unvocalized"]]) 
             line += "\n"
             line += u"فعل [%s]"%fields["root"]
-            if fields['triliteral'] == "y":
+            if fields['triliteral']:
                 line += u"<br>ثلاثي"
             else:
                 line += u"<br>غير ثلاثي"                
-            if fields['transitive'] != "n":
+            if fields['transitive']:
                 line += u"<br>متعد"
             else:
                 line += u"<br>لازم"
-            if fields['double_trans'] == "y":
+            if fields['double_trans']:
                 line += u"<br>متعد لمفعولين"
-            if fields['think_trans'] == "y":
+            if fields['think_trans'] :
                 line += u"<br>متعد لمفعول عاقل"
-            if fields['unthink_trans'] == "y":
+            if fields['unthink_trans']:
                 line += u"<br>متعد لمفعول غير عاقل"
-            if fields['reflexive_trans'] == "y":
+            if fields['reflexive_trans'] :
                 line += u"<br>فعل قلبي"
             tenses = []
-            if fields['past'] == "y":
+            if fields['past'] :
                 tenses.append( u"الماضي")
-            if fields['future'] == "y":
+            if fields['future']:
                 tenses.append( u"المضارغ")
-            if fields['imperative'] == "y":
+            if fields['imperative'] :
                 tenses.append( u"الأمر")
-            if fields['passive'] == "y":
+            if fields['passive'] :
                 tenses.append( u"المبني للمجهول")
-            if fields['confirmed'] == "y":
+            if fields['confirmed'] :
                 tenses.append( u"المؤكد")
             if tenses:
                 line += u"<br>يتصرف في :"

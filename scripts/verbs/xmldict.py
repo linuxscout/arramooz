@@ -54,7 +54,7 @@ class XmlDict(csvdict.CsvDict):
         line +=   u"unthink_trans='%s' "%vrecord['unthink_trans']
         line +=   u"reflexive_trans='%s' "%vrecord['reflexive_trans']
         line +=   u">\n";
-        line +=   u" <word>%s</word>\n"%vrecord['word']
+        line +=   u" <word>%s</word>\n"%vrecord['vocalized']
         line +=   u" <unvocalized>%s</unvocalized>\n"%vrecord['unvocalized']
         line +=   u" <root>%s</root>\n"%vrecord['root']
         line +=   u""" <tenses past='%s' future='%s' imperative='%s' passive='%s' future_moode='%s' confirmed='%s'/>\n"""%(vrecord['past'],

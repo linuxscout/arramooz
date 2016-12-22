@@ -37,6 +37,7 @@ Those files are available as :
 - Text format (tab separated)
 - SQL database
 - XML  files.
+- StarDict files
 
 ##BUILD Dictionary in multiple format
 The source files are data folder as open document speadsheet files, then we can build dictionary with
@@ -44,6 +45,27 @@ The source files are data folder as open document speadsheet files, then we can 
 make
 ```
 which will generate xml, sql and text files, and package it in releases folder.
+
+To make xml files only
+```
+make xml 
+```
+
+To make sql files only
+```
+make sql 
+```
+To make Hunspell files only
+```
+make spell
+```
+
+To make SatrDict files only
+```
+make stardict
+```
+NOTE: you must use stardict-editor to Compile releases/stardict/arramooz.sdic in babylon format
+
 
 To modify the version, you can update $VERSION variable in Makefile file.
 
@@ -84,27 +106,29 @@ confirmed  |can be conjugated in confirmed  tenses|يتصرف في المؤكد
 ###SQL format of verb
 
 ```SQL
-create table IF NOT EXISTS verbs
+create table verbs
             (
-            id int unique auto_increment,
+            id int unique,
             vocalized varchar(30) not null,
             unvocalized varchar(30) not null,
             root varchar(30),
+            normalized varchar(30) not null,
+            stamp varchar(30) not null,
             future_type varchar(5),
-            triliteral  ENUM( "n", "y" ) NOT NULL default "y", 
-            transitive  ENUM( "n", "y" ) NOT NULL default "y", 
-            double_trans  ENUM( "n", "y" ) NOT NULL default "y", 
-            think_trans  ENUM( "n", "y" ) NOT NULL default "y", 
-            unthink_trans  ENUM( "n", "y" ) NOT NULL default "y", 
-            reflexive_trans  ENUM( "n", "y" ) NOT NULL default "y", 
-            past  ENUM( "n", "y" ) NOT NULL default "y", 
-            future  ENUM( "n", "y" ) NOT NULL default "y",  
-            imperative  ENUM( "n", "y" ) NOT NULL default "y", 
-            passive  ENUM( "n", "y" ) NOT NULL default "y",  
-            future_moode  ENUM( "n", "y" ) NOT NULL default "y", 
-            confirmed  ENUM( "n", "y" ) NOT NULL default "y", 
+            triliteral  tinyint(1) default 0, 
+            transitive  tinyint(1) default 0, 
+            double_trans  tinyint(1) default 0, 
+            think_trans  tinyint(1) default 0, 
+            unthink_trans  tinyint(1) default 0, 
+            reflexive_trans  tinyint(1) default 0, 
+            past  tinyint(1) default 0, 
+            future  tinyint(1) default 0,  
+            imperative  tinyint(1) default 0, 
+            passive  tinyint(1) default 0,  
+            future_moode  tinyint(1) default 0, 
+            confirmed  tinyint(1) default 0, 
             PRIMARY KEY (id)
-            )
+            );
 ```
             
 ###XML format 
@@ -112,19 +136,11 @@ create table IF NOT EXISTS verbs
 ```xml
 <?xml version='1.0' encoding='utf8'?>
 <dictionary>
-<verb  future_type='َ'
-    triliteral='True'
-    transitive='False'
-    double_trans='False'
-    think_trans='False'
-    unthink_trans='False' 
-    reflexive_trans='False' 
->
-<word>زُهِيَ</word>
-<unvocalized>زهي</unvocalized>
-<root>زهو</root>
-<tenses past='False' future='False' imperative='False'
-    passive='True' future_moode='False' confirmed='False'/>
+<verb future_type='فتحة' triliteral='1' transitive='1' double_trans='0' think_trans='1' unthink_trans='0' reflexive_trans='0' >
+ <word>بَرِحَ</word>
+ <unvocalized>برح</unvocalized>
+ <root>برح</root>
+ <tenses past='1' future='1' imperative='0' passive='0' future_moode='1' confirmed='1'/>
 </verb>
 ....
 </dictionary>
@@ -178,26 +194,26 @@ CREATE TABLE  IF NOT EXISTS `nouns` (
           `wazn` varchar(30) DEFAULT NULL,
           `category` varchar(30) DEFAULT NULL,
           `original` varchar(30) DEFAULT NULL,
-          `defined` varchar(30) DEFAULT NULL,
           `gender` varchar(30) DEFAULT NULL,
           `feminin` varchar(30) DEFAULT NULL,
           `masculin` varchar(30) DEFAULT NULL,
-          `mankous` varchar(30) DEFAULT NULL,
-          `feminable` varchar(30) DEFAULT NULL,
           `number` varchar(30) DEFAULT NULL,
           `single` varchar(30) DEFAULT NULL,
-          `dualable` varchar(30) DEFAULT NULL,
-          `masculin_plural` varchar(30) DEFAULT NULL,
-          `feminin_plural` varchar(30) DEFAULT NULL,
-          `broken_plural` varchar(30) DEFAULT NULL,
-          `mamnou3_sarf` varchar(30) DEFAULT NULL,
-          `relative` varchar(30) DEFAULT NULL,
-          `w_suffix` varchar(30) DEFAULT NULL,
-          `hm_suffix` varchar(30) DEFAULT NULL,
-          `kal_prefix` varchar(30) DEFAULT NULL,
-          `ha_suffix` varchar(30) DEFAULT NULL,
-          `k_suffix` varchar(30) DEFAULT NULL,
-          `annex` varchar(30) DEFAULT NULL,
+          `broken_plural` varchar(30) DEFAULT NULL,            
+          `defined` tinyint(1) DEFAULT 0,
+          `mankous` tinyint(1) DEFAULT 0,
+          `feminable` tinyint(1) DEFAULT 0,
+          `dualable` tinyint(1) DEFAULT 0,
+          `masculin_plural` tinyint(1) DEFAULT 0,
+          `feminin_plural` tinyint(1) DEFAULT 0,
+          `mamnou3_sarf` tinyint(1) DEFAULT 0,
+          `relative` tinyint(1) DEFAULT 0,
+          `w_suffix` tinyint(1) DEFAULT 0,
+          `hm_suffix` tinyint(1) DEFAULT 0,
+          `kal_prefix` tinyint(1) DEFAULT 0,
+          `ha_suffix` tinyint(1) DEFAULT 0,
+          `k_suffix` tinyint(1) DEFAULT 0,
+          `annex` tinyint(1) DEFAULT 0,
           `definition` text,
           `note` text
         ) ;
@@ -205,42 +221,39 @@ CREATE TABLE  IF NOT EXISTS `nouns` (
 ###XML format 
 
 ```xml
-<?xml version="1.0" encoding="utf-8"?>
-<dictionary>
-  <noun>
-    <id>6</id>
-    <vocalized>بَارٌّ</vocalized>
-    <unvocalized>بار</unvocalized>
-    <normalized>بار</normalized>
-    <stamp>بر</stamp>
-    <wordtype>اسم فاعل</wordtype>
-    <root>برر</root>
-    <wazn/>
-    <category/>
-    <original/>
-    <defined/>
-    <gender>مذكر</gender>
-    <feminin/>
-    <masculin/>
-    <mankous/>
-    <feminable>Ta</feminable>
-    <number>مفرد</number>
-    <single/>
-    <dualable>DnT</dualable>
-    <masculin_plural>Pm</masculin_plural>
-    <feminin_plural>Pf</feminin_plural>
-    <broken_plural>+ون;+ات;أَبْرَارٌ;بَرَرَةٌ</broken_plural>
-    <mamnou3_sarf/>
-    <relative/>
-    <w_suffix/>
-    <hm_suffix/>
-    <kal_prefix/>
-    <ha_suffix/>
-    <k_suffix/>
-    <annex/>
-    <definition>". ""تَرَكَ ابْناً بَارّاً"" : صَادِقاً وَصَالِحاً وَمُحْسِناً. ""اِبْنُكَ البارُّ يُحِبُّكَ"</definition>
-    <note/>
-  </noun>
+<noun id='60000'>
+ <vocalized>بَارٌّ</vocalized>
+ <unvocalized>بار</unvocalized>
+ <normalized>بار</normalized>
+ <stamp>بر</stamp>
+ <wordtype>اسم فاعل</wordtype>
+ <root>برر</root>
+ <wazn/>
+ <category/>
+ <original/>
+ <gender>مذكر</gender>
+ <feminin/>
+ <masculin/>
+ <number>مفرد</number>
+ <single/>
+ <broken_plural>+ون;+ات;أَبْرَارٌ;بَرَرَةٌ</broken_plural>
+ <defined/>
+ <mankous/>
+ <feminable>1</feminable>
+ <dualable>1</dualable>
+ <masculin_plural>1</masculin_plural>
+ <feminin_plural>1</feminin_plural>
+ <mamnou3_sarf/>
+ <relative/>
+ <w_suffix/>
+ <hm_suffix/>
+ <kal_prefix/>
+ <ha_suffix/>
+ <k_suffix/>
+ <annex/>
+ <definition>". ""تَرَكَ ابْناً بَارّاً"" : صَادِقاً وَصَالِحاً وَمُحْسِناً. ""اِبْنُكَ البارُّ يُحِبُّكَ"</definition>
+ <note/>
+</noun>
 ...
 
 </dictionary>

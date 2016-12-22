@@ -27,60 +27,37 @@ import csvdict
 class SqlDict(csvdict.CsvDict):
     """ a virtual converter of data from table to specific format
     the data is big, then every function print string """
-    def __init__(self,  version = "N/A",   sqltype = "sqlite"):
+    def __init__(self,  version = "N/A"):
         """
         initiate the dict
         """
         csvdict.CsvDict.__init__(self, version)
-        self.sqltype= sqltype
     def add_header(self,):
         """
         add the header for new dict
         """
         line = "--" + "\n--".join(self.headerlines) +"\n"       
-        if self.sqltype == "mysql":
-            line +=  u"""create table verbs
+        line +=  u"""create table verbs
             (
             id int unique,
             vocalized varchar(30) not null,
             unvocalized varchar(30) not null,
             root varchar(30),
-            future_type varchar(5),
-            triliteral  ENUM( "n", "y" ) NOT NULL default "y", 
-            transitive  ENUM( "n", "y" ) NOT NULL default "y", 
-            double_trans  ENUM( "n", "y" ) NOT NULL default "y", 
-            think_trans  ENUM( "n", "y" ) NOT NULL default "y", 
-            unthink_trans  ENUM( "n", "y" ) NOT NULL default "y", 
-            reflexive_trans  ENUM( "n", "y" ) NOT NULL default "y", 
-            past  ENUM( "n", "y" ) NOT NULL default "y", 
-            future  ENUM( "n", "y" ) NOT NULL default "y",  
-            imperative  ENUM( "n", "y" ) NOT NULL default "y", 
-            passive  ENUM( "n", "y" ) NOT NULL default "y",  
-            future_moode  ENUM( "n", "y" ) NOT NULL default "y", 
-            confirmed  ENUM( "n", "y" ) NOT NULL default "y", 
-            PRIMARY KEY (id)
-            );"""
-        else:
-            line += u"""CREATE TABLE verbs
-            (id int unique not null,
-            vocalized varchar(30) not null,
-            unvocalized varchar(30) not null,
-            root varchar(30),
             normalized varchar(30) not null,
-            stamped varchar(30) not null,
+            stamp varchar(30) not null,
             future_type varchar(5),
-            triliteral  varchar(2) NOT NULL default 'y', 
-            transitive  varchar(2) NOT NULL default 'y', 
-            double_trans  varchar(2) NOT NULL default 'y', 
-            think_trans  varchar(2) NOT NULL default 'y', 
-            unthink_trans  varchar(2) NOT NULL default 'y', 
-            reflexive_trans  varchar(2) NOT NULL default 'y', 
-            past  varchar(2) NOT NULL default 'y', 
-            future  varchar(2) NOT NULL default 'y',  
-            imperative  varchar(2) NOT NULL default 'y', 
-            passive  varchar(2) NOT NULL default 'y',  
-            future_moode  varchar(2) NOT NULL default 'y', 
-            confirmed  varchar(2) NOT NULL default 'y', 
+            triliteral  tinyint(1) default 0, 
+            transitive  tinyint(1) default 0, 
+            double_trans  tinyint(1) default 0, 
+            think_trans  tinyint(1) default 0, 
+            unthink_trans  tinyint(1) default 0, 
+            reflexive_trans  tinyint(1) default 0, 
+            past  tinyint(1) default 0, 
+            future  tinyint(1) default 0,  
+            imperative  tinyint(1) default 0, 
+            passive  tinyint(1) default 0,  
+            future_moode  tinyint(1) default 0, 
+            confirmed  tinyint(1) default 0, 
             PRIMARY KEY (id)
             );"""
         return line
@@ -90,30 +67,20 @@ class SqlDict(csvdict.CsvDict):
         Add a new to the dict
         """
         self.id +=1
-        vrecord = self.treat_tuple(verb_row)
-        #(vocalized, unvocalized, root, normalized, stamp, future_type, triliteral, transitive, double_trans, think_trans, unthink_trans, reflexive_trans, past, future, imperative, passive, future_moode, confirmed)
-        line = u"insert into verbs ";
-        line += u"values ('%d','%s','%s','%s', '%s', '%s', '%s', '%s', '%s','%s','%s','%s', '%s', '%s', '%s','%s','%s','%s', '%s');"%(self.id, 
-            vrecord['word'],
-            vrecord['unvocalized'],
-            vrecord['root'],
-            vrecord['normalized'],
-            vrecord['stamp'],
-            vrecord['future_type'],
-            vrecord['triliteral'],
-            vrecord['transitive'],
-            vrecord['double_trans'],
-            vrecord['think_trans'],
-            vrecord['unthink_trans'],
-            vrecord['reflexive_trans'],
-            vrecord['past'],
-            vrecord['future'],
-            vrecord['imperative'],
-            vrecord['passive'],
-            vrecord['future_moode'],
-            vrecord['confirmed']
-            )
-        return line
+        fields = self.treat_tuple(verb_row)
+        # to reduce the sql file size, 
+        # doesn't work with multiple files
+        line = "insert into verbs values " #%", ".join(self.display_order);
+        fields['id'] = self.id
+        items=[];
+        items.append(u"%d"%fields['id']);                   
+        for key in self.display_order[1:]:
+            if key in self.boolean_fields:
+                items.append(u"%d"%fields[key]);
+            else:
+                items.append(u"'%s'"%fields[key]);
+        line += u"(%s);"%u", ".join(items);
+        return line        
         
 
     def add_footer(self):

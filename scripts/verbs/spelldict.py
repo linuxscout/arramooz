@@ -54,19 +54,6 @@ class SpellDict(csvdict.CsvDict):
         v = self.treat_tuple(verb_row)
         line = ""
         
-        # fields are coded as "Y/N" convert it to True/False
-        v['triliteral']   = vdf.bool_yes(v['triliteral'])
-        v['transitive']   = vdf.bool_yes(v['transitive'])
-        v['double_trans'] = vdf.bool_yes(v['double_trans'])
-        v['think_trans']  = vdf.bool_yes(v['think_trans'])
-        v['unthink_trans'] =  vdf.bool_yes(v['unthink_trans'])
-        v['reflexive_trans'] =    vdf.bool_yes(v['reflexive_trans'])
-        v['past'] =   vdf.bool_yes(v['past'])
-        v['future'] =     vdf.bool_yes(v['future'])
-        v['imperative'] =     vdf.bool_yes(v['imperative'])
-        v['passive'] =    vdf.bool_yes(v['passive'])
-        v['future_moode'] =   vdf.bool_yes(v['future_moode'])
-        v['confirmed'] =  vdf.bool_yes(v['confirmed']) 
         
         # display fields to ensure corectness
         VERIFY_INPUT=False;
@@ -75,11 +62,11 @@ class SpellDict(csvdict.CsvDict):
             self.test_entry(v)
 
         # conjugate the verb with speling tags
-        if not valid.is_valid_infinitive_verb(v['word']):
-            line += u"#\t\tis invalid verb\n",v['word'].encode("utf8")
+        if not valid.is_valid_infinitive_verb(v['vocalized']):
+            line += u"#\t\tis invalid verb\n",v['vocalized'].encode("utf8")
         else:
             future_type = v_ar.get_future_type_entree(v['future_type']);
-            conjugTable = msrif.do_sarf( v['word'], v['future_type'], v['all'], v['past'],
+            conjugTable = msrif.do_sarf( v['vocalized'], v['future_type'], v['all'], v['past'],
                                    v['future'], v['passive'], v['imperative'],
                                    v['future_moode'], v['confirmed'], v['transitive'], 
                                    "DICT");
