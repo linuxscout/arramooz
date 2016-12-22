@@ -46,15 +46,7 @@ make
 ```
 which will generate xml, sql and text files, and package it in releases folder.
 
-To make xml files only
-```
-make xml 
-```
 
-To make sql files only
-```
-make sql 
-```
 To make Hunspell files only
 ```
 make spell
@@ -175,7 +167,7 @@ w_suffix |accept waw suffix|يقبل الاحقة ـو الخاصة بجمع ا�
 hm_suffix |accept Heh+Meem suffix|يقبل اللاحقة ـهم
 kal_prefix |accept Kaf+Alef+Lam  prefixe|يقبل السابقة كالـ
 ha_suffix|accept Heh suffix|يقبل اللاحقة ـه
-k_suffix|accept Kaf suffix|يقبل اللاحقة ك
+k_prefix|accept preposition prefixes without "AL" definition article |يقبل سابقة الجر  دون ال التعريف
 annex |accept the oral annexation|يقبل الإضافة إلى ما بعده مثل المقيمي الصلاة
 definition |word description|شرح الكلمة
 note |notes about the dictionary entry.|ملاحظات على المدخل في القاموس
@@ -212,7 +204,7 @@ CREATE TABLE  IF NOT EXISTS `nouns` (
           `hm_suffix` tinyint(1) DEFAULT 0,
           `kal_prefix` tinyint(1) DEFAULT 0,
           `ha_suffix` tinyint(1) DEFAULT 0,
-          `k_suffix` tinyint(1) DEFAULT 0,
+          `k_prefix` tinyint(1) DEFAULT 0,
           `annex` tinyint(1) DEFAULT 0,
           `definition` text,
           `note` text
@@ -249,7 +241,7 @@ CREATE TABLE  IF NOT EXISTS `nouns` (
  <hm_suffix/>
  <kal_prefix/>
  <ha_suffix/>
- <k_suffix/>
+ <k_prefix/>
  <annex/>
  <definition>". ""تَرَكَ ابْناً بَارّاً"" : صَادِقاً وَصَالِحاً وَمُحْسِناً. ""اِبْنُكَ البارُّ يُحِبُّكَ"</definition>
  <note/>

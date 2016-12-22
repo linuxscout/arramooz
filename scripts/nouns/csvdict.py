@@ -61,8 +61,8 @@ class CsvDict:
             'relative':20,          #نسب    relative
             'annex':21,             #إضافة لفظية    oral annexation  
             'w_suffix':22,          #ـو    accept Waw suffix
-            'k_suffix':23,          #ك    accept Kaf suffix
-            'kal_prefix':24,        #كال    accept Kaf+Alef+Lam  preffix
+            'k_prefix':23,          #ك    accept Kaf prefix
+            'kal_prefix':24,        #كال    accept Kaf+Alef+Lam  prefix
             'ha_suffix':25,         #ها    accept Heh+Alef suffix
             'hm_suffix':26,         #هم    accept Heh+Meem suffix
             'plural_tanwin_nasb':27, #تنوين النصب للجمع    doew th plural form accept tawnin mansoub
@@ -70,43 +70,11 @@ class CsvDict:
         }
         #give the display order for text format display
         self.display_order=[
-                #~ 'id',
-                #~ 'vocalized',
-                #~ 'unvocalized',
-                #~ 'normalized',
-                #~ 'stamp',
-                #~ 'wordtype',
-                #~ 'root',
-                #~ 'wazn',               #وزن    wazn
-                #~ 'category',
-                #~ 'original',
-                #~ 'defined',          
-                #~ 'gender',             #جنس    gender
-                #~ 'feminin',            #مؤنث    feminin
-                #~ 'masculin',           #مذكر    masculin
-                #~ 'mankous',
-                #~ 'feminable',
-                #~ 'number',
-                #~ 'single',
-                #~ 'dualable',
-                #~ 'masculin_plural',
-                #~ 'feminin_plural',
-                #~ 'broken_plural',
-                #~ 'mamnou3_sarf',
-                #~ 'relative',
-                #~ 'w_suffix',
-                #~ 'hm_suffix',
-                #~ 'kal_prefix',
-                #~ 'ha_suffix',
-                #~ 'k_suffix',
-                #~ 'annex',
-                #~ 'definition',
-                #~ 'note',
                 'id' ,
                 'vocalized' ,
                 'unvocalized' ,
                 'normalized' ,
-                'stamp' ,
+                'stamped' ,
                 'wordtype' ,
                 'root' ,
                 'wazn' ,
@@ -130,7 +98,7 @@ class CsvDict:
                 'hm_suffix' ,
                 'kal_prefix' ,
                 'ha_suffix' ,
-                'k_suffix' ,
+                'k_prefix' ,
                 'annex' ,
                 'definition',
                 'note',
@@ -148,7 +116,7 @@ class CsvDict:
                 'hm_suffix',
                 'kal_prefix',
                 'ha_suffix',
-                'k_suffix',
+                'k_prefix',
                 'annex',
                 ]                
         wordtype_table={
@@ -260,19 +228,57 @@ class CsvDict:
         fields['wordtype']   = self.wordtype;
 
         # extarct broken plurals
-        if fields['plural']:
-            fields['broken_plural'] = fields['plural']; 
+        # extract plural from the plural field
+        # the field can have +ون;+ات
+        items = fields['plural'].split(";")
+        if u'+ون' in items:items.remove(u'+ون')
+        if u'+ات' in items:items.remove(u'+ات')
+        if u'ون' in items:items.remove(u'ون')
+        if u'ات' in items:items.remove(u'ات')
+        if items:
+            fields['broken_plural'] = u";".join(items); 
         else:
             fields['broken_plural'] = "";
         #display order
         fields['normalized'] = araby.normalize_hamza(fields['unvocalized'])
-        fields['stamp'] = ndf.word_stamp(fields['unvocalized'])
+        fields['stamped'] = ndf.word_stamp(fields['unvocalized'])
+        
+        # special change in some fields
+        
+        # some fields are not fully defined, 
+        # if the k_prefix si Null, it means True,
+        # if is N or n, it's  False
+        if fields['k_prefix'] in ('n', 'N'):
+            fields['k_prefix'] = 0
+        else:
+            fields['k_prefix'] = 1
+        # if the kal_prefix si Null, it means True,
+        # if is N or n, it's  False
+        if fields['kal_prefix'] in ('n', 'N'):
+            fields['kal_prefix'] = 0
+        else:
+            fields['kal_prefix'] = 1
+        # if the ha_suffix si Null, it means True,
+        # if is N or n, it's  False
+        if fields['ha_suffix'] in ('n', 'N'):
+            fields['ha_suffix'] = 0
+        else:
+            fields['ha_suffix'] = 1
+        # if the hm_suffix si Null, it means True,
+        # if is N or n, it's  False
+        if fields['hm_suffix'] in ('n', 'N'):
+            fields['hm_suffix'] = 0
+        else:
+            fields['hm_suffix'] = 1
+            
         # change boolean fields
         for key in self.boolean_fields:
             if not fields[key]: 
                 fields[key] = 0
-            elif fields[key] in ('n',"N"):
+            elif fields[key] in ('n',"N", "Non"):
                 fields[key] = 0
+            elif fields[key] in ('o',"O"):
+                fields[key] = 1                
             else:
                 fields[key] = 1        
         return fields;

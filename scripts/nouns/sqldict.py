@@ -41,7 +41,7 @@ class SqlDict(csvdict.CsvDict):
           `vocalized` varchar(30) DEFAULT NULL,
           `unvocalized` varchar(30) DEFAULT NULL,
           `normalized` varchar(30) DEFAULT NULL,
-          `stamp` varchar(30) DEFAULT NULL,
+          `stamped` varchar(30) DEFAULT NULL,
           `wordtype` varchar(30) DEFAULT NULL,
           `root` varchar(10) DEFAULT NULL,
           `wazn` varchar(30) DEFAULT NULL,
@@ -65,7 +65,7 @@ class SqlDict(csvdict.CsvDict):
           `hm_suffix` tinyint(1) DEFAULT 0,
           `kal_prefix` tinyint(1) DEFAULT 0,
           `ha_suffix` tinyint(1) DEFAULT 0,
-          `k_suffix` tinyint(1) DEFAULT 0,
+          `k_prefix` tinyint(1) DEFAULT 0,
           `annex` tinyint(1) DEFAULT 0,
           `definition` text,
           `note` text

@@ -44,7 +44,7 @@ class SqlDict(csvdict.CsvDict):
             unvocalized varchar(30) not null,
             root varchar(30),
             normalized varchar(30) not null,
-            stamp varchar(30) not null,
+            stamped varchar(30) not null,
             future_type varchar(5),
             triliteral  tinyint(1) default 0, 
             transitive  tinyint(1) default 0, 

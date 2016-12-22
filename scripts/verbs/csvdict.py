@@ -65,11 +65,11 @@ class CsvDict:
         #give the display order for text format display
         self.display_order=[
                 'id' ,
-                'word',
+                'vocalized',
                 'unvocalized',
                 'root',
                 'normalized',
-                'stamp',
+                'stamped',
                 'future_type',
                 'triliteral',
                 'transitive',
@@ -166,7 +166,7 @@ class CsvDict:
                 sys.exit()
         v["unvocalized"] = araby.strip_tashkeel(v['vocalized']);
         v['normalized'] = araby.normalize_hamza(v['unvocalized'])
-        v['stamp']      = vdf.stamp(v['unvocalized'])
+        v['stamped']      = vdf.stamp(v['unvocalized'])
 
         # Adopt fields to the actual program
         #word;

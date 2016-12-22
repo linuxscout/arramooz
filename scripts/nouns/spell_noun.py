@@ -497,6 +497,13 @@ def validate_tags(noun_tuple, affix_tags, procletic, encletic_nm ,
 
     if  u'تنوين' in affix_tags and  noun_tuple['mamnou3_sarf']:
         return False
+    # ألجمع السالم لا يتصل بجمع التكسير
+    if  u'جمع مؤنث سالم' in affix_tags and  noun_tuple['number'] in (u'جمع', u'جمع تكسير'):
+        return False
+    if  u'جمع مذكر سالم' in affix_tags and  noun_tuple['number'] in (u'جمع', u'جمع تكسير'):
+        return False        
+    if  u'مثنى' in affix_tags and  noun_tuple['number'] in (u'جمع', u'جمع تكسير'):
+        return False        
     #~if  u'منسوب' in affix_tags and (not noun_tuple['relative'] and not u'مصدر' in noun_tuple['word_type']):
         #~return False
     #تدقيق الغضافة إلى الضمائر المتصلة
@@ -507,10 +514,10 @@ def validate_tags(noun_tuple, affix_tags, procletic, encletic_nm ,
     if encletic_nm == u"ه" and not noun_tuple['ha_suffix'] :
         return False
     #~ if encletic_nm == u"ك" and noun_tuple['k_suffix'] == 'N':
-    if encletic_nm == u"ك" and not noun_tuple['k_suffix'] :
+    if procletic == u"ك" and not noun_tuple['k_prefix'] :
         return False
-    #حالة قابلية التشبيه
-    if procletic.endswith(u"كال") and not noun_tuple['kal_prefix']:
+    #حالة قابلية السوابق  مع التعريف
+    if procletic.endswith(u"ال") and not noun_tuple['kal_prefix']:
         return False
     # حالة المضاف إلى ما بعهده في حالة جمع المذكر السالم
     # مثل لاعبو، رياضيو

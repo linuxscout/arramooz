@@ -141,7 +141,7 @@ nounsql:
 	
 	echo "CREATE INDEX IF NOT EXISTS 'idx_n_voc'  ON 'nouns' ('vocalized' ASC);"   >>$(OUTPUT)/nouns.dict.sql
 	echo "CREATE INDEX IF NOT EXISTS 'idx_norm_n' ON 'nouns' ('normalized' ASC);" >>$(OUTPUT)/nouns.dict.sql
-	echo "CREATE INDEX IF NOT EXISTS 'idx_stamp'  ON 'nouns' ('stamp' ASC);"		  >>$(OUTPUT)/nouns.dict.sql
+	echo "CREATE INDEX IF NOT EXISTS 'idx_stamp'  ON 'nouns' ('stamped' ASC);"		  >>$(OUTPUT)/nouns.dict.sql
 	echo "CREATE INDEX IF NOT EXISTS 'idx_unv'    ON 'nouns' ('unvocalized' ASC);"   >>$(OUTPUT)/nouns.dict.sql
 
 
