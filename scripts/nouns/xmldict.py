@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 # -*- coding=utf-8 -*-
 #************************************************************************
 # $Id: generatenoundict.py,v 0.7 2011/03/26 01:10:00 Taha Zerrouki $

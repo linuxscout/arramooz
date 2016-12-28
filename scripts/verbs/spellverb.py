@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 # -*- coding=utf-8 -*-
 #************************************************************************
 # $Id: spellverbconst.py,v 0.7 2010/12/26 01:10:00 Taha Zerrouki $

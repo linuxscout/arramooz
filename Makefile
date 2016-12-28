@@ -33,111 +33,111 @@ verb: verbods verbdict  verbcsv verbxml verbsql
 noun: nounods nouncsv nounxml nounsql 
 verbdict:
 	#Generate verb dictionary
-	python $(SCRIPT)/verbs/gen_verb_dict.py -f $(DATA_DIR)/verbs/verb_dic_data-net.csv > $(OUTPUT)/verbs.aya.dic
+	python2 $(SCRIPT)/verbs/gen_verb_dict.py -f $(DATA_DIR)/verbs/verb_dic_data-net.csv > $(OUTPUT)/verbs.aya.dic
 verbxml:
 	#Generate Specific format SQL and XML
-	python $(SCRIPT)/verbs/gen_verb_dict_format.py -o xml -v $(VERSION) -f $(OUTPUT)/verbs.aya.dic > $(OUTPUT)/verbs.xml
+	python2 $(SCRIPT)/verbs/gen_verb_dict_format.py -o xml -v $(VERSION) -f $(OUTPUT)/verbs.aya.dic > $(OUTPUT)/verbs.xml
 verbsql:
-	python $(SCRIPT)/verbs/gen_verb_dict_format.py -o sql  -v $(VERSION)  -f $(OUTPUT)/verbs.aya.dic > $(OUTPUT)/verbs.sql
+	python2 $(SCRIPT)/verbs/gen_verb_dict_format.py -o sql  -v $(VERSION)  -f $(OUTPUT)/verbs.aya.dic > $(OUTPUT)/verbs.sql
 	echo "CREATE INDEX  IF NOT EXISTS 'idx_v_voc' ON 'verbs' ('vocalized' ASC);" >> $(OUTPUT)/verbs.sql
 	echo "CREATE INDEX  IF NOT EXISTS 'idx__verbstamp' ON 'verbs' ('stamped' ASC);" >> $(OUTPUT)/verbs.sql
 	echo "CREATE INDEX  IF NOT EXISTS 'idx_verb_norm'  ON 'verbs' ('normalized' ASC);" >> $(OUTPUT)/verbs.sql
 	echo "CREATE INDEX  IF NOT EXISTS 'idx_verb_unvoc' ON 'verbs' ('unvocalized' ASC);" >> $(OUTPUT)/verbs.sql
 verbcsv:
-	python $(SCRIPT)/verbs/gen_verb_dict_format.py -o csv  -v $(VERSION) -f $(OUTPUT)/verbs.aya.dic > $(OUTPUT)/verbs.csv
+	python2 $(SCRIPT)/verbs/gen_verb_dict_format.py -o csv  -v $(VERSION) -f $(OUTPUT)/verbs.aya.dic > $(OUTPUT)/verbs.csv
 
 spell: verbspell nounspell
 	#gerenate spelling dict in Hunspell format
 verbspell:
 	#gerenate spelling dict of verbs in Hunspell format
-	python $(SCRIPT)/verbs/gen_verb_dict_format.py -o spell  -v $(VERSION) -f $(OUTPUT)/verbs.aya.dic > $(OUTPUT)/verbs.spell
-	python $(SCRIPT)/verbs/spelltools.py -f $(OUTPUT)/verbs.spell > $(OUTPUT)/verbs.2.spell
+	python2 $(SCRIPT)/verbs/gen_verb_dict_format.py -o spell  -v $(VERSION) -f $(OUTPUT)/verbs.aya.dic > $(OUTPUT)/verbs.spell
+	python2 $(SCRIPT)/verbs/spelltools.py -f $(OUTPUT)/verbs.spell > $(OUTPUT)/verbs.2.spell
 
 nounspelltest:
-	python $(SCRIPT)/nouns/gen_noun_dict.py -l 100  -f $(DATA_DIR)/nouns/fa3il.csv -d spell -v $(VERSION) -t fa3il >$(OUTPUT)/nouns.dict.spell
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py -l 100  -f $(DATA_DIR)/nouns/fa3il.csv -d spell -v $(VERSION) -t fa3il >$(OUTPUT)/nouns.dict.spell
 	## maf3oul file
-	python $(SCRIPT)/nouns/gen_noun_dict.py -l 100 -f $(DATA_DIR)/nouns/maf3oul.csv -d spell  -v $(VERSION) -t maf3oul >>$(OUTPUT)/nouns.dict.spell
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py -l 100 -f $(DATA_DIR)/nouns/maf3oul.csv -d spell  -v $(VERSION) -t maf3oul >>$(OUTPUT)/nouns.dict.spell
 	## jamid file
-	python $(SCRIPT)/nouns/gen_noun_dict.py -l 100 -f $(DATA_DIR)/nouns/jamid.csv -d spell  -v $(VERSION) -t jamid >>$(OUTPUT)/nouns.dict.spell
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py -l 100 -f $(DATA_DIR)/nouns/jamid.csv -d spell  -v $(VERSION) -t jamid >>$(OUTPUT)/nouns.dict.spell
 	## mansoub.csv
-	python $(SCRIPT)/nouns/gen_noun_dict.py -l 100 -f $(DATA_DIR)/nouns/mansoub.csv -d spell  -v $(VERSION) -t mansoub >>$(OUTPUT)/nouns.dict.spell
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py -l 100 -f $(DATA_DIR)/nouns/mansoub.csv -d spell  -v $(VERSION) -t mansoub >>$(OUTPUT)/nouns.dict.spell
 	## masdar.csv
 	
 nounspell:
 	#gerenate spelling dict of nouns in Hunspell format
-	python $(SCRIPT)/nouns/gen_noun_dict.py   -f $(DATA_DIR)/nouns/fa3il.csv -d spell -v $(VERSION) -t fa3il >$(OUTPUT)/nouns.dict.spell
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py   -f $(DATA_DIR)/nouns/fa3il.csv -d spell -v $(VERSION) -t fa3il >$(OUTPUT)/nouns.dict.spell
 	## maf3oul file
-	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/maf3oul.csv -d spell  -v $(VERSION) -t maf3oul >>$(OUTPUT)/nouns.dict.spell
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/maf3oul.csv -d spell  -v $(VERSION) -t maf3oul >>$(OUTPUT)/nouns.dict.spell
 	## jamid file
-	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/jamid.csv -d spell  -v $(VERSION) -t jamid >>$(OUTPUT)/nouns.dict.spell
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/jamid.csv -d spell  -v $(VERSION) -t jamid >>$(OUTPUT)/nouns.dict.spell
 	## mansoub.csv
-	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/mansoub.csv -d spell  -v $(VERSION) -t mansoub >>$(OUTPUT)/nouns.dict.spell
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/mansoub.csv -d spell  -v $(VERSION) -t mansoub >>$(OUTPUT)/nouns.dict.spell
 	## masdar.csv
-	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/masdar.csv -d spell  -v $(VERSION) -t masdar >>$(OUTPUT)/nouns.dict.spell
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/masdar.csv -d spell  -v $(VERSION) -t masdar >>$(OUTPUT)/nouns.dict.spell
 	## moubalagha.csv
-	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/moubalagha.csv -d spell  -v $(VERSION) -t moubalagha >>$(OUTPUT)/nouns.dict.spell
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/moubalagha.csv -d spell  -v $(VERSION) -t moubalagha >>$(OUTPUT)/nouns.dict.spell
 	## mouchabbaha.csv
-	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/mouchabbaha.csv -d spell  -v $(VERSION) -t mouchabbaha >>$(OUTPUT)/nouns.dict.spell
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/mouchabbaha.csv -d spell  -v $(VERSION) -t mouchabbaha >>$(OUTPUT)/nouns.dict.spell
 	## sifates.csv
-	python $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/sifates.csv -d spell  -v $(VERSION) -t sifates  >>$(OUTPUT)/nouns.dict.spell
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/sifates.csv -d spell  -v $(VERSION) -t sifates  >>$(OUTPUT)/nouns.dict.spell
 	## tafdil.csv
-	python $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/tafdil.csv  -d spell -v $(VERSION) -t tafdil >>$(OUTPUT)/nouns.dict.spell
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/tafdil.csv  -d spell -v $(VERSION) -t tafdil >>$(OUTPUT)/nouns.dict.spell
 #~ 
 
 nouncsv:
 	#Generate noun dictionary 
 	# create a dictionary file from ayaspell cvs form
 	# fa3il file
-	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/fa3il.csv -d txt  -v $(VERSION) -t fa3il >$(OUTPUT)/nouns.dict.csv
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/fa3il.csv -d txt  -v $(VERSION) -t fa3il >$(OUTPUT)/nouns.dict.csv
 	## maf3oul file
-	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/maf3oul.csv -d txt  -v $(VERSION) -t maf3oul >>$(OUTPUT)/nouns.dict.csv
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/maf3oul.csv -d txt  -v $(VERSION) -t maf3oul >>$(OUTPUT)/nouns.dict.csv
 	## jamid file
-	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/jamid.csv -d txt  -v $(VERSION) -t jamid >>$(OUTPUT)/nouns.dict.csv
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/jamid.csv -d txt  -v $(VERSION) -t jamid >>$(OUTPUT)/nouns.dict.csv
 	## mansoub.csv
-	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/mansoub.csv -d txt  -v $(VERSION) -t mansoub >>$(OUTPUT)/nouns.dict.csv
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/mansoub.csv -d txt  -v $(VERSION) -t mansoub >>$(OUTPUT)/nouns.dict.csv
 	## masdar.csv
-	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/masdar.csv -d txt  -v $(VERSION) -t masdar >>$(OUTPUT)/nouns.dict.csv
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/masdar.csv -d txt  -v $(VERSION) -t masdar >>$(OUTPUT)/nouns.dict.csv
 	## moubalagha.csv
-	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/moubalagha.csv -d txt  -v $(VERSION) -t moubalagha >>$(OUTPUT)/nouns.dict.csv
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/moubalagha.csv -d txt  -v $(VERSION) -t moubalagha >>$(OUTPUT)/nouns.dict.csv
 	## mouchabbaha.csv
-	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/mouchabbaha.csv -d txt  -v $(VERSION) -t mouchabbaha >>$(OUTPUT)/nouns.dict.csv
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/mouchabbaha.csv -d txt  -v $(VERSION) -t mouchabbaha >>$(OUTPUT)/nouns.dict.csv
 	## sifates.csv
-	python $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/sifates.csv -d txt  -v $(VERSION) -t sifates  >>$(OUTPUT)/nouns.dict.csv
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/sifates.csv -d txt  -v $(VERSION) -t sifates  >>$(OUTPUT)/nouns.dict.csv
 	## tafdil.csv
-	python $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/tafdil.csv  -d txt  -v $(VERSION) -t tafdil >>$(OUTPUT)/nouns.dict.csv
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/tafdil.csv  -d txt  -v $(VERSION) -t tafdil >>$(OUTPUT)/nouns.dict.csv
 
 nounxml:
 	# XML files generating 
-	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/fa3il.csv  -v $(VERSION)  -t fa3il -d xml  >$(OUTPUT)/nouns.fa3il.dict.xml
-	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/maf3oul.csv  -v $(VERSION)  -d xml -t maf3oul >$(OUTPUT)/nouns.maf3oul.dict.xml
-	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/jamid.csv  -v $(VERSION)  -d xml -t jamid >$(OUTPUT)/nouns.jamid.dict.xml
-	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/mansoub.csv  -v $(VERSION) -d xml -t mansoub >$(OUTPUT)/nouns.mansoub.dict.xml
-	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/masdar.csv  -v $(VERSION)  -d xml -t masdar >$(OUTPUT)/nouns.masdar.dict.xml
-	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/moubalagha.csv  -v $(VERSION)  -d xml -t moubalagha >$(OUTPUT)/nouns.moubalagha.dict.xml
-	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/mouchabbaha.csv  -v $(VERSION) -d xml -t mouchabbaha >$(OUTPUT)/nouns.mouchabbaha.dict.xml
-	python $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/sifates.csv  -v $(VERSION)  -d xml -t sifates  >$(OUTPUT)/nouns.sifates.dict.xml
-	python $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/tafdil.csv   -v $(VERSION)  -d xml -t tafdil >$(OUTPUT)/nouns.tafdil.dict.xml
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/fa3il.csv  -v $(VERSION)  -t fa3il -d xml  >$(OUTPUT)/nouns.fa3il.dict.xml
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/maf3oul.csv  -v $(VERSION)  -d xml -t maf3oul >$(OUTPUT)/nouns.maf3oul.dict.xml
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/jamid.csv  -v $(VERSION)  -d xml -t jamid >$(OUTPUT)/nouns.jamid.dict.xml
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/mansoub.csv  -v $(VERSION) -d xml -t mansoub >$(OUTPUT)/nouns.mansoub.dict.xml
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/masdar.csv  -v $(VERSION)  -d xml -t masdar >$(OUTPUT)/nouns.masdar.dict.xml
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/moubalagha.csv  -v $(VERSION)  -d xml -t moubalagha >$(OUTPUT)/nouns.moubalagha.dict.xml
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/mouchabbaha.csv  -v $(VERSION) -d xml -t mouchabbaha >$(OUTPUT)/nouns.mouchabbaha.dict.xml
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/sifates.csv  -v $(VERSION)  -d xml -t sifates  >$(OUTPUT)/nouns.sifates.dict.xml
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/tafdil.csv   -v $(VERSION)  -d xml -t tafdil >$(OUTPUT)/nouns.tafdil.dict.xml
 
 nounsql:
 	############ SQL files generation
 	# fa3il file
-	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/fa3il.csv  -v $(VERSION) -d sql -t fa3il  >$(OUTPUT)/nouns.dict.sql
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/fa3il.csv  -v $(VERSION) -d sql -t fa3il  >$(OUTPUT)/nouns.dict.sql
 	## maf3oul file
-	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/maf3oul.csv  -v $(VERSION) -d sql -t maf3oul >>$(OUTPUT)/nouns.dict.sql
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/maf3oul.csv  -v $(VERSION) -d sql -t maf3oul >>$(OUTPUT)/nouns.dict.sql
 	## jamid file
-	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/jamid.csv  -v $(VERSION) -d sql -t jamid >>$(OUTPUT)/nouns.dict.sql
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/jamid.csv  -v $(VERSION) -d sql -t jamid >>$(OUTPUT)/nouns.dict.sql
 	## mansoub.csv
-	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/mansoub.csv  -v $(VERSION) -d sql -t mansoub >>$(OUTPUT)/nouns.dict.sql
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/mansoub.csv  -v $(VERSION) -d sql -t mansoub >>$(OUTPUT)/nouns.dict.sql
 	## masdar.csv
-	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/masdar.csv  -v $(VERSION) -d sql -t masdar >>$(OUTPUT)/nouns.dict.sql
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/masdar.csv  -v $(VERSION) -d sql -t masdar >>$(OUTPUT)/nouns.dict.sql
 	## moubalagha.csv
-	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/moubalagha.csv  -v $(VERSION) -d sql -t moubalagha >>$(OUTPUT)/nouns.dict.sql
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/moubalagha.csv  -v $(VERSION) -d sql -t moubalagha >>$(OUTPUT)/nouns.dict.sql
 	## mouchabbaha.csv
-	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/mouchabbaha.csv  -v $(VERSION) -d sql -t mouchabbaha >>$(OUTPUT)/nouns.dict.sql
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/mouchabbaha.csv  -v $(VERSION) -d sql -t mouchabbaha >>$(OUTPUT)/nouns.dict.sql
 	## sifates.csv
-	python $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/sifates.csv  -v $(VERSION) -d sql -t sifates  >>$(OUTPUT)/nouns.dict.sql
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/sifates.csv  -v $(VERSION) -d sql -t sifates  >>$(OUTPUT)/nouns.dict.sql
 	## tafdil.csv
-	python $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/tafdil.csv   -v $(VERSION) -d sql -t tafdil >>$(OUTPUT)/nouns.dict.sql
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/tafdil.csv   -v $(VERSION) -d sql -t tafdil >>$(OUTPUT)/nouns.dict.sql
 	
 	echo "CREATE INDEX IF NOT EXISTS 'idx_n_voc'  ON 'nouns' ('vocalized' ASC);"   >>$(OUTPUT)/nouns.dict.sql
 	echo "CREATE INDEX IF NOT EXISTS 'idx_norm_n' ON 'nouns' ('normalized' ASC);" >>$(OUTPUT)/nouns.dict.sql
@@ -150,27 +150,27 @@ nounstardict:
 	#Generate noun dictionary 
 	# create a dictionary file from ayaspell cvs form
 	# fa3il file
-	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/fa3il.csv -d stardict  -v $(VERSION) -t fa3il >$(OUTPUT)/nouns.dict.sdic
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/fa3il.csv -d stardict  -v $(VERSION) -t fa3il >$(OUTPUT)/nouns.dict.sdic
 	## maf3oul file
-	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/maf3oul.csv -d stardict  -v $(VERSION) -t maf3oul >>$(OUTPUT)/nouns.dict.sdic
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/maf3oul.csv -d stardict  -v $(VERSION) -t maf3oul >>$(OUTPUT)/nouns.dict.sdic
 	## jamid file
-	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/jamid.csv -d stardict  -v $(VERSION) -t jamid >>$(OUTPUT)/nouns.dict.sdic
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/jamid.csv -d stardict  -v $(VERSION) -t jamid >>$(OUTPUT)/nouns.dict.sdic
 	## mansoub.csv
-	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/mansoub.csv -d stardict  -v $(VERSION) -t mansoub >>$(OUTPUT)/nouns.dict.sdic
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/mansoub.csv -d stardict  -v $(VERSION) -t mansoub >>$(OUTPUT)/nouns.dict.sdic
 	## masdar.csv
-	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/masdar.csv -d stardict  -v $(VERSION) -t masdar >>$(OUTPUT)/nouns.dict.sdic
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/masdar.csv -d stardict  -v $(VERSION) -t masdar >>$(OUTPUT)/nouns.dict.sdic
 	## moubalagha.csv
-	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/moubalagha.csv -d stardict  -v $(VERSION) -t moubalagha >>$(OUTPUT)/nouns.dict.sdic
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/moubalagha.csv -d stardict  -v $(VERSION) -t moubalagha >>$(OUTPUT)/nouns.dict.sdic
 	## mouchabbaha.csv
-	python $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/mouchabbaha.csv -d stardict  -v $(VERSION) -t mouchabbaha >>$(OUTPUT)/nouns.dict.sdic
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/mouchabbaha.csv -d stardict  -v $(VERSION) -t mouchabbaha >>$(OUTPUT)/nouns.dict.sdic
 	## sifates.csv
-	python $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/sifates.csv -d stardict  -v $(VERSION) -t sifates  >>$(OUTPUT)/nouns.dict.sdic
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/sifates.csv -d stardict  -v $(VERSION) -t sifates  >>$(OUTPUT)/nouns.dict.sdic
 	## tafdil.csv
-	python $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/tafdil.csv  -d stardict -v $(VERSION) -t tafdil >>$(OUTPUT)/nouns.dict.sdic
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/tafdil.csv  -d stardict -v $(VERSION) -t tafdil >>$(OUTPUT)/nouns.dict.sdic
 	#~ sed -i "s/\n\n\n/\n\n/g" $(OUTPUT)/nouns.dict.sdic
 	#~ sed -i "s/\n\n\n/\n\n/g" $(OUTPUT)/nouns.dict.sdic
 verbstardict:
-	python $(SCRIPT)/verbs/gen_verb_dict_format.py -o stardict  -v $(VERSION) -f $(OUTPUT)/verbs.aya.dic > $(OUTPUT)/verbs.sdic
+	python2 $(SCRIPT)/verbs/gen_verb_dict_format.py -o stardict  -v $(VERSION) -f $(OUTPUT)/verbs.aya.dic > $(OUTPUT)/verbs.sdic
 	#~ sed -i "s/\n\n\n/\n\n/g" $(OUTPUT)/verbs.sdic
 	#~ sed -i "s/\n\n\n/\n\n/g" $(OUTPUT)/verbs.sdic
 #packaging 
