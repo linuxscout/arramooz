@@ -120,7 +120,7 @@ def main():
         mydict = spelldict.SpellDict(version);        
     else:
         import csvdict
-        mydict = csvdict.CsvDict(version)
+        mydict = csvdict.CsvDict(version)zz
     while line :
         line= line.strip('\n').strip()
         if not line.startswith("#"):

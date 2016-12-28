@@ -118,27 +118,7 @@ class CsvDict:
             # some fields are integer, than we use str
             items.append(unicode(fields[key]))
         line = u"\t".join(items);
-        #~ line = u"\t".join([str(self.id),
-            #~ vrecord['word'],
-            #~ vrecord['unvocalized'],
-            #~ vrecord['root'],
-            #~ vrecord['normalized'],
-            #~ vrecord['stamp'],
-            #~ vrecord['future_type'],
-            #~ str(vrecord['triliteral']),
-            #~ str(vrecord['transitive']),
-            #~ str(vrecord['double_trans']),
-            #~ str(vrecord['think_trans']),
-            #~ str(vrecord['unthink_trans']),
-            #~ str(vrecord['reflexive_trans']),
-            #~ str(vrecord['past']),
-            #~ str(vrecord['future']),
-            #~ str(vrecord['imperative']),
-            #~ str(vrecord['passive']),
-            #~ str(vrecord['future_moode']),
-            #~ str(vrecord['confirmed'])
-            #~ ]
-            #~ )
+
         return line
         
     def add_footer(self):
