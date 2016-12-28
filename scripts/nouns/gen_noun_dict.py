@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 # -*- coding=utf-8 -*-
 #************************************************************************
 # $Id: generatenoundict.py,v 0.8 2016/03/26 01:10:00 Taha Zerrouki $
@@ -39,7 +39,7 @@ def usage():
     print "\t[-h | --help]\t\toutputs this usage message"
     print "\t[-v | --version= dataversion]\tset generated data version"
     print "\t[-f | --file= filename]\tinput file to %s"%scriptname
-    print "\t[-d | --display= format]\tdisplay format (txt,sql, python, xml) %s"%scriptname
+    print "\t[-d | --display= format]\tdisplay format (txt,sql, python2, xml) %s"%scriptname
     print "\t[-t | --type= wordtype]\tgive the word type(fa3il,masdar, jamid, mochabaha,moubalagha,mansoub,) %s"%scriptname
     print "\t[-l | --limit= limit_ number]\tthe limit of treated lines %s"%scriptname
     print "\r\nN.B. FILE FORMAT is descripted in README"

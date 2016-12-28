@@ -255,11 +255,11 @@ CREATE TABLE  IF NOT EXISTS `nouns` (
 
 1- generate the abstract dictionary from the brut manual dictionary:
 ```shell
-python $SCRIPT/verbs/gen_verb_dict.py -f $DATA_DIR/verbs/verb_dic_data-net.csv > $OUTPUT/verbs.aya.dic
+python2 $SCRIPT/verbs/gen_verb_dict.py -f $DATA_DIR/verbs/verb_dic_data-net.csv > $OUTPUT/verbs.aya.dic
 ```
 2- generate the file format (xml, csv, sql) of  dictionary from verbs.aya.dic
 ```shell
-python $SCRIPT/verbs/gen_verb_dict_format.py -o xml -f $OUTPUT/verbs.aya.dic > $OUTPUT/verbs.xml
+python2 $SCRIPT/verbs/gen_verb_dict_format.py -o xml -f $OUTPUT/verbs.aya.dic > $OUTPUT/verbs.xml
 ```
 
 *[scripts/verbs]

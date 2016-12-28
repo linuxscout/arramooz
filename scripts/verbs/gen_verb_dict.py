@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 # -*- coding=utf-8 -*-
 #************************************************************************
 # $Id:generateverbdict.py,v 0.7 2009/06/02 01:10:00 Taha Zerrouki $
