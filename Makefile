@@ -33,6 +33,7 @@ verb: verbods verbdict  verbcsv verbxml verbsql
 noun: nounods nouncsv nounxml nounsql 
 verbdict:
 	#Generate verb dictionary
+	mkdir -p $(OUTPUT)
 	python2 $(SCRIPT)/verbs/gen_verb_dict.py -f $(DATA_DIR)/verbs/verb_dic_data-net.csv > $(OUTPUT)/verbs.aya.dic
 verbxml:
 	#Generate Specific format SQL and XML
