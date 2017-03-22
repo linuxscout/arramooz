@@ -2,7 +2,7 @@
 # Build Arramooz dictionary files
 DATA_DIR :=data
 RELEASES :=releases
-OUTPUT :=tests/output
+OUTPUT :=output
 SCRIPT :=scripts
 VERSION=0.3
 DOC="."
@@ -10,7 +10,7 @@ DOC="."
 default: all
 # Clean build files
 clean:
-	rm -f -r $(RELEASES)/*
+	rm -f -r $(RELEASES)/* $(OUTPUT)
 backup: 
 	mkdir -p $(RELEASES)/backup$(VERSION)
 	mv $(RELEASES)/*.bz2 $(RELEASES)/backup$(VERSION)
@@ -23,6 +23,7 @@ publish:
 
 ods: verbods nounods
 #Generate csv files from ODS
+	mkdir -p $(OUTPUT)
 nounods:
 	libreoffice --headless --convert-to "csv:Text - txt - csv (StarCalc):9,34,UTF8" --outdir $(DATA_DIR)/nouns/ $(DATA_DIR)/nouns/*.ods
 verbods:
