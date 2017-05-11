@@ -55,15 +55,13 @@ verbspell:
 	python2 $(SCRIPT)/verbs/gen_verb_dict_format.py -o spell  -v $(VERSION) -f $(OUTPUT)/verbs.aya.dic > $(OUTPUT)/verbs.spell
 	python2 $(SCRIPT)/verbs/spelltools.py -f $(OUTPUT)/verbs.spell > $(OUTPUT)/verbs.2.spell
 
-nounspelltest:
-	python2 $(SCRIPT)/nouns/gen_noun_dict.py -l 100  -f $(DATA_DIR)/nouns/fa3il.csv -d spell -v $(VERSION) -t fa3il >$(OUTPUT)/nouns.dict.spell
+nountags:
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py -l 100 -f $(DATA_DIR)/nouns/fa3il.csv -d tags -v $(VERSION) -t fa3il >$(OUTPUT)/nouns.dict.spell
 	## maf3oul file
-	python2 $(SCRIPT)/nouns/gen_noun_dict.py -l 100 -f $(DATA_DIR)/nouns/maf3oul.csv -d spell  -v $(VERSION) -t maf3oul >>$(OUTPUT)/nouns.dict.spell
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py -l 100 -f $(DATA_DIR)/nouns/maf3oul.csv -d tags  -v $(VERSION) -t maf3oul >>$(OUTPUT)/nouns.dict.spell
 	## jamid file
-	python2 $(SCRIPT)/nouns/gen_noun_dict.py -l 100 -f $(DATA_DIR)/nouns/jamid.csv -d spell  -v $(VERSION) -t jamid >>$(OUTPUT)/nouns.dict.spell
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py -l 100 -f $(DATA_DIR)/nouns/jamid.csv -d tags  -v $(VERSION) -t jamid >>$(OUTPUT)/nouns.dict.spell
 	## mansoub.csv
-	python2 $(SCRIPT)/nouns/gen_noun_dict.py -l 100 -f $(DATA_DIR)/nouns/mansoub.csv -d spell  -v $(VERSION) -t mansoub >>$(OUTPUT)/nouns.dict.spell
-	## masdar.csv
 	
 nounspell:
 	#gerenate spelling dict of nouns in Hunspell format

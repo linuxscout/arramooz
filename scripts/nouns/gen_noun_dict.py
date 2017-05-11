@@ -124,6 +124,9 @@ def main():
     elif output_format == "stardict":
         import stardict
         mydict = stardict.StarDict(wordtype, version);
+    elif output_format == "tags":
+        import tagsdict
+        mydict = tagsdict.TagsDict(wordtype, version);
     elif output_format == "spell":
         import spelldict
         mydict = spelldict.SpellDict(wordtype, version);
