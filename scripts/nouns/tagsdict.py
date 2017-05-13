@@ -40,15 +40,15 @@ class TagsDict(csvdict.CsvDict):
         nb1=0
         nb2=0
         for procletic in snconst.COMP_PREFIX_LIST_MODEL.keys():
-            for encletic in snconst.COMP_SUFFIX_LIST_MODEL:
-                for suffix in snconst.CONJ_SUFFIX_LIST:
-                    pro_nm = araby.strip_tashkeel(procletic)
-                    enc_nm = araby.strip_tashkeel(encletic)
-                    if u"-".join([pro_nm, enc_nm]) in snconst.COMP_NOUN_AFFIXES:
-                        nb1 += 1
-                        if nspell.verify_proaffix_affix(procletic, encletic, suffix):
-                            nb2 += 1
-                            self.affixes_list.append((procletic, encletic, suffix))        
+                for encletic in snconst.COMP_SUFFIX_LIST_MODEL:
+                    for suffix in snconst.CONJ_SUFFIX_LIST:
+                        pro_nm = araby.strip_tashkeel(procletic)
+                        enc_nm = araby.strip_tashkeel(encletic)
+                        if u"-".join([pro_nm, enc_nm]) in snconst.COMP_NOUN_AFFIXES:
+                            nb1 += 1
+                            if nspell.verify_proaffix_affix(procletic, encletic, suffix):
+                                nb2 += 1
+                                self.affixes_list.append((procletic, encletic, suffix))        
         print nb1, nb2
     def add_header(self,):
         """
@@ -94,7 +94,14 @@ class TagsDict(csvdict.CsvDict):
                     lines.append(u"\t".join([araby.strip_tashkeel(vocalized),  noun_tuple['unvocalized'], tags]))
 
                     nb += 1
-        return u"\n".join(lines)
+        #~ print  " Before reduction"
+        #~ print len(lines)
+        #~ print u"\n".join(lines).encode('utf8')
+        #~ print  " Afterreduction"
+        #~ print len(set(lines))
+        #~ print u"\n".join(set(lines)).encode('utf8')   
+        #~ print "--------------"         
+        return u"\n".join(set(lines))
         
     def get_tags(self, noun_tuple, affix_tags):
         
@@ -120,26 +127,36 @@ class TagsDict(csvdict.CsvDict):
         or u"مذكر" in noun_tuple['gender']):
             conjug +="M"
         else:
-            conjug +="-"             
+            conjug +="-"
+        
         if (u"جمع" in affix_tags or u"جمع مؤنث سالم" in affix_tags 
             or u"جمع مذكر سالم" in affix_tags
             or u"جمع" in  noun_tuple['number']):
             conjug +="3"
-        elif u"مثنى" in affix_tags or noun_tuple["number"] == "3":
+        elif u"مثنى" in affix_tags:
             conjug +="2"
         else:
             conjug +="1" 
         
-        if u"منصوب" in affix_tags:
-            conjug +="A"
-        elif u"مرفوع" in affix_tags:
-            conjug +="U"            
-        elif u"مجرور" in affix_tags:
-            conjug +="Y"            
-        elif u"مبني" in affix_tags:
-            conjug +="B"            
+        # we ignore I3rab mark if the word is single or broken plural
+        # we ignore I3rab short marks إغفال علامات الإعراب القصيرة أي الحركات
+        # نتجاهلها في حالات جمع التأنيث والمفرد والتكسير
+        # نعتبرها في حالات المثنى وجمع مذكر سالم فقط
+        if (u"جمع مذكر سالم" in affix_tags
+            or u"مثنى" in affix_tags
+            ):
+            if u"منصوب" in affix_tags:
+                conjug +="A"
+            elif u"مرفوع" in affix_tags:
+                conjug +="U"            
+            elif u"مجرور" in affix_tags:
+                conjug +="Y"            
+            elif u"مبني" in affix_tags:
+                conjug +="B"            
+            else:
+                conjug +="-"
         else:
-            conjug +="-" 
+            conjug +="-"            
             
         encletic = "-"
         if u"مضاف" in affix_tags:

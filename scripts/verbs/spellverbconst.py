@@ -129,3 +129,56 @@ TensePassiveJussiveFuture    :'10',
 TensePassiveSubjunctiveFuture:'11',
 TensePassiveConfirmedFuture  :'12',
 }
+#~ Ponoun:
+    #~ Person: 
+        #~ I: 1st person
+        #~ Y: 2nd person
+        #~ H: 3rd person
+    #~ gender: 
+        #~ M/F
+    #~ Number: 1/2/3
+TabTagsPronominale={
+PronounAna     :"I-1",
+PronounNahnu   :"I-3",
+PronounAnta    :"YM1",
+PronounAnti    :"YF1",
+PronounAntuma  :"YM2",
+PronounAntuma_f:"YF2",
+PronounAntum     :"YM3",
+PronounAntunna :"YF3",
+PronounHuwa      :"HM1",
+PronounHya     :"HF1",
+PronounHuma    :"HM2",
+PronounHuma_f  :"HF2",
+PronounHum     :"HM3",
+PronounHunna   :"HF3",
+}
+#~ 
+    #~ tense:
+        #~ P: past
+        #~ F: present
+        #~ I:  Imperative
+    #~ voice:
+        #~ P: passive
+        #~ A: active
+    #~ case:
+        #~ R: marfou3
+        #~ J: Majzoum
+        #~ N: Mansoub
+        #~ B: Mabni
+        #~ C: Confirmed
+TabTagsTense={
+# const for Tense Name
+TensePast                    :'PAB',
+TenseFuture                  :'FAR',
+TenseImperative              :'IAB',
+TenseConfirmedImperative     :'IAC',
+TenseJussiveFuture           :'IAJ',
+TenseSubjunctiveFuture       :'IAN',
+TenseConfirmedFuture         :'IAB',
+TensePassivePast             :'PPB',
+TensePassiveFuture           :'FPR',
+TensePassiveJussiveFuture    :'FPJ',
+TensePassiveSubjunctiveFuture:'FPN',
+TensePassiveConfirmedFuture  :'FPC',
+}

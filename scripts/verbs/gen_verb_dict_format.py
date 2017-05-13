@@ -117,10 +117,12 @@ def main():
         mydict = stardict.StarDict(version);        
     elif output_format == "spell":
         import spelldict
-        mydict = spelldict.SpellDict(version);        
+    elif output_format == "tags":
+        import tagsdict
+        mydict = tagsdict.TagsDict(version);        
     else:
         import csvdict
-        mydict = csvdict.CsvDict(version)zz
+        mydict = csvdict.CsvDict(version)
     while line :
         line= line.strip('\n').strip()
         if not line.startswith("#"):
