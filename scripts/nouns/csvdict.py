@@ -210,6 +210,8 @@ class CsvDict:
         #if fields['root'] == "":
         if fields['number'] == u"جمع":
             fields['number'] = u"جمع تكسير"
+        elif fields['number'] == u"مثنى":
+            fields['number'] = u"مثنى"
         else:
             fields['number'] = u"مفرد"
         # make note  if definition is not given
@@ -219,6 +221,10 @@ class CsvDict:
         #الممنوع من الصرف
         if not fields['tanwin_nasb']:
             fields['mamnou3_sarf'] = u"ممنوع من الصرف";
+        elif fields['tanwin_nasb'] in ("Non","N"):
+            fields['mamnou3_sarf'] = u"ممنوع من الصرف";            
+        elif fields['tanwin_nasb'] in ("Tn",):
+            fields['mamnou3_sarf'] = u"";            
         else:
             fields['mamnou3_sarf'] = u"";
         

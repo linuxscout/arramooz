@@ -4,7 +4,7 @@ DATA_DIR :=data
 RELEASES :=releases
 OUTPUT :=output
 SCRIPT :=scripts
-VERSION=0.3
+VERSION=0.4
 DOC="."
 
 default: all
