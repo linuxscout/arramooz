@@ -30,6 +30,8 @@ This dictionary consists of three parts :
 - stop words
 - verbs
 - Nouns
+##API
+The python API is available as [arramooz-pysqlite](http://github.com/linuxscout/arramooz-pysqlite)
 
 ##Files formats
 
@@ -38,6 +40,7 @@ Those files are available as :
 - SQL database
 - XML  files.
 - StarDict files
+- Python + Sqlite libray 
 
 ##BUILD Dictionary in multiple format
 The source files are data folder as open document speadsheet files, then we can build dictionary with
