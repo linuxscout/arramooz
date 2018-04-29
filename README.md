@@ -1,4 +1,4 @@
-#Arramooz
+# Arramooz
 Arabic Dictionary for Morphological analysis
 
 [![downloads]( https://img.shields.io/sourceforge/dt/arramooz.svg)](http://sourceforge.org/projects/arramooz)
@@ -19,7 +19,7 @@ Source  |[Github](http://github.com/linuxscout/arramooz)
 Download  |[sourceforge](http://arramooz.sourceforge.net)
 Feedbacks  |[Comments](https://github.com/linuxscout/arramooz/)
 Accounts  |[@Twitter](https://twitter.com/linuxscout)  [@Sourceforge](http://sourceforge.net/projectsarramooz/)
-#Description
+# Description
 
 Arramooz Alwaseet is an open source Arabic dictionary for morphological analyze,
 It can help Natural Language processing developers.
@@ -30,10 +30,10 @@ This dictionary consists of three parts :
 - stop words
 - verbs
 - Nouns
-##API
+## API
 The python API is available as [arramooz-pysqlite](http://github.com/linuxscout/arramooz-pysqlite)
 
-##Files formats
+## Files formats
 
 Those files are available as :
 - Text format (tab separated)
@@ -42,7 +42,7 @@ Those files are available as :
 - StarDict files
 - Python + Sqlite libray 
 
-##BUILD Dictionary in multiple format
+## BUILD Dictionary in multiple format
 The source files are data folder as open document speadsheet files, then we can build dictionary with
 ```
 make
@@ -70,14 +70,14 @@ make clean
 ```
 To modify data or updating data you can open files in data/ in libreoffice calc format, clean releases, and do make.
 
-##Stopwords 
+## Stopwords 
 The Stop words list is developed in an independent project (see http://arabicstopwords.sourceforge.ne)
 
 
-##Verbs
+## Verbs
 
 
-###Database description
+### Database description
 
 Field | Description |  وصف
 -------------|----------------|-----------------------------------
@@ -98,7 +98,7 @@ passive |can be conjugated in passive voice|يتصرف في المبني للم�
 future_moode |can be conjugated in  future moode (jusive, subjuctive, ) |يتصرف في المضارع المجزوم أو المنصوب
 confirmed  |can be conjugated in confirmed  tenses|يتصرف في المؤكد
 
-###SQL format of verb
+### SQL format of verb
 
 ```SQL
 create table verbs
@@ -140,10 +140,10 @@ create table verbs
 ....
 </dictionary>
 ```
-##Nouns
+## Nouns
 
-###Database description
-
+### Database description
+ 
 Field | Description |  وصف
 -------------|----------------|-----------------------------------
 vocalized|vocalized word|الكلمة مشكولة
@@ -175,7 +175,7 @@ annex |accept the oral annexation|يقبل الإضافة إلى ما بعده �
 definition |word description|شرح الكلمة
 note |notes about the dictionary entry.|ملاحظات على المدخل في القاموس
 
-###SQL format of noun
+### SQL format of noun
 
 ```sql
 CREATE TABLE  IF NOT EXISTS `nouns` (
@@ -213,7 +213,7 @@ CREATE TABLE  IF NOT EXISTS `nouns` (
           `note` text
         ) ;
 ```
-###XML format 
+### XML format 
 
 ```xml
 <noun id='60000'>
