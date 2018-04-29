@@ -265,7 +265,7 @@ python2 $SCRIPT/verbs/gen_verb_dict.py -f $DATA_DIR/verbs/verb_dic_data-net.csv 
 python2 $SCRIPT/verbs/gen_verb_dict_format.py -o xml -f $OUTPUT/verbs.aya.dic > $OUTPUT/verbs.xml
 ```
 
-*[scripts/verbs]
+* [scripts/verbs]
 
     1- verbdict_functions.py : functions to handle verbs dict used in the generation process
     
@@ -273,13 +273,13 @@ python2 $SCRIPT/verbs/gen_verb_dict_format.py -o xml -f $OUTPUT/verbs.aya.dic > 
     
     3- verbs/gen_verb_dict_format.py: generate the file format (xml, csv, sql) of  dictionary from verbs.aya.dic
      
-*[scripts/nouns]
+* [scripts/nouns]
 
     1- noundict_functions.py : functions to handle nouns dict used in the generation process
     
     2- nouns/gen_noun_dict.py: generate the file format (xml, csv, sql) of  dictionary 
     
-*[requirement]
+* [requirement]
 
     1- libqutrub
     
