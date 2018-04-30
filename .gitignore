@@ -1,0 +1,83 @@
+*.pyc
+tests/output/*
+output/*
+/releases/*
+/tests/*
+/scripts/support/*
+/to add
+/scripts/support/core/__init__.pyc
+/docs/ayaspell-history/ayaspell-dic, base linguistique arabe pour hunspell.htm
+/docs/ayaspell-history/ayaspell-dic, base linguistique arabe pour hunspell_files/i.htm
+/docs/ayaspell-history/ayaspell-dic, base linguistique arabe pour hunspell_files/madewithNvu80x15clear.png
+/docs/ayaspell-history/ayaspell-dic, base linguistique arabe pour hunspell_files/s10.htm
+/docs/ayaspell-history/ayaspell-dic, base linguistique arabe pour hunspell_files/style.css
+/docs/ayaspell-history/fonctionnement.html
+/docs/ayaspell-history/fonctionnement_files/madewithNvu80x15clear.png
+/docs/ayaspell-history/fonctionnement_files/style.css
+/docs/ayaspell-history/langue.html
+/docs/ayaspell-history/langue_files/madewithNvu80x15clear.png
+/docs/ayaspell-history/langue_files/style.css
+/docs/ayaspell-history/references.html
+/docs/ayaspell-history/references_files/madewithNvu80x15clear.png
+/docs/ayaspell-history/references_files/style.css
+/docs/ayaspell-history/verb_affixation.odt
+/docs/ayaspell-history/verb_ar.aff
+/docs/ayaspell-history/verb_ar.dic
+/docs/ayaspell-history/verb_ayaspell-dic.tar
+/docs/ayaspell-history/verb_ayaspell-dic.tar.gz
+/docs/ayaspell-history/verb_concord.ods
+/docs/ayaspell-history/verb_conj.odt
+/docs/ayaspell-history/verb_dic_data-net.ods
+/docs/ayaspell-history/verb_dic_data-net.xls
+/docs/ayaspell-history/verb_dic_data-net8new.xls
+/docs/ayaspell-history/مجلد جديد/todo.html
+/docs/ayaspell-history/مجلد جديد/todo_files/Thumbs.db
+/docs/ayaspell-history/مجلد جديد/todo_files/madewithNvu80x15clear.png
+/docs/ayaspell-history/مجلد جديد/todo_files/style.css
+/docs/ayaspell-history/مجلد جديد/verb_aff_matrice.ods
+/docs/ayaspell-history/مجلد جديد/verb_ar_end.aff
+/docs/ayaspell-history/مجلد جديد/verb_ar_end.dic
+/docs/ayaspell-history/مجلد جديد/verb_concord.ods
+/docs/ayaspell-history/مجلد جديد/verb_conj.odt
+/docs/ayaspell-history/مجلد جديد/verb_dic_data-net.ods
+/docs/ayaspell_II/affixe_noon.ods
+/docs/ayaspell_II/affixe_noon.xls
+/docs/ayaspell_II/affixe_noon2.xls
+/docs/ayaspell_II/csv/fa3il.csv
+/docs/ayaspell_II/csv/jamid.csv
+/docs/ayaspell_II/csv/maf3oul.csv
+/docs/ayaspell_II/csv/mansoub.csv
+/docs/ayaspell_II/csv/masdar.csv
+/docs/ayaspell_II/csv/moubalagha.csv
+/docs/ayaspell_II/csv/mouchabbaha.csv
+/docs/ayaspell_II/csv/sifates.csv
+/docs/ayaspell_II/csv/tafdil.csv
+/docs/ayaspell_II/fa3il.csv
+/docs/ayaspell_II/fa3il.gnumeric
+/docs/ayaspell_II/fa3il.xls
+/docs/ayaspell_II/gnumeric/fa3il.gnumeric
+/docs/ayaspell_II/gnumeric/jamid.gnumeric
+/docs/ayaspell_II/gnumeric/maf3oul.gnumeric
+/docs/ayaspell_II/gnumeric/mansoub.gnumeric
+/docs/ayaspell_II/gnumeric/masdar.gnumeric
+/docs/ayaspell_II/gnumeric/moubalagha.gnumeric
+/docs/ayaspell_II/gnumeric/mouchabbaha.gnumeric
+/docs/ayaspell_II/gnumeric/sifates.gnumeric
+/docs/ayaspell_II/gnumeric/sifates.ods
+/docs/ayaspell_II/gnumeric/tafdil.gnumeric
+/docs/ayaspell_II/jamid.gnumeric
+/docs/ayaspell_II/maf3oul.csv
+/docs/ayaspell_II/maf3oul.gnumeric
+/docs/ayaspell_II/mansoub.csv
+/docs/ayaspell_II/mansoub.gnumeric
+/docs/ayaspell_II/masdar.gnumeric
+/docs/ayaspell_II/moubalagha.gnumeric
+/docs/ayaspell_II/mouchabbaha.gnumeric
+/docs/ayaspell_II/sifates.gnumeric
+/docs/ayaspell_II/sifates.xls
+/docs/ayaspell_II/tafdil.gnumeric
+/docs/ayaspell_II/xls/affixe_noon.xls
+/docs/ayaspell_II/xls/affixe_noon2.xls
+/docs/ayaspell_II/xls/fa3il.xls
+/docs/ayaspell_II/xls/sifates.xls
+/data/nouns/archv/arramooz-noun-2016-03-26.tar.bz2
