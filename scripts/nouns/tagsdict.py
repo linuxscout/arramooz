@@ -23,7 +23,7 @@
 #  
 import csvdict
 import pyarabic.araby as araby
-import spell_noun as nspell
+import tag_const as tconst
 #~ VERIFY_INPUT=True;
 VERIFY_INPUT=False;
 import stem_noun_const as snconst
