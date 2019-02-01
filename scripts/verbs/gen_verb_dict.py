@@ -12,16 +12,72 @@ import string
 import getopt
 import os
 
-sys.path.append(os.path.join(os.path.dirname(sys.argv[0]), '../support/'))
+#~ sys.path.append(os.path.join(os.path.dirname(sys.argv[0]), '../support/'))
 import pyarabic.araby as araby
-from libqutrub.mosaref_main import *
-from libqutrub.ar_verb import *
-from libqutrub.verb_db import *
-from libqutrub.verb_valid import *
+from libqutrub.mosaref_main import get_future_form
+from libqutrub.ar_verb import get_future_type_entree, is_triliteral_verb
+#~ from libqutrub.verb_db import create_index_triverbtable, find_alltriverb
+from libqutrub.verb_valid import is_valid_infinitive_verb
 
-create_index_triverbtable();
+import triverbtable # local version
+TRIVERBTABLE_INDEX = {}
+def create_index_triverbtable():
+    """ Create index from the verb dictionary
+    to accelerate the search in the dictionary for verbs
+    @return: create the TRIVERBTABLE_INDEX
+    @rtype: None
+    """
+    # the key is the vocverb + the bab number
+    for key in triverbtable.TriVerbTable.keys():
+        vocverb = triverbtable.TriVerbTable[key]['verb']
+        unvverb = araby.strip_harakat(vocverb)
+        normverb = araby.normalize_hamza(unvverb)
+        if TRIVERBTABLE_INDEX.has_key(normverb):
+            TRIVERBTABLE_INDEX[normverb].append(key)
+        else:
+            TRIVERBTABLE_INDEX[normverb] = [key, ]
 
+def find_alltriverb(triverb, givenharaka = araby.FATHA, 
+vocalised_entree = False):
+    """
+    Find the triliteral verb in the dictionary (TriVerbTable)
+    return a list of possible verb forms
+    each item contains:
+        - 'root':
+        - 'haraka:
+        - 'bab':
+        - 'transitive':
+    @param triverb: given verb.
+    @type triverb: unicode.
+    @param givenharaka: given haraka of tuture type of the verb, 
+    default(FATHA).
+    @type givenharaka: unicode.
+    @param VocalisedEntree: True if the given verb is vocalized, 
+    default False.
+    @type VocalisedEntree: Boolean.
+    @return: list of triliteral verbs.
+    @rtype: list of dicts.
+    """
+    liste = []
+    if vocalised_entree:
+        verb_nm = araby.strip_harakat(triverb)
+    else:
+        verb_nm = triverb
 
+    normalized = araby.normalize_hamza(verb_nm)
+    if TRIVERBTABLE_INDEX.has_key(normalized):
+        for verb_voc_id in TRIVERBTABLE_INDEX[normalized]:
+            if triverb == triverbtable.TriVerbTable[verb_voc_id]['verb'] and \
+             givenharaka == triverbtable.TriVerbTable[verb_voc_id]['haraka']:
+                liste.insert(0, triverbtable.TriVerbTable[verb_voc_id])
+#            if VocalisedEntree:
+                #if verb_voc_id[:-1] == triverb:
+                #    liste.append(TriVerbTable[verb_voc_id])
+            else:
+                liste.append(triverbtable.TriVerbTable[verb_voc_id])
+    else:
+        print "triverb has no verb"
+    return liste
 scriptname = os.path.splitext(os.path.basename(sys.argv[0]))[0]
 scriptversion = '0.1'
 AuthorName="Taha Zerrouki"
@@ -126,7 +182,7 @@ def main():
         sys.exit(0)
     print "#",filename
 
-
+    create_index_triverbtable();
     #print "len(TriVerbTable_INDEX={})", len(TriVerbTable_INDEX);
 
 
@@ -158,7 +214,7 @@ def main():
         model = tuple_verb[0].strip();
 
         if not is_valid_infinitive_verb(word):
-            print (u"\t".join(["#", word, u"is invalid verb "] )).encode("utf8");
+            print ((u"#\t'%s'\tis invalid verb "%word).encode("utf8"));
         else:
             #print word.encode("utf8")
             future_type = u"-";
@@ -260,7 +316,8 @@ def main():
                     object_type=u"غيرع";
                 if reflexive_trans: 
                     reflexive_type=u"فلبي";
-            else: transitive=u'لازم'
+            else: 
+                transitive=u'لازم'
         ##    codify the tense;
             if all:
                 tenses=u"يعملان";
@@ -288,17 +345,21 @@ def main():
             if is_triliteral_verb(word):
                 triliteral=u"ثلاثي"
         # search the future haraka for the triliteral verb
-                liste_verb = find_alltriverb(word,FATHA,True);
+                liste_verb = find_alltriverb(word, araby.FATHA,True);
         # if there are more verb forms, select the first one
-                if  liste_verb:
-                    word = liste_verb[0]["verb"]
-                    haraka = liste_verb[0]["haraka"]
+                filtered = [item for item in liste_verb if item['verb'] == word]
+                if filtered:
+                    #~ word = liste_verb[0]["verb"]
+                    haraka = filtered[0]["haraka"]
                     future_type = haraka;
-                    transitive_mark = liste_verb[0]["transitive"].strip();
+                    transitive_mark = filtered[0]["transitive"].strip();
                     if transitive_mark in (u"م",u"ك"):
                         transitive = u"متعد"
                     else:
                         transitive = u"لازم"
+                else:
+                    print((u"#gen_verb_dict: %s error no tri verb"%word).encode('utf8'))
+                if  liste_verb:                        
                     if len(liste_verb)>1: 
                         #suggest=u"هل تقصد؟<br/>"
                         nb_case = len(liste_verb);

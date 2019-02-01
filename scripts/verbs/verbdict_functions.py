@@ -26,9 +26,9 @@ import re
 import time
 import pyarabic.araby as araby
 
-STAMP_PAT = re.compile(u"[%s%s%s%s%s%s%s%s%s]"% (araby.ALEF, 
+STAMP_PAT = re.compile(u"[%s%s%s%s%s%s%s%s%s%s]"% (araby.ALEF, 
         araby.YEH, araby.HAMZA, araby.ALEF_HAMZA_ABOVE, araby.WAW_HAMZA,
-         araby.YEH_HAMZA, araby.WAW, araby.ALEF_MAKSURA, araby.SHADDA), 
+         araby.YEH_HAMZA, araby.WAW, araby.ALEF_MAKSURA, araby.ALEF_MADDA, araby.SHADDA), 
          re.UNICODE)   
 def decode_tenses(field):
     """
