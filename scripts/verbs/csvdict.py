@@ -103,7 +103,7 @@ class CsvDict:
         add the header for new dict
         """
         line = "#" + "\n#".join(self.headerlines) + "\n"
-        line += u"\t".join(["id", "word", "unvocalized" , "root" , "future_type" ,"triliteral"  , "transitive"  , "double_trans"  , "think_trans"  , "unthink_trans"  , "reflexive_trans"  , "past"  , "future"  ,  "imperative"  ," passive"  , " future_moode"  , "confirmed"])
+        line +=  "#" + u"\t".join(self.display_order)
         return line
          
     def add_record(self, verb_row):
@@ -134,7 +134,6 @@ class CsvDict:
         return a dict of fields"""
         #~ self.id+=1;
         v = {"id": self.id,}  # verb dict of fields
-        # word  tri root    future_type transitive  nb_trans    object_type reflexive_type  tenses  model   nb_case verb_cat    suggest
                 
         #extract field from the verb tuple
         for key in self.field_id.keys():

@@ -16,7 +16,7 @@
 import sys
 import re
 import string
-import getopt
+import argparse
 import os
 
 sys.path.append(os.path.join(os.path.dirname(sys.argv[0]), '../support/'))
@@ -30,63 +30,38 @@ AuthorName="Taha Zerrouki"
 MAX_LINES_TREATED=1100000;
 Separator="\t";
 
-                                                         
-def usage():
-# "Display usage options"
-    print "(C) CopyLeft 2016, %s"%AuthorName
-    print "Usage: %s -f filename [OPTIONS]" % scriptname
-#"Display usage options"
-    print "\t[-h | --help]\t\toutputs this usage message"
-    print "\t[-v | --version= dataversion]\tset generated data version"
-    print "\t[-f | --file= filename]\tinput file to %s"%scriptname
-    print "\t[-d | --display= format]\tdisplay format (txt,sql, python2, xml) %s"%scriptname
-    print "\t[-t | --type= wordtype]\tgive the word type(fa3il,masdar, jamid, mochabaha,moubalagha,mansoub,) %s"%scriptname
-    print "\t[-l | --limit= limit_ number]\tthe limit of treated lines %s"%scriptname
-    print "\r\nN.B. FILE FORMAT is descripted in README"
-    print "\r\nThis program is licensed under the GPL License\n"
-
 def grabargs():
-#  "Grab command-line arguments"
-    fname = ''
-    limit = MAX_LINES_TREATED;
-    #~ limit = 100
-    wordtype="typo";
-    display="txto"; 
-    version = ""
-    if not sys.argv[1:]:
-        usage()
-        sys.exit(0)
-    try:
-        opts, args = getopt.getopt(sys.argv[1:], "h:v:f:d:t:l:",
-                               ["help", "version=", "file=","display=","type=","limit=",],)
-    except getopt.GetoptError:
-        usage()
-        sys.exit(0)
-    for o, val in opts:
-        if o in ("-h", "--help"):
-            usage()
-            sys.exit(0)
-        if o in ("-f", "--file"):
-            fname = val
-        if o in ("-v", "--version"):
-            version = val
-        if o in ("-l", "--limit"):
-            try:
-                limit = int(val.strip());
-            except:
-                limit = MAX_LINES_TREATED;
+    parser = argparse.ArgumentParser(description='Convert Noun dictionary to other format.')
+    # add file name to import and filename to export
+    
+    parser.add_argument("-f", dest="filename", required=True,
+    help="input file to convert", metavar="FILE")
+    
+    parser.add_argument("-d", dest="outformat", nargs='?',
+    help="output format(csv, sql, python, xml, check)", metavar="FORMAT")
 
-        if o in ("-d", "--display"):
-            display=val;
-        if o in ("-t", "--type"):
-            wordtype=val;
-    #print fname,limit,display, wordtype;       
-    return (fname,limit,display,wordtype, version);
+    parser.add_argument("-v", dest="version", nargs='?',
+    help="Release version", metavar="Version")
+    
+    parser.add_argument("-a",dest="all", type=bool, nargs='?',
+                        const=True, 
+                        help="Generate all stopwords forms")
+    parser.add_argument("-l",dest="limit", type=int, nargs='?',
+                         help="the limit of treated lines")
+    parser.add_argument("-t",dest="wordtype", type=str, nargs='?',
+                        help="give the word type(fa3il,masdar, jamid, mochabaha,moubalagha,mansoub,)")
+    args = parser.parse_args()
+    return args                                                   
 
 
                  
 def main():
-    filename,limit, output_format, wordtype, version= grabargs()
+    args= grabargs()
+    filename = args.filename
+    limit = args.limit
+    output_format =args.outformat
+    wordtype = args.wordtype
+    version = args.version
     #print "#--",filename,limit,display_format, wordtype;
     #exit();
     try:
@@ -130,6 +105,9 @@ def main():
     elif output_format == "spell":
         import spelldict
         mydict = spelldict.SpellDict(wordtype, version);
+    elif output_format == "check":
+        import checkdict
+        mydict = checkdict.checkDict(version);        
     else:
         import csvdict
         mydict = csvdict.CsvDict(wordtype, version)    

@@ -24,7 +24,7 @@
 import sys
 import re
 import string
-import getopt
+import argparse
 import os
 
 sys.path.append(os.path.join(os.path.dirname(sys.argv[0]), '../support/'))
@@ -55,7 +55,7 @@ def usage():
     print "\r\nThis program is licensed under the GPL License\n"
 
 
-def grabargs():
+def grabargs2():
 #  "Grab command-line arguments"
     fname = ''
     limit=MAX_LINES_TREATED;
@@ -89,10 +89,31 @@ def grabargs():
             
     return fname,limit, output, version
 
+def grabargs():
+    parser = argparse.ArgumentParser(description='Convert Noun dictionary to other format.')
+    # add file name to import and filename to export
+    
+    parser.add_argument("-f", dest="filename", required=True,
+    help="input file to convert", metavar="FILE")
+    
+    parser.add_argument("-o", dest="outformat", nargs='?',
+    help="output format(csv, sql, python, xml)", metavar="FORMAT")
 
+    parser.add_argument("-v", dest="version", nargs='?',
+    help="Release version", metavar="Version")
+    
+    parser.add_argument("-l",dest="limit", type=int, nargs='?',
+                         help="the limit of treated lines")
+    args = parser.parse_args()
+    return args
 
 def main():
-    filename,limit, output_format, version= grabargs()
+    args= grabargs()
+    filename = args.filename
+    limit = args.limit
+    output_format =args.outformat
+    version = args.version
+
     try:
         fl=open(filename);
     except:
@@ -120,6 +141,9 @@ def main():
     elif output_format == "tags":
         import tagsdict
         mydict = tagsdict.TagsDict(version);        
+    elif output_format == "check":
+        import checkdict
+        mydict = checkdict.checkDict(version);        
     else:
         import csvdict
         mydict = csvdict.CsvDict(version)
@@ -137,7 +161,9 @@ def main():
 
     for tuple_verb in verb_table[:limit]:
         #~ verb_dict = decode_tuple_verb(tuple_verb);
-        print mydict.add_record(tuple_verb).encode('utf8')
+        line = mydict.add_record(tuple_verb)
+        if line:
+            print(line.encode('utf8'))
     # create footer
     print mydict.add_footer().encode('utf8')
     

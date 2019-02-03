@@ -9,7 +9,7 @@
 import sys
 import re
 import string
-import getopt
+import argparse
 import os
 
 #~ sys.path.append(os.path.join(os.path.dirname(sys.argv[0]), '../support/'))
@@ -139,8 +139,22 @@ def usage():
     print "\t[-l | --limit= limit_ number]\tthe limit of treated lines %s"%scriptname
     print "\r\nN.B. FILE FORMAT is descripted in README"
     print "\r\nThis program is licensed under the GPL License\n"
-
 def grabargs():
+    parser = argparse.ArgumentParser(description='Convert Noun dictionary to other format.')
+    # add file name to import and filename to export
+    
+    parser.add_argument("-f", dest="filename", required=True,
+    help="input file to convert", metavar="FILE")
+    
+    parser.add_argument("-v", dest="version", nargs='?',
+    help="Release version", metavar="Version")
+
+    parser.add_argument("-l",dest="limit", type=int, nargs='?',
+                         help="the limit of treated lines")
+
+    args = parser.parse_args()
+    return args
+def grabargs2():
 #  "Grab command-line arguments"
     fname = ''
     limit = MAX_LINES_TREATED;
@@ -171,10 +185,185 @@ def grabargs():
             
     return fname,limit
 
+def decode_verb_tuple(tuple_verb):
+    """
+    """
+    #abbrevated=False;
+    verb_field_number=2;
+    root_field_number=1;
+    verb_cat_field_number=3;
+    root  = decode_root(tuple_verb[root_field_number].strip());        
+    word  = tuple_verb[verb_field_number].strip();
 
+
+    if not is_valid_infinitive_verb(word):
+        return u"#\t'%s'\tis invalid verb "%word;
+    else:
+
+        model = tuple_verb[0].strip();            
+        #print word.encode("utf8")
+        future_type = u"-";
+        future_type = get_future_type_entree(future_type);
+        verb_cat = tuple_verb[verb_cat_field_number].strip();
+        # decode transitive flag
+        #print "'%s'"%transitive;
+        transitive=decode_transitive(verb_cat);
+        #tenses=decode_tenses(verb_cat);
+        # decode the tenses
+
+        #init at False
+        all=False;
+        future=False;
+        past=False;
+        passive=False;
+        imperative=False;
+        confirmed=False;
+        future_moode=False;
+        # متعدي لغير العاقل
+        unthink_trans=False;
+        # متعدي للعاقل، تلقائيا اﻷفعال تقبل العاقل
+        think_trans=True;
+        #فعل قلوب
+        reflexive_trans=False;
+        #متعدي لمفعولين
+        double_trans=False;
+        if verb_cat =="A":# أمر فقط
+            imperative=True;
+        elif verb_cat =="D":# مبني للمجهول فقط
+            passive=True;
+        elif verb_cat =="I":#لاشخصي
+            pass;
+        elif verb_cat =="M":#جامد
+            pass;
+        elif    verb_cat =="P":# ماضي فقط
+            past=True;
+        elif    verb_cat =="Pu":# ماضي فقط لازم  مطلق
+            past=True;
+        elif    verb_cat =="Ry":# مضارع وأمر فقط
+            future=True;
+            imperative=True;
+        elif    verb_cat =="Su":# ماضي ومضارع
+            future=True;
+            past=True;
+            confirmed=True;
+            future_moode=True;
+        elif    verb_cat =="Sv":# ماضي ومضارع
+            future=True;
+            past=True;
+            confirmed=True;
+            future_moode=True;
+        elif    verb_cat =="Sx":# ماضي ومضارع
+            future=True;
+            past=True;
+            confirmed=True;
+            future_moode=True;
+        elif    verb_cat =="u":# لازم مطلق، لا مجهول ولا أمر
+            future=True;
+            past=True;
+            confirmed=True;
+            future_moode=True;
+        elif    verb_cat =="v":# لازم نسبي، كل اﻷزمنة، لكن المجهول مع المفرد الغائب
+            future=True;
+            past=True;
+            imperative=True;
+            confirmed=True;
+            future_moode=True;
+            passive=False;
+        elif    verb_cat in ("x","y", "yw", "ywz", "yy", "yz","yzw"): # ماضي فقط
+            all=True;
+            future=True;
+            past=True;
+            imperative=True;
+            confirmed=True;
+            future_moode=True;
+            passive=False;
+            if verb_cat in ("x","Sx"):
+                unthink_trans=True;
+            elif verb_cat in ("yw", "ywz", "yy", "yz","yzw", "Ry"):
+                think_trans=True;
+                if verb_cat in ("ywz","yz","yzw"):
+                    double_trans=True;
+                if verb_cat in ("ywz", "yw", "yzw"):
+                    reflexive_trans=True;                                   
+        else:
+            all=True;
+        nb_trans=0;
+        object_type=u"----"
+        reflexive_type=u"----";
+        if transitive:
+            transitive=u'متعد'
+            nb_trans=1;
+            if double_trans: 
+                nb_trans=2;
+            if think_trans: 
+                object_type=u"عاقل";
+            if unthink_trans: 
+                object_type=u"غيرع";
+            if reflexive_trans: 
+                reflexive_type=u"فلبي";
+        else: 
+            transitive=u'لازم'
+    ##    codify the tense;
+        if all:
+            tenses=u"يعملان";
+        else:
+            tenses=u"";
+            if past: tenses+=u"ي";
+            else: tenses+="-";
+            if future: tenses+=u"ع";
+            else: tenses+="-";
+            if imperative: tenses+=u"م";
+            else: tenses+="-";
+            if passive: tenses+=u"ل";
+            else: tenses+=u"-";
+            if future_moode: tenses+=u"ا";
+            else: tenses+=u"-";
+            if confirmed: tenses+=u"ن";
+            else: tenses+=u"-";             
+        #print transitive;
+
+##          print ('\t'.join([word,future_type,str(transitive)])).encode('utf8');
+
+        nb_case=0;
+        suggest=u"";
+        triliteral=u"غيرثل"
+        if is_triliteral_verb(word):
+            triliteral=u"ثلاثي"
+    # search the future haraka for the triliteral verb
+            liste_verb = find_alltriverb(word, araby.FATHA,True);
+    # if there are more verb forms, select the first one
+            filtered = [item for item in liste_verb if item['verb'] == word]
+            if filtered:
+                #~ word = liste_verb[0]["verb"]
+                haraka = filtered[0]["haraka"]
+                future_type = haraka;
+                transitive_mark = filtered[0]["transitive"].strip();
+                if transitive_mark in (u"م",u"ك"):
+                    transitive = u"متعد"
+                else:
+                    transitive = u"لازم"
+            else:
+                return u"#gen_verb_dict: %s error no tri verb"%word
+            if  liste_verb:                        
+                if len(liste_verb)>1: 
+                    #suggest=u"هل تقصد؟<br/>"
+                    nb_case = len(liste_verb);
+    # the other forms are suggested
+                for i in range(1,len(liste_verb)):
+                    suggested_word = liste_verb[i]["verb"]
+                    suggested_haraka = liste_verb[i]["haraka"]
+                    suggested_transitive = liste_verb[i]["transitive"]
+                    future_form = get_future_form(suggested_word,suggested_haraka);
+                    suggest=u"\t".join([suggest,suggested_word,u"["+suggested_haraka+u"]"]);
+            else:suggest="-"
+        return u'\t'.join([word,triliteral,root,future_type,transitive,str(nb_trans), object_type, reflexive_type, tenses, model,str(nb_case),verb_cat, suggest])
+      
                  
 def main():
-    filename,limit= grabargs()
+    args = grabargs()
+    
+    filename = args.filename
+    limit= args.limit
     try:
         fl=open(filename);
     except:
@@ -186,10 +375,7 @@ def main():
     #print "len(TriVerbTable_INDEX={})", len(TriVerbTable_INDEX);
 
 
-    #abbrevated=False;
-    verb_field_number=2;
-    root_field_number=1;
-    verb_cat_field_number=3;
+
 
     line=fl.readline().decode("utf");
     text=u""
@@ -209,170 +395,9 @@ def main():
     model=0;
     cpt = 0
     for tuple_verb in verb_table[:limit]:
-        word  = tuple_verb[verb_field_number].strip();
-        root  = decode_root(tuple_verb[root_field_number].strip());
-        model = tuple_verb[0].strip();
-
-        if not is_valid_infinitive_verb(word):
-            print ((u"#\t'%s'\tis invalid verb "%word).encode("utf8"));
-        else:
-            #print word.encode("utf8")
-            future_type = u"-";
-            future_type = get_future_type_entree(future_type);
-            verb_cat = tuple_verb[verb_cat_field_number].strip();
-            # decode transitive flag
-            #print "'%s'"%transitive;
-            transitive=decode_transitive(verb_cat);
-            #tenses=decode_tenses(verb_cat);
-            # decode the tenses
-
-            #init at False
-            all=False;
-            future=False;
-            past=False;
-            passive=False;
-            imperative=False;
-            confirmed=False;
-            future_moode=False;
-            # متعدي لغير العاقل
-            unthink_trans=False;
-            # متعدي للعاقل، تلقائيا اﻷفعال تقبل العاقل
-            think_trans=True;
-            #فعل قلوب
-            reflexive_trans=False;
-            #متعدي لمفعولين
-            double_trans=False;
-            if verb_cat =="A":# أمر فقط
-                imperative=True;
-            elif verb_cat =="D":# مبني للمجهول فقط
-                passive=True;
-            elif verb_cat =="I":#لاشخصي
-                pass;
-            elif verb_cat =="M":#جامد
-                pass;
-            elif    verb_cat =="P":# ماضي فقط
-                past=True;
-            elif    verb_cat =="Pu":# ماضي فقط لازم  مطلق
-                past=True;
-            elif    verb_cat =="Ry":# مضارع وأمر فقط
-                future=True;
-                imperative=True;
-            elif    verb_cat =="Su":# ماضي ومضارع
-                future=True;
-                past=True;
-                confirmed=True;
-                future_moode=True;
-            elif    verb_cat =="Sv":# ماضي ومضارع
-                future=True;
-                past=True;
-                confirmed=True;
-                future_moode=True;
-            elif    verb_cat =="Sx":# ماضي ومضارع
-                future=True;
-                past=True;
-                confirmed=True;
-                future_moode=True;
-            elif    verb_cat =="u":# لازم مطلق، لا مجهول ولا أمر
-                future=True;
-                past=True;
-                confirmed=True;
-                future_moode=True;
-            elif    verb_cat =="v":# لازم نسبي، كل اﻷزمنة، لكن المجهول مع المفرد الغائب
-                future=True;
-                past=True;
-                imperative=True;
-                confirmed=True;
-                future_moode=True;
-                passive=False;
-            elif    verb_cat in ("x","y", "yw", "ywz", "yy", "yz","yzw"): # ماضي فقط
-                all=True;
-                future=True;
-                past=True;
-                imperative=True;
-                confirmed=True;
-                future_moode=True;
-                passive=False;
-                if verb_cat in ("x","Sx"):
-                    unthink_trans=True;
-                elif verb_cat in ("yw", "ywz", "yy", "yz","yzw", "Ry"):
-                    think_trans=True;
-                    if verb_cat in ("ywz","yz","yzw"):
-                        double_trans=True;
-                    if verb_cat in ("ywz", "yw", "yzw"):
-                        reflexive_trans=True;                                   
-            else:
-                all=True;
-            nb_trans=0;
-            object_type=u"----"
-            reflexive_type=u"----";
-            if transitive:
-                transitive=u'متعد'
-                nb_trans=1;
-                if double_trans: 
-                    nb_trans=2;
-                if think_trans: 
-                    object_type=u"عاقل";
-                if unthink_trans: 
-                    object_type=u"غيرع";
-                if reflexive_trans: 
-                    reflexive_type=u"فلبي";
-            else: 
-                transitive=u'لازم'
-        ##    codify the tense;
-            if all:
-                tenses=u"يعملان";
-            else:
-                tenses=u"";
-                if past: tenses+=u"ي";
-                else: tenses+="-";
-                if future: tenses+=u"ع";
-                else: tenses+="-";
-                if imperative: tenses+=u"م";
-                else: tenses+="-";
-                if passive: tenses+=u"ل";
-                else: tenses+=u"-";
-                if future_moode: tenses+=u"ا";
-                else: tenses+=u"-";
-                if confirmed: tenses+=u"ن";
-                else: tenses+=u"-";             
-            #print transitive;
-
-##          print ('\t'.join([word,future_type,str(transitive)])).encode('utf8');
-
-            nb_case=0;
-            suggest=u"";
-            triliteral=u"غيرثل"
-            if is_triliteral_verb(word):
-                triliteral=u"ثلاثي"
-        # search the future haraka for the triliteral verb
-                liste_verb = find_alltriverb(word, araby.FATHA,True);
-        # if there are more verb forms, select the first one
-                filtered = [item for item in liste_verb if item['verb'] == word]
-                if filtered:
-                    #~ word = liste_verb[0]["verb"]
-                    haraka = filtered[0]["haraka"]
-                    future_type = haraka;
-                    transitive_mark = filtered[0]["transitive"].strip();
-                    if transitive_mark in (u"م",u"ك"):
-                        transitive = u"متعد"
-                    else:
-                        transitive = u"لازم"
-                else:
-                    print((u"#gen_verb_dict: %s error no tri verb"%word).encode('utf8'))
-                if  liste_verb:                        
-                    if len(liste_verb)>1: 
-                        #suggest=u"هل تقصد؟<br/>"
-                        nb_case = len(liste_verb);
-        # the other forms are suggested
-                    for i in range(1,len(liste_verb)):
-                        suggested_word = liste_verb[i]["verb"]
-                        suggested_haraka = liste_verb[i]["haraka"]
-                        suggested_transitive = liste_verb[i]["transitive"]
-                        future_form = get_future_form(suggested_word,suggested_haraka);
-                        suggest=u"\t".join([suggest,suggested_word,u"["+suggested_haraka+u"]"]);
-                else:suggest="-"
-            print (u'\t'.join([word,triliteral,root,future_type,transitive,str(nb_trans), object_type, reflexive_type, tenses, model,str(nb_case),verb_cat, suggest])).encode('utf8');
-            
+        result = decode_verb_tuple(tuple_verb)
+        print result.encode('utf8')
+  
 if __name__ == "__main__":
   main()
 

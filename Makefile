@@ -47,6 +47,8 @@ verbsql:
 	echo "CREATE INDEX  IF NOT EXISTS 'idx_verb_unvoc' ON 'verbs' ('unvocalized' ASC);" >> $(OUTPUT)/verbs.sql
 verbcsv:
 	python2 $(SCRIPT)/verbs/gen_verb_dict_format.py -o csv  -v $(VERSION) -f $(OUTPUT)/verbs.aya.dic > $(OUTPUT)/verbs.csv
+verbcheck:
+	python2 $(SCRIPT)/verbs/gen_verb_dict_format.py -o check  -v $(VERSION) -f $(OUTPUT)/verbs.aya.dic > $(OUTPUT)/verbs.check.csv
 
 spell: verbspell nounspell
 	#gerenate spelling dict in Hunspell format
@@ -127,6 +129,27 @@ nouncsv:
 	python2 $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/sifates.csv -d txt  -v $(VERSION) -t sifates  >>$(OUTPUT)/nouns.dict.csv
 	## tafdil.csv
 	python2 $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/tafdil.csv  -d txt  -v $(VERSION) -t tafdil >>$(OUTPUT)/nouns.dict.csv
+nouncheck:
+	#Generate noun dictionary 
+	# create a dictionary file from ayaspell cvs form
+	# fa3il file
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/fa3il.csv -d check  -v $(VERSION) -t fa3il >$(OUTPUT)/nouns.dict.check.csv
+#~ 	## maf3oul file
+#~ 	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/maf3oul.csv -d txt  -v $(VERSION) -t maf3oul >>$(OUTPUT)/nouns.dict.csv
+#~ 	## jamid file
+#~ 	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/jamid.csv -d txt  -v $(VERSION) -t jamid >>$(OUTPUT)/nouns.dict.csv
+#~ 	## mansoub.csv
+#~ 	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/mansoub.csv -d txt  -v $(VERSION) -t mansoub >>$(OUTPUT)/nouns.dict.csv
+#~ 	## masdar.csv
+#~ 	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/masdar.csv -d txt  -v $(VERSION) -t masdar >>$(OUTPUT)/nouns.dict.csv
+#~ 	## moubalagha.csv
+#~ 	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/moubalagha.csv -d txt  -v $(VERSION) -t moubalagha >>$(OUTPUT)/nouns.dict.csv
+#~ 	## mouchabbaha.csv
+#~ 	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/mouchabbaha.csv -d txt  -v $(VERSION) -t mouchabbaha >>$(OUTPUT)/nouns.dict.csv
+#~ 	## sifates.csv
+#~ 	python2 $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/sifates.csv -d txt  -v $(VERSION) -t sifates  >>$(OUTPUT)/nouns.dict.csv
+#~ 	## tafdil.csv
+#~ 	python2 $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/tafdil.csv  -d txt  -v $(VERSION) -t tafdil >>$(OUTPUT)/nouns.dict.csv
 
 nounxml:
 	# XML files generating 
@@ -252,3 +275,16 @@ stardictpack: nounstardict  verbstardict
 	echo "*********************************************************************"
 	echo "NOTE: you must use stardict-editor to Compile $(RELEASES)/stardict/arramooz.sdic"
 	echo "*********************************************************************"	
+sqlite:
+	# csv
+	mkdir -p $(RELEASES)/sqlite/
+	sqlite3  $(RELEASES)/sqlite/arabicdictionary.sqlite < $(OUTPUT)/nouns.dict.sql
+	sqlite3  $(RELEASES)/sqlite/arabicdictionary.sqlite < $(OUTPUT)/verbs.sql
+	# create index
+	sqlite3  $(RELEASES)/sqlite/arabicdictionary.sqlite "CREATE INDEX idx_vunv ON verbs (unvocalized ASC);"
+	sqlite3  $(RELEASES)/sqlite/arabicdictionary.sqlite "CREATE INDEX idx_vnorm ON verbs (normalized ASC);"
+	sqlite3  $(RELEASES)/sqlite/arabicdictionary.sqlite "CREATE INDEX idx__vstamp ON verbs (stamped ASC);"
+	sqlite3  $(RELEASES)/sqlite/arabicdictionary.sqlite "CREATE INDEX idx_nvoc ON nouns (vocalized ASC);"
+	sqlite3  $(RELEASES)/sqlite/arabicdictionary.sqlite "CREATE INDEX idx_nunv ON nouns (unvocalized ASC);"
+	sqlite3  $(RELEASES)/sqlite/arabicdictionary.sqlite "CREATE INDEX idx_nnorm ON nouns (normalized ASC);"
+	sqlite3  $(RELEASES)/sqlite/arabicdictionary.sqlite "CREATE INDEX idx_nstamp ON nouns (stamp ASC);"
