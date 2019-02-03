@@ -71,6 +71,7 @@ class checkDict(csvdict.CsvDict):
     def check_fields(self, fields):
         """ check fields """
         voc = fields.get('vocalized','')
+        unvoc = fields.get('unvocalized','')
         if not voc:
             return "Error: Empty vocalized"
         if not ar.is_arabicword(voc):
@@ -79,7 +80,10 @@ class checkDict(csvdict.CsvDict):
             return "Error: Invalid Arabic infinitive verb "
         # not duplicated
         if voc in self.index:
-            return "Error: Duplicated Entry "
+            if len(unvoc) <=3:
+                return "Warning: Duplicated Entry "
+            else:
+                return "Error: Duplicated Entry "
         self.index.append(voc)
         # valid verb form
         if not ar.is_vocalized(voc):

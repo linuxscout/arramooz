@@ -135,22 +135,21 @@ nouncheck:
 	# fa3il file
 	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/fa3il.csv -d check  -v $(VERSION) -t fa3il >$(OUTPUT)/nouns.dict.check.csv
 #~ 	## maf3oul file
-#~ 	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/maf3oul.csv -d txt  -v $(VERSION) -t maf3oul >>$(OUTPUT)/nouns.dict.csv
+#~ 	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/maf3oul.csv -d check  -v $(VERSION) -t maf3oul >>$(OUTPUT)/nouns.dict.check.csv
 #~ 	## jamid file
-#~ 	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/jamid.csv -d txt  -v $(VERSION) -t jamid >>$(OUTPUT)/nouns.dict.csv
+#~ 	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/jamid.csv -d check  -v $(VERSION) -t jamid >>$(OUTPUT)/nouns.dict.check.csv
 #~ 	## mansoub.csv
-#~ 	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/mansoub.csv -d txt  -v $(VERSION) -t mansoub >>$(OUTPUT)/nouns.dict.csv
+#~ 	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/mansoub.csv -d check  -v $(VERSION) -t mansoub >>$(OUTPUT)/nouns.dict.check.csv
 #~ 	## masdar.csv
-#~ 	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/masdar.csv -d txt  -v $(VERSION) -t masdar >>$(OUTPUT)/nouns.dict.csv
+#~ 	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/masdar.csv -d check  -v $(VERSION) -t masdar >>$(OUTPUT)/nouns.dict.check.csv
 #~ 	## moubalagha.csv
-#~ 	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/moubalagha.csv -d txt  -v $(VERSION) -t moubalagha >>$(OUTPUT)/nouns.dict.csv
+#~ 	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/moubalagha.csv -d check  -v $(VERSION) -t moubalagha >>$(OUTPUT)/nouns.dict.check.csv
 #~ 	## mouchabbaha.csv
-#~ 	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/mouchabbaha.csv -d txt  -v $(VERSION) -t mouchabbaha >>$(OUTPUT)/nouns.dict.csv
+#~ 	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/mouchabbaha.csv -d check  -v $(VERSION) -t mouchabbaha >>$(OUTPUT)/nouns.dict.check.csv
 #~ 	## sifates.csv
-#~ 	python2 $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/sifates.csv -d txt  -v $(VERSION) -t sifates  >>$(OUTPUT)/nouns.dict.csv
+#~ 	python2 $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/sifates.csv -d check  -v $(VERSION) -t sifates  >>$(OUTPUT)/nouns.dict.check.csv
 #~ 	## tafdil.csv
-#~ 	python2 $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/tafdil.csv  -d txt  -v $(VERSION) -t tafdil >>$(OUTPUT)/nouns.dict.csv
-
+#~ 	python2 $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/tafdil.csv  -d check  -v $(VERSION) -t tafdil >>$(OUTPUT)/nouns.dict.check.csv
 nounxml:
 	# XML files generating 
 	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/fa3il.csv  -v $(VERSION)  -t fa3il -d xml  >$(OUTPUT)/nouns.fa3il.dict.xml
