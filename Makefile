@@ -286,4 +286,4 @@ sqlite:
 	sqlite3  $(RELEASES)/sqlite/arabicdictionary.sqlite "CREATE INDEX idx_nvoc ON nouns (vocalized ASC);"
 	sqlite3  $(RELEASES)/sqlite/arabicdictionary.sqlite "CREATE INDEX idx_nunv ON nouns (unvocalized ASC);"
 	sqlite3  $(RELEASES)/sqlite/arabicdictionary.sqlite "CREATE INDEX idx_nnorm ON nouns (normalized ASC);"
-	sqlite3  $(RELEASES)/sqlite/arabicdictionary.sqlite "CREATE INDEX idx_nstamp ON nouns (stamp ASC);"
+	sqlite3  $(RELEASES)/sqlite/arabicdictionary.sqlite "CREATE INDEX idx_nstamp ON nouns (stamped ASC);"
