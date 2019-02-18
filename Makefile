@@ -287,3 +287,35 @@ sqlite:
 	sqlite3  $(RELEASES)/sqlite/arabicdictionary.sqlite "CREATE INDEX idx_nunv ON nouns (unvocalized ASC);"
 	sqlite3  $(RELEASES)/sqlite/arabicdictionary.sqlite "CREATE INDEX idx_nnorm ON nouns (normalized ASC);"
 	sqlite3  $(RELEASES)/sqlite/arabicdictionary.sqlite "CREATE INDEX idx_nstamp ON nouns (stamped ASC);"
+
+
+# create customized dictionay in order to add new entries easly
+custom: cust_ods cust_verb cust_noun cust_sqlite
+cust_ods:
+	libreoffice --headless --convert-to "csv:Text - txt - csv (StarCalc):9,34,UTF8" --outdir $(DATA_DIR)/custom/ $(DATA_DIR)/custom/*.ods
+
+cust_noun:
+	############ SQL files generation
+	# fa3il file
+	python2 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/custom/nouns.csv  -v $(VERSION) -d sql -t custom  >$(OUTPUT)/custom_nouns.dict.sql
+	
+cust_verb:
+	python2 $(SCRIPT)/verbs/gen_verb_dict_format.py -o sql  -v $(VERSION)  -f $(DATA_DIR)/custom/verbs.aya.csv > $(OUTPUT)/custom_verbs.sql
+	echo "CREATE INDEX  IF NOT EXISTS 'idx_v_voc' ON 'verbs' ('vocalized' ASC);" >> $(OUTPUT)/custom_verbs.sql
+	echo "CREATE INDEX  IF NOT EXISTS 'idx__verbstamp' ON 'verbs' ('stamped' ASC);" >> $(OUTPUT)/custom_verbs.sql
+	echo "CREATE INDEX  IF NOT EXISTS 'idx_verb_norm'  ON 'verbs' ('normalized' ASC);" >> $(OUTPUT)/custom_verbs.sql
+	echo "CREATE INDEX  IF NOT EXISTS 'idx_verb_unvoc' ON 'verbs' ('unvocalized' ASC);" >> $(OUTPUT)/custom_verbs.sql
+cust_sqlite:
+	# sqlite
+	mkdir -p $(RELEASES)/sqlite/
+	mv $(RELEASES)/sqlite/custom_dictionary.sqlite  $(RELEASES)/sqlite/custom_dictionary.sqlite.old
+	sqlite3  $(RELEASES)/sqlite/custom_dictionary.sqlite < $(OUTPUT)/custom_nouns.dict.sql
+	sqlite3  $(RELEASES)/sqlite/custom_dictionary.sqlite < $(OUTPUT)/custom_verbs.sql
+	# create index
+	sqlite3  $(RELEASES)/sqlite/custom_dictionary.sqlite "CREATE INDEX idx_vunv ON verbs (unvocalized ASC);"
+	sqlite3  $(RELEASES)/sqlite/custom_dictionary.sqlite "CREATE INDEX idx_vnorm ON verbs (normalized ASC);"
+	sqlite3  $(RELEASES)/sqlite/custom_dictionary.sqlite "CREATE INDEX idx__vstamp ON verbs (stamped ASC);"
+	sqlite3  $(RELEASES)/sqlite/custom_dictionary.sqlite "CREATE INDEX idx_nvoc ON nouns (vocalized ASC);"
+	sqlite3  $(RELEASES)/sqlite/custom_dictionary.sqlite "CREATE INDEX idx_nunv ON nouns (unvocalized ASC);"
+	sqlite3  $(RELEASES)/sqlite/custom_dictionary.sqlite "CREATE INDEX idx_nnorm ON nouns (normalized ASC);"
+	sqlite3  $(RELEASES)/sqlite/custom_dictionary.sqlite "CREATE INDEX idx_nstamp ON nouns (stamped ASC);"

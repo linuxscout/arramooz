@@ -128,7 +128,9 @@ class CsvDict:
             "moubalagha":u"صيغة مبالغة",
             "mansoub":u"منسوب",
             "tafdil":u"اسم تفضيل",\
-            "sifates":u"صفة",       
+            "sifates":u"صفة",
+            "custom":u"custom",    
+            "proper":u"اسم علم",
         }
         counter_table={
             "tafdil":      1,           #372
@@ -140,7 +142,8 @@ class CsvDict:
             "fa3il":       60000,      # count of 4534
             "masdar":      80000,        #7345
             "jamid":      100000,        #10262
-
+            "proper":     120000,            
+            "custom":     140000,
         }
         self.id = counter_table.get(wordtype, 1);
         self.wordtype = wordtype_table.get(wordtype, "");
@@ -230,8 +233,10 @@ class CsvDict:
         
         # get unvocalized fields
         fields['unvocalized'] = araby.strip_tashkeel(fields['vocalized']);
-        # word type, must be defined for every file         
-        fields['wordtype']   = self.wordtype;
+        # word type, must be defined for every file 
+        # not god idea    
+        #~ fields['wordtype']   = self.wordtype;
+        fields['wordtype']   = araby.strip_tashkeel(fields['category'])+u":%s"%self.wordtype;
 
         # extarct broken plurals
         # extract plural from the plural field

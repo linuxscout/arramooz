@@ -1,0 +1,6 @@
+# word	tri	root	future_type	transitive	nb_trans	object_type	reflexive_type	tenses	model	nb_case	verb_cat	suggest
+نَكَحَ	ثلاثي	نكح	ضمة	متعد	1	عاقل	----	يعملان	1	2	v	
+مَازَ	ثلاثي	ميز	كسرة	متعد	0	----	----	يعملان	1	2	v	
+مَالَ	ثلاثي	ميل	ضمة	متعد	0	----	----	يعملان	1	2	v	
+دَبِلَ	ثلاثي	دبل	فتحة	لازم	0	----	----	يعم-ان	1	0	v	
+خَتِرَ	ثلاثي	ختر	فتحة	لازم	0	----	----	يعم-ان	1	0	v	
