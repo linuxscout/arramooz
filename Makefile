@@ -35,7 +35,7 @@ noun: nounods nouncsv nounxml nounsql
 verbdict:
 	#Generate verb dictionary
 	mkdir -p $(OUTPUT)
-	python2 $(SCRIPT)/verbs/gen_verb_dict.py -f $(DATA_DIR)/verbs/verb_dic_data-net.csv > $(OUTPUT)/verbs.aya.dic
+	python2 $(SCRIPT)/verbs/gen_verb_dict.py -f $(DATA_DIR)/verbs/verb_dic_data-net.csv -t $(DATA_DIR)/verbs/verb_triliteral.csv> $(OUTPUT)/verbs.aya.dic
 verbxml:
 	#Generate Specific format SQL and XML
 	python2 $(SCRIPT)/verbs/gen_verb_dict_format.py -o xml -v $(VERSION) -f $(OUTPUT)/verbs.aya.dic > $(OUTPUT)/verbs.xml
@@ -277,6 +277,7 @@ stardictpack: nounstardict  verbstardict
 sqlite:
 	# csv
 	mkdir -p $(RELEASES)/sqlite/
+	mv $(RELEASES)/sqlite/arabicdictionary.sqlite  $(RELEASES)/sqlite/arabicdictionary.sqlite.old 
 	sqlite3  $(RELEASES)/sqlite/arabicdictionary.sqlite < $(OUTPUT)/nouns.dict.sql
 	sqlite3  $(RELEASES)/sqlite/arabicdictionary.sqlite < $(OUTPUT)/verbs.sql
 	# create index

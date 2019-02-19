@@ -81,3 +81,5 @@ output/*
 /docs/ayaspell_II/xls/fa3il.xls
 /docs/ayaspell_II/xls/sifates.xls
 /data/nouns/archv/arramooz-noun-2016-03-26.tar.bz2
+/scripts/verbs/gen_verb_dict.old.py
+/data/custom/verbs.aya.dic
