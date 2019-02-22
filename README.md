@@ -30,6 +30,20 @@ This dictionary consists of three parts :
 - stop words
 - verbs
 - Nouns
+
+If you would cite it in academic work, can you use this citation
+```
+T. Zerrouki‏, Arramooz Alwaseet : Arabic Dictionary for Morphological analysis,  http://arramooz.sourceforge.net/ https://github.com/linuxscout/arramooz
+```
+or in bibtex format
+```bibtex
+@misc{zerrouki2011arramooz,
+  title={Arramooz Alwaseet : Arabic Dictionary for Morphological analysis},
+  author={Zerrouki, Taha},
+  url={http://arramooz.sourceforge.net/},
+  year={2011}
+}
+```
 ## API
 The python API is available as [arramooz-pysqlite](http://github.com/linuxscout/arramooz-pysqlite)
 
