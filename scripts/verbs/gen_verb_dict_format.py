@@ -106,27 +106,9 @@ def grabargs():
                          help="the limit of treated lines")
     args = parser.parse_args()
     return args
-
-def main():
-    args= grabargs()
-    filename = args.filename
-    limit = args.limit
-    output_format =args.outformat
-    version = args.version
-
-    try:
-        fl=open(filename);
-    except:
-        print " Error :No such file or directory: %s" % filename
-        sys.exit(0)
-
-    verb_field_number=2;
-    verb_cat_field_number=3;
-
-    line=fl.readline().decode("utf");
-    text=u""
-    verb_table=[];
-    nb_field=12;
+def factory(output_format, version):
+    import csvdict
+    mydict = csvdict.CsvDict(version)
     if output_format == "sql":
         import sqldict
         mydict = sqldict.SqlDict(version);
@@ -147,6 +129,29 @@ def main():
     else:
         import csvdict
         mydict = csvdict.CsvDict(version)
+    return mydict
+def main():
+    args= grabargs()
+    filename = args.filename
+    limit = args.limit
+    output_format =args.outformat
+    version = args.version
+
+    try:
+        fl=open(filename);
+    except:
+        print " Error :No such file or directory: %s" % filename
+        sys.exit(0)
+
+    verb_field_number=2;
+    verb_cat_field_number=3;
+
+    line=fl.readline().decode("utf");
+    text=u""
+    verb_table=[];
+    nb_field=12;
+    mydict = None
+
     while line :
         line= line.strip('\n').strip()
         if not line.startswith("#"):
@@ -157,6 +162,7 @@ def main():
         line=fl.readline().decode("utf8");
     fl.close();
     # create header
+    mydict = factory(output_format, version)
     print mydict.add_header().encode('utf8')
 
     for tuple_verb in verb_table[:limit]:

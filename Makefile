@@ -13,6 +13,7 @@ clean:
 	rm -f -r $(RELEASES)/* $(OUTPUT)
 backup: 
 	mkdir -p $(RELEASES)/backup$(VERSION)
+	touch $(RELEASES)/todo.bz2
 	mv $(RELEASES)/*.bz2 $(RELEASES)/backup$(VERSION)
 #create all files 
 all: ods verb noun release
