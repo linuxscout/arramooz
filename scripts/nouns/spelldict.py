@@ -258,8 +258,8 @@ class SpellDict(csvdict.CsvDict):
                     print ("SFX  %s  0   %s  ."%(suffix_tag, suffix[:-1]+pronoun)).encode('utf8')  
                     
         # print suffix table
-        print "self.suffix_tag={",
-        for s, t in self.suffix_tag.items():
-            print ("u'%s':'%s',"%(s,t)).encode('utf8')
-        print "}"
-        return """"""
+        #print "self.suffix_tag={",
+        #for s, t in self.suffix_tag.items():
+        #    print ("u'%s':'%s',"%(s,t)).encode('utf8')
+        #print "}"
+        return ""
