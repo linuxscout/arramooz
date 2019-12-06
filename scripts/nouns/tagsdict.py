@@ -23,7 +23,9 @@
 #  
 import csvdict
 import pyarabic.araby as araby
-import tag_const as tconst
+#~ import mysam.tag_const as tconst
+import pyarabic.araby as araby
+import spell_noun as nspell
 #~ VERIFY_INPUT=True;
 VERIFY_INPUT=False;
 import stem_noun_const as snconst
