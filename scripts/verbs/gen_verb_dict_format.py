@@ -163,7 +163,7 @@ def main():
     fl.close();
     # create header
     mydict = factory(output_format, version)
-    print mydict.add_header().encode('utf8')
+#    print mydict.add_header().encode('utf8')
 
     for tuple_verb in verb_table[:limit]:
         #~ verb_dict = decode_tuple_verb(tuple_verb);

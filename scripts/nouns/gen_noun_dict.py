@@ -112,7 +112,7 @@ def main():
         import csvdict
         mydict = csvdict.CsvDict(wordtype, version)    
     # create header
-    h = mydict.add_header()
+    h = "" # mydict.add_header()
     if h:
         print h.encode('utf8')
     for tuple_noun in noun_table[:limit]:
