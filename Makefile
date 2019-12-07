@@ -57,7 +57,7 @@ verbspell:
 	#gerenate spelling dict of verbs in Hunspell format
 	python2 $(SCRIPT)/verbs/gen_verb_dict_format.py -o spell  -v $(VERSION) -f $(OUTPUT)/verbs.aya.dic > $(OUTPUT)/verbs.spell
 	python2 $(SCRIPT)/verbs/spelltools.py -f $(OUTPUT)/verbs.spell > $(OUTPUT)/verbs.2.spell
-verbtags:
+verbtags: verbdict
 	#gerenate verb tags format
 	python2 $(SCRIPT)/verbs/gen_verb_dict_format.py -o tags  -v $(VERSION) -f $(OUTPUT)/verbs.aya.dic > $(OUTPUT)/verbs.tags
 nountagstest:
