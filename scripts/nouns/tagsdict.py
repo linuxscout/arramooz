@@ -23,11 +23,12 @@
 #  
 import csvdict
 import pyarabic.araby as araby
-import tag_const as tconst
+import mysam.tag_const as tconst
 #~ VERIFY_INPUT=True;
 VERIFY_INPUT=False;
 import stem_noun_const as snconst
 
+import spell_noun as nspell
 class TagsDict(csvdict.CsvDict):
     """ a virtual converter of data from table to specific Hunspell dictionary format
     the data is big, then every function print string """
