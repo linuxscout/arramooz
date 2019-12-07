@@ -20,13 +20,17 @@
 #  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 #  MA 02110-1301, USA.
 #  
-#  
+#
+import os
 import csvdict
 import pyarabic.araby as araby
 import mysam.tag_const as tconst
+import pyarabic.araby as araby
+import spell_noun as nspell
 #~ VERIFY_INPUT=True;
 VERIFY_INPUT=False;
 import stem_noun_const as snconst
+import mysam.tagmaker as tagmaker
 
 import spell_noun as nspell
 class TagsDict(csvdict.CsvDict):
@@ -40,6 +44,9 @@ class TagsDict(csvdict.CsvDict):
         self.affixes_list = []
         nb1=0
         nb2=0
+        file_conf = os.path.join( os.path.dirname(__file__), "config/tag.config")        
+        self.tagmaker   = tagmaker.tagMaker(file_conf)
+        
         for procletic in snconst.COMP_PREFIX_LIST_MODEL.keys():
                 for encletic in snconst.COMP_SUFFIX_LIST_MODEL:
                     for suffix in snconst.CONJ_SUFFIX_LIST:
@@ -89,6 +96,7 @@ class TagsDict(csvdict.CsvDict):
                 if nspell.is_compatible_proaffix_affix(noun_tuple, procletic, encletic, suffix):
                     vocalized, semi_vocalized, segmented = nspell.vocalize(noun_tuple['vocalized'], procletic,  suffix, encletic)
                     tags = self.get_tags(noun_tuple, affix_tags) 
+                    
                     if VERIFY_INPUT: 
                         print (u"\t".join([  araby.strip_tashkeel(vocalized),  noun_tuple['unvocalized'], tags])).encode('utf8')
                         print ("*" + u"\t".join([  araby.strip_tashkeel(vocalized),  noun_tuple['unvocalized'], u','.join(affix_tags)])).encode('utf8')
@@ -105,6 +113,34 @@ class TagsDict(csvdict.CsvDict):
         return u"\n".join(set(lines))
         
     def get_tags(self, noun_tuple, affix_tags):
+        """ generate an encoded tag """
+        
+        tags_list = list( affix_tags)
+        if u"مؤنث" in noun_tuple['gender']:
+            tags_list.append(u"مؤنث")
+        if u"مذكر" in noun_tuple['gender']:
+            tags_list.append(u"مذكر")
+        if u"جمع" in  noun_tuple['number']:
+            tags_list.append(u"جمع")
+        word_cat = "Noun"
+        if  noun_tuple['wordtype'] in (u"اسم فاعل", u"اسم مفعول", u"صفة", u"صفة مشبهة", u"صيغة مبالغة",):
+            word_cat = "adj"
+        elif noun_tuple['wordtype'] in (u"مصدر",):
+            word_cat = "masdar"
+        elif noun_tuple['wordtype'] in (u"علم",):
+            word_cat = "prop_noun"
+        elif noun_tuple['wordtype'] in (u"جامد", ):
+            word_cat = "jamed"
+        elif noun_tuple['wordtype'] in (u"اسم تفضيل", ):
+            word_cat = "comparative"
+        else:
+            word_cat = noun_tuple['wordtype']
+        word_cat = noun_tuple['wordtype']
+        tags_list.append(u"اسم")
+        tags_list.append(word_cat)
+        self.tagmaker.reset()
+        encoded_tags = self.tagmaker.encode(tags_list)
+        return encoded_tags
         
         tags = u"-".join(affix_tags);
         prefix = ""
