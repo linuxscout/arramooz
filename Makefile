@@ -60,6 +60,9 @@ verbspell:
 verbtags: verbdict
 	#gerenate verb tags format
 	python2 $(SCRIPT)/verbs/gen_verb_dict_format.py -o tags  -v $(VERSION) -f $(OUTPUT)/verbs.aya.dic > $(OUTPUT)/verbs.tags
+verbtagstest: verbdict
+	#gerenate verb tags format
+	python2 $(SCRIPT)/verbs/gen_verb_dict_format.py -l 100 -o tags  -v $(VERSION) -f $(OUTPUT)/verbs.aya.dic > $(OUTPUT)/verbs.tags
 nountagstest:
 	#gerenate spelling dict of nouns in Hunspell format
 	python2 $(SCRIPT)/nouns/gen_noun_dict.py -l 100 -f $(DATA_DIR)/nouns/fa3il.csv -d tags -v $(VERSION) -t fa3il >$(OUTPUT)/nouns.dict.tags

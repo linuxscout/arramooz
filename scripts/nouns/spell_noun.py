@@ -19,7 +19,8 @@ import pyarabic.araby as araby
 #~ import tashaphyne.stemming
 #~ import tashaphyne.normalize
 #~ import qalsadi.stem_noun_const as snconst
-import stem_noun_const as snconst
+import alyahmor.aly_stem_noun_const as snconst
+#~ import stem_noun_const as snconst
 #~ import arramooz.arabicdictionary as arabicdictionary 
 #~ import qalsadi.wordcase as wordcase
 

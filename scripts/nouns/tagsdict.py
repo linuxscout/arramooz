@@ -29,7 +29,7 @@ import pyarabic.araby as araby
 import spell_noun as nspell
 #~ VERIFY_INPUT=True;
 VERIFY_INPUT=False;
-import stem_noun_const as snconst
+import alyahmor.aly_stem_noun_const as snconst
 import mysam.tagmaker as tagmaker
 
 import spell_noun as nspell
@@ -49,6 +49,8 @@ class TagsDict(csvdict.CsvDict):
         
         for procletic in snconst.COMP_PREFIX_LIST_MODEL.keys():
                 for encletic in snconst.COMP_SUFFIX_LIST_MODEL:
+        #~ for procletic in snconst.COMP_PREFIX_LIST:
+                #~ for encletic in snconst.COMP_SUFFIX_LIST:
                     for suffix in snconst.CONJ_SUFFIX_LIST:
                         pro_nm = araby.strip_tashkeel(procletic)
                         enc_nm = araby.strip_tashkeel(encletic)
@@ -103,118 +105,47 @@ class TagsDict(csvdict.CsvDict):
                     lines.append(u"\t".join([araby.strip_tashkeel(vocalized),  noun_tuple['unvocalized'], tags]))
 
                     nb += 1
-        #~ print  " Before reduction"
-        #~ print len(lines)
-        #~ print u"\n".join(lines).encode('utf8')
-        #~ print  " Afterreduction"
-        #~ print len(set(lines))
-        #~ print u"\n".join(set(lines)).encode('utf8')   
-        #~ print "--------------"         
+      
         return u"\n".join(set(lines))
         
     def get_tags(self, noun_tuple, affix_tags):
         """ generate an encoded tag """
         
         tags_list = list( affix_tags)
-        if u"مؤنث" in noun_tuple['gender']:
+        if u"جمع مؤنث سالم" in affix_tags:
             tags_list.append(u"مؤنث")
-        if u"مذكر" in noun_tuple['gender']:
-            tags_list.append(u"مذكر")
+        if not u"مؤنث" in tags_list:
+            if u"مؤنث" in noun_tuple['gender']:
+                tags_list.append(u"مؤنث")
+            if u"مذكر" in noun_tuple['gender']:
+                tags_list.append(u"مذكر")
         if u"جمع" in  noun_tuple['number']:
             tags_list.append(u"جمع")
+        elif not u"جمع" in affix_tags and not u"مثنى" in affix_tags:
+            if u"مفرد" in noun_tuple['number']:
+                tags_list.append(u"مفرد")
+        
+            
+    
         word_cat = "Noun"
-        if  noun_tuple['wordtype'] in (u"اسم فاعل", u"اسم مفعول", u"صفة", u"صفة مشبهة", u"صيغة مبالغة",):
-            word_cat = "adj"
-        elif noun_tuple['wordtype'] in (u"مصدر",):
-            word_cat = "masdar"
-        elif noun_tuple['wordtype'] in (u"علم",):
-            word_cat = "prop_noun"
-        elif noun_tuple['wordtype'] in (u"جامد", ):
-            word_cat = "jamed"
-        elif noun_tuple['wordtype'] in (u"اسم تفضيل", ):
-            word_cat = "comparative"
-        else:
-            word_cat = noun_tuple['wordtype']
-        word_cat = noun_tuple['wordtype']
+        # wordtype in 
+        #~  (u"اسم فاعل", u"اسم مفعول", u"صفة", u"صفة مشبهة", u"صيغة مبالغة",):
+        #~ (u"مصدر",):
+        #~  (u"علم",):
+        #~  (u"جامد", ):
+        #~  (u"اسم تفضيل", ):
         tags_list.append(u"اسم")
+        wordtypes = noun_tuple['wordtype'].split(':')
+        tags_list.extend(wordtypes)
         tags_list.append(word_cat)
         self.tagmaker.reset()
         encoded_tags = self.tagmaker.encode(tags_list)
+        #~ from pyarabic.arabrepr import arepr as repr 
+        #~ print(repr(tags_list))
+        #~ print(encoded_tags)
         return encoded_tags
         
-        tags = u"-".join(affix_tags);
-        prefix = ""
-        if u"عطف" in affix_tags:
-            prefix +="W"
-        else:
-            prefix +="-"
-        if u"جر" in affix_tags:
-            prefix +="B"
-        else:
-            prefix +="-"            
-        if u"تعريف" in affix_tags:
-            prefix +="L"
-        else:
-            prefix +="-"            
-        conjug = ""
-        if (u"مؤنث" in affix_tags
-        or u"مؤنث" in noun_tuple['gender']):
-            conjug +="F"
-        elif (u"مذكر" in affix_tags
-        or u"مذكر" in noun_tuple['gender']):
-            conjug +="M"
-        else:
-            conjug +="-"
-        
-        if (u"جمع" in affix_tags or u"جمع مؤنث سالم" in affix_tags 
-            or u"جمع مذكر سالم" in affix_tags
-            or u"جمع" in  noun_tuple['number']):
-            conjug +="3"
-        elif u"مثنى" in affix_tags:
-            conjug +="2"
-        else:
-            conjug +="1" 
-        
-        # we ignore I3rab mark if the word is single or broken plural
-        # we ignore I3rab short marks إغفال علامات الإعراب القصيرة أي الحركات
-        # نتجاهلها في حالات جمع التأنيث والمفرد والتكسير
-        # نعتبرها في حالات المثنى وجمع مذكر سالم فقط
-        if (u"جمع مذكر سالم" in affix_tags
-            or u"مثنى" in affix_tags
-            ):
-            if u"منصوب" in affix_tags:
-                conjug +="A"
-            elif u"مرفوع" in affix_tags:
-                conjug +="U"            
-            elif u"مجرور" in affix_tags:
-                conjug +="Y"            
-            elif u"مبني" in affix_tags:
-                conjug +="B"            
-            else:
-                conjug +="-"
-        else:
-            conjug +="-"            
-            
-        encletic = "-"
-        if u"مضاف" in affix_tags:
-            encletic ="H"            
-        # word type coding
-        word_cat = "Noun"
-        if  noun_tuple['wordtype'] in (u"اسم فاعل", u"اسم مفعول", u"صفة", u"صفة مشبهة", u"صيغة مبالغة",):
-            word_cat = "adj"
-        elif noun_tuple['wordtype'] in (u"مصدر",):
-            word_cat = "masdar"
-        elif noun_tuple['wordtype'] in (u"علم",):
-            word_cat = "prop_noun"
-        elif noun_tuple['wordtype'] in (u"جامد", ):
-            word_cat = "jamed"
-        elif noun_tuple['wordtype'] in (u"اسم تفضيل", ):
-            word_cat = "comparative"
-        else:
-            word_cat = noun_tuple['wordtype']
-            
-        tags = "N" +'.' +word_cat+'.'+ ";"+conjug +";"+ prefix + encletic
-        return tags
+ 
     
     def get_suffix_tag(self, suffix, encletic):
         """give the suffix tags"""

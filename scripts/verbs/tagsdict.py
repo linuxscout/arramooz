@@ -20,7 +20,8 @@
 #  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 #  MA 02110-1301, USA.
 #  
-#  
+# 
+import os
 import csvdict
 import verbdict_functions  as vdf
 import pyarabic.araby as araby
@@ -30,6 +31,7 @@ import libqutrub.mosaref_main as msrif
 import libqutrub.ar_verb     as v_ar
 import libqutrub.verb_valid   as valid
 import libqutrub.verb_const   as const
+import mysam.tagmaker as tagmaker
 
 class TagsDict(csvdict.CsvDict):
     """ a virtual converter of data from table to specific Hunspell dictionary format
@@ -39,6 +41,8 @@ class TagsDict(csvdict.CsvDict):
         initiate the dict
         """
         csvdict.CsvDict.__init__(self, version)
+        file_conf = os.path.join( os.path.dirname(__file__), "config/tag.config")        
+        self.tagmaker   = tagmaker.tagMaker(file_conf)        
     def add_header(self,):
         """
         add the header for new dict
@@ -104,7 +108,8 @@ class TagsDict(csvdict.CsvDict):
                             # this allows to reduce many cases into one entree
                             if conjugTable[tense][pronoun]:
                                 word_nm = araby.strip_tashkeel(conjugTable[tense][pronoun]);
-                                print (u'\t'.join([word_nm,  v['vocalized'], tags])).encode('utf8');
+                                #~ verb_with_shadda = araby.strip_harakat(v['vocalized']);
+                                print (u'\t'.join([word_nm, v['vocalized'] , tags])).encode('utf8');
             
         return line
     def get_verb_info(self, verb_tuple):
@@ -115,19 +120,26 @@ class TagsDict(csvdict.CsvDict):
         # get verb subclass
         verb_nm = araby.strip_tashkeel(verb_tuple['vocalized'])
         verb_class = ""
+        verb_tags = [u"فعل"]
         if verb_nm.startswith(araby.WAW):
             verb_class= "W1W" #"Mithal_W"
+            verb_tags.extend([u"معتل", u"مثال", u"واوي"])
         elif verb_nm[-2:-1] ==araby.ALEF: # before last char
             if verb_tuple['future_type'] in (araby.DAMMA, u"ضمة"):
                 verb_class= "W2W" #"Adjwaf_W"
+                verb_tags.extend([u"معتل", u"أجوف", u"واوي"])                
             elif verb_tuple['future_type'] in (araby.KASRA, u"كسرة"):
                 verb_class= "W2Y" #"Adjwaf_Y"
+                verb_tags.extend([u"معتل", u"أجوف", u"يائي"])                
         elif verb_nm[-1:]  in (araby.YEH, araby.ALEF_MAKSURA): 
             verb_class= "W3Y" #"Naqis_Y"
+            verb_tags.extend([u"معتل", u"ناقص", u"يائي"])                            
         elif verb_nm[-1:]  == araby.ALEF: 
             verb_class= "W3W" #"Naqis_W"
+            verb_tags.extend([u"معتل", u"ناقص", u"واوي"])                                        
         elif araby.SHADDA in (verb_tuple['vocalized']): 
             verb_class= "Dbl" # doubled
+            verb_tags.append(u"مضعف")            
         else:
             verb_class = "-"
         
@@ -135,25 +147,34 @@ class TagsDict(csvdict.CsvDict):
         tags = "V."+verb_class+"."      
         if verb_tuple['transitive']:
             tags +="T"
+            verb_tags.append(u"متعدي")
         else:
             tags +="I"
+            verb_tags.append(u"لازم")            
                        
         if verb_tuple['double_trans']:
             tags +="D"
+            verb_tags.append(u"متعدي لمفعولين")                        
         elif verb_tuple['think_trans']:
             tags += "T"
+            verb_tags.append(u"متعدي للعاقل")                                    
         elif verb_tuple['reflexive_trans']:
             tags += "R"
+            verb_tags.append(u"متعدي قلبي")                                                
         # tags pronouns
         else:
             tags +='-'
-        return tags        
+        #~ return tags        
+        return verb_tags        
     def get_tags(self, verb_info, tense, pronoun ):
         """
         Generate tags format
         """
-        tags = verb_info + ";"
-
+        tags = u";".join(verb_info) + ";"
+        tags_list = []
+        tags_list.extend(verb_info)
+        tags_list.append(tense)
+        tags_list.append(pronoun)
         tags += svconst.TabTagsTense[tense]
         tags += svconst.TabTagsPronominale[pronoun]
         
@@ -169,7 +190,12 @@ class TagsDict(csvdict.CsvDict):
         #    H: if have encletic
         tags += '-'        
 
-        return tags
+        #~ return tags
+        encoded_tags = self.tagmaker.encode(tags_list)
+        #~ from pyarabic.arabrepr import arepr as repr 
+        #~ print(repr(tags_list))
+        #~ print(encoded_tags)        
+        return encoded_tags
                 
     def test_entry(self, verb_tuple):
         """
