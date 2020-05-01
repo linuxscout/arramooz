@@ -32,7 +32,7 @@ import libqutrub.ar_verb     as v_ar
 import libqutrub.verb_valid   as valid
 import libqutrub.verb_const   as const
 import mysam.tagmaker as tagmaker
-
+import alyahmor.verb_affixer as verb_affixer
 class TagsDict(csvdict.CsvDict):
     """ a virtual converter of data from table to specific Hunspell dictionary format
     the data is big, then every function print string """
@@ -42,7 +42,8 @@ class TagsDict(csvdict.CsvDict):
         """
         csvdict.CsvDict.__init__(self, version)
         file_conf = os.path.join( os.path.dirname(__file__), "config/tag.config")        
-        self.tagmaker   = tagmaker.tagMaker(file_conf)        
+        self.tagmaker   = tagmaker.tagMaker(file_conf)
+        self.affixer = verb_affixer.verb_affixer()     
     def add_header(self,):
         """
         add the header for new dict
@@ -79,6 +80,12 @@ class TagsDict(csvdict.CsvDict):
                 TableEntries = {}
                 tags_info = self.get_verb_info(v)
                 for tense in conjugTable.keys():
+                    # the passive tenses dont take object suffix, only with double transitie verbs
+                    if (v['transitive'] and tense in const.TableIndicativeTense) or v['double_trans']:#:
+                        accept_attached_pronoun = True
+                    else:
+                        accept_attached_pronoun = False
+                    # browes all pronouns
                     for pronoun in conjugTable[tense].keys():
                         if pronoun != const.PronounAntuma_f: 
                             tags = self.get_tags(tags_info, tense, pronoun)
@@ -86,7 +93,6 @@ class TagsDict(csvdict.CsvDict):
 
                             # the passive tenses dont take object suffix, only with double transitie verbs
                             if (v['transitive'] and tense in const.TableIndicativeTense) or v['double_trans']:#:
-                                
                                 # add flags for suffixes
                                 if v['think_trans'] and v['reflexive_trans']: 
                                     flags += svconst.TabSuffixesPronominale[pronoun]['full'];
@@ -107,9 +113,17 @@ class TagsDict(csvdict.CsvDict):
                             #add an entree to the table entrie
                             # this allows to reduce many cases into one entree
                             if conjugTable[tense][pronoun]:
-                                word_nm = araby.strip_tashkeel(conjugTable[tense][pronoun]);
+                                conj = conjugTable[tense][pronoun]
+                                word_nm = araby.strip_tashkeel(conj);
                                 #~ verb_with_shadda = araby.strip_harakat(v['vocalized']);
                                 print (u'\t'.join([word_nm, v['vocalized'] , tags])).encode('utf8');
+                                # if transitive:
+                                if  accept_attached_pronoun:
+                                    verb_attached_pronoun_list = self.affixer.vocalize(conj,"",u"ك")
+                                    attached = verb_attached_pronoun_list[0][0]
+                                    attached = araby.strip_tashkeel(attached)
+                                    tags = self.get_tags(tags_info + [u"ضمير متصل"], tense, pronoun)
+                                    print (u'\t'.join([attached, v['vocalized'] , tags])).encode('utf8');
             
         return line
     def get_verb_info(self, verb_tuple):
@@ -191,6 +205,7 @@ class TagsDict(csvdict.CsvDict):
         tags += '-'        
 
         #~ return tags
+        self.tagmaker.reset()        
         encoded_tags = self.tagmaker.encode(tags_list)
         #~ from pyarabic.arabrepr import arepr as repr 
         #~ print(repr(tags_list))
