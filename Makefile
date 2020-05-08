@@ -60,6 +60,7 @@ verbspell:
 verbtags: verbdict
 	#gerenate verb tags format
 	python2 $(SCRIPT)/verbs/gen_verb_dict_format.py -o tags  -v $(VERSION) -f $(OUTPUT)/verbs.aya.dic > $(OUTPUT)/verbs.tags
+
 verbtagstest: verbdict
 	#gerenate verb tags format
 	python2 $(SCRIPT)/verbs/gen_verb_dict_format.py -l 100 -o tags  -v $(VERSION) -f $(OUTPUT)/verbs.aya.dic > $(OUTPUT)/verbs.tags
@@ -90,7 +91,16 @@ nountags:
 	python2 $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/sifates.csv -d tags  -v $(VERSION) -t sifates  >>$(OUTPUT)/nouns.dict.tags
 	## tafdil.csv
 	python2 $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/tafdil.csv  -d tags -v $(VERSION) -t tafdil >>$(OUTPUT)/nouns.dict.tags
-#~ 
+toolstags: 
+	#gerenate verb tags format
+	python3 $(SCRIPT)/tools/generate_jar.py > $(OUTPUT)/tools.tags
+
+tagset:
+	#build the whole dictionary
+	cat $(OUTPUT)/verbs.tags  $(OUTPUT)/tools.tags $(OUTPUT)/nouns.dict.tags > $(OUTPUT)/arabic.dic.tags 
+	cut -f3  $(OUTPUT)/arabic.dic.tags > /tmp/arab_tags.txt
+	sort -u /tmp/arab_tags.txt  > $(OUTPUT)/arabic_tags.txt
+
 nounspell:
 	#gerenate spelling dict of nouns in Hunspell format
 	python2 $(SCRIPT)/nouns/gen_noun_dict.py   -f $(DATA_DIR)/nouns/fa3il.csv -d spell -v $(VERSION) -t fa3il >$(OUTPUT)/nouns.dict.spell

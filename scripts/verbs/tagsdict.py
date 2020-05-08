@@ -168,7 +168,9 @@ class TagsDict(csvdict.CsvDict):
                        
         if verb_tuple['double_trans']:
             tags +="D"
-            verb_tags.append(u"متعدي لمفعولين")                        
+            verb_tags.append(u"متعدي لمفعولين")
+            verb_tags.append(u"متعدي")
+
         elif verb_tuple['think_trans']:
             tags += "T"
             verb_tags.append(u"متعدي للعاقل")                                    
