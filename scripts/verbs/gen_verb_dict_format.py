@@ -1,4 +1,3 @@
-#!/usr/bin/python2
 # -*- coding=utf-8 -*-
 #************************************************************************
 # $Id: conjugate.py,v 0.7 2009/06/02 01:10:00 Taha Zerrouki $
@@ -43,16 +42,16 @@ MAX_LINES_TREATED=1100000;
 
 def usage():
 # "Display usage options"
-    print "(C) CopyLeft 2016, %s"%AuthorName
-    print "Usage: %s -f filename [OPTIONS]" % scriptname
+    print("(C) CopyLeft 2016, %s"%AuthorName)
+    print("Usage: %s -f filename [OPTIONS]" % scriptname)
 #"Display usage options"
-    print "\t[-h | --help]\t\toutputs this usage message"
-    print "\t[-v | --version= dataversion]\tset Generated data version"
-    print "\t[-f | --file= filename]\tinput file to %s"%scriptname
-    print "\t[-o | --output= format]\toutput file format %s"%scriptname
-    print "\t[-l | --limit= limit_ number]\tthe limit of treated lines %s"%scriptname
-    print "\r\nN.B. FILE FORMAT is descripted in README"
-    print "\r\nThis program is licensed under the GPL License\n"
+    print("\t[-h | --help]\t\toutputs this usage message")
+    print("\t[-v | --version= dataversion]\tset Generated data version")
+    print("\t[-f | --file= filename]\tinput file to %s"%scriptname)
+    print("\t[-o | --output= format]\toutput file format %s"%scriptname)
+    print("\t[-l | --limit= limit_ number]\tthe limit of treated lines %s"%scriptname)
+    print("\r\nN.B. FILE FORMAT is descripted in README")
+    print("\r\nThis program is licensed under the GPL License\n")
 
 
 def grabargs2():
@@ -138,15 +137,15 @@ def main():
     version = args.version
 
     try:
-        fl=open(filename);
+        fl=open(filename, encoding='utf-8');
     except:
-        print " Error :No such file or directory: %s" % filename
+        print(" Error :No such file or directory: %s" % filename)
         sys.exit(0)
 
     verb_field_number=2;
     verb_cat_field_number=3;
 
-    line=fl.readline().decode("utf");
+    line=fl.readline()
     text=u""
     verb_table=[];
     nb_field=12;
@@ -159,7 +158,7 @@ def main():
             if len(liste)>=nb_field:
                 verb_table.append(liste);
 
-        line=fl.readline().decode("utf8");
+        line=fl.readline()
     fl.close();
     # create header
     mydict = factory(output_format, version)
@@ -169,10 +168,10 @@ def main():
         #~ verb_dict = decode_tuple_verb(tuple_verb);
         line = mydict.add_record(tuple_verb)
         if line:
-            print(line.encode('utf8'))
+            print(line)
     # create footer
-    print mydict.add_footer().encode('utf8')
-    
+    print(mydict.add_footer())
+
 if __name__ == "__main__":
   main()
 

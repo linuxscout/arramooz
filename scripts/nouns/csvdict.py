@@ -1,4 +1,3 @@
-#!/usr/bin/python2
 # -*- coding=utf-8 -*-
 #************************************************************************
 # $Id: generatenoundict.py,v 0.7 2011/03/26 01:10:00 Taha Zerrouki $
@@ -149,7 +148,7 @@ class CsvDict:
         self.wordtype = wordtype_table.get(wordtype, "");
 
         if not wordtype: 
-            print "Fatal Error : unsupported wordtype", wordtype;
+            print("Fatal Error : unsupported wordtype", wordtype);
             exit();
         #generic Header for project
         self.headerlines = [
@@ -182,7 +181,7 @@ class CsvDict:
         for k in range(len(self.display_order)):
             key = self.display_order[k];
             # some fields are integer, than we use str
-            items.append(unicode(fields[key]))
+            items.append(str(fields[key]))
         line = u"\t".join(items);
         return line
         
@@ -204,8 +203,8 @@ class CsvDict:
             try:
                 fields[key] = tuple_noun[self.field_id[key]].strip();
             except IndexError:
-                print "#"*5, "key error [%s],"%key, self.field_id[key], len(tuple_noun);
-                print tuple_noun
+                print("#"*5, "key error [%s],"%key, self.field_id[key], len(tuple_noun));
+                print(tuple_noun)
                 sys.exit()
 
         # treat specific fields

@@ -83,3 +83,4 @@ output/*
 /data/nouns/archv/arramooz-noun-2016-03-26.tar.bz2
 /scripts/verbs/gen_verb_dict.old.py
 /data/custom/verbs.aya.dic
+.DS_Store

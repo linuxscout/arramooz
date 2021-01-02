@@ -1,4 +1,3 @@
-#!/usr/bin/python2
 # -*- coding=utf-8 -*-
 #************************************************************************
 # $Id:generateverbdict.py,v 0.7 2009/06/02 01:10:00 Taha Zerrouki $
@@ -302,26 +301,26 @@ class verb_reader:
             if future_moode: tenses+=u"ا";
             else: tenses+=u"-";
             if confirmed: tenses+=u"ن";
-            else: tenses+=u"-";             
+            else: tenses+=u"-";
         return tenses
 
     def treat_verb_table2(self, verb_table, limit):
         """ readlines and treat them"""
-        print "#total lines",len(verb_table)
-        print "#", (u'\t'.join(["word","tri",'root',"future_type","transitive","nb_trans", "object_type", "reflexive_type", "tenses", "model","nb_case","verb_cat", "suggest"])).encode('utf8');
+        print("#total lines",len(verb_table))
+        print("#", (u'\t'.join(["word","tri",'root',"future_type","transitive","nb_trans", "object_type", "reflexive_type", "tenses", "model","nb_case","verb_cat", "suggest"])).encode('utf8'));
         model=0;
         cpt = 0
         for tuple_verb in verb_table[:limit]:
             result = self.decode_verb_tuple(tuple_verb)
-            print result.encode('utf8')
-            
+            print(result)
+
     def treat_verb_table(self, verb_table, limit):
         """ readlines and treat them"""
         tritable = {}
         # duplicated verbs to be checked
         check_verbs = []
-        print "#total lines",len(verb_table)
-        print "#", (u'\t'.join(["word","tri",'root',"future_type","transitive","nb_trans", "object_type", "reflexive_type", "tenses", "model","nb_case","verb_cat", "suggest"])).encode('utf8');
+        print("#total lines",len(verb_table))
+        print("#", (u'\t'.join(["word","tri",'root',"future_type","transitive","nb_trans", "object_type", "reflexive_type", "tenses", "model","nb_case","verb_cat", "suggest"])).encode('utf8'));
         model=0;
         cpt = 0
         for tuple_verb in verb_table[:limit]:
@@ -329,7 +328,7 @@ class verb_reader:
             result_dict = self.decode_verb_tuple(tuple_verb)
             if result_dict.get("triliteral",'') != u"ثلاثي":
                 result = self.print_tuple(result_dict)
-                print result.encode('utf8')                
+                print(result)
             else:
                 # save the triverb to be used with triverb file                
                 verb = result_dict.get('word','')
@@ -353,7 +352,7 @@ class verb_reader:
         convert tuple to string
         """
         if type(vdict) is list:
-            print arepr(vdict)
+            print(arepr(vdict))
         if "text" in vdict:
             return vdict['text']
         else:
@@ -434,7 +433,7 @@ class verb_reader:
                          'reflexive_type': reflexive_type, 
                          }
                     #~ print "***TRI****", self.print_tuple(verb_dict).encode('utf8')
-                    print self.print_tuple(verb_dict).encode('utf8')
+                    print(self.print_tuple(verb_dict).encode('utf8'))
             else:
                 model       = "NA"
                 verb_cat    = "NA"
@@ -458,10 +457,10 @@ class verb_reader:
                      'reflexive_type': reflexive_type, 
                      }
                 #~ print "***TRI*NA****", self.print_tuple(verb_dict).encode('utf8')
-                print self.print_tuple(verb_dict).encode('utf8')
+                print(self.print_tuple(verb_dict).encode('utf8'))
     def read_file(self, fl):
         """ read lines as lists from file"""
-        line=fl.readline().decode("utf");
+        line=fl.readline()
         text=u""
         verb_table=[];
         nb_field=2;
@@ -472,7 +471,7 @@ class verb_reader:
                 if len(liste)>=nb_field:
                     verb_table.append(liste);
 
-            line=fl.readline().decode("utf8");
+            line=fl.readline()
         fl.close();
         return verb_table
 
@@ -490,7 +489,7 @@ def create_index_triverbtable():
         vocverb = triverbtable.TriVerbTable[key]['verb']
         unvverb = araby.strip_harakat(vocverb)
         normverb = araby.normalize_hamza(unvverb)
-        if TRIVERBTABLE_INDEX.has_key(normverb):
+        if normverb in TRIVERBTABLE_INDEX:
             TRIVERBTABLE_INDEX[normverb].append(key)
         else:
             TRIVERBTABLE_INDEX[normverb] = [key, ]
@@ -523,7 +522,7 @@ vocalised_entree = False):
         verb_nm = triverb
 
     normalized = araby.normalize_hamza(verb_nm)
-    if TRIVERBTABLE_INDEX.has_key(normalized):
+    if normalized in TRIVERBTABLE_INDEX:
         for verb_voc_id in TRIVERBTABLE_INDEX[normalized]:
             if triverb == triverbtable.TriVerbTable[verb_voc_id]['verb'] and \
              givenharaka == triverbtable.TriVerbTable[verb_voc_id]['haraka']:
@@ -534,27 +533,27 @@ vocalised_entree = False):
             else:
                 liste.append(triverbtable.TriVerbTable[verb_voc_id])
     else:
-        print "triverb has no verb"
-    return liste            
+        print("triverb has no verb")
+    return liste
 def main():
     args = grabargs()
-    
+
     filename = args.filename
     filename_3verb = args.triverbfilename
     limit= args.limit
     try:
         fl=open(filename);
     except:
-        print " Error :No such file or directory: %s" % filename
+        print(" Error :No such file or directory: %s" % filename)
         sys.exit(0)
-    print "#",filename
-    
+    print("#",filename)
+
     try:
         fl3=open(filename_3verb);
     except:
-        print " Error :No such file or directory: %s" % filename_3verb
+        print(" Error :No such file or directory: %s" % filename_3verb)
         sys.exit(0)
-    print "#",filename_3verb
+    print("#",filename_3verb)
 
     create_index_triverbtable();
     #print "len(TriVerbTable_INDEX={})", len(TriVerbTable_INDEX);
