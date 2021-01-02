@@ -1,4 +1,3 @@
-#!/usr/bin/python2
 # -*- coding=utf-8 -*-
 #************************************************************************
 # $Id: generatenoundict.py,v 0.8 2016/03/26 01:10:00 Taha Zerrouki $
@@ -65,16 +64,16 @@ def main():
     #print "#--",filename,limit,display_format, wordtype;
     #exit();
     try:
-        fl = open(filename);
+        fl = open(filename, encoding='utf-8');
     except:
-        print " Error :No such file or directory: %s" % filename
+        print(" Error :No such file or directory: %s" % filename)
         sys.exit(0)
     #~ print "#",filename,limit, output_format, wordtype, version
     #~ sys.exit()
 
     #display_format="txt"
 
-    line = fl.readline().decode("utf8");
+    line = fl.readline()
     text = u""
     noun_table = [];
     nb_field = 2;
@@ -85,7 +84,7 @@ def main():
             if len(liste) >= nb_field:
                 noun_table.append(liste);
 
-        line = fl.readline().decode("utf8");
+        line = fl.readline()
     fl.close();
 
     #print "#", (u'\t'.join(field_id.keys())).encode('utf8');
@@ -114,24 +113,17 @@ def main():
     # create header
     h = "" # mydict.add_header()
     if h:
-        print h.encode('utf8')
+        print(h)
     for tuple_noun in noun_table[:limit]:
         l = mydict.add_record(tuple_noun)
         if l:
-            print l.encode('utf8')
+            print(l)
     # create footer
     f = mydict.add_footer()
     if f:
-        print f.encode('utf8')
-        
-    
+        print(f)
+
+
 
 if __name__ == "__main__":
   main()
-
-
-
-
-
-
-
