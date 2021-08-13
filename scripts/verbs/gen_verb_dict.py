@@ -1,4 +1,3 @@
-#!/usr/bin/python2
 # -*- coding=utf-8 -*-
 #************************************************************************
 # $Id:generateverbdict.py,v 0.7 2009/06/02 01:10:00 Taha Zerrouki $
@@ -302,26 +301,30 @@ class verb_reader:
             if future_moode: tenses+=u"ا";
             else: tenses+=u"-";
             if confirmed: tenses+=u"ن";
-            else: tenses+=u"-";             
+            else: tenses+=u"-";
         return tenses
 
     def treat_verb_table2(self, verb_table, limit):
         """ readlines and treat them"""
+
         print("total lines",len(verb_table))
         print("#", (u'\t'.join(["word","tri",'root',"future_type","transitive","nb_trans", "object_type", "reflexive_type", "tenses", "model","nb_case","verb_cat", "suggest"])));
+
         model=0;
         cpt = 0
         for tuple_verb in verb_table[:limit]:
             result = self.decode_verb_tuple(tuple_verb)
             print(result)
-            
+
     def treat_verb_table(self, verb_table, limit):
         """ readlines and treat them"""
         tritable = {}
         # duplicated verbs to be checked
         check_verbs = []
         print("#total lines",len(verb_table))
+
         print("#", (u'\t'.join(["word","tri",'root',"future_type","transitive","nb_trans", "object_type", "reflexive_type", "tenses", "model","nb_case","verb_cat", "suggest"])));
+
         model=0;
         cpt = 0
         for tuple_verb in verb_table[:limit]:
@@ -435,6 +438,7 @@ class verb_reader:
                          }
                     #~ print "***TRI****", self.print_tuple(verb_dict)
                     print(self.print_tuple(verb_dict))
+
             else:
                 model       = "NA"
                 verb_cat    = "NA"
@@ -459,6 +463,7 @@ class verb_reader:
                      }
                 #~ print "***TRI*NA****", self.print_tuple(verb_dict)
                 print(self.print_tuple(verb_dict))
+
     def read_file(self, fl):
         """ read lines as lists from file"""
         line=fl.readline()
@@ -523,7 +528,7 @@ vocalised_entree = False):
         verb_nm = triverb
 
     normalized = araby.normalize_hamza(verb_nm)
-    if TRIVERBTABLE_INDEX.has_key(normalized):
+    if normalized in TRIVERBTABLE_INDEX:
         for verb_voc_id in TRIVERBTABLE_INDEX[normalized]:
             if triverb == triverbtable.TriVerbTable[verb_voc_id]['verb'] and \
              givenharaka == triverbtable.TriVerbTable[verb_voc_id]['haraka']:
@@ -536,9 +541,10 @@ vocalised_entree = False):
     else:
         print("triverb has no verb")
     return liste            
+
 def main():
     args = grabargs()
-    
+
     filename = args.filename
     filename_3verb = args.triverbfilename
     limit= args.limit
@@ -548,7 +554,7 @@ def main():
         print(" Error :No such file or directory: %s" % filename)
         sys.exit(0)
     print("#",filename)
-    
+
     try:
         fl3=open(filename_3verb);
     except:

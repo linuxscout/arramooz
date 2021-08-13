@@ -1,4 +1,3 @@
-#!/usr/bin/python2
 # -*- coding=utf-8 -*-
 #************************************************************************
 # $Id: conjugate.py,v 0.7 2009/06/02 01:10:00 Taha Zerrouki $
@@ -144,6 +143,7 @@ def main():
 
     try:
         fl=open(filename, encoding='utf8');
+
     except:
         print(" Error :No such file or directory: %s" % filename)
         sys.exit(0)
@@ -165,6 +165,7 @@ def main():
                 verb_table.append(liste);
 
         line=fl.readline();
+
     fl.close();
     # create header
     mydict = factory(output_format, version)
@@ -178,7 +179,7 @@ def main():
             print(line)
     # create footer
     print(mydict.add_footer())
-    
+
 if __name__ == "__main__":
   main()
 

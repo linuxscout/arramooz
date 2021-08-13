@@ -1,4 +1,3 @@
-#!/usr/bin/python2
 # -*- coding=utf-8 -*-
 #************************************************************************
 # $Id: generatenoundict.py,v 0.8 2016/03/26 01:10:00 Taha Zerrouki $
@@ -130,15 +129,7 @@ def main():
     f = mydict.add_footer()
     if f:
         print(f)
-        
+       
     
-
 if __name__ == "__main__":
   main()
-
-
-
-
-
-
-

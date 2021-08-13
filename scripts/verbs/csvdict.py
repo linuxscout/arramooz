@@ -1,4 +1,3 @@
-#!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 #
 #  verbdict_functions.py
@@ -141,6 +140,7 @@ class CsvDict:
                 v[key] = tuple_verb[self.field_id[key]].strip();
             except IndexError:
                 print("#"*5, "key error [%s],"%key, self.field_id[key], len(tuple_verb));
+
                 print(tuple_verb)
                 sys.exit()
         v["unvocalized"] = araby.strip_tashkeel(v['vocalized']);

@@ -41,6 +41,7 @@ verbxml:
 	#Generate Specific format SQL and XML
 	python3 $(SCRIPT)/verbs/gen_verb_dict_format.py -o xml -v $(VERSION) -f $(OUTPUT)/verbs.aya.dic > $(OUTPUT)/verbs.xml
 verbsql:
+
 	python3 $(SCRIPT)/verbs/gen_verb_dict_format.py -o sql  --header -v $(VERSION)  -f $(OUTPUT)/verbs.aya.dic > $(OUTPUT)/verbs.sql
 	echo "CREATE INDEX  IF NOT EXISTS 'idx_v_voc' ON 'verbs' ('vocalized' ASC);" >> $(OUTPUT)/verbs.sql
 	echo "CREATE INDEX  IF NOT EXISTS 'idx__verbstamp' ON 'verbs' ('stamped' ASC);" >> $(OUTPUT)/verbs.sql
