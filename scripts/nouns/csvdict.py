@@ -100,6 +100,7 @@ class CsvDict:
                 'ha_suffix' ,
                 'k_prefix' ,
                 'annex' ,
+                'plural_tanwin_nasb',
                 'definition',
                 'note',
                 ]
@@ -149,7 +150,7 @@ class CsvDict:
         self.wordtype = wordtype_table.get(wordtype, "");
 
         if not wordtype: 
-            print "Fatal Error : unsupported wordtype", wordtype;
+            print("Fatal Error : unsupported wordtype", wordtype)
             exit();
         #generic Header for project
         self.headerlines = [
@@ -182,7 +183,7 @@ class CsvDict:
         for k in range(len(self.display_order)):
             key = self.display_order[k];
             # some fields are integer, than we use str
-            items.append(unicode(fields[key]))
+            items.append(str(fields[key]))
         line = u"\t".join(items);
         return line
         
@@ -192,7 +193,7 @@ class CsvDict:
         
     def __str__(self,):
         """ return string to  """
-        pass;
+        return "CsvDict Object"
 
     def treat_tuple(self,tuple_noun):
         """ convert row data to specific fields
@@ -204,8 +205,8 @@ class CsvDict:
             try:
                 fields[key] = tuple_noun[self.field_id[key]].strip();
             except IndexError:
-                print "#"*5, "key error [%s],"%key, self.field_id[key], len(tuple_noun);
-                print tuple_noun
+                print("#"*5, "key error [%s],"%key, self.field_id[key], len(tuple_noun))
+                print(tuple_noun)
                 sys.exit()
 
         # treat specific fields
@@ -242,10 +243,25 @@ class CsvDict:
         # extract plural from the plural field
         # the field can have +ون;+ات
         items = fields['plural'].split(";")
-        if u'+ون' in items:items.remove(u'+ون')
-        if u'+ات' in items:items.remove(u'+ات')
-        if u'ون' in items:items.remove(u'ون')
-        if u'ات' in items:items.remove(u'ات')
+        items = [ x.strip() for x in items]
+        for value in [u'', 
+            u'+ون' ,
+            u'+ات' ,
+            u'ون' ,
+            u'ات' ,
+            u'ـ+ون' ,
+            u'ـ+ات' ,
+            u'+ون+ات' ,
+            u'+ون،‏ +ات' ,
+            u'ـأت',
+            u'ج',
+            u'ج : +ون',
+            u'ج :+ون',
+            u'ج+ون',
+            u'ج:+ات',
+            u'(ج)',
+        ]:
+            if value in items:items.remove(value)
         if items:
             fields['broken_plural'] = u";".join(items); 
         else:

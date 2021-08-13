@@ -40,15 +40,15 @@ MAX_LINES_TREATED=1100000;
 
 def usage():
 # "Display usage options"
-    print "(C) CopyLeft 2009, %s"%AuthorName
-    print "Usage: %s -f filename [OPTIONS]" % scriptname
+    print("(C) CopyLeft 2009, %s"%AuthorName)
+    print("Usage: %s -f filename [OPTIONS]" % scriptname)
 #"Display usage options"
-    print "\t[-h | --help]\t\toutputs this usage message"
-    print "\t[-v | --version]\tprogram version"
-    print "\t[-f | --file= filename]\tinput file to %s"%scriptname
-    print "\t[-l | --limit= limit_ number]\tthe limit of treated lines %s"%scriptname
-    print "\r\nN.B. FILE FORMAT is descripted in README"
-    print "\r\nThis program is licensed under the GPL License\n"
+    print("\t[-h | --help]\t\toutputs this usage message")
+    print("\t[-v | --version]\tprogram version")
+    print("\t[-f | --file= filename]\tinput file to %s"%scriptname)
+    print("\t[-l | --limit= limit_ number]\tthe limit of treated lines %s"%scriptname)
+    print("\r\nN.B. FILE FORMAT is descripted in README")
+    print("\r\nThis program is licensed under the GPL License\n")
 
 
 def grabargs():
@@ -69,7 +69,7 @@ def grabargs():
             usage()
             sys.exit(0)
         if o in ("-v", "--version"):
-            print scriptversion
+            print(scriptversion)
             sys.exit(0)
         if o in ("-f", "--file"):
             fname = val
@@ -89,7 +89,7 @@ def main():
     try:
         fl=open(filename);
     except:
-        print " Error :No such file or directory: %s" % filename
+        print(" Error :No such file or directory: %s" % filename)
         sys.exit(0)
 
 
@@ -170,16 +170,16 @@ def main():
         # print for verify the line
         VERIFY_INPUT=False;
         if VERIFY_INPUT: 
-            print "------------------------------";
-            print (u"\t".join(tuple_verb)).encode('utf8');
+            print( "------------------------------");
+            print(u"\t".join(tuple_verb));
 
-            print  (u"\t".join(['word',word,tuple_verb[0]])).encode('utf8');
-            print  (u"\t".join(['future_type',future_type,tuple_verb[3]])).encode('utf8');
-            print  (u"\t".join(['transitive',str(transitive),tuple_verb[4]])).encode('utf8');
-            print  (u"\t".join(['double_trans',str(double_trans),tuple_verb[5]])).encode('utf8');
-            print  (u"\t".join(['think_trans',str(think_trans),tuple_verb[6]])).encode('utf8');
-            print  (u"\t".join(['unthink_trans',str(unthink_trans),tuple_verb[6]])).encode('utf8');
-            print  (u"\t".join(['reflexive_trans',str(reflexive_trans),tuple_verb[7]])).encode('utf8');
+            print(u"\t".join(['word',word,tuple_verb[0]]));
+            print(u"\t".join(['future_type',future_type,tuple_verb[3]]));
+            print(u"\t".join(['transitive',str(transitive),tuple_verb[4]]));
+            print(u"\t".join(['double_trans',str(double_trans),tuple_verb[5]]));
+            print(u"\t".join(['think_trans',str(think_trans),tuple_verb[6]]));
+            print(u"\t".join(['unthink_trans',str(unthink_trans),tuple_verb[6]]));
+            print(u"\t".join(['reflexive_trans',str(reflexive_trans),tuple_verb[7]]));
             if all:
                 tenses=u"يعملان";
             else:
@@ -196,12 +196,12 @@ def main():
                 else: tenses+=u"-";
                 if confirmed: tenses+=u"ن";
                 else: tenses+=u"-";
-            print  (u"\t".join(['tense',tenses,tuple_verb[8]])).encode('utf8');
-            print "------------------------------";
+            print(u"\t".join(['tense',tenses,tuple_verb[8]]))
+            print("------------------------------");
 
         # conjugate the verb with speling tags
         if not is_valid_infinitive_verb(word):
-            print u"#\t\tis invalid verb ",word.encode("utf8")
+            print(u"#\t\tis invalid verb ",word)
         else:
             future_type=get_future_type_entree(future_type);
             conjugTable=do_sarf(word,future_type, all, past, future, passive, imperative, future_moode, confirmed, transitive, "DICT");
@@ -237,11 +237,11 @@ def main():
                                 TableEntries[word_nm]+=flags;
                             else:
                                 TableEntries[word_nm]=flags;
-                            #print (u'%s/%s\t%s%s'%(ar_strip_marks(conjugTable[tense][pronoun]), flags, word,verb_cat)).encode('utf8');
+                            #print (u'%s/%s\t%s%s'%(ar_strip_marks(conjugTable[tense][pronoun]), flags, word,verb_cat));
                 # print element from the TableEntries
                 for key in TableEntries.keys():
                     if key!="":
-                        print (u'%s/%s'%(key,unify_flags(TableEntries[key]))).encode('utf8');               
+                        print(u'%s/%s'%(key,unify_flags(TableEntries[key])))               
 
 if __name__ == "__main__":
   main()

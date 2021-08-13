@@ -62,7 +62,7 @@ class checkDict(csvdict.CsvDict):
             for k in range(len(self.display_order)):
                 key = self.display_order[k];
                 # some fields are integer, than we use str
-                items.append(unicode(fields[key]))
+                items.append(str(fields[key]))
             line = u"\t".join(items);
         else:
             line =""

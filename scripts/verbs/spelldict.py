@@ -107,7 +107,7 @@ class SpellDict(csvdict.CsvDict):
                                 TableEntries[word_nm] += flags;
                             else:
                                 TableEntries[word_nm] = flags;
-                            #print (u'%s/%s\t%s%s'%(ar_strip_marks(conjugTable[tense][pronoun]), flags, word,verb_cat)).encode('utf8');
+                            #print (u'%s/%s\t%s%s'%(ar_strip_marks(conjugTable[tense][pronoun]), flags, word,verb_cat));
                 # print element from the TableEntries
                 for key in TableEntries.keys():
                     if key!="":
@@ -120,14 +120,14 @@ class SpellDict(csvdict.CsvDict):
         """
         Verify entrie
         """     
-        print "------------------------------";
-        print  (u"\t".join(['word', verb_tuple['word']])).encode('utf8');
-        print  (u"\t".join(['future_type', verb_tuple['future_type']])).encode('utf8');
-        print  (u"\t".join(['transitive',str(verb_tuple['transitive']), ])).encode('utf8');
-        print  (u"\t".join(['double_trans',str(verb_tuple['double_trans']), ])).encode('utf8');
-        print  (u"\t".join(['think_trans',str(verb_tuple['think_trans']), ])).encode('utf8');
-        print  (u"\t".join(['unthink_trans',str(verb_tuple['unthink_trans']), ])).encode('utf8');
-        print  (u"\t".join(['reflexive_trans',str(verb_tuple['reflexive_trans']), ])).encode('utf8');
+        print("------------------------------");
+        print(u"\t".join(['word', verb_tuple['word']]));
+        print(u"\t".join(['future_type', verb_tuple['future_type']]));
+        print(u"\t".join(['transitive',str(verb_tuple['transitive']), ]));
+        print(u"\t".join(['double_trans',str(verb_tuple['double_trans']), ]));
+        print(u"\t".join(['think_trans',str(verb_tuple['think_trans']), ]));
+        print(u"\t".join(['unthink_trans',str(verb_tuple['unthink_trans']), ]));
+        print(u"\t".join(['reflexive_trans',str(verb_tuple['reflexive_trans']), ]));
         if all:
             tenses=u"يعملان";
         else:
@@ -144,8 +144,8 @@ class SpellDict(csvdict.CsvDict):
             else: tenses+=u"-";
             if verb_tuple['confirmed']: tenses+=u"ن";
             else: tenses+=u"-";
-        print  (u"\t".join(['tense', tenses])).encode('utf8');
-        print "------------------------------";
+        print(u"\t".join(['tense', tenses]));
+        print("------------------------------");
     
     def add_footer(self):
                 """close the data set, used for ending xml, or sql"""

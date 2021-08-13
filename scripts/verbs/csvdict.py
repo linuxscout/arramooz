@@ -116,7 +116,7 @@ class CsvDict:
         for k in range(len(self.display_order)):
             key = self.display_order[k];
             # some fields are integer, than we use str
-            items.append(unicode(fields[key]))
+            items.append(str(fields[key]))
         line = u"\t".join(items);
 
         return line
@@ -140,8 +140,8 @@ class CsvDict:
             try:
                 v[key] = tuple_verb[self.field_id[key]].strip();
             except IndexError:
-                print "#"*5, "key error [%s],"%key, self.field_id[key], len(tuple_verb);
-                print tuple_verb
+                print("#"*5, "key error [%s],"%key, self.field_id[key], len(tuple_verb));
+                print(tuple_verb)
                 sys.exit()
         v["unvocalized"] = araby.strip_tashkeel(v['vocalized']);
         v['normalized'] = araby.normalize_hamza(v['unvocalized'])

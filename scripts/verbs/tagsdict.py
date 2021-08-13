@@ -31,7 +31,7 @@ import libqutrub.mosaref_main as msrif
 import libqutrub.ar_verb     as v_ar
 import libqutrub.verb_valid   as valid
 import libqutrub.verb_const   as const
-import mysam.tagmaker as tagmaker
+import mysam.tagcoder as tagcoder
 import alyahmor.verb_affixer as verb_affixer
 class TagsDict(csvdict.CsvDict):
     """ a virtual converter of data from table to specific Hunspell dictionary format
@@ -42,7 +42,7 @@ class TagsDict(csvdict.CsvDict):
         """
         csvdict.CsvDict.__init__(self, version)
         file_conf = os.path.join( os.path.dirname(__file__), "config/tag.config")        
-        self.tagmaker   = tagmaker.tagMaker(file_conf)
+        self.tagcoder   = tagcoder.tagCoder(file_conf)
         self.affixer = verb_affixer.verb_affixer()     
     def add_header(self,):
         """
@@ -116,14 +116,17 @@ class TagsDict(csvdict.CsvDict):
                                 conj = conjugTable[tense][pronoun]
                                 word_nm = araby.strip_tashkeel(conj);
                                 #~ verb_with_shadda = araby.strip_harakat(v['vocalized']);
-                                print (u'\t'.join([word_nm, v['vocalized'] , tags])).encode('utf8');
+                                print (u'\t'.join([word_nm, v['vocalized'] , tags]))
                                 # if transitive:
                                 if  accept_attached_pronoun:
-                                    verb_attached_pronoun_list = self.affixer.vocalize(conj,"",u"ك")
+                                    # HEH is used as model for all attached pronoun
+                                    verb_attached_pronoun_list = self.affixer.vocalize(conj,"",araby.HEH)
                                     attached = verb_attached_pronoun_list[0][0]
                                     attached = araby.strip_tashkeel(attached)
+                                    # add a symbole at the end to mention attached pronoun
+                                    #~ attached = attached[:-1] + "h"
                                     tags = self.get_tags(tags_info + [u"ضمير متصل"], tense, pronoun)
-                                    print (u'\t'.join([attached, v['vocalized'] , tags])).encode('utf8');
+                                    print (u'\t'.join([attached, v['vocalized'] , tags]))
             
         return line
     def get_verb_info(self, verb_tuple):
@@ -156,6 +159,27 @@ class TagsDict(csvdict.CsvDict):
             verb_tags.append(u"مضعف")            
         else:
             verb_class = "-"
+        if u"معتل" not in verb_tags:
+            # verb length
+            # length with shadda
+
+            verb_nh = araby.strip_harakat(verb_tuple['vocalized'])
+            ln = len(verb_nh)
+            
+            if ln == 3:
+                verb_tags.append(u"ثلاثي")   
+                verb_class = "3"                                             
+            elif ln == 4:
+                verb_tags.append(u"رباعي")                                                
+                verb_class = "4"                                                             
+            elif ln == 5:
+                verb_tags.append(u"خماسي")
+                verb_class = "5"
+            elif ln == 6:
+                verb_tags.append(u"سداسي")
+                verb_class = "6"
+            else:
+                verb_class = "-"
         
         # the passive tenses dont take object suffix, only with double transitie verbs
         tags = "V."+verb_class+"."      
@@ -180,6 +204,8 @@ class TagsDict(csvdict.CsvDict):
         # tags pronouns
         else:
             tags +='-'
+            
+
         #~ return tags        
         return verb_tags        
     def get_tags(self, verb_info, tense, pronoun ):
@@ -207,8 +233,8 @@ class TagsDict(csvdict.CsvDict):
         tags += '-'        
 
         #~ return tags
-        self.tagmaker.reset()        
-        encoded_tags = self.tagmaker.encode(tags_list)
+        self.tagcoder.reset()        
+        encoded_tags = self.tagcoder.encode(tags_list)
         #~ from pyarabic.arabrepr import arepr as repr 
         #~ print(repr(tags_list))
         #~ print(encoded_tags)        
@@ -218,14 +244,14 @@ class TagsDict(csvdict.CsvDict):
         """
         Verify entrie
         """     
-        print "------------------------------";
-        print  (u"\t".join(['word', verb_tuple['word']])).encode('utf8');
-        print  (u"\t".join(['future_type', verb_tuple['future_type']])).encode('utf8');
-        print  (u"\t".join(['transitive',str(verb_tuple['transitive']), ])).encode('utf8');
-        print  (u"\t".join(['double_trans',str(verb_tuple['double_trans']), ])).encode('utf8');
-        print  (u"\t".join(['think_trans',str(verb_tuple['think_trans']), ])).encode('utf8');
-        print  (u"\t".join(['unthink_trans',str(verb_tuple['unthink_trans']), ])).encode('utf8');
-        print  (u"\t".join(['reflexive_trans',str(verb_tuple['reflexive_trans']), ])).encode('utf8');
+        print("------------------------------");
+        print(u"\t".join(['word', verb_tuple['word']]))
+        print(u"\t".join(['future_type', verb_tuple['future_type']]))
+        print(u"\t".join(['transitive',str(verb_tuple['transitive']), ]))
+        print(u"\t".join(['double_trans',str(verb_tuple['double_trans']), ]))
+        print(u"\t".join(['think_trans',str(verb_tuple['think_trans']), ]))
+        print(u"\t".join(['unthink_trans',str(verb_tuple['unthink_trans']), ]))
+        print(u"\t".join(['reflexive_trans',str(verb_tuple['reflexive_trans']), ]))
         if all:
             tenses=u"يعملان";
         else:
@@ -242,8 +268,7 @@ class TagsDict(csvdict.CsvDict):
             else: tenses+=u"-";
             if verb_tuple['confirmed']: tenses+=u"ن";
             else: tenses+=u"-";
-        print  (u"\t".join(['tense', tenses])).encode('utf8');
-        print "------------------------------";
+        print(u"\t".join(['tense', tenses]))
     
     def add_footer(self):
                 """close the data set, used for ending xml, or sql"""

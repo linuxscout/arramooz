@@ -49,7 +49,7 @@ class SpellDict(csvdict.CsvDict):
                         if nspell.verify_proaffix_affix(procletic, encletic, suffix):
                             nb2 += 1
                             self.affixes_list.append((procletic, encletic, suffix))        
-        print nb1, nb2
+        print(nb1, nb2)
         self.suffix_tag = {}
         self.flags ={"S":[], "T":[], 'U':[]}        
     def add_header(self,):
@@ -99,10 +99,10 @@ class SpellDict(csvdict.CsvDict):
                 if nspell.is_compatible_proaffix_affix(noun_tuple, procletic, encletic, suffix):
                     vocalized, semi_vocalized, segmented = nspell.vocalize(noun_tuple['vocalized'], procletic,  suffix, encletic)
                     if VERIFY_INPUT: 
-                        print (u"\t".join([  segmented,  vocalized])).encode('utf8')
+                        print(u"\t".join([  segmented,  vocalized]))
                         tags = self.get_tags(noun_tuple, affix_tags) 
-                        print (u"\t".join([  araby.strip_tashkeel(vocalized),  noun_tuple['unvocalized'], tags])).encode('utf8')
-                        print ("*" + u"\t".join([  araby.strip_tashkeel(vocalized),  noun_tuple['unvocalized'], u','.join(affix_tags)])).encode('utf8')
+                        print(u"\t".join([  araby.strip_tashkeel(vocalized),  noun_tuple['unvocalized'], tags]))
+                        print("*" + u"\t".join([  araby.strip_tashkeel(vocalized),  noun_tuple['unvocalized'], u','.join(affix_tags)]))
                     nb += 1
                     listfields = segmented.split('-')
                     if len(listfields) == 4:
@@ -114,7 +114,7 @@ class SpellDict(csvdict.CsvDict):
                         suffix_table.append(suff+enc)
                         stem_table.append(stem)
                         #~
-                        if not flags_table.has_key(stem):
+                        if not stem in flags_table:
                             flags_table[stem] = {}
                         pref_tag = snconst.COMP_PREFIX_LIST_MODEL.get(pref, '')
                         if not pref_tag in flags_table[stem]:
@@ -130,8 +130,8 @@ class SpellDict(csvdict.CsvDict):
                 original = "st:%s"%noun_tuple['unvocalized']
             for preftag in flags_table[stem]:
                 #~ print flags_table[stem][preftag]
-                print (u"%s/%s%s%s po:noun %s"%(stem, stem_tag, preftag, u''.join(sorted(set(flags_table[stem][preftag]))), original)).encode('utf8')
-        #print nb, len(set(prefix_table)), "pref", len(set(suffix_table)), "suf",   len(set(stem_table)), "stem", (u" ".join(set(stem_table))).encode('utf8')         
+                print(u"%s/%s%s%s po:noun %s"%(stem, stem_tag, preftag, u''.join(sorted(set(flags_table[stem][preftag]))), original))
+        #print nb, len(set(prefix_table)), "pref", len(set(suffix_table)), "suf",   len(set(stem_table)), "stem", (u" ".join(set(stem_table)))         
         return line
         
     def get_tags(self, noun_tuple, affix_tags):
@@ -214,11 +214,11 @@ class SpellDict(csvdict.CsvDict):
             # if enclitic we use a special tag to differentiacte it
             if encletic:
                 nb = len(self.flags['S'])
-                tag = "%s%s"%(chr(ord('S')+nb/26), chr(ord('a')+nb%26))
+                tag = "%s%s"%(chr(ord('S')+nb//26), chr(ord('a')+nb%26))
                 self.flags['S'].append(tag)
             else:
                 nb = len(self.flags['U'])
-                tag = "%s%s"%(chr(ord('U')+nb/26), chr(ord('a')+nb%26))
+                tag = "%s%s"%(chr(ord('U')+nb//26), chr(ord('a')+nb%26))
                 self.flags['U'].append(tag)
             self.suffix_tag[key] = tag
 
@@ -235,7 +235,7 @@ class SpellDict(csvdict.CsvDict):
         for k in range(len(self.display_order)):
             key = self.display_order[k];
             line += u"\n%s:\t'%s'"%(key, fields[key]);
-        print  line.encode('utf8');
+        print(line)
     
     def add_footer(self):
         """close the data set, used for ending xml, or sql"""
@@ -243,23 +243,23 @@ class SpellDict(csvdict.CsvDict):
         pronoun_list = [u"ه", u"ها", u"هما", u"هم", u"هن", u'كما', u'كم', u'كن', u'نا']
         for pref in snconst.COMP_PREFIX_LIST_MODEL:
             pref_tag = snconst.COMP_PREFIX_LIST_MODEL[pref]
-            print "PFX  %s  Y   1"%pref_tag
-            print ("PFX  %s  0   %s  ."%(pref_tag, pref)).encode('utf8')
+            print("PFX  %s  Y   1"%pref_tag)
+            print("PFX  %s  0   %s  ."%(pref_tag, pref))
         for suffix in sorted(self.suffix_tag):
             suffix_tag = self.suffix_tag[suffix]
             suffix_letters = u''.join( self.suffix_tag[suffix].split('-'))
             nb_rules = 1
             if suffix.endswith(u"ك"):
                 nb_rules = len(pronoun_list)+1
-            print "SFX  %s  Y   %d"%(suffix_tag,nb_rules)
-            print ("SFX  %s  0   %s  ."%(suffix_tag, suffix)).encode('utf8')  
+            print("SFX  %s  Y   %d"%(suffix_tag,nb_rules))
+            print("SFX  %s  0   %s  ."%(suffix_tag, suffix))  
             if suffix.endswith(u"ك"):
                 for pronoun in pronoun_list:
-                    print ("SFX  %s  0   %s  ."%(suffix_tag, suffix[:-1]+pronoun)).encode('utf8')  
+                    print("SFX  %s  0   %s  ."%(suffix_tag, suffix[:-1]+pronoun))  
                     
         # print suffix table
         #print "self.suffix_tag={",
         #for s, t in self.suffix_tag.items():
-        #    print ("u'%s':'%s',"%(s,t)).encode('utf8')
+        #    print ("u'%s':'%s',"%(s,t))
         #print "}"
         return ""

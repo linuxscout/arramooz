@@ -60,15 +60,15 @@ def decode_root(root):
 
 def usage():
 # "Display usage options"
-    print "(C) CopyLeft 2009, %s"%AuthorName
-    print "Usage: %s -f filename [OPTIONS]" % scriptname
+    print("(C) CopyLeft 2009, %s"%AuthorName)
+    print("Usage: %s -f filename [OPTIONS]" % scriptname)
 #"Display usage options"
-    print "\t[-h | --help]\t\toutputs this usage message"
-    print "\t[-v | --version]\tprogram version"
-    print "\t[-f | --file= filename]\tinput file to %s"%scriptname
-    print "\t[-l | --limit= limit_ number]\tthe limit of treated lines %s"%scriptname
-    print "\r\nN.B. FILE FORMAT is descripted in README"
-    print "\r\nThis program is licensed under the GPL License\n"
+    print("\t[-h | --help]\t\toutputs this usage message")
+    print("\t[-v | --version]\tprogram version")
+    print("\t[-f | --file= filename]\tinput file to %s"%scriptname)
+    print("\t[-l | --limit= limit_ number]\tthe limit of treated lines %s"%scriptname)
+    print("\r\nN.B. FILE FORMAT is descripted in README")
+    print("\r\nThis program is licensed under the GPL License\n")
 
 def grabargs():
 #  "Grab command-line arguments"
@@ -88,7 +88,7 @@ def grabargs():
             usage()
             sys.exit(0)
         if o in ("-v", "--version"):
-            print scriptversion
+            print(scriptversion)
             sys.exit(0)
         if o in ("-f", "--file"):
             fname = val
@@ -106,14 +106,14 @@ def grabargs():
 def main():
     filename,limit= grabargs()
     try:
-        fl=open(filename);
+        fl=open(filename, encoding="utf8");
     except:
-        print " Error :No such file or directory: %s" % filename
+        print(" Error :No such file or directory: %s" % filename)
         sys.exit(0)
-    print "#",filename;
+    print("#",filename)
 
 
-    line=fl.readline().decode("utf");
+    line=fl.readline()
     text=u""
     tools_table=[];
     nb_field=2;
@@ -133,13 +133,13 @@ def main():
                         newlist.append(item);
                 newlist=list(set(newlist))
                 newlist.sort();
-                #print u"\t".join([word, flag]).encode('utf8');
-                print u"/".join([word, u"".join(newlist)]).encode('utf8');
-                #print u",".join(listflag).encode('utf8');
-                #print u",".join(newlist).encode('utf8');
+                #print u"\t".join([word, flag]);
+                print(u"/".join([word, u"".join(newlist)]));
+                #print u",".join(listflag);
+                #print u",".join(newlist);
                 tools_table.append(liste);
 
-        line=fl.readline().decode("utf8");
+        line=fl.readline()
     fl.close();
 
 

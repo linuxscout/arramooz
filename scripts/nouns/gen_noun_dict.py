@@ -46,6 +46,9 @@ def grabargs():
     parser.add_argument("-a",dest="all", type=bool, nargs='?',
                         const=True, 
                         help="Generate all stopwords forms")
+    parser.add_argument("--header",dest="header", type=bool, nargs='?',
+                        const=True, 
+                        help="add header")
     parser.add_argument("-l",dest="limit", type=int, nargs='?',
                          help="the limit of treated lines")
     parser.add_argument("-t",dest="wordtype", type=str, nargs='?',
@@ -62,19 +65,20 @@ def main():
     output_format =args.outformat
     wordtype = args.wordtype
     version = args.version
-    #print "#--",filename,limit,display_format, wordtype;
+    header = args.header
+    #~ print "#--",filename,limit,display_format, wordtype;
     #exit();
     try:
-        fl = open(filename);
+        fl = open(filename, encoding="utf8");
     except:
-        print " Error :No such file or directory: %s" % filename
+        print(" Error :No such file or directory: %s" % filename)
         sys.exit(0)
     #~ print "#",filename,limit, output_format, wordtype, version
     #~ sys.exit()
 
     #display_format="txt"
 
-    line = fl.readline().decode("utf8");
+    line = fl.readline()
     text = u""
     noun_table = [];
     nb_field = 2;
@@ -85,7 +89,7 @@ def main():
             if len(liste) >= nb_field:
                 noun_table.append(liste);
 
-        line = fl.readline().decode("utf8");
+        line = fl.readline()
     fl.close();
 
     #print "#", (u'\t'.join(field_id.keys())).encode('utf8');
@@ -108,21 +112,24 @@ def main():
     elif output_format == "check":
         import checkdict
         mydict = checkdict.checkDict(version);        
+    elif output_format == "taksir":
+        import taksirdict
+        mydict = taksirdict.TaksirDict(version);
     else:
         import csvdict
         mydict = csvdict.CsvDict(wordtype, version)    
     # create header
-    h = "" # mydict.add_header()
-    if h:
-        print h.encode('utf8')
+    #~ print(mydict)
+    if header:
+        print(mydict.add_header())
     for tuple_noun in noun_table[:limit]:
         l = mydict.add_record(tuple_noun)
         if l:
-            print l.encode('utf8')
+            print(l)
     # create footer
     f = mydict.add_footer()
     if f:
-        print f.encode('utf8')
+        print(f)
         
     
 

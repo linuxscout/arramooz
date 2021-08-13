@@ -246,6 +246,9 @@ def get_suffix_variants(word, suffix, enclitic, mankous = False):
             # the word is striped from YEH المنقوص حذفت ياؤه قبل قليل
             # تحول حركته إلى تنوين كسر
              newsuffix =  araby.KASRATAN
+    # if enclitic is Yeh mutakalim ياء المتكلم
+    if enclitic_nm == araby.YEH:
+        newsuffix = araby.strip_lastharaka(newsuffix)
     #gererate the suffix without I'rab short mark
     # here we lookup with given suffix because the new suffix is 
     # changed and can be not found in table
@@ -405,9 +408,9 @@ def vocalize( noun, proclitic,  suffix, enclitic):
     #~ print "stem_noun.vocalize; 2", noun.encode('utf8');
 
     noun = noun.replace(araby.ALEF_MAKSURA, araby.FATHA + araby.ALEF_MAKSURA)
-    noun = re.sub(ur"(%s)+"%araby.FATHA , araby.FATHA, noun)
+    noun = re.sub(u"(%s)+"%araby.FATHA , araby.FATHA, noun)
     # remove initial fatha if alef is the first letter
-    noun = re.sub(ur"^(%s)+"%araby.FATHA , "", noun)
+    noun = re.sub(u"^(%s)+"%araby.FATHA , "", noun)
     #~ print "stem_noun.vocalize; 3", noun.encode('utf8');
     
     # generate the word variant for some words witch ends by special 
@@ -430,14 +433,21 @@ def vocalize( noun, proclitic,  suffix, enclitic):
     word_non_irab_mark = ''.join([ proclitic_voc,  noun, 
     suffix_non_irab_mark,   enclitic_voc_non_inflected]) 
     # ajust the semivocalized form
-    word_non_irab_mark  = re.sub(ur"(%s)+"%araby.FATHA , araby.FATHA, word_non_irab_mark )
-    word_non_irab_mark  = re.sub(ur"(%s%s%s)+"%(araby.FATHA, araby.ALEF_MAKSURA, araby.KASRATAN)
+    word_non_irab_mark  = re.sub(r"(%s)+"%araby.FATHA , araby.FATHA, word_non_irab_mark )
+    word_non_irab_mark  = re.sub(r"(%s%s%s)+"%(araby.FATHA, araby.ALEF_MAKSURA, araby.KASRATAN)
  , araby.FATHATAN + araby.ALEF_MAKSURA, word_non_irab_mark )    
-    word_non_irab_mark  = re.sub(ur"%s%s%s"%(araby.FATHA, araby.ALEF_MAKSURA, araby.KASRA)
+    word_non_irab_mark  = re.sub(r"%s%s%s"%(araby.FATHA, araby.ALEF_MAKSURA, araby.KASRA)
  , araby.FATHA + araby.ALEF_MAKSURA, word_non_irab_mark ) 
-    word_non_irab_mark  = re.sub(ur"%s[%s|%s|%s]"%(araby.ALEF_MAKSURA, araby.DAMMA, araby.FATHA, araby.KASRA)
+    word_non_irab_mark  = re.sub(r"%s[%s|%s|%s]"%(araby.ALEF_MAKSURA, araby.DAMMA, araby.FATHA, araby.KASRA)
  , araby.ALEF_MAKSURA, word_non_irab_mark ) 
-    
+    # case of Yeh nisba and Yeh Dhamir
+    # حالة الياء الصناعية مع ياء الإضافة للمتكلم
+    word_non_irab_mark = re.sub(r"%s(%s)?%s%s$"%(araby.YEH, araby.SHADDA, araby.KASRA, araby.YEH)
+     , araby.YEH+araby.SHADDA+araby.FATHA, word_non_irab_mark)    
+    #~ word_non_irab_mark =re.sub(ur"%s[%s|%s]%s$"%(araby.YEH, araby.SUKUN, araby.KASRA, araby.YEH)
+     #~ , araby.YEH+araby.SHADDA+araby.FATHA, word_non_irab_mark)
+    #~ word_non_irab_mark = re.sub(ur"%s%s"%(araby.YEH, araby.YEH)
+     #~ , araby.YEH+araby.SHADDA+araby.FATHA, word_non_irab_mark)
     #generate vocalized form
     
     word_vocalized = ''.join([ proclitic_voc, noun, suffix_voc, 
@@ -446,17 +456,26 @@ def vocalize( noun, proclitic,  suffix, enclitic):
     segmented = '-'.join([ proclitic_voc, noun, suffix_voc, enclitic_voc])
     segmented = araby.strip_tashkeel(segmented)
     #~word_vocalized = araby.ajust_vocalization(word_vocalized)
-    word_vocalized = re.sub(ur"(%s)+"%araby.FATHA , araby.FATHA, word_vocalized)
-    word_vocalized = re.sub(ur"%s%s%s"%(araby.FATHA, araby.ALEF_MAKSURA, araby.KASRATAN)
+    word_vocalized = re.sub(r"(%s)+"%araby.FATHA , araby.FATHA, word_vocalized)
+    word_vocalized = re.sub(r"%s%s%s"%(araby.FATHA, araby.ALEF_MAKSURA, araby.KASRATAN)
      , araby.FATHATAN + araby.ALEF_MAKSURA, word_vocalized) 
-    word_vocalized = re.sub(ur"%s%s%s"%(araby.FATHA, araby.ALEF_MAKSURA, araby.DAMMATAN)
+    word_vocalized = re.sub(r"%s%s%s"%(araby.FATHA, araby.ALEF_MAKSURA, araby.DAMMATAN)
      , araby.FATHATAN + araby.ALEF_MAKSURA, word_vocalized) 
-    word_vocalized = re.sub(ur"%s%s%s"%(araby.FATHA, araby.ALEF_MAKSURA, araby.FATHATAN)
+    word_vocalized = re.sub(r"%s%s%s"%(araby.FATHA, araby.ALEF_MAKSURA, araby.FATHATAN)
      , araby.FATHATAN + araby.ALEF_MAKSURA, word_vocalized)    
-    word_vocalized = re.sub(ur"%s%s%s"%(araby.FATHA, araby.ALEF_MAKSURA, araby.KASRA)
+    word_vocalized = re.sub(r"%s%s%s"%(araby.FATHA, araby.ALEF_MAKSURA, araby.KASRA)
      , araby.FATHA + araby.ALEF_MAKSURA, word_vocalized) 
-    word_vocalized = re.sub(ur"%s[%s|%s|%s]"%(araby.ALEF_MAKSURA, araby.DAMMA, araby.FATHA, araby.KASRA)
-     , araby.ALEF_MAKSURA, word_vocalized)      
+    word_vocalized = re.sub(r"%s[%s|%s|%s]"%(araby.ALEF_MAKSURA, araby.DAMMA, araby.FATHA, araby.KASRA)
+     , araby.ALEF_MAKSURA, word_vocalized)
+    # case of Yeh nisba and Yeh Dhamir
+    # حالة الياء الصناعية مع ياء الإضافة للمتكلم
+    word_vocalized = re.sub(r"%s(%s)?%s%s$"%(araby.YEH, araby.SHADDA, araby.KASRA, araby.YEH)
+      , araby.YEH+araby.SHADDA+araby.FATHA, word_vocalized)
+    #~ word_vocalized = re.sub(r"%s[%s|%s]%s$"%(araby.YEH, araby.SUKUN, araby.KASRA, araby.YEH)
+     #~ , araby.YEH+araby.SHADDA+araby.FATHA, word_vocalized)
+    #~ word_vocalized = re.sub(r"%s%s$"%(araby.YEH, araby.YEH)
+     #~ , araby.YEH+araby.SHADDA+araby.FATHA, word_vocalized)
+        
     return word_vocalized, word_non_irab_mark, segmented
 
 
@@ -475,7 +494,7 @@ def verify_affix(word, list_seg, affix_list):
        word[s[1]:]]) in affix_list]
 
 def validate_tags(noun_tuple, affix_tags, procletic, encletic_nm ,
- suffix_nm):
+ suffix):
     """
     Test if the given word from dictionary is compabilbe with affixes tags.
     @param noun_tuple: the input word attributes given from dictionary.
@@ -486,14 +505,20 @@ def validate_tags(noun_tuple, affix_tags, procletic, encletic_nm ,
     @type procletic: unicode.        
     @param encletic_nm: first level suffix vocalized.
     @type encletic_nm: unicode.
-    @param suffix_nm: first level suffix vocalized.
-    @type suffix_nm: unicode.        
+    @param suffix: first level suffix vocalized.
+    @type suffix: unicode.        
     @return: if the tags are compatible.
     @rtype: Boolean.
     """
     procletic = araby.strip_tashkeel(procletic)
     #~ encletic = encletic_nm
-    #~ suffix = suffix_nm
+    suffix_nm = araby.strip_tashkeel(suffix)
+    #~ print"spell_noun", 
+    #~ print(u"\t".join([noun_tuple["vocalized"], procletic, encletic_nm ,
+ #~ suffix_nm, u";".join(affix_tags)]).encode('utf8'))
+    unvocalized = noun_tuple.get("unvocalized","")
+
+    #~ print((u"تنوين الألف" in affix_tags),unvocalized.endswith(araby.TEH_MARBUTA))
 
 
     if  u'تنوين' in affix_tags and  noun_tuple['mamnou3_sarf']:
@@ -527,6 +552,7 @@ def validate_tags(noun_tuple, affix_tags, procletic, encletic_nm ,
     #التاء المربوطة لا تتصل بجمع التكسير
     if suffix_nm == araby.TEH_MARBUTA and noun_tuple['number'] == u"جمع":
         return False
+ 
     if u"جمع مذكر سالم" in affix_tags and noun_tuple['number'] == u"جمع":
         return False
     if u"جمع" in affix_tags and noun_tuple['number'] == u"جمع":
@@ -535,6 +561,22 @@ def validate_tags(noun_tuple, affix_tags, procletic, encletic_nm ,
         return False
     if u"جمع مؤنث سالم" in affix_tags and noun_tuple['number'] == u"جمع":
         return False
+    # new verification
+    
+    if unvocalized.endswith(araby.TEH_MARBUTA):
+        #التاء المربوطة لا تتصل بأسم به تاء مربوطة
+        if suffix_nm == araby.TEH_MARBUTA:
+            return False    
+        #تنوين الألف لا يوضع مع اسم منته بتاء مربوطة
+        if  u"تنوين الألف" in affix_tags:
+            return False
+        #لواحق تحمل تاء التأنيث لا ترتبط باسم منته بتاء مربوطة
+        if  suffix_nm.startswith(araby.TEH) or  suffix_nm.startswith(u"يت"):
+            return False
+        # منسوب منوّن بالألف
+        if  suffix_nm ==u"يا":
+            return False
+                
     # elif  u'مضاف' in affix_tags and not noun_tuple['annex']:
         # return False
 #todo
@@ -553,5 +595,6 @@ def validate_tags(noun_tuple, affix_tags, procletic, encletic_nm ,
 # u'ha_suffix':20, *
 # u'k_suffix':21, *
 # u'annex':22, 
+    #~ print("spell_noun: True")
     return True
 

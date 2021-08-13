@@ -30,9 +30,24 @@ import spell_noun as nspell
 #~ VERIFY_INPUT=True;
 VERIFY_INPUT=False;
 import alyahmor.aly_stem_noun_const as snconst
-import mysam.tagmaker as tagmaker
+import mysam.tagcoder as tagcoder
 
 import spell_noun as nspell
+
+# redefine if here
+COMP_SUFFIX_LIST_MODEL=[
+"",
+u'ِي', 
+#~ u"كَ",
+u"هُ", # Heh + Damma
+]; 
+# added for purpos of spelling generation
+COMP_PREFIX_LIST_MODEL={
+"":{'tags':(u"", ), "vocalized":(u"", )}, 
+#~ u'ب':{'tags':(u'جر', ), "vocalized":(u"بِ", )}, 
+#~ u'ال':{'tags':(u'تعريف', ), "vocalized":(u"الْ", )}, 
+#~ u'بال':{'tags':(u'جر', u'تعريف', ), "vocalized":(u"بِالْ", )}, 
+}
 class TagsDict(csvdict.CsvDict):
     """ a virtual converter of data from table to specific Hunspell dictionary format
     the data is big, then every function print string """
@@ -45,10 +60,10 @@ class TagsDict(csvdict.CsvDict):
         nb1=0
         nb2=0
         file_conf = os.path.join( os.path.dirname(__file__), "config/tag.config")        
-        self.tagmaker   = tagmaker.tagMaker(file_conf)
+        self.tagcoder   = tagcoder.tagCoder(file_conf)
         
-        for procletic in snconst.COMP_PREFIX_LIST_MODEL.keys():
-                for encletic in snconst.COMP_SUFFIX_LIST_MODEL:
+        for procletic in COMP_PREFIX_LIST_MODEL:
+                for encletic in COMP_SUFFIX_LIST_MODEL:
         #~ for procletic in snconst.COMP_PREFIX_LIST:
                 #~ for encletic in snconst.COMP_SUFFIX_LIST:
                     for suffix in snconst.CONJ_SUFFIX_LIST:
@@ -59,7 +74,7 @@ class TagsDict(csvdict.CsvDict):
                             if nspell.verify_proaffix_affix(procletic, encletic, suffix):
                                 nb2 += 1
                                 self.affixes_list.append((procletic, encletic, suffix))        
-        print nb1, nb2
+        print(nb1, nb2)
     def add_header(self,):
         """
         add the header for new dict
@@ -79,7 +94,7 @@ class TagsDict(csvdict.CsvDict):
         if VERIFY_INPUT: 
             self.test_entry(noun_tuple)
         # conjugate noun
-        if not noun_tuple or not noun_tuple.get('vocalized',''):
+        if not noun_tuple or not noun_tuple.get('vocalized', ''):
             return ""
         nb = 0
         lines = []
@@ -91,18 +106,20 @@ class TagsDict(csvdict.CsvDict):
             # tags given by affixes
             # دراسة توافق الزوائد مع خصائص الاسم،
             # مثلا هل يقبل الاسم التأنيث.
-            suffix_nm = araby.strip_tashkeel(suffix)
+            #~ suffix_nm = araby.strip_tashkeel(suffix)
             encletic_nm = araby.strip_tashkeel(encletic)
             
-            if nspell.validate_tags(noun_tuple, affix_tags, procletic, encletic_nm, suffix_nm):
+            if nspell.validate_tags(noun_tuple, affix_tags, procletic, encletic_nm, suffix):
                 if nspell.is_compatible_proaffix_affix(noun_tuple, procletic, encletic, suffix):
                     vocalized, semi_vocalized, segmented = nspell.vocalize(noun_tuple['vocalized'], procletic,  suffix, encletic)
                     tags = self.get_tags(noun_tuple, affix_tags) 
                     
                     if VERIFY_INPUT: 
-                        print (u"\t".join([  araby.strip_tashkeel(vocalized),  noun_tuple['unvocalized'], tags])).encode('utf8')
-                        print ("*" + u"\t".join([  araby.strip_tashkeel(vocalized),  noun_tuple['unvocalized'], u','.join(affix_tags)])).encode('utf8')
+                        print(u"\t".join([  araby.strip_tashkeel(vocalized),  noun_tuple['unvocalized'], tags]))
+                        print("*" + u"\t".join([  araby.strip_tashkeel(vocalized),  noun_tuple['unvocalized'], u','.join(affix_tags)]))
                     lines.append(u"\t".join([araby.strip_tashkeel(vocalized),  noun_tuple['unvocalized'], tags]))
+                    #~ print "tagsdict",
+                    #~ print(u"\t".join([araby.strip_tashkeel(vocalized), vocalized, noun_tuple['unvocalized'], tags]))
 
                     nb += 1
       
@@ -111,7 +128,7 @@ class TagsDict(csvdict.CsvDict):
     def get_tags(self, noun_tuple, affix_tags):
         """ generate an encoded tag """
         
-        tags_list = list( affix_tags)
+        tags_list = list(affix_tags)
         if u"جمع مؤنث سالم" in affix_tags:
             tags_list.append(u"مؤنث")
         if not u"مؤنث" in tags_list:
@@ -124,6 +141,8 @@ class TagsDict(csvdict.CsvDict):
         elif not u"جمع" in affix_tags and not u"مثنى" in affix_tags:
             if u"مفرد" in noun_tuple['number']:
                 tags_list.append(u"مفرد")
+        elif u"إضافة" in affix_tags and  u"مضاف" in affix_tags:
+            tags_list.remove(u"إضافة")
         
             
     
@@ -138,8 +157,8 @@ class TagsDict(csvdict.CsvDict):
         wordtypes = noun_tuple['wordtype'].split(':')
         tags_list.extend(wordtypes)
         tags_list.append(word_cat)
-        self.tagmaker.reset()
-        encoded_tags = self.tagmaker.encode(tags_list)
+        self.tagcoder.reset()
+        encoded_tags = self.tagcoder.encode(tags_list)
         #~ from pyarabic.arabrepr import arepr as repr 
         #~ print(repr(tags_list))
         #~ print(encoded_tags)
@@ -182,7 +201,7 @@ class TagsDict(csvdict.CsvDict):
         for k in range(len(self.display_order)):
             key = self.display_order[k];
             line += u"\n%s:\t'%s'"%(key, fields[key]);
-        print  line.encode('utf8');
+        print(line)
     
     def add_footer(self):
         """close the data set, used for ending xml, or sql"""
