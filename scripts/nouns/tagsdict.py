@@ -61,7 +61,7 @@ class TagsDict(csvdict.CsvDict):
         initiate the dict
         """
         csvdict.CsvDict.__init__(self,wordtype, version)
-        self.affixes_list = []
+        # ~ self.affixes_list = []
         nb1=0
         nb2=0
         file_conf = os.path.join( os.path.dirname(__file__), "config/tag.config")        
@@ -71,19 +71,19 @@ class TagsDict(csvdict.CsvDict):
         self.affixer.noun_vocalizer.procletics = COMP_PREFIX_LIST
         self.affixer.noun_vocalizer.enclitics = COMP_SUFFIX_LIST_MODEL
         
-        for procletic in COMP_PREFIX_LIST_MODEL:
-            for encletic in COMP_SUFFIX_LIST_MODEL:
-            #~ for procletic in snconst.COMP_PREFIX_LIST:
-            #~ for encletic in snconst.COMP_SUFFIX_LIST:
-                for suffix in snconst.CONJ_SUFFIX_LIST:
-                    pro_nm = araby.strip_tashkeel(procletic)
-                    enc_nm = araby.strip_tashkeel(encletic)
-                    if u"-".join([pro_nm, enc_nm]) in snconst.COMP_NOUN_AFFIXES:
-                        nb1 += 1
-                        if nspell.verify_proaffix_affix(procletic, encletic, suffix):
-                            nb2 += 1
-                            self.affixes_list.append((procletic, encletic, suffix))        
-        print(nb1, nb2)
+        # ~ for procletic in COMP_PREFIX_LIST_MODEL:
+            # ~ for encletic in COMP_SUFFIX_LIST_MODEL:
+            # ~ #~ for procletic in snconst.COMP_PREFIX_LIST:
+            # ~ #~ for encletic in snconst.COMP_SUFFIX_LIST:
+                # ~ for suffix in snconst.CONJ_SUFFIX_LIST:
+                    # ~ pro_nm = araby.strip_tashkeel(procletic)
+                    # ~ enc_nm = araby.strip_tashkeel(encletic)
+                    # ~ if u"-".join([pro_nm, enc_nm]) in snconst.COMP_NOUN_AFFIXES:
+                        # ~ nb1 += 1
+                        # ~ if nspell.verify_proaffix_affix(procletic, encletic, suffix):
+                            # ~ nb2 += 1
+                            # ~ self.affixes_list.append((procletic, encletic, suffix))        
+        # ~ print(nb1, nb2)
     def add_header(self,):
         """
         add the header for new dict
@@ -121,50 +121,50 @@ class TagsDict(csvdict.CsvDict):
             
             lines.append(u"\t".join([unvocalized, lemma_nm, tags]))
         return u"\n".join(set(lines))
-    def add_record2(self, noun_row):
-        """
-        Add a new to the dict
-        """
-        self.id +=1
-        noun_tuple = self.treat_tuple(noun_row)
-        line = ""
-        # fields are coded as "Y/N" convert it to True/False
-        # display fields to ensure corectness
-        if VERIFY_INPUT: 
-            self.test_entry(noun_tuple)
-        # conjugate noun
-        if not noun_tuple or not noun_tuple.get('vocalized', ''):
-            return ""
-        nb = 0
-        lines = []
+    # ~ def add_record2(self, noun_row):
+        # ~ """
+        # ~ Add a new to the dict
+        # ~ """
+        # ~ self.id +=1
+        # ~ noun_tuple = self.treat_tuple(noun_row)
+        # ~ line = ""
+        # ~ # fields are coded as "Y/N" convert it to True/False
+        # ~ # display fields to ensure corectness
+        # ~ if VERIFY_INPUT: 
+            # ~ self.test_entry(noun_tuple)
+        # ~ # conjugate noun
+        # ~ if not noun_tuple or not noun_tuple.get('vocalized', ''):
+            # ~ return ""
+        # ~ nb = 0
+        # ~ lines = []
 
-        # decrecated         
-        for procletic, encletic, suffix in self.affixes_list:
-            affix_tags = snconst.COMP_PREFIX_LIST_TAGS[procletic]['tags'] \
-                      +snconst.COMP_SUFFIX_LIST_TAGS[encletic]['tags'] \
-                      +snconst.CONJ_SUFFIX_LIST_TAGS[suffix]['tags'] 
-            #test if the  given word from dictionary accept those
-            # tags given by affixes
-            # دراسة توافق الزوائد مع خصائص الاسم،
-            # مثلا هل يقبل الاسم التأنيث.
-            #~ suffix_nm = araby.strip_tashkeel(suffix)
-            encletic_nm = araby.strip_tashkeel(encletic)
+        # ~ # decrecated         
+        # ~ for procletic, encletic, suffix in self.affixes_list:
+            # ~ affix_tags = snconst.COMP_PREFIX_LIST_TAGS[procletic]['tags'] \
+                      # ~ +snconst.COMP_SUFFIX_LIST_TAGS[encletic]['tags'] \
+                      # ~ +snconst.CONJ_SUFFIX_LIST_TAGS[suffix]['tags'] 
+            # ~ #test if the  given word from dictionary accept those
+            # ~ # tags given by affixes
+            # ~ # دراسة توافق الزوائد مع خصائص الاسم،
+            # ~ # مثلا هل يقبل الاسم التأنيث.
+            # ~ #~ suffix_nm = araby.strip_tashkeel(suffix)
+            # ~ encletic_nm = araby.strip_tashkeel(encletic)
             
-            if nspell.validate_tags(noun_tuple, affix_tags, procletic, encletic_nm, suffix):
-                if nspell.is_compatible_proaffix_affix(noun_tuple, procletic, encletic, suffix):
-                    vocalized, semi_vocalized, segmented = nspell.vocalize(noun_tuple['vocalized'], procletic,  suffix, encletic)
-                    tags = self.get_tags(noun_tuple, affix_tags) 
+            # ~ if nspell.validate_tags(noun_tuple, affix_tags, procletic, encletic_nm, suffix):
+                # ~ if nspell.is_compatible_proaffix_affix(noun_tuple, procletic, encletic, suffix):
+                    # ~ vocalized, semi_vocalized, segmented = nspell.vocalize(noun_tuple['vocalized'], procletic,  suffix, encletic)
+                    # ~ tags = self.get_tags(noun_tuple, affix_tags) 
                     
-                    if VERIFY_INPUT: 
-                        print(u"\t".join([  araby.strip_tashkeel(vocalized),  noun_tuple['unvocalized'], tags]))
-                        print("*" + u"\t".join([  araby.strip_tashkeel(vocalized),  noun_tuple['unvocalized'], u','.join(affix_tags)]))
-                    lines.append(u"\t".join([araby.strip_tashkeel(vocalized),  noun_tuple['unvocalized'], tags]))
-                    #~ print "tagsdict",
-                    #~ print(u"\t".join([araby.strip_tashkeel(vocalized), vocalized, noun_tuple['unvocalized'], tags]))
+                    # ~ if VERIFY_INPUT: 
+                        # ~ print(u"\t".join([  araby.strip_tashkeel(vocalized),  noun_tuple['unvocalized'], tags]))
+                        # ~ print("*" + u"\t".join([  araby.strip_tashkeel(vocalized),  noun_tuple['unvocalized'], u','.join(affix_tags)]))
+                    # ~ lines.append(u"\t".join([araby.strip_tashkeel(vocalized),  noun_tuple['unvocalized'], tags]))
+                    # ~ #~ print "tagsdict",
+                    # ~ #~ print(u"\t".join([araby.strip_tashkeel(vocalized), vocalized, noun_tuple['unvocalized'], tags]))
 
-                    nb += 1
+                    # ~ nb += 1
       
-        return u"\n".join(set(lines))
+        # ~ return u"\n".join(set(lines))
         
     def get_tags(self, noun_tuple, affix_tags):
         """ generate an encoded tag """
