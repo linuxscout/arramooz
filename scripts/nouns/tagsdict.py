@@ -29,25 +29,30 @@ import pyarabic.araby as araby
 import spell_noun as nspell
 #~ VERIFY_INPUT=True;
 VERIFY_INPUT=False;
+import alyahmor.genelex
 import alyahmor.aly_stem_noun_const as snconst
 import mysam.tagcoder as tagcoder
 
 import spell_noun as nspell
 
 # redefine if here
-COMP_SUFFIX_LIST_MODEL=[
-"",
-u'ِي', 
-#~ u"كَ",
-u"هُ", # Heh + Damma
-]; 
+
 # added for purpos of spelling generation
+
 COMP_PREFIX_LIST_MODEL={
 "":{'tags':(u"", ), "vocalized":(u"", )}, 
 #~ u'ب':{'tags':(u'جر', ), "vocalized":(u"بِ", )}, 
 #~ u'ال':{'tags':(u'تعريف', ), "vocalized":(u"الْ", )}, 
 #~ u'بال':{'tags':(u'جر', u'تعريف', ), "vocalized":(u"بِالْ", )}, 
 }
+COMP_PREFIX_LIST = list(COMP_PREFIX_LIST_MODEL.keys())
+
+COMP_SUFFIX_LIST_MODEL=[
+"",
+u'ِي', 
+#~ u"كَ",
+u"هُ", # Heh + Damma
+]; 
 class TagsDict(csvdict.CsvDict):
     """ a virtual converter of data from table to specific Hunspell dictionary format
     the data is big, then every function print string """
@@ -61,19 +66,23 @@ class TagsDict(csvdict.CsvDict):
         nb2=0
         file_conf = os.path.join( os.path.dirname(__file__), "config/tag.config")        
         self.tagcoder   = tagcoder.tagCoder(file_conf)
+        self.affixer = alyahmor.genelex.genelex()
+        # costumize affixer affixes
+        self.affixer.noun_vocalizer.procletics = COMP_PREFIX_LIST
+        self.affixer.noun_vocalizer.enclitics = COMP_SUFFIX_LIST_MODEL
         
         for procletic in COMP_PREFIX_LIST_MODEL:
-                for encletic in COMP_SUFFIX_LIST_MODEL:
-        #~ for procletic in snconst.COMP_PREFIX_LIST:
-                #~ for encletic in snconst.COMP_SUFFIX_LIST:
-                    for suffix in snconst.CONJ_SUFFIX_LIST:
-                        pro_nm = araby.strip_tashkeel(procletic)
-                        enc_nm = araby.strip_tashkeel(encletic)
-                        if u"-".join([pro_nm, enc_nm]) in snconst.COMP_NOUN_AFFIXES:
-                            nb1 += 1
-                            if nspell.verify_proaffix_affix(procletic, encletic, suffix):
-                                nb2 += 1
-                                self.affixes_list.append((procletic, encletic, suffix))        
+            for encletic in COMP_SUFFIX_LIST_MODEL:
+            #~ for procletic in snconst.COMP_PREFIX_LIST:
+            #~ for encletic in snconst.COMP_SUFFIX_LIST:
+                for suffix in snconst.CONJ_SUFFIX_LIST:
+                    pro_nm = araby.strip_tashkeel(procletic)
+                    enc_nm = araby.strip_tashkeel(encletic)
+                    if u"-".join([pro_nm, enc_nm]) in snconst.COMP_NOUN_AFFIXES:
+                        nb1 += 1
+                        if nspell.verify_proaffix_affix(procletic, encletic, suffix):
+                            nb2 += 1
+                            self.affixes_list.append((procletic, encletic, suffix))        
         print(nb1, nb2)
     def add_header(self,):
         """
@@ -98,6 +107,38 @@ class TagsDict(csvdict.CsvDict):
             return ""
         nb = 0
         lines = []
+        # replace it by alyahmor.noun_affixer
+        lemma = noun_tuple.get('vocalized', '')
+        noun_forms = self.affixer.generate_forms( lemma, word_type="noun", details=True)
+        for nform_dict in  noun_forms:
+
+            unvocalized =  nform_dict.get("unvocalized", "")
+            # lemma from noun_tuple
+            lemma_nm = noun_tuple['unvocalized']
+            # tags have affix tags + noun tags
+            affix_tags = nform_dict.get("tags", "").split(":")
+            tags = self.get_tags(noun_tuple,  affix_tags )
+            
+            lines.append(u"\t".join([unvocalized, lemma_nm, tags]))
+        return u"\n".join(set(lines))
+    def add_record2(self, noun_row):
+        """
+        Add a new to the dict
+        """
+        self.id +=1
+        noun_tuple = self.treat_tuple(noun_row)
+        line = ""
+        # fields are coded as "Y/N" convert it to True/False
+        # display fields to ensure corectness
+        if VERIFY_INPUT: 
+            self.test_entry(noun_tuple)
+        # conjugate noun
+        if not noun_tuple or not noun_tuple.get('vocalized', ''):
+            return ""
+        nb = 0
+        lines = []
+
+        # decrecated         
         for procletic, encletic, suffix in self.affixes_list:
             affix_tags = snconst.COMP_PREFIX_LIST_TAGS[procletic]['tags'] \
                       +snconst.COMP_SUFFIX_LIST_TAGS[encletic]['tags'] \
