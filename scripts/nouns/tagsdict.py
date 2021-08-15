@@ -120,6 +120,7 @@ class TagsDict(csvdict.CsvDict):
             tags = self.get_tags(noun_tuple,  affix_tags )
             
             lines.append(u"\t".join([unvocalized, lemma_nm, tags]))
+
         return u"\n".join(set(lines))
     # ~ def add_record2(self, noun_row):
         # ~ """

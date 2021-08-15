@@ -32,7 +32,26 @@ import libqutrub.ar_verb     as v_ar
 import libqutrub.verb_valid   as valid
 import libqutrub.verb_const   as const
 import mysam.tagcoder as tagcoder
-import alyahmor.verb_affixer as verb_affixer
+import alyahmor.verb_affixer 
+import alyahmor.genelex
+
+# redefine if here
+
+# added for purpos of spelling generation
+COMP_PREFIX_LIST_TAGS={
+"":{'tags':(u"", ), "vocalized":(u"", )}, 
+#~ u'ب':{'tags':(u'جر', ), "vocalized":(u"بِ", )}, 
+#~ u'ال':{'tags':(u'تعريف', ), "vocalized":(u"الْ", )}, 
+#~ u'بال':{'tags':(u'جر', u'تعريف', ), "vocalized":(u"بِالْ", )}, 
+}
+COMP_PREFIX_LIST = list(COMP_PREFIX_LIST_TAGS.keys())
+
+COMP_SUFFIX_LIST=[
+"",
+u"ني",
+#~ u"كَ",
+u"ه", # Heh + Damma
+]; 
 class TagsDict(csvdict.CsvDict):
     """ a virtual converter of data from table to specific Hunspell dictionary format
     the data is big, then every function print string """
@@ -43,7 +62,14 @@ class TagsDict(csvdict.CsvDict):
         csvdict.CsvDict.__init__(self, version)
         file_conf = os.path.join( os.path.dirname(__file__), "config/tag.config")        
         self.tagcoder   = tagcoder.tagCoder(file_conf)
-        self.affixer = verb_affixer.verb_affixer()     
+        self.verb_affixer = alyahmor.verb_affixer.verb_affixer()
+        
+        self.affixer = alyahmor.genelex.genelex()
+
+        # costumize affixer affixes
+        self.affixer.verb_vocalizer.procletics = COMP_PREFIX_LIST
+        self.affixer.verb_vocalizer.enclitics = COMP_SUFFIX_LIST
+                   
     def add_header(self,):
         """
         add the header for new dict
@@ -51,7 +77,7 @@ class TagsDict(csvdict.CsvDict):
         line = "#" + "\n##".join(self.headerlines) +"\n"       
         return line
                
-    def add_record(self, verb_row):
+    def add_record2(self, verb_row):
         """
         Add a new to the dict
         """
@@ -77,6 +103,9 @@ class TagsDict(csvdict.CsvDict):
                                    "DICT");
             TableEntries = {}
             if conjugTable: 
+                
+                
+                
                 TableEntries = {}
                 tags_info = self.get_verb_info(v)
                 for tense in conjugTable.keys():
@@ -89,26 +118,7 @@ class TagsDict(csvdict.CsvDict):
                     for pronoun in conjugTable[tense].keys():
                         if pronoun != const.PronounAntuma_f: 
                             tags = self.get_tags(tags_info, tense, pronoun)
-                            flags = svconst.TabPrefixes[tense]['full'];
 
-                            # the passive tenses dont take object suffix, only with double transitie verbs
-                            if (v['transitive'] and tense in const.TableIndicativeTense) or v['double_trans']:#:
-                                # add flags for suffixes
-                                if v['think_trans'] and v['reflexive_trans']: 
-                                    flags += svconst.TabSuffixesPronominale[pronoun]['full'];
-                                else:
-                                    flags += svconst.TabSuffixes[pronoun]['full'];
-                                    
-                                #   add flag yeh for the الأفعال الخمسة 
-                                if tense == const.TenseFuture and pronoun in (const.PronounAnti, const.PronounAntuma, const.PronounAntuma_f, 
-                                                                              const.PronounAntum, const.PronounHuma, const.PronounHuma_f, const.PronounHum ):
-                                    flags+=u"Ha"; 
-                                                                      
-                            # add double object suffixe, if the verb is double transitive, and the tense is indicative 
-                            if v['double_trans'] and tense in const.TableIndicativeTense:
-                                
-                                # add flags for suffixes (double object)
-                                    flags += svconst.TabDisplayTagDouble[pronoun]['full'];
                             
                             #add an entree to the table entrie
                             # this allows to reduce many cases into one entree
@@ -120,7 +130,7 @@ class TagsDict(csvdict.CsvDict):
                                 # if transitive:
                                 if  accept_attached_pronoun:
                                     # HEH is used as model for all attached pronoun
-                                    verb_attached_pronoun_list = self.affixer.vocalize(conj,"",araby.HEH)
+                                    verb_attached_pronoun_list = self.verb_affixer.vocalize(conj,"",araby.HEH)
                                     attached = verb_attached_pronoun_list[0][0]
                                     attached = araby.strip_tashkeel(attached)
                                     # add a symbole at the end to mention attached pronoun
@@ -129,6 +139,47 @@ class TagsDict(csvdict.CsvDict):
                                     print (u'\t'.join([attached, v['vocalized'] , tags]))
             
         return line
+    def add_record(self, verb_row):
+        """
+        Add a new to the dict
+        """
+        self.id +=1
+        v = self.treat_tuple(verb_row)
+        tags_info = self.get_verb_info(v)
+        lemma = v.get('vocalized', '')           
+        lines = []        
+        # display fields to ensure corectness
+        VERIFY_INPUT=False;
+        #~ VERIFY_INPUT =  True;
+        if VERIFY_INPUT: 
+            self.test_entry(v)
+
+        # conjugate the verb with speling tags
+        if not valid.is_valid_infinitive_verb(v.get('vocalized', '')):
+            line += u"#\t\tis invalid verb \n"
+        else:
+            future_type = v_ar.get_future_type_entree(v['future_type']);
+            conjugTable = msrif.do_sarf( v['vocalized'], v['future_type'], v['all'], v['past'],
+                                   v['future'], v['passive'], v['imperative'],
+                                   v['future_moode'], v['confirmed'], v['transitive'], 
+                                   "DICT");
+
+            if conjugTable: 
+                # replace it by alyahmor.verb_affixer
+                verb_forms = self.affixer.generate_forms(lemma, word_type="verb", details=True)
+                for vform_dict in  verb_forms:
+
+                    unvocalized =  vform_dict.get("unvocalized", "")
+                    # lemma from noun_tuple
+                    lemma_nm = v['unvocalized']
+                    # tags have affix tags + noun tags
+                    affix_tags = vform_dict.get("tags", "").split(":")
+                    tags = self.get_tags(tags_info,  affix_tags )
+                    
+                    lines.append(u"\t".join([unvocalized, lemma_nm, tags]))
+                print(u"\n".join(set(lines)))
+                return u"\n".join(set(lines))                
+        return ""
     def get_verb_info(self, verb_tuple):
         """
         Get verb information
@@ -208,17 +259,17 @@ class TagsDict(csvdict.CsvDict):
 
         #~ return tags        
         return verb_tags        
-    def get_tags(self, verb_info, tense, pronoun ):
+    def get_tags(self, verb_info, affix_tags ):
         """
         Generate tags format
         """
         tags = u";".join(verb_info) + ";"
         tags_list = []
         tags_list.extend(verb_info)
-        tags_list.append(tense)
-        tags_list.append(pronoun)
-        tags += svconst.TabTagsTense[tense]
-        tags += svconst.TabTagsPronominale[pronoun]
+        tags_list.extend(affix_tags)
+        # ~ tags_list.append(pronoun)
+        # ~ tags += svconst.TabTagsTense[tense]
+        # ~ tags += svconst.TabTagsPronominale[pronoun]
         
         # add encletic and procletic tags
         #Affixes ( Procletic + Ecletic)

@@ -64,14 +64,14 @@ verbtags: verbdict
 
 verbtagstest: verbdict
 	#gerenate verb tags format
-	python3 $(SCRIPT)/verbs/gen_verb_dict_format.py -l 100 -o tags  -v $(VERSION) -f $(OUTPUT)/verbs.aya.dic > $(OUTPUT)/verbs.tags
+	python3 $(SCRIPT)/verbs/gen_verb_dict_format.py -l 100 -o tags  -v $(VERSION) -f $(OUTPUT)/verbs.aya.dic > $(OUTPUT)/verbs.test.tags
 nountagstest:
 	#gerenate spelling dict of nouns in Hunspell format
-	python3 $(SCRIPT)/nouns/gen_noun_dict.py -l 100 -f $(DATA_DIR)/nouns/fa3il.csv -d tags -v $(VERSION) -t fa3il >$(OUTPUT)/nouns.dict.tags
+	python3 $(SCRIPT)/nouns/gen_noun_dict.py -l 100 -f $(DATA_DIR)/nouns/fa3il.csv -d tags -v $(VERSION) -t fa3il >$(OUTPUT)/nouns.dict.test.tags
 	## maf3oul file
-	python3 $(SCRIPT)/nouns/gen_noun_dict.py -l 100 -f $(DATA_DIR)/nouns/maf3oul.csv -d tags  -v $(VERSION) -t maf3oul >>$(OUTPUT)/nouns.dict.tags
+	python3 $(SCRIPT)/nouns/gen_noun_dict.py -l 100 -f $(DATA_DIR)/nouns/maf3oul.csv -d tags  -v $(VERSION) -t maf3oul >>$(OUTPUT)/nouns.dict.test.tags
 	## jamid file
-	python3 $(SCRIPT)/nouns/gen_noun_dict.py -l 100 -f $(DATA_DIR)/nouns/jamid.csv -d tags  -v $(VERSION) -t jamid >>$(OUTPUT)/nouns.dict.tags
+	python3 $(SCRIPT)/nouns/gen_noun_dict.py -l 100 -f $(DATA_DIR)/nouns/jamid.csv -d tags  -v $(VERSION) -t jamid >>$(OUTPUT)/nouns.dict.test.tags
 	## mansoub.csv
 nountags:
 	#gerenate spelling dict of nouns in Hunspell format
