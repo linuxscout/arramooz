@@ -4,7 +4,7 @@ Arabic Dictionary for Morphological analysis
 [![downloads]( https://img.shields.io/sourceforge/dt/arramooz.svg)](http://sourceforge.org/projects/arramooz)
 [![downloads]( https://img.shields.io/sourceforge/dm/arramooz.svg)](http://sourceforge.org/projects/arramooz)
   
-  Developpers:  Taha Zerrouki: http://tahadz.com
+  Developers:  Taha Zerrouki: http://tahadz.com
     taha dot zerrouki at gmail dot com
   Collect data manually Mohamed Kebdani, Morroco < med.kebdani gmail.com>
   
