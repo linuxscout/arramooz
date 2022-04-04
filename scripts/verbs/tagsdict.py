@@ -156,7 +156,7 @@ class TagsDict(csvdict.CsvDict):
 
         # conjugate the verb with speling tags
         if not valid.is_valid_infinitive_verb(v.get('vocalized', '')):
-            line += u"#\t\tis invalid verb \n"
+            lines.append(u"#\t\tis invalid verb \n")
         else:
             future_type = v_ar.get_future_type_entree(v['future_type']);
             conjugTable = msrif.do_sarf( v['vocalized'], v['future_type'], v['all'], v['past'],
