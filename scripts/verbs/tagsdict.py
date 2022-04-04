@@ -171,12 +171,12 @@ class TagsDict(csvdict.CsvDict):
 
                     unvocalized =  vform_dict.get("unvocalized", "")
                     # lemma from noun_tuple
-                    lemma_nm = v['unvocalized']
+                    # ~ lemma_nm = v['unvocalized']
                     # tags have affix tags + noun tags
                     affix_tags = vform_dict.get("tags", "").split(":")
                     tags = self.get_tags(tags_info,  affix_tags )
                     
-                    lines.append(u"\t".join([unvocalized, lemma_nm, tags]))
+                    lines.append(u"\t".join([unvocalized, lemma, tags]))
                 print(u"\n".join(set(lines)))
                 return u"\n".join(set(lines))                
         return ""
@@ -276,12 +276,16 @@ class TagsDict(csvdict.CsvDict):
         #Verb procletic :
         #    W: conjonction: starts by WAW or FEH, take 3 values: W: for waw, F; for Feh, -: none.
         #    S: future prefix, س+يتعلم
-        tags += ';'
-        tags += '-'
+        # ~ tags += ';'
+        # ~ tags += '-'
         #Verb encletic :
         #define the extended words added to the lexem: الضمائر المضافة
         #    H: if have encletic
-        tags += '-'        
+        # ~ print(affix_tags)
+        if u"مفعول به" in affix_tags:
+            tags_list.append(u"ضمير متصل")
+        # ~ else:
+            # ~ tags += '-'        
 
         #~ return tags
         self.tagcoder.reset()        

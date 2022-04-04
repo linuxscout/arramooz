@@ -95,6 +95,7 @@ nountags:
 toolstags: 
 	#gerenate verb tags format
 	python3 $(SCRIPT)/tools/generate_jar.py > $(OUTPUT)/tools.tags
+	cat $(DATA_DIR)/stopwords/numbers.csv >> $(OUTPUT)/tools.tags
 
 tagset:
 	#build the whole dictionary
