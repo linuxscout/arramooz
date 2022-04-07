@@ -48,8 +48,9 @@ COMP_PREFIX_LIST = list(COMP_PREFIX_LIST_TAGS.keys())
 
 COMP_SUFFIX_LIST=[
 "",
-u"ني",
-#~ u"كَ",
+# u"ني",
+# u"كَ",
+# u"ك",
 u"ه", # Heh + Damma
 ]; 
 class TagsDict(csvdict.CsvDict):
@@ -110,7 +111,7 @@ class TagsDict(csvdict.CsvDict):
                 tags_info = self.get_verb_info(v)
                 for tense in conjugTable.keys():
                     # the passive tenses dont take object suffix, only with double transitie verbs
-                    if (v['transitive'] and tense in const.TableIndicativeTense) or v['double_trans']:#:
+                    if (v['transitive'] and tense in const.TableIndicativeTense) or v['double_trans']:
                         accept_attached_pronoun = True
                     else:
                         accept_attached_pronoun = False
@@ -128,7 +129,7 @@ class TagsDict(csvdict.CsvDict):
                                 #~ verb_with_shadda = araby.strip_harakat(v['vocalized']);
                                 print (u'\t'.join([word_nm, v['vocalized'] , tags]))
                                 # if transitive:
-                                if  accept_attached_pronoun:
+                                if accept_attached_pronoun:
                                     # HEH is used as model for all attached pronoun
                                     verb_attached_pronoun_list = self.verb_affixer.vocalize(conj,"",araby.HEH)
                                     attached = verb_attached_pronoun_list[0][0]
@@ -158,7 +159,7 @@ class TagsDict(csvdict.CsvDict):
         if not valid.is_valid_infinitive_verb(v.get('vocalized', '')):
             lines.append(u"#\t\tis invalid verb \n")
         else:
-            future_type = v_ar.get_future_type_entree(v['future_type']);
+            future_mark = v_ar.get_future_type_entree(v['future_type']);
             conjugTable = msrif.do_sarf( v['vocalized'], v['future_type'], v['all'], v['past'],
                                    v['future'], v['passive'], v['imperative'],
                                    v['future_moode'], v['confirmed'], v['transitive'], 
@@ -166,9 +167,8 @@ class TagsDict(csvdict.CsvDict):
 
             if conjugTable: 
                 # replace it by alyahmor.verb_affixer
-                verb_forms = self.affixer.generate_forms(lemma, word_type="verb", details=True)
+                verb_forms = self.affixer.generate_forms(lemma, word_type="verb", details=True, future_type=future_mark)
                 for vform_dict in  verb_forms:
-
                     unvocalized =  vform_dict.get("unvocalized", "")
                     # lemma from noun_tuple
                     # ~ lemma_nm = v['unvocalized']
@@ -176,6 +176,7 @@ class TagsDict(csvdict.CsvDict):
                     affix_tags = vform_dict.get("tags", "").split(":")
                     tags = self.get_tags(tags_info,  affix_tags )
                     
+                    # lines.append(u"\t".join([unvocalized, lemma, tags, vform_dict.get("tags", "")]))
                     lines.append(u"\t".join([unvocalized, lemma, tags]))
                 print(u"\n".join(set(lines)))
                 return u"\n".join(set(lines))                
