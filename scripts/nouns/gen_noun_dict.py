@@ -114,6 +114,9 @@ def main():
     elif output_format == "taksir":
         import taksirdict
         mydict = taksirdict.TaksirDict(version);
+    elif output_format == "wordlist":
+        import wordlistdict
+        mydict = wordlistdict.WordListDict(version);
     else:
         import csvdict
         mydict = csvdict.CsvDict(wordtype, version)    

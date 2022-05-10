@@ -126,6 +126,9 @@ def factory(output_format, version):
     elif output_format == "tags":
         import tagsdict
         mydict = tagsdict.TagsDict(version);        
+    elif output_format == "wordlist":
+        import wordlistdict
+        mydict = wordlistdict.WordListDict(version);        
     elif output_format == "check":
         import checkdict
         mydict = checkdict.checkDict(version);        

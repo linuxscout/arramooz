@@ -360,3 +360,27 @@ taksir:
 	python3 $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/sifates.csv -d taksir  -v $(VERSION) -t sifates  >>$(OUTPUT)/nouns.taksir.csv
 	## tafdil.csv
 	python3 $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/tafdil.csv  -d taksir  -v $(VERSION) -t tafdil >>$(OUTPUT)/nouns.taksir.csv
+
+nounwordlist:
+	#gerenate vocalized wordlist dict of nouns in csv format
+#~ 	python3 $(SCRIPT)/nouns/gen_noun_dict.py  -l 100 -f $(DATA_DIR)/nouns/fa3il.csv -d wordlist -v $(VERSION) -t fa3il >$(OUTPUT)/nouns.dict.wordlist
+	python3 $(SCRIPT)/nouns/gen_noun_dict.py   -f $(DATA_DIR)/nouns/fa3il.csv -d wordlist -v $(VERSION) -t fa3il >$(OUTPUT)/fa3il.dict.wordlist
+	## maf3oul file
+	python3 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/maf3oul.csv -d wordlist  -v $(VERSION) -t maf3oul >$(OUTPUT)/maf3oul.dict.wordlist
+	## jamid file
+	python3 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/jamid.csv -d wordlist  -v $(VERSION) -t jamid >$(OUTPUT)/jamid.dict.wordlist
+	## mansoub.csv
+	python3 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/mansoub.csv -d wordlist  -v $(VERSION) -t mansoub >$(OUTPUT)/mansoub.dict.wordlist
+	## masdar.csv
+	python3 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/masdar.csv -d wordlist  -v $(VERSION) -t masdar >$(OUTPUT)/masdar.dict.wordlist
+	## moubalagha.csv
+	python3 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/moubalagha.csv -d wordlist  -v $(VERSION) -t moubalagha >$(OUTPUT)/moubalagha.dict.wordlist
+	## mouchabbaha.csv
+	python3 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/mouchabbaha.csv -d wordlist  -v $(VERSION) -t mouchabbaha >$(OUTPUT)/mouchabbaha.dict.wordlist
+	## sifates.csv
+	python3 $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/sifates.csv -d wordlist  -v $(VERSION) -t sifates  >$(OUTPUT)/sifates.dict.wordlist
+	## tafdil.csv
+	python3 $(SCRIPT)/nouns/gen_noun_dict.py -f $(DATA_DIR)/nouns/tafdil.csv  -d wordlist -v $(VERSION) -t tafdil >$(OUTPUT)/tafdil.dict.wordlist
+verbwordlist: verbdict
+	#gerenate verb tags format
+	python3 $(SCRIPT)/verbs/gen_verb_dict_format.py -o wordlist  -v $(VERSION) -f $(OUTPUT)/verbs.aya.dic > $(OUTPUT)/verbs.wordlist
