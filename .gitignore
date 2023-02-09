@@ -84,3 +84,4 @@ output/*
 /scripts/verbs/gen_verb_dict.old.py
 /data/custom/verbs.aya.dic
 .DS_Store
+/.idea/
