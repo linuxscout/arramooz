@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="dictionary">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="verb"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="verb">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="word"/>
+                <xs:element ref="unvocalized"/>
+                <xs:element ref="root"/>
+                <xs:element ref="normalized"/>
+                <xs:element ref="stamped"/>
+                <xs:element ref="tenses"/>
+            </xs:sequence>
+            <xs:attribute name="future_type" use="required" type="xs:string"/>
+            <xs:attribute name="double_trans" use="required" type="xs:boolean"/>
+
+            <xs:attribute name="reflexive_trans" use="required" type="xs:boolean"/>
+            <xs:attribute name="think_trans" use="required" type="xs:boolean"/>
+            <xs:attribute name="transitive" use="required" type="xs:boolean"/>
+            <xs:attribute name="triliteral" use="required" type="xs:boolean"/>
+            <xs:attribute name="unthink_trans" use="required" type="xs:boolean"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="word" type="xs:string"/>
+    <xs:element name="unvocalized" type="xs:string"/>
+    <xs:element name="root" type="xs:string"/>
+    <xs:element name="normalized" type="xs:string"/>
+    <xs:element name="stamped" type="xs:string"/>
+    <xs:element name="tenses">
+        <xs:complexType>
+            <xs:attribute name="confirmed" use="required" type="xs:boolean"/>
+            <xs:attribute name="future" use="required" type="xs:boolean"/>
+            <xs:attribute name="future_moode" use="required" type="xs:boolean"/>
+            <xs:attribute name="imperative" use="required" type="xs:boolean"/>
+            <xs:attribute name="passive" use="required" type="xs:boolean"/>
+            <xs:attribute name="past" use="required" type="xs:boolean"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

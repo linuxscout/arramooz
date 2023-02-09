@@ -39,7 +39,7 @@ verbdict:
 	python3 $(SCRIPT)/verbs/gen_verb_dict.py -f $(DATA_DIR)/verbs/verb_dic_data-net.csv -t $(DATA_DIR)/verbs/verb_triliteral.csv> $(OUTPUT)/verbs.aya.dic
 verbxml:
 	#Generate Specific format SQL and XML
-	python3 $(SCRIPT)/verbs/gen_verb_dict_format.py -o xml -v $(VERSION) -f $(OUTPUT)/verbs.aya.dic > $(OUTPUT)/verbs.xml
+	python3 $(SCRIPT)/verbs/gen_verb_dict_format.py -o xml  --header -l 100 -v $(VERSION) -f $(OUTPUT)/verbs.aya.dic > $(OUTPUT)/verbs.xml
 verbsql:
 
 	python3 $(SCRIPT)/verbs/gen_verb_dict_format.py -o sql  --header -v $(VERSION)  -f $(OUTPUT)/verbs.aya.dic > $(OUTPUT)/verbs.sql
@@ -363,12 +363,11 @@ taksir:
 
 nounwordlist:
 	#gerenate vocalized wordlist dict of nouns in csv format
-#~ 	python3 $(SCRIPT)/nouns/gen_noun_dict.py  -l 100 -f $(DATA_DIR)/nouns/fa3il.csv -d wordlist -v $(VERSION) -t fa3il >$(OUTPUT)/nouns.dict.wordlist
-	python3 $(SCRIPT)/nouns/gen_noun_dict.py   -f $(DATA_DIR)/nouns/fa3il.csv -d wordlist -v $(VERSION) -t fa3il >$(OUTPUT)/fa3il.dict.wordlist
-	## maf3oul file
-	python3 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/maf3oul.csv -d wordlist  -v $(VERSION) -t maf3oul >$(OUTPUT)/maf3oul.dict.wordlist
-	## jamid file
-	python3 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/jamid.csv -d wordlist  -v $(VERSION) -t jamid >$(OUTPUT)/jamid.dict.wordlist
+#~ 	python3 $(SCRIPT)/nouns/gen_noun_dict.py   -f $(DATA_DIR)/nouns/fa3il.csv -d wordlist -v $(VERSION) -t fa3il >$(OUTPUT)/fa3il.dict.wordlist
+#~ 	## maf3oul file
+#~ 	python3 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/maf3oul.csv -d wordlist  -v $(VERSION) -t maf3oul >$(OUTPUT)/maf3oul.dict.wordlist
+#~ 	## jamid file
+#~ 	python3 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/jamid.csv -d wordlist  -v $(VERSION) -t jamid >$(OUTPUT)/jamid.dict.wordlist
 	## mansoub.csv
 	python3 $(SCRIPT)/nouns/gen_noun_dict.py  -f $(DATA_DIR)/nouns/mansoub.csv -d wordlist  -v $(VERSION) -t mansoub >$(OUTPUT)/mansoub.dict.wordlist
 	## masdar.csv

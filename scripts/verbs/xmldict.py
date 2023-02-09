@@ -38,6 +38,31 @@ class XmlDict(csvdict.CsvDict):
         """
         line ="""<?xml version='1.0' encoding='utf8'?>\n"""
         line += "<!--" + "-->\n<!--".join(self.headerlines) + "-->\n"
+        line +="""<!DOCTYPE dictionary [
+<!ELEMENT dictionary (verb)*>
+<!ELEMENT verb (word,unvocalized,root,normalized,stamped,tenses)>
+<!ATTLIST verb
+        future_type CDATA #REQUIRED
+        double_trans (0|1) #REQUIRED
+        reflexive_trans (0|1)  #REQUIRED
+        think_trans (0|1)  #REQUIRED
+        transitive (0|1)  #REQUIRED
+        triliteral (0|1)  #REQUIRED
+        unthink_trans (0|1)  #REQUIRED>
+<!ELEMENT word (#PCDATA)>
+<!ELEMENT unvocalized (#PCDATA)>
+<!ELEMENT root (#PCDATA)>
+<!ELEMENT normalized (#PCDATA)>
+<!ELEMENT stamped (#PCDATA)>
+<!ELEMENT tenses EMPTY>
+<!ATTLIST tenses
+        confirmed (0|1) #REQUIRED
+        future (0|1) #REQUIRED
+        future_moode (0|1) #REQUIRED
+        imperative (0|1) #REQUIRED
+        passive (0|1) #REQUIRED
+        past (0|1) #REQUIRED>
+]>"""
         line += "<dictionary>"
         return line
     def add_record(self, verb_row):
@@ -57,6 +82,8 @@ class XmlDict(csvdict.CsvDict):
         line +=   u" <word>%s</word>\n"%vrecord['vocalized']
         line +=   u" <unvocalized>%s</unvocalized>\n"%vrecord['unvocalized']
         line +=   u" <root>%s</root>\n"%vrecord['root']
+        line +=   u" <normalized>%s</normalized>\n"%vrecord['normalized']
+        line +=   u" <stamped>%s</stamped>\n"%vrecord['stamped']
         line +=   u""" <tenses past='%s' future='%s' imperative='%s' passive='%s' future_moode='%s' confirmed='%s'/>\n"""%(vrecord['past'],
                  vrecord['future'],
                  vrecord['imperative'], 
